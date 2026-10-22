@@ -1,16 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.2.3
+version: 0.2.4
 date: 2026-10-22
 host: 21
-commit: 330b6e36c5db7327405722bfc40ec6e994b9735e
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.2.3/p2-0.2.3-mac.zip
-mac.sha512: 97b3e88e8fe19b736530ef058dc032fd298bff1e318e8fe8732eb14c3bed327a91fe0b4a6d02ca68fe09d1ec6fee7fe67e48dadb88188eee1d7627a993411ff0
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.2.3/p2-0.2.3-win.zip
-win.sha512: ff0638d0e9fdafd90ae89febe46d9f80827a11cd9a54004150bed514794229cfe3db51213fc899f45f300193a92ffd67248c1b4a72031ac5112ce61c25e75072
+commit: 993ec91ceebeb4f8b01fa5ed425d247770f1f9a2
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.2.4/p2-0.2.4-mac.zip
+mac.sha512: fdadfd78f6bddcfebb53435b13eee67b0514f5891a1f0cbce0d6d9f37d86d82775d125b941e091df286e346039335651b6b62013ec10ec197aef759c17e722ca
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.2.4/p2-0.2.4-win.zip
+win.sha512: fe98dc78edacf501521f63d4545521cf4d7d69c21184791d2ae92108590316de2a0302615762135390ca061a9da4c3611ad512e58bb635a75dec793bd4bde6fa
 notes:
-- Neue Palette „p2 Projekt“: Projektdatei (CSD) laden und als Übersicht anzeigen
-- Vorlagen-Labels auflisten und mit der geladenen Projektdatei abgleichen
-- Automatische Prüfung auf Updates beim Start
-- Update-Kanal robuster gegen Zwischenspeicher
-signature: dbfd47d6b35cfcb36b4d6e7841220588118fb67618cc1c5bfd093c1f68956086d5097cb208d4ee1f81b271a74b9d1f98d41cdbad13533178bd09843c17c1220d
+- Vorlagen-Labels auflisten findet jetzt alle Skriptetiketten der offenen Vorlage
+- Hinweise im CSD-Bericht sprachlich korrigiert
+signature: e2caa59e029861cedd8a1049d46a510ea1c3a39b03ff278dae77ae1344dcd1fd715fc3e5c1a8e39b9896ae974fd9c9cd5666f7e1c3766bab715a6a1ece6c2005
