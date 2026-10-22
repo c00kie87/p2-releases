@@ -1,16 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.3.8
+version: 0.3.9
 date: 2026-10-22
 host: 21
-commit: 11abba38ae4e42ab575296509d844747f6eff5a9
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.3.8/p2-0.3.8-mac.zip
-mac.sha512: 45b866592ba4e6c0aa11572d24ebb07f9f2e51e58d103f587886ca48f803199d339d0c58cb20c101632995c697584273584e7d8477eae3b7a72e54d43d5947ad
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.3.8/p2-0.3.8-win.zip
-win.sha512: d02b9762da71e3c6137e9abc3caf3630aa8471c821fbdeb1afbc8d7db14c45d96397e6abb856ea1ec18bca3612c9ec17abd5ebc3ade6e50e8e3fd9f2b106c30d
+commit: ec2195ced4443fe527e8eaabe007256af1606f8a
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.3.9/p2-0.3.9-mac.zip
+mac.sha512: 204c4b7dee5d05309923ab878601972d8694fbd72fdf2aec8c1fb6a0a49c79073e753f8e4eb4d6189e626a2c7c8bbdf3ef6512334e33e317bf990ce347d0bd87
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.3.9/p2-0.3.9-win.zip
+win.sha512: 309d0ef57d74eb93e269399650d4440e0d8cabbdbbd3e48f5806c47ef16a100e335cf355f75d8b89e9ed40620bcdb9c6b902c1461b3a02dc2cf2cb17eaa118cc
 notes:
-- Einrichtung ohne Kommandozeile: Installer für Mac und Windows (ohne Administratorrechte), lädt immer die neueste Version
-- Vorlagen-Labels: auch Tabellen-Etiketten, alle Etikett-Schlüssel und Datensatzbindungen in Ausgabedokumenten
-- CSD-Bericht und Label-Bericht sprachlich überarbeitet
-- Prüfung der Umlaut-Darstellung in der Palette (zwei Testzeilen)
-signature: 05e3fc48f7f2e95f1ebe2ce5e03368880ac9423e61b0f6e0f8bc54d9ad2367006089b1985024af97af17e97832d4dc4cbe2c33aaf7c4b4c62d5456ebad46da06
+- Palette „p2 Projekt“ wertet das aktive Dokument automatisch aus (beim Wechsel des Dokuments)
+- Menü- und Palettentexte mit Umlauten
+- Tabellen-Etiketten: erweiterte Erkennung mit Diagnosezeile am Ende des Berichts
+signature: 4ad680e586715f103531531103de78df46470ad867e15e98313afd7313679f905946bdbce8717564870fa2bca8a250960fee43af1b4f6edd06a24c0735579401
