@@ -1,15 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.3.9
+version: 0.4.12
 date: 2026-10-22
 host: 21
-commit: ec2195ced4443fe527e8eaabe007256af1606f8a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.3.9/p2-0.3.9-mac.zip
-mac.sha512: 204c4b7dee5d05309923ab878601972d8694fbd72fdf2aec8c1fb6a0a49c79073e753f8e4eb4d6189e626a2c7c8bbdf3ef6512334e33e317bf990ce347d0bd87
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.3.9/p2-0.3.9-win.zip
-win.sha512: 309d0ef57d74eb93e269399650d4440e0d8cabbdbbd3e48f5806c47ef16a100e335cf355f75d8b89e9ed40620bcdb9c6b902c1461b3a02dc2cf2cb17eaa118cc
+commit: 88bcfb37790cc9d5503a8a9e3eb84a9de75b13f5
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.4.12/p2-0.4.12-mac.zip
+mac.sha512: 54ffa5bd6685b03968dbb896460f102b28a030f396a34441101a3c20f9bad517d02c6bbe86b297f119a70195d0fb44223ec940107b7387d1e54f09331ca264ef
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.4.12/p2-0.4.12-win.zip
+win.sha512: cc8cdea458703d57545db64374dc5663c2a683be4a7e6a6cfbd9cc31d305ddc1235a84c8fa5373d88bb653c6d323869b65d5eeb8c6e666de9bee8c99bcb24aa8
 notes:
-- Palette „p2 Projekt“ wertet das aktive Dokument automatisch aus (beim Wechsel des Dokuments)
-- Menü- und Palettentexte mit Umlauten
-- Tabellen-Etiketten: erweiterte Erkennung mit Diagnosezeile am Ende des Berichts
-signature: 4ad680e586715f103531531103de78df46470ad867e15e98313afd7313679f905946bdbce8717564870fa2bca8a250960fee43af1b4f6edd06a24c0735579401
+- Neues Projektformat p2 (XML mit Schema), Projektdatei des Altsystems verlustfrei umwandelbar
+- Menü „CSD in p2-Projekt umwandeln…“ mit Rückweg-Selbsttest
+- Menü „p2-Projekt als CSD exportieren…“ – Änderungen im p2-Projekt landen gezielt in der CSD, vorhandene Dateien werden nie überschrieben
+- Palette im Fenster-Menü unter „p2 › Projekt“
+- Tabellen-Etiketten: Suche über alle Zellen (Diagnosezeile am Ende des Berichts)
+signature: 0709efb1c3ad94e0ebed5a1633b40aa0b0439ec4f1ce43fa96e599933fb9fe9206baa093556da4897ab7ec44bed3df76e5bda8b307cc7df40f049d93d0571103
