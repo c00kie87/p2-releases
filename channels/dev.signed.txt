@@ -1,14 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.2.4
+version: 0.3.8
 date: 2026-10-22
 host: 21
-commit: 993ec91ceebeb4f8b01fa5ed425d247770f1f9a2
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.2.4/p2-0.2.4-mac.zip
-mac.sha512: fdadfd78f6bddcfebb53435b13eee67b0514f5891a1f0cbce0d6d9f37d86d82775d125b941e091df286e346039335651b6b62013ec10ec197aef759c17e722ca
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.2.4/p2-0.2.4-win.zip
-win.sha512: fe98dc78edacf501521f63d4545521cf4d7d69c21184791d2ae92108590316de2a0302615762135390ca061a9da4c3611ad512e58bb635a75dec793bd4bde6fa
+commit: 11abba38ae4e42ab575296509d844747f6eff5a9
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.3.8/p2-0.3.8-mac.zip
+mac.sha512: 45b866592ba4e6c0aa11572d24ebb07f9f2e51e58d103f587886ca48f803199d339d0c58cb20c101632995c697584273584e7d8477eae3b7a72e54d43d5947ad
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.3.8/p2-0.3.8-win.zip
+win.sha512: d02b9762da71e3c6137e9abc3caf3630aa8471c821fbdeb1afbc8d7db14c45d96397e6abb856ea1ec18bca3612c9ec17abd5ebc3ade6e50e8e3fd9f2b106c30d
 notes:
-- Vorlagen-Labels auflisten findet jetzt alle Skriptetiketten der offenen Vorlage
-- Hinweise im CSD-Bericht sprachlich korrigiert
-signature: e2caa59e029861cedd8a1049d46a510ea1c3a39b03ff278dae77ae1344dcd1fd715fc3e5c1a8e39b9896ae974fd9c9cd5666f7e1c3766bab715a6a1ece6c2005
+- Einrichtung ohne Kommandozeile: Installer für Mac und Windows (ohne Administratorrechte), lädt immer die neueste Version
+- Vorlagen-Labels: auch Tabellen-Etiketten, alle Etikett-Schlüssel und Datensatzbindungen in Ausgabedokumenten
+- CSD-Bericht und Label-Bericht sprachlich überarbeitet
+- Prüfung der Umlaut-Darstellung in der Palette (zwei Testzeilen)
+signature: 05e3fc48f7f2e95f1ebe2ce5e03368880ac9423e61b0f6e0f8bc54d9ad2367006089b1985024af97af17e97832d4dc4cbe2c33aaf7c4b4c62d5456ebad46da06
