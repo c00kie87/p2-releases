@@ -1,17 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.4.12
+version: 0.4.13
 date: 2026-10-22
 host: 21
-commit: 88bcfb37790cc9d5503a8a9e3eb84a9de75b13f5
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.4.12/p2-0.4.12-mac.zip
-mac.sha512: 54ffa5bd6685b03968dbb896460f102b28a030f396a34441101a3c20f9bad517d02c6bbe86b297f119a70195d0fb44223ec940107b7387d1e54f09331ca264ef
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.4.12/p2-0.4.12-win.zip
-win.sha512: cc8cdea458703d57545db64374dc5663c2a683be4a7e6a6cfbd9cc31d305ddc1235a84c8fa5373d88bb653c6d323869b65d5eeb8c6e666de9bee8c99bcb24aa8
+commit: 5aa9b370b2018a63a9b51164c8fd34ec83892f30
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.4.13/p2-0.4.13-mac.zip
+mac.sha512: 7c21f4e39bba7f003a13606bbcf8052cdaa80f58b7e1124012454a2474b03d5a73dd268314e974c83e71d3d53860941c6eef7eb1fa545146486b76e424f458fa
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.4.13/p2-0.4.13-win.zip
+win.sha512: c5c1993f4ba8866c210d6d0d16c653e7f828bd0755a69964b5bc04a4cc4736a395948d3388be40d9e727c9a949d9af320aae5a6cc4d4309ba24a4cd7c7ca6aec
 notes:
-- Neues Projektformat p2 (XML mit Schema), Projektdatei des Altsystems verlustfrei umwandelbar
-- Menü „CSD in p2-Projekt umwandeln…“ mit Rückweg-Selbsttest
-- Menü „p2-Projekt als CSD exportieren…“ – Änderungen im p2-Projekt landen gezielt in der CSD, vorhandene Dateien werden nie überschrieben
-- Palette im Fenster-Menü unter „p2 › Projekt“
-- Tabellen-Etiketten: Suche über alle Zellen (Diagnosezeile am Ende des Berichts)
-signature: 0709efb1c3ad94e0ebed5a1633b40aa0b0439ec4f1ce43fa96e599933fb9fe9206baa093556da4897ab7ec44bed3df76e5bda8b307cc7df40f049d93d0571103
+- Fenster-Menü: Untermenü „p2 › Projekt“ (Korrektur)
+- Tabellen-Etiketten: weitere Suchwege mit Diagnose
+signature: 38355e28e581be3306ff4ed7d8adbb1d741353a3b80ffd70b70e2cb9cd36bd0d2439023f2fc99825068f1c847b875522cce690e909692de930b6a933e50db30f
