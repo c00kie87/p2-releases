@@ -1,0 +1,16 @@
+p2-manifest: 1
+channel: dev
+version: 0.2.3
+date: 2026-10-22
+host: 21
+commit: 330b6e36c5db7327405722bfc40ec6e994b9735e
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.2.3/p2-0.2.3-mac.zip
+mac.sha512: 97b3e88e8fe19b736530ef058dc032fd298bff1e318e8fe8732eb14c3bed327a91fe0b4a6d02ca68fe09d1ec6fee7fe67e48dadb88188eee1d7627a993411ff0
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.2.3/p2-0.2.3-win.zip
+win.sha512: ff0638d0e9fdafd90ae89febe46d9f80827a11cd9a54004150bed514794229cfe3db51213fc899f45f300193a92ffd67248c1b4a72031ac5112ce61c25e75072
+notes:
+- Neue Palette „p2 Projekt“: Projektdatei (CSD) laden und als Übersicht anzeigen
+- Vorlagen-Labels auflisten und mit der geladenen Projektdatei abgleichen
+- Automatische Prüfung auf Updates beim Start
+- Update-Kanal robuster gegen Zwischenspeicher
+signature: dbfd47d6b35cfcb36b4d6e7841220588118fb67618cc1c5bfd093c1f68956086d5097cb208d4ee1f81b271a74b9d1f98d41cdbad13533178bd09843c17c1220d
