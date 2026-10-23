@@ -1,16 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.25
+version: 0.7.26
 date: 2026-10-23
 host: 21
-commit: 85914275fcd2571770a72e2ed4862f7be64d9b30
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.25/p2-0.7.25-mac.zip
-mac.sha512: 87ee75e3486137fdea340d60f1da500786277b5d585d1298af9bfebfa7c161a21f0192fdc5099faa69bba0fa7d02e04db9a039bfd7cc1e03fa4643179f2b449e
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.25/p2-0.7.25-win.zip
-win.sha512: e66c8a5391b60d02720976a881b052814ddd13f162e58348f8e53e10215aa5b676800f552ba2f5504824437e52d9481f4863a4f581c8b962ef9a1be8fd88495b
+commit: 9c7a05c379e4ca7cc14a1452f0af4fb5e36108c7
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.26/p2-0.7.26-mac.zip
+mac.sha512: 211a79bc4feee6f9dc69eb90feca9dca7e15e0d7c459f03343e2674a0e3b537139cca14b8978dfe77bf9039082a14d5e4ec52d7d19eaae49506af6806f870440
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.26/p2-0.7.26-win.zip
+win.sha512: 1567d22e444fdfb4884855dd55faf6a46021833b0c2cd6a96717f639a45fcde0d357d89795b33d824aacf20c3cbebc964f0eb30d9d3d2f1cc1f8175d3a02c73c
 notes:
-- Neu: Vorlage aus Dokument einlesen (Palette Templating) – Rahmengruppen, Rahmen mit Füllnummer und Lage, Tabellen, verankerte Objekte, Platzhalter, Umbruch über Seiten; Abgleich mit den Abläufen des Projekts; das Dokument bleibt unverändert
-- Neu: p2-Projekt öffnen (Palette Ausgabe) – lädt Regelwerk, Templates und die gebundene Datenquelle in einem Schritt; „Dokument prüfen“ arbeitet dann mit dem Projekt
-- Neu: CSD in p2-Projekt umwandeln übernimmt die eingelesene Vorlage und die geladene PRO (Pfad relativ zum Projekt)
-- Neu: beim Laden der PRO entsteht das Datenmodell – Katalogbaum, Artikel mit Attributen, Medien, Schlagworte, Bezüge und erkannte Beziehungen zwischen Tabellen
-- Projektformat 1.2: alle Angaben der CSD abgebildet, Rückweg CSD inhaltlich identisch, Templates mit Geometrie und Einstellungen
+- Korrektur: Dokument prüfen erfasst jetzt auch gebundene Tabellen (Zellen mit Unterabfrage und Füllart) – am Referenzdokument 4.413 Platzhalter statt 1.301, davon 4.317 gleich
+- Schneller: Dokument prüfen rund zehnmal schneller
+- Neu: Nach Updates suchen und Info zu p2 in jedem Palettenmenü (vorletzter und letzter Punkt)
+- Neu: vorhandene p2-Projekte dürfen nach Rückfrage überschrieben werden
