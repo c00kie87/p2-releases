@@ -1,16 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.5.18
+version: 0.6.20
 date: 2026-10-23
 host: 21
-commit: f21c62e3e7ca9520f1fe334b9f225d0726d07d9a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.5.18/p2-0.5.18-mac.zip
-mac.sha512: c9edd6d3775e24ef2e890c2b44203eb8f68033054584be188cb63f601c520ddaa90a2c34c3e4d2edc6e6153d6675cb5584aa72f95ccf93df6a8750d02f53d9a9
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.5.18/p2-0.5.18-win.zip
-win.sha512: 5d4c34d7fdc0202ff28169e9973344dbf0a1a6da32e3a02b51ee7502f4822ac889077dc6a46af3b29ed6827a036dc7e62f13a41b2fb5bff398f7a423f5f5eb4a
+commit: 8fc4bf3398d60e0fcc4bd6d31a0e8ae4a40e5258
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.6.20/p2-0.6.20-mac.zip
+mac.sha512: 807d876b0bae3bfddec9e8ccdc7a84e088fcd5b080908b918c251662a7d01d0c27e2bf457f9b5934e1f25683a0e8519d3a4ebbffee0c7b69e9f36800ebeb390b
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.6.20/p2-0.6.20-win.zip
+win.sha512: ee55b5bfc171c24dd6b1503d5d94d20f155f6a1cd91a16b0cc4d79311c8a847586a53b33d23929046b96e50aabb427f2ca5c96f1cb92af4d955900a5ea39eeb1
 notes:
-- Neu: fünf Paletten unter Fenster > p2 – Datenquelle, Dokument, Ausgabe, Templating, Informationen
-- Neu: Datenquelle (PRO) laden – eigener Leser, alle Tabellen werden als Arbeitskopie übernommen
-- Neu: Datenquellen anzeigen (mit Prüfung, ob die Ursprungsdatei verändert wurde) und Datenquelle entfernen (Arbeitskopie wird vollständig gelöscht)
-- Hinweis: die bisherige Palette „p2 Projekt“ entfällt; ihre Funktionen liegen jetzt in Dokument und Ausgabe
-signature: f0e4326130fa7a70a9df0ef8f5a66b938392f8a74f40acf96b985cc85a93d7c05da97c1a0c4108fb3d9c462c2eb903e572fca844af59022d5eb2d73f44060208
+- Neu: Dokument mit Datenquelle prüfen (Palette Dokument) – vergleicht jeden gebundenen Platzhalter in Textrahmen und Tabellen mit dem Wert aus PRO und CSD; das Dokument bleibt unverändert
+- Neu: Daten-Engine im Verhalten des Altsystems: Abfragen mit Filtern, berechneten Feldern, Sortierung und Unterabfragen, Bedingungen, Konsolidierungen, Ersetzungsliste
+- Geprüft am Referenzdokument (Kapitel 8): 4.317 von 4.413 Platzhaltern exakt gleich, 81 im Dokument nicht ersetzt
+- Neu: öffnet man eine p2-Palette, öffnen sich alle fünf
+signature: c25f0007fbe417365874d4c33fc95d90c9af9e58e77b9da7bd7ed6a8e65d749f828ebce324eadfbd40174d5bfdf7b69fb42234c7c76ba781e6c3f3dbf093750a
