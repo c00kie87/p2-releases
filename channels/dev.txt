@@ -1,15 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.31
+version: 0.7.33
 date: 2026-10-23
 host: 21
-commit: 2fa84abd0f4045bff4c3e7553473c6f49d46a209
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.31/p2-0.7.31-mac.zip
-mac.sha512: 7d5b75a3ea72d636c8e6c43c9563c867c1aa5111cd0faa89ceb9b17794a828e03dc05565d5ff0aba678f03d5ed9a22bdc6aa041e8de32c3eed652a2805c65e1c
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.31/p2-0.7.31-win.zip
-win.sha512: 58c50ed8a819528cc2c6868cde414ccd0fefe8e3e0dbe17de4728ca04ee87f8eaeece9d34e3126370c4e1f8cd098a3a0dd7a1d2aeb0ee838905dabaeb058ffa0
+commit: 2d0798ea7b154c1c977e62bd5bab8c2b4ff7ff21
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.33/p2-0.7.33-mac.zip
+mac.sha512: 7a0971d6aefdd03628c6ace00c80aadf98b0ac6f75a1c0ba95f586e3f610a6780f4a70ce16e1f68a1f221fabccf23de6f34cdd5b21172d86c88587ceb964f3cf
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.33/p2-0.7.33-win.zip
+win.sha512: c23f70971b2dda66a0d2770bde3deee1afa1f3a221c3170eff09000f4273c17a53e442e85d4031579413d515abdbc402db822fdef7b234161c3f53c91e96bcb0
 notes:
-- Neu: Quelle laden nimmt jetzt auch Excel (.xlsx), CSV/Text, XML und JSON an – Trennzeichen und Zeichensatz werden erkannt, verschachtelte Listen werden zu eigenen Tabellen
-- Neu: Feldtabelle je Quelle – erkannter Datentyp, Füllgrad, Beispielwert, Bedeutung (Attribut, Preis, Medium) und Verweise je Feld
-- Neu: Datensätze anzeigen (Palette Datenquelle) – alle Datensätze aller Tabellen scrollbar, formatiert nach den Feldeinstellungen des Projekts
-- Neu im Kern: Feldformate für Zahlen (Muster, Tausender-/Dezimaltrenner, Präfix/Suffix, Prozent), Datum (Ein-/Ausgabeformat, deutsche und englische Namen), Text (Trimmen, Groß/klein, Präfix/Suffix, Leerwert)
+- Korrektur: Quelle laden zeigt das Ergebnis sofort in der Palette Datenquelle (lange Beispielwerte wurden mitten im Zeichen gekürzt, die Anzeige blieb dadurch leer)
+- Korrektur: XML-Attribute, die nur den Elementnamen wiederholen, entfallen in Feldtabelle und Datensätzen
