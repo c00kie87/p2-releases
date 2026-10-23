@@ -1,14 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.4.13
-date: 2026-10-22
+version: 0.5.18
+date: 2026-10-23
 host: 21
-commit: 5aa9b370b2018a63a9b51164c8fd34ec83892f30
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.4.13/p2-0.4.13-mac.zip
-mac.sha512: 7c21f4e39bba7f003a13606bbcf8052cdaa80f58b7e1124012454a2474b03d5a73dd268314e974c83e71d3d53860941c6eef7eb1fa545146486b76e424f458fa
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.4.13/p2-0.4.13-win.zip
-win.sha512: c5c1993f4ba8866c210d6d0d16c653e7f828bd0755a69964b5bc04a4cc4736a395948d3388be40d9e727c9a949d9af320aae5a6cc4d4309ba24a4cd7c7ca6aec
+commit: f21c62e3e7ca9520f1fe334b9f225d0726d07d9a
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.5.18/p2-0.5.18-mac.zip
+mac.sha512: c9edd6d3775e24ef2e890c2b44203eb8f68033054584be188cb63f601c520ddaa90a2c34c3e4d2edc6e6153d6675cb5584aa72f95ccf93df6a8750d02f53d9a9
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.5.18/p2-0.5.18-win.zip
+win.sha512: 5d4c34d7fdc0202ff28169e9973344dbf0a1a6da32e3a02b51ee7502f4822ac889077dc6a46af3b29ed6827a036dc7e62f13a41b2fb5bff398f7a423f5f5eb4a
 notes:
-- Fenster-Menü: Untermenü „p2 › Projekt“ (Korrektur)
-- Tabellen-Etiketten: weitere Suchwege mit Diagnose
-signature: 38355e28e581be3306ff4ed7d8adbb1d741353a3b80ffd70b70e2cb9cd36bd0d2439023f2fc99825068f1c847b875522cce690e909692de930b6a933e50db30f
+- Neu: fünf Paletten unter Fenster > p2 – Datenquelle, Dokument, Ausgabe, Templating, Informationen
+- Neu: Datenquelle (PRO) laden – eigener Leser, alle Tabellen werden als Arbeitskopie übernommen
+- Neu: Datenquellen anzeigen (mit Prüfung, ob die Ursprungsdatei verändert wurde) und Datenquelle entfernen (Arbeitskopie wird vollständig gelöscht)
+- Hinweis: die bisherige Palette „p2 Projekt“ entfällt; ihre Funktionen liegen jetzt in Dokument und Ausgabe
+signature: f0e4326130fa7a70a9df0ef8f5a66b938392f8a74f40acf96b985cc85a93d7c05da97c1a0c4108fb3d9c462c2eb903e572fca844af59022d5eb2d73f44060208
