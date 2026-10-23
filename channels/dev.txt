@@ -1,15 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.6.20
+version: 0.7.25
 date: 2026-10-23
 host: 21
-commit: 8fc4bf3398d60e0fcc4bd6d31a0e8ae4a40e5258
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.6.20/p2-0.6.20-mac.zip
-mac.sha512: 807d876b0bae3bfddec9e8ccdc7a84e088fcd5b080908b918c251662a7d01d0c27e2bf457f9b5934e1f25683a0e8519d3a4ebbffee0c7b69e9f36800ebeb390b
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.6.20/p2-0.6.20-win.zip
-win.sha512: ee55b5bfc171c24dd6b1503d5d94d20f155f6a1cd91a16b0cc4d79311c8a847586a53b33d23929046b96e50aabb427f2ca5c96f1cb92af4d955900a5ea39eeb1
+commit: 85914275fcd2571770a72e2ed4862f7be64d9b30
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.25/p2-0.7.25-mac.zip
+mac.sha512: 87ee75e3486137fdea340d60f1da500786277b5d585d1298af9bfebfa7c161a21f0192fdc5099faa69bba0fa7d02e04db9a039bfd7cc1e03fa4643179f2b449e
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.25/p2-0.7.25-win.zip
+win.sha512: e66c8a5391b60d02720976a881b052814ddd13f162e58348f8e53e10215aa5b676800f552ba2f5504824437e52d9481f4863a4f581c8b962ef9a1be8fd88495b
 notes:
-- Neu: Dokument mit Datenquelle prüfen (Palette Dokument) – vergleicht jeden gebundenen Platzhalter in Textrahmen und Tabellen mit dem Wert aus PRO und CSD; das Dokument bleibt unverändert
-- Neu: Daten-Engine im Verhalten des Altsystems: Abfragen mit Filtern, berechneten Feldern, Sortierung und Unterabfragen, Bedingungen, Konsolidierungen, Ersetzungsliste
-- Geprüft am Referenzdokument (Kapitel 8): 4.317 von 4.413 Platzhaltern exakt gleich, 81 im Dokument nicht ersetzt
-- Neu: öffnet man eine p2-Palette, öffnen sich alle fünf
+- Neu: Vorlage aus Dokument einlesen (Palette Templating) – Rahmengruppen, Rahmen mit Füllnummer und Lage, Tabellen, verankerte Objekte, Platzhalter, Umbruch über Seiten; Abgleich mit den Abläufen des Projekts; das Dokument bleibt unverändert
+- Neu: p2-Projekt öffnen (Palette Ausgabe) – lädt Regelwerk, Templates und die gebundene Datenquelle in einem Schritt; „Dokument prüfen“ arbeitet dann mit dem Projekt
+- Neu: CSD in p2-Projekt umwandeln übernimmt die eingelesene Vorlage und die geladene PRO (Pfad relativ zum Projekt)
+- Neu: beim Laden der PRO entsteht das Datenmodell – Katalogbaum, Artikel mit Attributen, Medien, Schlagworte, Bezüge und erkannte Beziehungen zwischen Tabellen
+- Projektformat 1.2: alle Angaben der CSD abgebildet, Rückweg CSD inhaltlich identisch, Templates mit Geometrie und Einstellungen
