@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.33
+version: 0.7.35
 date: 2026-10-23
 host: 21
-commit: 2d0798ea7b154c1c977e62bd5bab8c2b4ff7ff21
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.33/p2-0.7.33-mac.zip
-mac.sha512: 7a0971d6aefdd03628c6ace00c80aadf98b0ac6f75a1c0ba95f586e3f610a6780f4a70ce16e1f68a1f221fabccf23de6f34cdd5b21172d86c88587ceb964f3cf
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.33/p2-0.7.33-win.zip
-win.sha512: c23f70971b2dda66a0d2770bde3deee1afa1f3a221c3170eff09000f4273c17a53e442e85d4031579413d515abdbc402db822fdef7b234161c3f53c91e96bcb0
+commit: 9d14c76be5c09ee7c7021ab912a0238804b90d88
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.35/p2-0.7.35-mac.zip
+mac.sha512: 38743b91119ff08f76b773fd8fc4e5a6be21dba5c4faa1798a8c4f6705e2bce3ae58809bfe0716396106b2247615b360623e1d38d2f26552f22db9dd185495ff
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.35/p2-0.7.35-win.zip
+win.sha512: 3169269b51cdda6ac6c6cd7735f0df6d42b82521d122587591f941733f0535f62f5742463340e50ca1294ebf399262f13f892cb85d62e149d2060448e4a4dd70
 notes:
-- Korrektur: Quelle laden zeigt das Ergebnis sofort in der Palette Datenquelle (lange Beispielwerte wurden mitten im Zeichen gekürzt, die Anzeige blieb dadurch leer)
-- Korrektur: XML-Attribute, die nur den Elementnamen wiederholen, entfallen in Feldtabelle und Datensätzen
-signature: a4b850431ed744374a1e46cbc4e21f30cfa7723b15e01021a47dc34285d11af4624f2e1ee0edf0e91d0fcd230c1b0da5de9ebb20df0fc3c50436f4ba00f3830c
+- Neu: Feldoptionen (Palette Datenquelle) – je Feld Datentyp, Format (Zahl mit Muster, Trennzeichen, Präfix/Suffix, Prozent; Datum mit Ein- und Ausgabeformat), Präfix, Suffix, Einheit, Anzeigename, Schreibweise, Verhalten bei leerem Feld und Leerraum entfernen – mit Vorschau an echten Werten
+- Gespeichert im geöffneten p2-Projekt (sonst bei der Quelle); nach OK zeigt die Palette sofort alle Datensätze mit den neuen Formaten
+signature: f77044170068b513d4c432c4df056ca0a6be432bde6651937a24e2e653dfe497090b8a3b608b07e4efc257871f15a295a4d5e3c98b4a510de6f7164211ea1d02
