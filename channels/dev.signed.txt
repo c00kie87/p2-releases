@@ -1,13 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.27
+version: 0.7.31
 date: 2026-10-23
 host: 21
-commit: 258680ee676968dce2eb0be04cecf55a321ed3ac
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.27/p2-0.7.27-mac.zip
-mac.sha512: 08a3b5ac0824db26956910bda3b673042f9619f3b3c8c094e92e931552ba564f6d9b2ea807265546494633a8bf2e22e965ac90447badc3dcea5177ddcb92ac37
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.27/p2-0.7.27-win.zip
-win.sha512: f0035dfdd6ce71afa789ac15863550ff5adc5cebf0c4c93716084fd826f37b404c23a9aa68936131572e7130fb0354271ea28084dae89751047b2f737cfdf67b
+commit: 2fa84abd0f4045bff4c3e7553473c6f49d46a209
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.31/p2-0.7.31-mac.zip
+mac.sha512: 7d5b75a3ea72d636c8e6c43c9563c867c1aa5111cd0faa89ceb9b17794a828e03dc05565d5ff0aba678f03d5ed9a22bdc6aa041e8de32c3eed652a2805c65e1c
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.31/p2-0.7.31-win.zip
+win.sha512: 58c50ed8a819528cc2c6868cde414ccd0fefe8e3e0dbe17de4728ca04ee87f8eaeece9d34e3126370c4e1f8cd098a3a0dd7a1d2aeb0ee838905dabaeb058ffa0
 notes:
-- Neu: Fenster > p2 enthält nach den Paletten „Nach Updates suchen…“ und „Informationen…“ (beide als Dialog); die Palette Informationen entfällt
-signature: 2c00795a8f58be77e0df3fbd98c52437b57f20a6ea3f7cbe912b0fc3a9b4d269275a8bd8cece5583ab5772aebfbc5abd3f83cabdc8225fa28bfd37c96e025d03
+- Neu: Quelle laden nimmt jetzt auch Excel (.xlsx), CSV/Text, XML und JSON an – Trennzeichen und Zeichensatz werden erkannt, verschachtelte Listen werden zu eigenen Tabellen
+- Neu: Feldtabelle je Quelle – erkannter Datentyp, Füllgrad, Beispielwert, Bedeutung (Attribut, Preis, Medium) und Verweise je Feld
+- Neu: Datensätze anzeigen (Palette Datenquelle) – alle Datensätze aller Tabellen scrollbar, formatiert nach den Feldeinstellungen des Projekts
+- Neu im Kern: Feldformate für Zahlen (Muster, Tausender-/Dezimaltrenner, Präfix/Suffix, Prozent), Datum (Ein-/Ausgabeformat, deutsche und englische Namen), Text (Trimmen, Groß/klein, Präfix/Suffix, Leerwert)
+signature: 4839cbe42b53c5ae62dac130fe029c5894a0d85d42fda09b41d50c863367888ff1a10f27ffd578e10044e9e174729b82501d47c9666c67237f748af0ee20a408
