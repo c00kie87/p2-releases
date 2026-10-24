@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.43
+version: 0.7.45
 date: 2026-10-24
 host: 21
-commit: 4238a698e7eb24f147dedd9ad74d07fe18ff3dde
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.43/p2-0.7.43-mac.zip
-mac.sha512: 87d3b16fcd3130f162cfba7240a81a6d20795e686d87c64d9e0a05f7629b511b9be93b6be9cbee8c0b2f685eb03bd550623f6320478d09c4d119275dc6a2cee8
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.43/p2-0.7.43-win.zip
-win.sha512: 427f4561567b3345ed5dbcbde9b8756b811874cece022ebc02a07d7949a83a78c115710654c0bff99dcc24684776682b32e61514dd1403c5cd00676d501ea5ba
+commit: d013e1e53f9b1ac2bdcb315546ac28be9ac2a0ce
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.45/p2-0.7.45-mac.zip
+mac.sha512: c860da7842a4f7d6651f1bc43b6f88e0a6524185f80b6e58f6c68bcbb688057af72d55ad40c23feabf100782c4a769497530e0bd71866c5110f20d919531519c
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.45/p2-0.7.45-win.zip
+win.sha512: 664417aa5feeefb1e7f4f7c6946da44d7d3628c907c421d5145b1ebc0b8e8fadd956c8ca6ed0fb6b5f4545271d32ec5d052f23dbd9b5fb159966639ddeae45f0
 notes:
-- Neu: Bildfelder – p2 setzt den vollständigen Bildpfad zusammen (Bildordner aus den Feldoptionen, dem p2-Projekt oder den Kopfdaten des Fremdprojekts; Windows-Pfade und Serverfreigaben \\Server\Freigabe werden auf dem Mac unter /Volumes gesucht; abweichende Pfadanfänge werden toleriert)
-- Neu: Bildvorschau per Mouseover in der Datentabelle; nicht gefundene Bilder mit geprüftem Pfad; Infozeile zeigt den vollständigen Pfad
-- Neu: Feldoptionen „Bildordner“ je Feld
+- Neu: Gruppierung und Sortierung (Palettenmenü Datenquelle) – eigener Dialog mit bis zu fünf Ebenen, schematisch eingerückt; je Ebene Gruppenfeld (auch ausgeblendete Felder wie Kennungen), anzeigen ja/nein (unsichtbare Ebenen ordnen nur), Gruppen sortieren nach beliebigem Feld und Richtung, Beschriftung aus einem anderen Feld; Sortierung der Datensätze
+- Neu: Konfigurationen je Quelle – Tabelle, Gruppierung, Sortierung, eingeblendete Felder und Feldoptionen werden automatisch gespeichert; „Konfiguration speichern unter…“, Wechsel über die Auswahl oben in der Palette, „Konfiguration löschen…“
+- Neu: Bildvorschau per Mouseover (0.7.43) mit Bildordner je Feld
