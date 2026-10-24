@@ -1,17 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.41
+version: 0.7.43
 date: 2026-10-24
 host: 21
-commit: 6a5b2912105c031a42318054ee3b00317ffb43d2
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.41/p2-0.7.41-mac.zip
-mac.sha512: e2d73ad5f6e55ddfd7244c7aad5ef9c8b37d27c92fd9628b14a6bba48c56fb2559d65d23a80488423926a03ad9176dc5ff4ad41aa14dbc123444b6909be9cbaa
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.41/p2-0.7.41-win.zip
-win.sha512: 02aa804d1e93d7d7b7068c1eb35c96d2a85884081d2b967c043b69dc7249088ba51a330c305ac08f178f77ce5dc609cfe6486cff23e9dfd3bf7fdfde03dfafdc
+commit: 4238a698e7eb24f147dedd9ad74d07fe18ff3dde
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.43/p2-0.7.43-mac.zip
+mac.sha512: 87d3b16fcd3130f162cfba7240a81a6d20795e686d87c64d9e0a05f7629b511b9be93b6be9cbee8c0b2f685eb03bd550623f6320478d09c4d119275dc6a2cee8
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.43/p2-0.7.43-win.zip
+win.sha512: 427f4561567b3345ed5dbcbde9b8756b811874cece022ebc02a07d7949a83a78c115710654c0bff99dcc24684776682b32e61514dd1403c5cd00676d501ea5ba
 notes:
-- Datentabelle: Suche reagiert ab dem ersten Zeichen; serifenlose, besser lesbare Schrift; Spaltenköpfe fett
-- Neu: Klick auf einen Spaltenkopf sortiert (aufsteigend, absteigend, Quellreihenfolge; Zahlen nach Wert, leere Werte zuletzt) – Sortierpfeil im Kopf
-- Neu: Gruppieren nach einer oder mehreren Spalten (Palettenmenü) – Gruppenzeilen mit Anzahl, per Klick auf- und zuklappen; alle auf-/zuklappen
-- Neu: Schlüsselfelder in den Feldoptionen (auch mehrere als Kombination) – Grundlage zum Wiedererkennen und Aktualisieren von Datensätzen; Felder ausblenden, ausgeblendete Felder bei Bedarf zeigen
-- Dialoge neu gegliedert: Abschnitte mit Überschrift, Beschriftungen linksbündig; „Wert bearbeiten“ mit großem mehrzeiligen Eingabefeld und vollständigem Quellwert
-signature: 55b3f4c4d522f4f4981e2cca33034175d06bba337d1e7ddc1f8b56afe1a36e94c107933e5f9714f774a90a827bf424031a9d662128bcffbed5bf66db24da6f0f
+- Neu: Bildfelder – p2 setzt den vollständigen Bildpfad zusammen (Bildordner aus den Feldoptionen, dem p2-Projekt oder den Kopfdaten des Fremdprojekts; Windows-Pfade und Serverfreigaben \\Server\Freigabe werden auf dem Mac unter /Volumes gesucht; abweichende Pfadanfänge werden toleriert)
+- Neu: Bildvorschau per Mouseover in der Datentabelle; nicht gefundene Bilder mit geprüftem Pfad; Infozeile zeigt den vollständigen Pfad
+- Neu: Feldoptionen „Bildordner“ je Feld
+signature: 73705eeb42fc981e435daf4b4a5e56b137d2e855959ee529610a23e3276231dd4959060f45bd199c6cce914225d4bc06311626fe2243064e8a39d0d207567904
