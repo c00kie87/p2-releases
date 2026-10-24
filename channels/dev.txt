@@ -1,14 +1,25 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.45
+version: 0.7.52
 date: 2026-10-24
 host: 21
-commit: d013e1e53f9b1ac2bdcb315546ac28be9ac2a0ce
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.45/p2-0.7.45-mac.zip
-mac.sha512: c860da7842a4f7d6651f1bc43b6f88e0a6524185f80b6e58f6c68bcbb688057af72d55ad40c23feabf100782c4a769497530e0bd71866c5110f20d919531519c
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.45/p2-0.7.45-win.zip
-win.sha512: 664417aa5feeefb1e7f4f7c6946da44d7d3628c907c421d5145b1ebc0b8e8fadd956c8ca6ed0fb6b5f4545271d32ec5d052f23dbd9b5fb159966639ddeae45f0
+commit: bee4132b8b62e54cd52f32880a98629c8e2a0afb
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-mac.zip
+mac.sha512: 73f57d85324b0b3494a556ae10a8eb1269a37122ad01ae8cd73fc538c1647585ef453c73edc362f2212cca9564374c0378e13db03ef1b6e10bf584a42c81563c
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
+win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu: Gruppierung und Sortierung (Palettenmenü Datenquelle) – eigener Dialog mit bis zu fünf Ebenen, schematisch eingerückt; je Ebene Gruppenfeld (auch ausgeblendete Felder wie Kennungen), anzeigen ja/nein (unsichtbare Ebenen ordnen nur), Gruppen sortieren nach beliebigem Feld und Richtung, Beschriftung aus einem anderen Feld; Sortierung der Datensätze
-- Neu: Konfigurationen je Quelle – Tabelle, Gruppierung, Sortierung, eingeblendete Felder und Feldoptionen werden automatisch gespeichert; „Konfiguration speichern unter…“, Wechsel über die Auswahl oben in der Palette, „Konfiguration löschen…“
-- Neu: Bildvorschau per Mouseover (0.7.43) mit Bildordner je Feld
+- Suche: Trefferzeilen links markiert, Spalten mit Treffern im Kopf markiert; gesucht wird auch in ausgeblendeten Feldern
+- Gruppierung: beliebig viele Ebenen (Ebene hinzufügen, entfernen, nach oben/unten), Aufbau schematisch; nach dem Gruppieren sind alle Gruppen zugeklappt
+- Konfiguration: Laden… ergänzt; Palettenmenü mit Untermenüs Gruppierung, Felder, Konfiguration
+- Bildordner: Basis-Bildpfad aus der Quelle (Parameter) automatisch, Bildordner für die ganze Quelle oder je Feld mit „Ordner wählen…“
+- Feldoptionen: „Inhalt ist HTML-formatiert“ – Tabelle und Editor zeigen den Text mit ausgewerteten Tags; Zurückschreiben in die Quelle je Feld (Standard aus)
+- Wert bearbeiten: „Für Ausgabe übernehmen“ oder „In Quelle zurückschreiben“ (nur wenn je Feld erlaubt; vorgemerkte Werte orange); Schlüsselfelder geschützt
+- Neu: Fenster › p2 › Konfigurieren… – allgemeine Einstellungen (Schlüsselfelder ändern/zurückschreiben erlauben)
+- Neu: Automatisieren (Palettenmenü › Automatisieren) – erste Stufe
+-   • Platzhalter der gewählten Spalte einfügen: an der Einfügemarke als «Feld», in einen gewählten Textrahmen, bei Bildfeldern an einen gewählten Bildrahmen; ohne Auswahl entsteht ein neuer Rahmen auf der aktuellen Seite
+-   • Auswahl als Vorlage festlegen: gewählte Rahmen bilden die Vorlage (bleibt im Dokument gespeichert)
+-   • Paginierregel…: einmal je Datensatz oder einmal je Gruppe (Ebene wählbar); fortlaufend untereinander/nebeneinander oder jede Kopie auf neuer Seite; Abstand
+-   • Paginieren: Kopien der Vorlage auf neuen Seiten am Dokumentende, Platzhalter ersetzt (formatiert, überschriebene Werte), Bilder geladen und eingepasst; Reihenfolge, Filter und Gruppierung wie in der Tabelle; erzeugte Rahmen tragen den Datensatz-Schlüssel; ein Schritt zum Rückgängigmachen
+- Projekt (Fremdformat) laden: die im Projekt angegebene Quelle wird automatisch gesucht (wie angegeben, sonst neben dem Projekt) und geladen bzw. – wenn unverändert – nur aktiviert; nicht gefundene Quellen werden gemeldet; mehrere Quellen werden getrennt geladen
+- Suche findet überschriebene Werte (zusätzlich zum Wert in der Quelle) sowie formatierte und HTML-ausgewertete Darstellung
