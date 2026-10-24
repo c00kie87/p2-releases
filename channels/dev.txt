@@ -1,15 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.39
+version: 0.7.41
 date: 2026-10-24
 host: 21
-commit: b6f9f02cf7f050b1c7d695ee768ecfc5d2e5b983
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.39/p2-0.7.39-mac.zip
-mac.sha512: e87a2f5229ee74ed4c2f83bb2e60eb4bea5e81252a5352657ef830abd5e0cab723145d32cb2393f1ad4c6513b0a5b692075359639484f041c60b81494235b9b2
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.39/p2-0.7.39-win.zip
-win.sha512: 6d4b9b3df786614c5acb8d2bcca3603b5363fab45a9b714cc816167ec3efcf1b779074b6646a3c46e3fe8212792892e0836afe025ab9ea24b9ac0ef1fd1884cd
+commit: 6a5b2912105c031a42318054ee3b00317ffb43d2
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.41/p2-0.7.41-mac.zip
+mac.sha512: e2d73ad5f6e55ddfd7244c7aad5ef9c8b37d27c92fd9628b14a6bba48c56fb2559d65d23a80488423926a03ad9176dc5ff4ad41aa14dbc123444b6909be9cbaa
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.41/p2-0.7.41-win.zip
+win.sha512: 02aa804d1e93d7d7b7068c1eb35c96d2a85884081d2b967c043b69dc7249088ba51a330c305ac08f178f77ce5dc609cfe6486cff23e9dfd3bf7fdfde03dfafdc
 notes:
-- Neu: Datentabelle in der Palette Datenquelle – Felder als Spalten mit sprechenden Namen, Datensätze als Zeilen, waagerecht und senkrecht scrollbar (auch per Mausrad); Kennungen und interne Felder ausgeblendet
-- Neu: Suchen filtert die Datensätze sofort und hebt die Treffer hervor; Tabellenauswahl bei Quellen mit mehreren Tabellen (Ebenen und Gruppen mit Namen)
-- Neu: Doppelklick auf einen Spaltenkopf öffnet die Feldoptionen, Doppelklick auf einen Wert öffnet „Wert bearbeiten“ – Überschreiben je Feld bewusst ein- und ausschaltbar, überschriebene Werte farbig markiert
-- Neu: Feldoptionen neu gesetzt – eine Spalte, einheitliche Beschriftungsbreite, gruppiert (Typ/Format, Präfix/Suffix/Einheit/Schreibweise, Leerwert, Anzeigename, Schalter, Vorschau)
+- Datentabelle: Suche reagiert ab dem ersten Zeichen; serifenlose, besser lesbare Schrift; Spaltenköpfe fett
+- Neu: Klick auf einen Spaltenkopf sortiert (aufsteigend, absteigend, Quellreihenfolge; Zahlen nach Wert, leere Werte zuletzt) – Sortierpfeil im Kopf
+- Neu: Gruppieren nach einer oder mehreren Spalten (Palettenmenü) – Gruppenzeilen mit Anzahl, per Klick auf- und zuklappen; alle auf-/zuklappen
+- Neu: Schlüsselfelder in den Feldoptionen (auch mehrere als Kombination) – Grundlage zum Wiedererkennen und Aktualisieren von Datensätzen; Felder ausblenden, ausgeblendete Felder bei Bedarf zeigen
+- Dialoge neu gegliedert: Abschnitte mit Überschrift, Beschriftungen linksbündig; „Wert bearbeiten“ mit großem mehrzeiligen Eingabefeld und vollständigem Quellwert
