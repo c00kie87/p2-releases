@@ -1,13 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.35
-date: 2026-10-23
+version: 0.7.39
+date: 2026-10-24
 host: 21
-commit: 9d14c76be5c09ee7c7021ab912a0238804b90d88
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.35/p2-0.7.35-mac.zip
-mac.sha512: 38743b91119ff08f76b773fd8fc4e5a6be21dba5c4faa1798a8c4f6705e2bce3ae58809bfe0716396106b2247615b360623e1d38d2f26552f22db9dd185495ff
-win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.35/p2-0.7.35-win.zip
-win.sha512: 3169269b51cdda6ac6c6cd7735f0df6d42b82521d122587591f941733f0535f62f5742463340e50ca1294ebf399262f13f892cb85d62e149d2060448e4a4dd70
+commit: b6f9f02cf7f050b1c7d695ee768ecfc5d2e5b983
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.39/p2-0.7.39-mac.zip
+mac.sha512: e87a2f5229ee74ed4c2f83bb2e60eb4bea5e81252a5352657ef830abd5e0cab723145d32cb2393f1ad4c6513b0a5b692075359639484f041c60b81494235b9b2
+win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.39/p2-0.7.39-win.zip
+win.sha512: 6d4b9b3df786614c5acb8d2bcca3603b5363fab45a9b714cc816167ec3efcf1b779074b6646a3c46e3fe8212792892e0836afe025ab9ea24b9ac0ef1fd1884cd
 notes:
-- Neu: Feldoptionen (Palette Datenquelle) – je Feld Datentyp, Format (Zahl mit Muster, Trennzeichen, Präfix/Suffix, Prozent; Datum mit Ein- und Ausgabeformat), Präfix, Suffix, Einheit, Anzeigename, Schreibweise, Verhalten bei leerem Feld und Leerraum entfernen – mit Vorschau an echten Werten
-- Gespeichert im geöffneten p2-Projekt (sonst bei der Quelle); nach OK zeigt die Palette sofort alle Datensätze mit den neuen Formaten
+- Neu: Datentabelle in der Palette Datenquelle – Felder als Spalten mit sprechenden Namen, Datensätze als Zeilen, waagerecht und senkrecht scrollbar (auch per Mausrad); Kennungen und interne Felder ausgeblendet
+- Neu: Suchen filtert die Datensätze sofort und hebt die Treffer hervor; Tabellenauswahl bei Quellen mit mehreren Tabellen (Ebenen und Gruppen mit Namen)
+- Neu: Doppelklick auf einen Spaltenkopf öffnet die Feldoptionen, Doppelklick auf einen Wert öffnet „Wert bearbeiten“ – Überschreiben je Feld bewusst ein- und ausschaltbar, überschriebene Werte farbig markiert
+- Neu: Feldoptionen neu gesetzt – eine Spalte, einheitliche Beschriftungsbreite, gruppiert (Typ/Format, Präfix/Suffix/Einheit/Schreibweise, Leerwert, Anzeigename, Schalter, Vorschau)
