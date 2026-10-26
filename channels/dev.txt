@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.113
+version: 0.7.114
 date: 2026-10-26
 host: 21
-commit: 241eb28c81526169ebe4921cfd4ad068d7ca87a4
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.113/p2-0.7.113-mac.zip
-mac.sha512: 686480f36c1b13ae4c41b005b65b01244a0813c38b1486aebe8335e300c2139e3d126b9421f4661161cf9d36216affd50eb96d5b2fae455189a9511b4bbb1eb6
+commit: d7d2f76f9cfbaa38bf4ae9e3a26ec91e42fead3f
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.114/p2-0.7.114-mac.zip
+mac.sha512: 5675f2ca6f9c883232d7af4ff472544f2b6b5a945e7fd4023f846ddc46f5ff6f7720b6c6f2091928fbc3759c6d6f165cea84c68fd8262e190ef68ca61e62330e
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fehlerbehebung: Absturz beim Einfügen eines Platzhalters per Doppelklick, wenn die Einfügemarke in einem bestehenden Platzhalter stand (wird jetzt dahinter eingefügt)
-- Rahmenbezüge: kleine serifenlose Marke mit Ampel und Schlüssel statt großer grauer Fläche
-- Schlüsselfelder: Reihenfolge der Kombination wird gespeichert (Grundlage für die Festlegung beim Laden)
+- Neu: Schlüsselfelder sind Pflicht – Dialog "Schlüsselfelder" (bis zu 4 Felder, Reihenfolge = Kombination) erscheint beim ersten Laden einer Quelle ohne Schlüssel; auch über Datenquelle › Felder › "Schlüsselfelder festlegen"
+- Publizieren ohne Schlüsselfelder ist gesperrt
+- Feldoptionen: neu als Schlüssel markierte Felder werden hinten an die Kombination angehängt
