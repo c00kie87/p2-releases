@@ -1,12 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.102
+version: 0.7.103
 date: 2026-10-26
 host: 21
-commit: 3c71e6dc6b9d1629b5bcc44a2606933923cdd51d
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.102/p2-0.7.102-mac.zip
-mac.sha512: d19a1ba799260397c12d52496d1cc33453c7b4e4c77160142c880470372c87de2d8db954726348796de94d71a38964a55f805f88e6e5f8f5c029eb32ecbe0456
+commit: c7d46d0824a49daf91d93737324bff5e7a5e3be7
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.103/p2-0.7.103-mac.zip
+mac.sha512: a489bb3bd8ec22dc1c98056eb56df4a7000e04a5a4a753f9e7b44e170fee59cf1cd3a4cb8d723d460e7322e9b4a04dedda0f7b68ecfb85caa0d5d1c243c27d51
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Vorlage im Dokument: zusätzliche Absicherung (gilt in der laufenden Sitzung auch, wenn InDesign das Rahmen-Etikett nicht übernimmt); Diagnose, falls keine Vorlage gefunden wird
+- Platzhalter ohne Anführungszeichen: der Feldname steht im markierten Element (grün/rot); vorhandene «Platzhalter» werden beim Festlegen der Vorlage bzw. „Platzhalter prüfen“ umgestellt (in Tabellen bleiben die Anführungszeichen vorerst)
+- Rahmenfluss dynamisch: Textrahmen wachsen bzw. schrumpfen mit dem Inhalt, die tatsächliche Größe bestimmt die Position; was nicht passt, geht in die nächste Spalte bzw. auf eine neue Seite; vorhandenen Objekten auf der Seite wird ausgewichen (beides in der Publizierregel abschaltbar)
+- p2-Paletten öffnen sich beim Start nicht mehr von selbst – der InDesign-Arbeitsbereich bestimmt, was sichtbar ist
+- „Auswahl publizieren“ ohne Auswahl in der Datentabelle publiziert alles
