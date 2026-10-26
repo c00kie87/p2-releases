@@ -1,16 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.103
+version: 0.7.104
 date: 2026-10-26
 host: 21
-commit: c7d46d0824a49daf91d93737324bff5e7a5e3be7
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.103/p2-0.7.103-mac.zip
-mac.sha512: a489bb3bd8ec22dc1c98056eb56df4a7000e04a5a4a753f9e7b44e170fee59cf1cd3a4cb8d723d460e7322e9b4a04dedda0f7b68ecfb85caa0d5d1c243c27d51
+commit: 662f5dfd382d20b76253e42e258f790a29ee1791
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.104/p2-0.7.104-mac.zip
+mac.sha512: ab8b1fb2840ac26f5e8be4e3a91cd2ecb791b119bb75e27573a3d97b3186a51f1097e2a409a98ff1f95b30a7f11795ba3edfe48976d0160c2f42eac879ccfec8
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Platzhalter ohne Anführungszeichen: der Feldname steht im markierten Element (grün/rot); vorhandene «Platzhalter» werden beim Festlegen der Vorlage bzw. „Platzhalter prüfen“ umgestellt (in Tabellen bleiben die Anführungszeichen vorerst)
-- Rahmenfluss dynamisch: Textrahmen wachsen bzw. schrumpfen mit dem Inhalt, die tatsächliche Größe bestimmt die Position; was nicht passt, geht in die nächste Spalte bzw. auf eine neue Seite; vorhandenen Objekten auf der Seite wird ausgewichen (beides in der Publizierregel abschaltbar)
-- p2-Paletten öffnen sich beim Start nicht mehr von selbst – der InDesign-Arbeitsbereich bestimmt, was sichtbar ist
-- „Auswahl publizieren“ ohne Auswahl in der Datentabelle publiziert alles
-signature: ef0df6aa96e177b52c77345ca9ccd07a5ff5c20779e36c29c42db34320fe7ad861fddba68363dc993e4b5606cf0fac5ee9f564c52f12421dbc0abb02f65cd20d
+- Neu: Rahmenregeln (Publizieren › Rahmenregeln…) – der Templater legt je Vorlagenrahmen fest: Rahmen anlegen (wie Publizierregel, je Datensatz untereinander wiederholt, je Gruppe, einmal je Seite), Verwendung (normal, nur erste/letzte/einzelne Instanz), Umbruch davor (Seite, Spalte, ungerade/gerade Seite), aktiv, Einpassen (Rahmen an Inhalt, nur Höhe, nur Breite, Inhalt an Rahmen, proportional) mit Ankerpunkt, darf verdrängen, Kollisionserkennung, leer löschen, Leerzeilen leerer Felder und Leerraum entfernen
+- Publizierregel: das pauschale „Textrahmen an Inhalt anpassen“ entfällt – Einpassen wird je Rahmen bestimmt (Standard: keins)
+signature: cce1709125dd0bd45f6097f8b31cd9b12c6f40f69b5f62a7b5445444b6dc9342342cc2a21e2479c36373c59957d754e3b39b195405aea5ca9db9542d192ef70c
