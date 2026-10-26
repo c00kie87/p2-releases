@@ -1,15 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.112
+version: 0.7.113
 date: 2026-10-26
 host: 21
-commit: 4ba5cb3baf076ecf05348e64643249f40ebbb417
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.112/p2-0.7.112-mac.zip
-mac.sha512: 1f0bb101c150886318071aa4cebb6332468859bef9fcd2e301c56c04772bec3c216fbd3f8f8df8abb1d28c4036d2169dd8834a31999bdf54df1d038a5b4889b3
+commit: 241eb28c81526169ebe4921cfd4ad068d7ca87a4
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.113/p2-0.7.113-mac.zip
+mac.sha512: 686480f36c1b13ae4c41b005b65b01244a0813c38b1486aebe8335e300c2139e3d126b9421f4661161cf9d36216affd50eb96d5b2fae455189a9511b4bbb1eb6
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu: Rahmenbezüge – graue Leiste mit Ampel unter Vorlagen- und erzeugten Rahmen: Rahmengruppe/Datensatz, Bildfeld, Anzahl Platzhalter; bei Tabellen die Vorlagezeile, die je Datensatz wiederholt wird (nur am Bildschirm, ein-/ausblendbar)
-- Fehlerbehebung: Ersatzbild wurde nicht platziert, wenn "Bild fehlt" auf "wie global" stand
-- Feldoptionen: Ersatzbild-Schaltfläche heißt jetzt "Datei wählen"
-signature: 38c264378941b0d652f042230cb7c85948e074cac7d542e003d99979d2615fddc07308499b3a3f44b571b71f0b03fb728057f885b7419f46e2b4c641c0656a0a
+- Fehlerbehebung: Absturz beim Einfügen eines Platzhalters per Doppelklick, wenn die Einfügemarke in einem bestehenden Platzhalter stand (wird jetzt dahinter eingefügt)
+- Rahmenbezüge: kleine serifenlose Marke mit Ampel und Schlüssel statt großer grauer Fläche
+- Schlüsselfelder: Reihenfolge der Kombination wird gespeichert (Grundlage für die Festlegung beim Laden)
+signature: 8ec7e119930614d41fe6e79945a959b002309c64c2ee9424448ee37249f9c5ac252b4075a1691308789bde4ca305d28e0338b39e3c9c9a6eecf54b5f9940dd0a
