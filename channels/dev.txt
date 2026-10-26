@@ -1,13 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.101
+version: 0.7.102
 date: 2026-10-26
 host: 21
-commit: 8b027ddd66856d1c404630232cf73ebdfb259958
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.101/p2-0.7.101-mac.zip
-mac.sha512: 503f95e04dc18273bde2d1d7ef5c0f065e09e0da8774c7ff8c116e83cb3e76e13801b672a345c65648255b623f7151136567dc2233eafd837b1d708c72265012
+commit: 3c71e6dc6b9d1629b5bcc44a2606933923cdd51d
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.102/p2-0.7.102-mac.zip
+mac.sha512: d19a1ba799260397c12d52496d1cc33453c7b4e4c77160142c880470372c87de2d8db954726348796de94d71a38964a55f805f88e6e5f8f5c029eb32ecbe0456
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fehlerbehebung: „Auswahl als Vorlage festlegen“ wurde nicht im Dokument gespeichert („Keine Vorlage im Dokument“ beim Publizieren); betraf auch Datensatz-Kennung, Bildfeld-Zuordnung und Nacharbeit
-- Platzhalter-Markierungen: grün bzw. rot werden jetzt zuverlässig gewählt (vorher teils automatische Farbe)
+- Vorlage im Dokument: zusätzliche Absicherung (gilt in der laufenden Sitzung auch, wenn InDesign das Rahmen-Etikett nicht übernimmt); Diagnose, falls keine Vorlage gefunden wird
