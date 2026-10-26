@@ -1,13 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.104
+version: 0.7.105
 date: 2026-10-26
 host: 21
-commit: 662f5dfd382d20b76253e42e258f790a29ee1791
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.104/p2-0.7.104-mac.zip
-mac.sha512: ab8b1fb2840ac26f5e8be4e3a91cd2ecb791b119bb75e27573a3d97b3186a51f1097e2a409a98ff1f95b30a7f11795ba3edfe48976d0160c2f42eac879ccfec8
+commit: e4691e54c9d30b8f32f465f78ae9db52fc656487
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.105/p2-0.7.105-mac.zip
+mac.sha512: 9602145385daba9a172efed4d6608e124c9de5680d572ddc362431084ac1687c575967b4b61f2de1b5d08f6613ebe80f190aed5a543a450c94886fe36c952a2b
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu: Rahmenregeln (Publizieren › Rahmenregeln…) – der Templater legt je Vorlagenrahmen fest: Rahmen anlegen (wie Publizierregel, je Datensatz untereinander wiederholt, je Gruppe, einmal je Seite), Verwendung (normal, nur erste/letzte/einzelne Instanz), Umbruch davor (Seite, Spalte, ungerade/gerade Seite), aktiv, Einpassen (Rahmen an Inhalt, nur Höhe, nur Breite, Inhalt an Rahmen, proportional) mit Ankerpunkt, darf verdrängen, Kollisionserkennung, leer löschen, Leerzeilen leerer Felder und Leerraum entfernen
-- Publizierregel: das pauschale „Textrahmen an Inhalt anpassen“ entfällt – Einpassen wird je Rahmen bestimmt (Standard: keins)
+- Fehlerbehebung: Platzhalter verloren ihre Feld-Kennung („«»“, rot, keine Werte beim Publizieren); bereits gesetzte Platzhalter werden jetzt auch am sichtbaren Feldnamen erkannt
+- Neu: Palette „Publizieren“ (vormals „Vorlagen“) – zeigt zur Auswahl die passenden Einstellungen: Rahmengruppe (Name der Vorlage), aktiv, Rahmen anlegen, Verwendung, Umbruch, Einpassen, Ankerpunkt, verdrängen, Kollision, Inhalt; bei Bildrahmen das Bildfeld; mehrere gewählte Rahmen: Änderung gilt für alle; alles wird sofort gespeichert
+- Rahmengruppen: mehrere Vorlagen je Dokument; die Publizierregel wählt, welche Rahmengruppe publiziert wird
+- Feldoptionen: „Wenn leer: Absatz entfernen“ (ganzer Absatz mit festem Text verschwindet); „Bild fehlt: Rahmen leer lassen / Rahmen löschen / Ersatzbild“ je Feld oder global
+- Gelöschte Rahmen mit „darf verdrängen“ geben ihren Platz frei (Rahmen darunter rücken nach oben)
+- Publizieren meldet, aus wie vielen Rahmen die Vorlage besteht
