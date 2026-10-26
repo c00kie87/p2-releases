@@ -1,18 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.109
+version: 0.7.110
 date: 2026-10-26
 host: 21
-commit: 96e6ffa7f4175ae512c4c71e0bcadf9f60b6a6c1
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.109/p2-0.7.109-mac.zip
-mac.sha512: a63a8fb1ce655ee6bd25c70929d8f56a5d8acfa8dbbc56ac10bd44cd90377e8b562d60779dec7b1575b091e9b048af4415d536017aa99d06b8d14e596d3fadd9
+commit: 21bf9a37369fe0daffe4cd246d9364155a994ff2
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.110/p2-0.7.110-mac.zip
+mac.sha512: 9dbc784154f999d30479d1d7b29c9e3d73ceb47de081b9c864141488d078b1df128da1b7329fd935eda6a64141d634129505cda21dfa067891012e2bf7e544c6
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu: Spielwiese – Menü "Spielwiese laden": Testdaten und eine Konfiguration je Szenario, Szenario-IDMLs zum Durchspielen (auch Vorlage im Altsystem-Stil)
-- Neu: Vorlagen des Altsystems werden gedeutet: Rahmengruppe aus dem Etikett (z. B. K1), Füllreihenfolge, Verdrängen/Abstand halten, Wachsen in Schritten, Bildfeld, Platzhalter über Zeichenformate
-- Neu: Seitenbeschriftung – Platzhalter auf Musterseiten werden je Seite mit dem ersten/letzten Datensatz befüllt
-- Neu: Palette Publizieren mit Füllreihenfolge, Datensatz-Nr., Seitenbeschriftung, Schritt (mm), Abstand halten; Rahmengruppe standardmäßig leer
-- Neu: Publizierregel – Abstand als Eingabefeld in mm (leer = 0)
-- Neu: Datenquelle – Feld "Felder:" filtert die Spalten (z. B. "Ch" = beginnt mit Ch, "*am" = enthält am)
-- Vorlagen auch auf Musterseiten
+- Fehlerbehebung: Platzhalter-Elemente wurden befüllt, der Platzhaltername blieb aber dahinter stehen
+- Neu: Alias für Datenfelder (Feldoptionen, erste Zeile): ersetzt den angezeigten Feldnamen; Alias und Originalname gelten beide als Platzhalter
+- Neu: Menü "Platzhalter identifizieren": verknüpft die Platzhalter der Vorlagen neu und zeigt sie unter dem aktuellen Namen (Alias)
+- Spielwiese: Szenarien S10 (Alias) und S11 (Platzhalter-Elemente)
