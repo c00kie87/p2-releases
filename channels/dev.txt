@@ -1,12 +1,18 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.108
+version: 0.7.109
 date: 2026-10-26
 host: 21
-commit: 01bb785100054be5038992d901ebfbe9359bf452
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.108/p2-0.7.108-mac.zip
-mac.sha512: 87bd083f49119487251fbc1a68cdb762fe2a7b82f54cadedf5c3d57f8d5b39546fb396ce7155318b83daf7b972c2ff418a5d23c8651cfc7df695c3f87a34d584
+commit: 96e6ffa7f4175ae512c4c71e0bcadf9f60b6a6c1
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.109/p2-0.7.109-mac.zip
+mac.sha512: a63a8fb1ce655ee6bd25c70929d8f56a5d8acfa8dbbc56ac10bd44cd90377e8b562d60779dec7b1575b091e9b048af4415d536017aa99d06b8d14e596d3fadd9
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fehlerbehebung: InDesign stürzte beim Start ab (Palette Publizieren) – Ursache beseitigt
+- Neu: Spielwiese – Menü "Spielwiese laden": Testdaten und eine Konfiguration je Szenario, Szenario-IDMLs zum Durchspielen (auch Vorlage im Altsystem-Stil)
+- Neu: Vorlagen des Altsystems werden gedeutet: Rahmengruppe aus dem Etikett (z. B. K1), Füllreihenfolge, Verdrängen/Abstand halten, Wachsen in Schritten, Bildfeld, Platzhalter über Zeichenformate
+- Neu: Seitenbeschriftung – Platzhalter auf Musterseiten werden je Seite mit dem ersten/letzten Datensatz befüllt
+- Neu: Palette Publizieren mit Füllreihenfolge, Datensatz-Nr., Seitenbeschriftung, Schritt (mm), Abstand halten; Rahmengruppe standardmäßig leer
+- Neu: Publizierregel – Abstand als Eingabefeld in mm (leer = 0)
+- Neu: Datenquelle – Feld "Felder:" filtert die Spalten (z. B. "Ch" = beginnt mit Ch, "*am" = enthält am)
+- Vorlagen auch auf Musterseiten
