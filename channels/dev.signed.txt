@@ -1,16 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.110
+version: 0.7.111
 date: 2026-10-26
 host: 21
-commit: 21bf9a37369fe0daffe4cd246d9364155a994ff2
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.110/p2-0.7.110-mac.zip
-mac.sha512: 9dbc784154f999d30479d1d7b29c9e3d73ceb47de081b9c864141488d078b1df128da1b7329fd935eda6a64141d634129505cda21dfa067891012e2bf7e544c6
+commit: 696539f8a13292ad9c3582af1221c7ece72fc217
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.111/p2-0.7.111-mac.zip
+mac.sha512: e0c950f1aeda22b2e3df99d452b13460f62f6224898911cb0d522ede32b03129cbf767cf3d3af95ef812c3fe5f408c1554b263b25c6fc83b623baaab4d352834
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fehlerbehebung: Platzhalter-Elemente wurden befüllt, der Platzhaltername blieb aber dahinter stehen
-- Neu: Alias für Datenfelder (Feldoptionen, erste Zeile): ersetzt den angezeigten Feldnamen; Alias und Originalname gelten beide als Platzhalter
-- Neu: Menü "Platzhalter identifizieren": verknüpft die Platzhalter der Vorlagen neu und zeigt sie unter dem aktuellen Namen (Alias)
-- Spielwiese: Szenarien S10 (Alias) und S11 (Platzhalter-Elemente)
-signature: 2b82661dedf6a0ebd81e6008ab5025b5c33b2fbac1f0b000389618ffc6f414a7a199d395784662a023e9a14bd999d01a60d68e0e15dfb1150812b2ff0b91670b
+- Fehlerbehebung: möglicher Absturz beim Wegklicken aus einem Eingabefeld (Palette Publizieren aktualisierte ihre Felder während der Eingabe)
+signature: fae0ffd1d94fe6b64941b701bd0290ed7227fb4afcf8e183a68cad65cb4c5a0ac6891674685f7e87306a4bf91ba47800a09e60bf00e0ddf6782bc3a11af5740e
