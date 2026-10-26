@@ -1,13 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.111
+version: 0.7.112
 date: 2026-10-26
 host: 21
-commit: 696539f8a13292ad9c3582af1221c7ece72fc217
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.111/p2-0.7.111-mac.zip
-mac.sha512: e0c950f1aeda22b2e3df99d452b13460f62f6224898911cb0d522ede32b03129cbf767cf3d3af95ef812c3fe5f408c1554b263b25c6fc83b623baaab4d352834
+commit: 4ba5cb3baf076ecf05348e64643249f40ebbb417
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.112/p2-0.7.112-mac.zip
+mac.sha512: 1f0bb101c150886318071aa4cebb6332468859bef9fcd2e301c56c04772bec3c216fbd3f8f8df8abb1d28c4036d2169dd8834a31999bdf54df1d038a5b4889b3
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fehlerbehebung: möglicher Absturz beim Wegklicken aus einem Eingabefeld (Palette Publizieren aktualisierte ihre Felder während der Eingabe)
-signature: fae0ffd1d94fe6b64941b701bd0290ed7227fb4afcf8e183a68cad65cb4c5a0ac6891674685f7e87306a4bf91ba47800a09e60bf00e0ddf6782bc3a11af5740e
+- Neu: Rahmenbezüge – graue Leiste mit Ampel unter Vorlagen- und erzeugten Rahmen: Rahmengruppe/Datensatz, Bildfeld, Anzahl Platzhalter; bei Tabellen die Vorlagezeile, die je Datensatz wiederholt wird (nur am Bildschirm, ein-/ausblendbar)
+- Fehlerbehebung: Ersatzbild wurde nicht platziert, wenn "Bild fehlt" auf "wie global" stand
+- Feldoptionen: Ersatzbild-Schaltfläche heißt jetzt "Datei wählen"
+signature: 38c264378941b0d652f042230cb7c85948e074cac7d542e003d99979d2615fddc07308499b3a3f44b571b71f0b03fb728057f885b7419f46e2b4c641c0656a0a
