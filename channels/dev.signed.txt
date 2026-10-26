@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.107
+version: 0.7.108
 date: 2026-10-26
 host: 21
-commit: 8ecbb0ee37082af0f547a4f23d4328d702b12626
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.107/p2-0.7.107-mac.zip
-mac.sha512: 0fe04a20d3874ec10bc7037b1072860d4aeb29110e772f01cfe0969dbbd57fdd519efc7f9d98ad965b7fe96e384c55bd2ea27ae8b52b3f97fbaf429f2b2bcb33
+commit: 01bb785100054be5038992d901ebfbe9359bf452
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.108/p2-0.7.108-mac.zip
+mac.sha512: 87bd083f49119487251fbc1a68cdb762fe2a7b82f54cadedf5c3d57f8d5b39546fb396ce7155318b83daf7b972c2ff418a5d23c8651cfc7df695c3f87a34d584
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fehlerbehebung: InDesign stürzte beim Start ab (Palette Publizieren aus 0.7.105/0.7.106)
-signature: d68e10901d73892273bef4ac3ed1f8f7afe22ede2d4d1b78cbee173796f32625b87a9e087d902a868d663cb514613e5d227bc6b8b4441c2c2aa746e4ac2b410b
+- Fehlerbehebung: InDesign stürzte beim Start ab (Palette Publizieren) – Ursache beseitigt
+signature: de16720a57cf4ad5c5dfdb45917ccaf6f39442c2b108bf623a1c343ab364becd70e9926c9a753f61ab3178631d44a76e4db2f3ef804db4949358c293a28d9806
