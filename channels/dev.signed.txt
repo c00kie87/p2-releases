@@ -1,26 +1,34 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.52
-date: 2026-10-24
+version: 0.7.100
+date: 2026-10-26
 host: 21
-commit: bee4132b8b62e54cd52f32880a98629c8e2a0afb
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-mac.zip
-mac.sha512: 73f57d85324b0b3494a556ae10a8eb1269a37122ad01ae8cd73fc538c1647585ef453c73edc362f2212cca9564374c0378e13db03ef1b6e10bf584a42c81563c
+commit: 329edcaadee86fca1a4d2209210834c25f8ac8c2
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.100/p2-0.7.100-mac.zip
+mac.sha512: b6b585e230e6fc00030bc76df0214aec25dece5bf2d73f381a19b2622b73fcbeb7a0d935194a7d3cd4082e28b16118646adfc40fbf95c895e68cf0ddbd6b0cef
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Suche: Trefferzeilen links markiert, Spalten mit Treffern im Kopf markiert; gesucht wird auch in ausgeblendeten Feldern
-- Gruppierung: beliebig viele Ebenen (Ebene hinzufügen, entfernen, nach oben/unten), Aufbau schematisch; nach dem Gruppieren sind alle Gruppen zugeklappt
-- Konfiguration: Laden… ergänzt; Palettenmenü mit Untermenüs Gruppierung, Felder, Konfiguration
-- Bildordner: Basis-Bildpfad aus der Quelle (Parameter) automatisch, Bildordner für die ganze Quelle oder je Feld mit „Ordner wählen…“
-- Feldoptionen: „Inhalt ist HTML-formatiert“ – Tabelle und Editor zeigen den Text mit ausgewerteten Tags; Zurückschreiben in die Quelle je Feld (Standard aus)
-- Wert bearbeiten: „Für Ausgabe übernehmen“ oder „In Quelle zurückschreiben“ (nur wenn je Feld erlaubt; vorgemerkte Werte orange); Schlüsselfelder geschützt
-- Neu: Fenster › p2 › Konfigurieren… – allgemeine Einstellungen (Schlüsselfelder ändern/zurückschreiben erlauben)
-- Neu: Automatisieren (Palettenmenü › Automatisieren) – erste Stufe
--   • Platzhalter der gewählten Spalte einfügen: an der Einfügemarke als «Feld», in einen gewählten Textrahmen, bei Bildfeldern an einen gewählten Bildrahmen; ohne Auswahl entsteht ein neuer Rahmen auf der aktuellen Seite
--   • Auswahl als Vorlage festlegen: gewählte Rahmen bilden die Vorlage (bleibt im Dokument gespeichert)
--   • Paginierregel…: einmal je Datensatz oder einmal je Gruppe (Ebene wählbar); fortlaufend untereinander/nebeneinander oder jede Kopie auf neuer Seite; Abstand
--   • Paginieren: Kopien der Vorlage auf neuen Seiten am Dokumentende, Platzhalter ersetzt (formatiert, überschriebene Werte), Bilder geladen und eingepasst; Reihenfolge, Filter und Gruppierung wie in der Tabelle; erzeugte Rahmen tragen den Datensatz-Schlüssel; ein Schritt zum Rückgängigmachen
-- Projekt (Fremdformat) laden: die im Projekt angegebene Quelle wird automatisch gesucht (wie angegeben, sonst neben dem Projekt) und geladen bzw. – wenn unverändert – nur aktiviert; nicht gefundene Quellen werden gemeldet; mehrere Quellen werden getrennt geladen
-- Suche findet überschriebene Werte (zusätzlich zum Wert in der Quelle) sowie formatierte und HTML-ausgewertete Darstellung
-signature: 14ed29cb0720a8e35b2fe88badb3b3c292280868431e0c6c95c0131b7db630be88943b26146e12842cf76c351f83d5d6cdcf5642f1daace31bbb23738dc34d00
+- Feldoptionen kompakt und zweispaltig; neu „Standard für alle Felder…“ (Felder-Menü): globale Einstellungen je Konfiguration, Feldeinstellungen haben Vorrang (Kästchen gemischt = wie global, „Auf global zurücksetzen“)
+- HTML wird automatisch erkannt und ausgewertet (Tabelle, Editor, Publizieren); je Feld oder global ein-/ausschaltbar
+- Hypertextformate: HTML-Tag → Absatz-/Zeichenformat des Dokuments, global und je Feld; Publizieren setzt Absätze, Listen, Zeilenumbrüche und Formate (fett/kursiv ohne Zuordnung als Schriftschnitt)
+- Platzhalter-Markierungen: Platzhalter und publizierte Werte tragen farbige, nicht druckende Tag-Marken (grün = Bezug gültig, rot = fehlt); „Platzhalter-Markierungen ein/aus“
+- Neu: „Publizierte Seiten aktualisieren“ – publizierte Werte werden über Feld und Datensatz-Schlüssel mit den aktuellen Daten neu befüllt; fehlende Datensätze rot markiert (ein Rückgängig-Schritt)
+- Platzhalter per Alt + Doppelklick auf Spaltenkopf oder Zelle an die Einfügemarke bzw. in den gewählten Rahmen
+- Menü: Untermenü „Quellen“; „Automatisieren“ heißt jetzt „Publizieren“, „Paginieren“ heißt „Publizieren“, „Paginierregel“ heißt „Publizierregel“
+- Bildrahmen: Zuordnung und publizierte Bilder ebenfalls grün/rot markiert (getaggte Rahmen); „Aktualisieren“ lädt geänderte Bilder neu und wirkt bei gewählten Rahmen nur auf diese
+- Dialoge Gruppierung, Wert bearbeiten, Publizierregel und Konfiguration laden schmaler gesetzt
+- Neu (Publizieren-Menü): „Rahmen des Datensatzes auswählen“ (Tabelle → Dokument) und „Datensatz der Auswahl zeigen“ (Dokument → Tabelle)
+- Neu: reproduzierbare Nacharbeit (erste Stufe) – „Nacharbeit sichern“ merkt Verschiebung, Größe und Bildlage publizierter Rahmen je Vorlagenrahmen und Datensatz; beim nächsten Publizieren automatisch angewendet; „Nacharbeit verwerfen…“ für gewählte Rahmen oder die ganze Quelle
+- Verknüpfte Tabellen: erkannte Verweise innerhalb der Quelle und mehrere Quellen (beim Projektladen automatisch über gemeinsame Kennungen) werden verknüpft; verknüpfte Felder sind such-, sortier- und gruppierbar, als Platzhalter nutzbar und publizierbar; „Verknüpfte Felder zeigen ein/aus“ (Felder-Menü)
+- Fehlerbehebung: erneutes Einlesen einer Quelle löscht keine Konfigurationen, überschriebenen Werte und Nacharbeit mehr
+- Neu: „Quelle aktualisieren“ (Quellen-Menü) liest die aktive Quelle aus der Originaldatei neu ein, wenn sie sich geändert hat
+- Neu: „Vorhandene Ausgabe übernehmen (Fremdformat)“ – erkennt in Ausgabedokumenten des Fremdsystems die Datensatzbindung der Rahmen (zusammengesetzte Schlüssel werden automatisch erkannt) und die Werte über ihre Zeichenformate „$Platzhalter“, markiert sie als p2-Bindungen; danach mit „Publizierte Seiten aktualisieren“ auf den aktuellen Datenstand bringen
+- Sequenz als Gruppierung: beim Übernehmen einer Ausgabe wird die Schlüssel-Hierarchie (z. B. Kapitel › Unterkapitel › Produktgruppe › Variationsgruppe) als Gruppierung mit passenden Beschriftungen angeboten
+- Neu: Rechtsklick in der Datentabelle öffnet ein Kontextmenü (Gruppierung, alle auf-/zuklappen, alle Felder, Feldoptionen, Platzhalter einfügen, Rahmen des Datensatzes auswählen)
+- Neu: Tabellenzeilen je Datensatz – in der Vorlagentabelle wird der Block der Tabellenkörper-Zeilen mit Platzhaltern für jeden Datensatz der Gruppe wiederholt (samt Format) und befüllt; Kopfzeilen und Text außerhalb erhalten die Gruppenwerte
+- Neu: „Quelle aus Web-Adresse laden…“ (Quellen-Menü) – JSON, XML, CSV oder Excel von einer Adresse; „Quelle aktualisieren“ lädt neu; beim Entfernen werden die heruntergeladenen Daten mit gelöscht
+- Neu: Feldoption „Web-/Mail-Adressen als Hyperlink anlegen“ (je Feld oder global) – beim Publizieren entstehen anklickbare Hyperlinks (https://, www., E-Mail)
+- Neu: „Auswahl publizieren“ (Publizieren-Menü und Rechtsklick) – nur den gewählten Datensatz bzw. die gewählte Gruppe
+- Neu: „Platzhalter prüfen“ (Publizieren-Menü) – markiert alle Platzhalter des Dokuments neu (grün/rot) und listet unbekannte
+signature: 74c39ce57830fb839bb4ef9c550303f4ebfe2546261699f88d4310a19787a8a266c04de8d9d92a804fc5077340e78054fbd0106c0ce4aebf5a85d413236ce306
