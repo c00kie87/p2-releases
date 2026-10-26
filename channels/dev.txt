@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.106
+version: 0.7.107
 date: 2026-10-26
 host: 21
-commit: 1cdcb3ca7b1af91931b64e0b0c618c2adc80b766
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.106/p2-0.7.106-mac.zip
-mac.sha512: b01d8107bccbc98e554b74db7f2c0011f0aecbab6b8266dcb6c04ef486ee0c8697cee4192a997cb7f15559302e1428e81c9859e77b27cbfa038f0092523d68d3
+commit: 8ecbb0ee37082af0f547a4f23d4328d702b12626
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.107/p2-0.7.107-mac.zip
+mac.sha512: 0fe04a20d3874ec10bc7037b1072860d4aeb29110e772f01cfe0969dbbd57fdd519efc7f9d98ad965b7fe96e384c55bd2ea27ae8b52b3f97fbaf429f2b2bcb33
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Alle Dialoge und Paletten nach einheitlichem Raster ausgerichtet (Beschriftungen und Eingaben auf gemeinsamen Linien, Kästchen in der Eingabespalte, einheitliche Ränder)
+- Fehlerbehebung: InDesign stürzte beim Start ab (Palette Publizieren aus 0.7.105/0.7.106)
