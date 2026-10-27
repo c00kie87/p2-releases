@@ -1,21 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.116
+version: 0.7.117
 date: 2026-10-27
 host: 21
-commit: c8b71c46aafb996b86b391cdd8589e64323cc29e
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.116/p2-0.7.116-mac.zip
-mac.sha512: ab064b8af55d4f813cd312d2c54d7c8d8d682d1e365fc9199e4803796608a29ec092edfc91b7d0279644d50b4dd02facdd29f8085997ff09a69a8ceaa17c59f1
+commit: 4dac9da06b084ff53ad34bc9871cd6fc40ca8809
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.117/p2-0.7.117-mac.zip
+mac.sha512: f7a950de017f6b43261a780fa1648efcc6a4fe0cfac58c2a714a285561b132db66fd79b259a73f945f3b3d38f33d489bb98a7b2c2a73d9d9bab2aed1db617ee3
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Vorlagen werden als gemeinsame Bibliothek gespeichert und koennen in anderen Dokumenten, Projekten und Datenquellen wiederverwendet werden.
-- Ausgewaehlte Datensaetze koennen mit der aktiven Datenquelle und Vorlagenregel auf eine InDesign-Seite gezogen werden.
-- Mehrere benannte Vorlagen bleiben erhalten; das Festlegen einer Vorlage entfernt keine anderen Vorlagen mehr.
-- Bildrahmen lassen sich ohne Absturz befuellen.
-- Datensaetze und Gruppen koennen per Umschalt-Klick gemeinsam ausgewaehlt und publiziert werden; die Auswahl wird in der Tabelle hervorgehoben.
-- Gruppen klappen nur noch ueber Plus und Minus auf oder zu und zeigen ihre konfigurierte Beschriftung.
-- Platzhalter markieren Rahmen automatisch als Vorlage; das zugewiesene Bildfeld wird sofort angezeigt.
-- Die Publizieren-Befehle und der Button befinden sich in der Publizieren-Palette.
-- Rahmenmarkierungen verwenden 30 Prozent Transparenz und vermeiden doppelte Platzhalter-Markierungen.
-signature: f9dff59ccdb330fc9b55bfdfe00d16b28fce69e6f09a70bda12918a193abf19471696f6b79727b40ff5e58d263927a82d92b51a54df9227e8e2b57dbd080620e
+- „Templates“ ist jetzt eine eigene Palette und öffnet eine native InDesign-Bibliothek. Objekte lassen sich dort hineinziehen, erneut verwenden und nach Änderungen aktualisieren.
+- Die Palette „Publizieren“ enthält nur noch Einstellungen und Befehle für die Ausgabe.
+- Die Datenauswahl lässt sich aus der Datenquelle auf eine InDesign-Seite ziehen.
+- Das Befüllen von Bildrahmen stürzt nicht mehr ab.
+- Vorlagen bleiben beim Festlegen einer weiteren Vorlage erhalten.
+signature: c5ef5cd8baabc3706b7e8e84e2a5a6c7fbaf8cb01487cc255d0c6797858b25c5e0da980aea2ac138b19aaa80f6486e0c9521f7ee61094f10a09a2941d7680b0d
