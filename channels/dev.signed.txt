@@ -1,15 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.122
+version: 0.7.123
 date: 2026-10-27
 host: 21
-commit: d5b538d15de1a30319cb00cf778537dfcf357153
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.122/p2-0.7.122-mac.zip
-mac.sha512: a74176951af1c961d5e5a431b593171c03aae335cf352ff1e09b5526e7ee8ddb3a9556af8c325762d38b933ee98265c9bd446f7c68bfb978f739f56f732c7ec2
+commit: d5aa0fb0569719a1021273a13c5c3a5ae8043ccd
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.123/p2-0.7.123-mac.zip
+mac.sha512: a3e2af0c681fc256e1827e2e00c61f0e849cb148682262c6d8301313e5f5beb21ba151d731f01a1f4f4ef61ed1cfa7dc647fe27bf4e382e981cad8a0d85d4dd6
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Absturzursache beim Ziehen eines Templates korrigiert: Die Referenz auf den Zieldruckbogen wird korrekt gehalten.
-- Importierte Template-Objekte werden mit der Zieldatenbank erfasst; Einfügen und anschließendes Publizieren verwenden dieselbe Dokumentzuordnung.
-- Fehlerhafte Einfügevorgänge werden zurückgenommen. Fehlermeldungen erscheinen nach dem Drag-and-drop und nennen den fehlgeschlagenen Schritt.
-signature: 302ea5ef7a6ba528ae3703208e86d7c2ed3e73a7dde1c9fa5f4c5d0120b891bf276105108d5818db92cb2021a7c27c75b6f972b580cc14e9bac74056c4747203
+- Beim Ersetzen oder Aktualisieren eines Templates lädt die Bibliothek dessen neues Vorschaubild sofort neu.
+- Kann keine neue Vorschau erzeugt werden, wird die alte Vorschau entfernt, damit kein veralteter Template-Stand angezeigt wird.
+signature: 0ad1c8003b39415204aa23b3c484956a227599939c29c66c7e7c4c17f432ce24a3d878eb1f7cd6dd6c3406b5e82e3f92e3db279af4c907631196a676ac830505
