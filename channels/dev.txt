@@ -1,16 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.117
+version: 0.7.119
 date: 2026-10-27
 host: 21
-commit: 4dac9da06b084ff53ad34bc9871cd6fc40ca8809
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.117/p2-0.7.117-mac.zip
-mac.sha512: f7a950de017f6b43261a780fa1648efcc6a4fe0cfac58c2a714a285561b132db66fd79b259a73f945f3b3d38f33d489bb98a7b2c2a73d9d9bab2aed1db617ee3
+commit: a3a3ad2385a50afc6ce0e885fa748112b0bf557e
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.119/p2-0.7.119-mac.zip
+mac.sha512: d34d91443d17d3a0196e274eb706e1fab00472f2b90127c8c6bc3fb157b614ff59ca1e3ed238c3037bce763a08b1d65e123b5004fa7b0fd3e9052d34f52caa84
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- „Templates“ ist jetzt eine eigene Palette und öffnet eine native InDesign-Bibliothek. Objekte lassen sich dort hineinziehen, erneut verwenden und nach Änderungen aktualisieren.
-- Die Palette „Publizieren“ enthält nur noch Einstellungen und Befehle für die Ausgabe.
-- Die Datenauswahl lässt sich aus der Datenquelle auf eine InDesign-Seite ziehen.
-- Das Befüllen von Bildrahmen stürzt nicht mehr ab.
-- Vorlagen bleiben beim Festlegen einer weiteren Vorlage erhalten.
+- Die Templates-Palette verwaltet jetzt eine eigene, projektbezogene Bibliothek. Vorlagen lassen sich aus Dokumenten ablegen, zwischen Projekten verschieben, wieder einsetzen und nach Änderungen aktualisieren.
+- Die Bibliothek öffnet standardmäßig das aktive Projekt und kann andere Projekte über die Auswahl anzeigen.
+- Der Button „Publizieren“ verarbeitet die aktuelle Datensatz-Auswahl; ohne Auswahl wird die gesamte Quelle ausgegeben. Der Buttontext folgt der Auswahl.
+- Das Einsetzen von Bildern verwendet jetzt den vorhandenen Bildrahmen und prüft Bilddateien vor dem Import.
+- Deutsche Umlaute und der Ausgabetext in der Publizieren-Palette werden korrekt dargestellt.
