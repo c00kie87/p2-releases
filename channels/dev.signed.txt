@@ -1,17 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.120
+version: 0.7.121
 date: 2026-10-27
 host: 21
-commit: 95f2bd40b33ca39cdf9f774bb425000b67245203
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.120/p2-0.7.120-mac.zip
-mac.sha512: aea040bc2ffd623a077530a265cb6b053a055979c261c35d16121ba5802d52a58aa636fe91c0614d62de9fd5b1fdcaba4def5d2c01503d15ca401d04df6dd7eb
+commit: 8db752b29226cdf61bbb74c72d852817fece86c5
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.121/p2-0.7.121-mac.zip
+mac.sha512: b6dbe6855c78c10ef131dd7aa3a7ee478e30cbe78cb526392cb8674510e6bbbb171498a3453f981c93f66cdc3a70b1a51d67f5174f506bd63110eddf414eed54
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Die Templates-Palette zeigt InDesign-Vorschaubilder in einem proportionalen Kachelraster mit weißem Hintergrund und einem Namensfeld unter jeder Kachel.
-- Templates lassen sich per Drag-and-drop speichern, als Kopie in ein Dokument ziehen und durch Ablegen auf eine Vorschau ersetzen oder neu anlegen.
-- Doppelklick öffnet bearbeitbare Template-Details. Namen lassen sich direkt unter den Kacheln ändern.
-- Mehrfachauswahl, Projektzuordnung sowie Kopieren und Verschieben sind in der Templates-Palette verfügbar. „Template aktualisieren“ liegt im Palettenmenü.
-- Die bisherigen Schaltflächen zum Speichern und Einfügen wurden entfernt; diese Aktionen erfolgen direkt über Drag-and-drop.
-signature: 88be7ec0a87217af929aea9e40a38c0c937971ce67eca6cb7fbf1f95f3a9a21725fe8129332e80c9dc9a7a9e434380ef916b530c20dbe5fbece6a13ae2ee3c02
+- Bildimport beim Publizieren korrigiert: Platzierung mit gültigen Koordinaten und Befüllen des bestehenden Rahmens.
+- Drag-and-drop aus der Template-Bibliothek und Erkennung importierter Objekte überarbeitet.
+- Vorschau und Template-Name bilden eine gemeinsame Kachel.
+- Native Template-Details im Stil der Feldoptionen; Mehrfachauswahl von Templates über das Palettenmenü löschbar.
+- macOS-Dev-Update; Laufzeittest der Korrekturen in InDesign steht noch aus.
+signature: c90330234e2248ec28f60e522d0039a05f8bd9cab5d979d416b620e1fe80d0fe33795f6f2bf55457458e6ee6537f3fd002edf9b58a5243848380533a2e591906
