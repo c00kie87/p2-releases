@@ -1,17 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.121
+version: 0.7.122
 date: 2026-10-27
 host: 21
-commit: 8db752b29226cdf61bbb74c72d852817fece86c5
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.121/p2-0.7.121-mac.zip
-mac.sha512: b6dbe6855c78c10ef131dd7aa3a7ee478e30cbe78cb526392cb8674510e6bbbb171498a3453f981c93f66cdc3a70b1a51d67f5174f506bd63110eddf414eed54
+commit: d5b538d15de1a30319cb00cf778537dfcf357153
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.122/p2-0.7.122-mac.zip
+mac.sha512: a74176951af1c961d5e5a431b593171c03aae335cf352ff1e09b5526e7ee8ddb3a9556af8c325762d38b933ee98265c9bd446f7c68bfb978f739f56f732c7ec2
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Bildimport beim Publizieren korrigiert: Platzierung mit gültigen Koordinaten und Befüllen des bestehenden Rahmens.
-- Drag-and-drop aus der Template-Bibliothek und Erkennung importierter Objekte überarbeitet.
-- Vorschau und Template-Name bilden eine gemeinsame Kachel.
-- Native Template-Details im Stil der Feldoptionen; Mehrfachauswahl von Templates über das Palettenmenü löschbar.
-- macOS-Dev-Update; Laufzeittest der Korrekturen in InDesign steht noch aus.
-signature: c90330234e2248ec28f60e522d0039a05f8bd9cab5d979d416b620e1fe80d0fe33795f6f2bf55457458e6ee6537f3fd002edf9b58a5243848380533a2e591906
+- Absturzursache beim Ziehen eines Templates korrigiert: Die Referenz auf den Zieldruckbogen wird korrekt gehalten.
+- Importierte Template-Objekte werden mit der Zieldatenbank erfasst; Einfügen und anschließendes Publizieren verwenden dieselbe Dokumentzuordnung.
+- Fehlerhafte Einfügevorgänge werden zurückgenommen. Fehlermeldungen erscheinen nach dem Drag-and-drop und nennen den fehlgeschlagenen Schritt.
+signature: 302ea5ef7a6ba528ae3703208e86d7c2ed3e73a7dde1c9fa5f4c5d0120b891bf276105108d5818db92cb2021a7c27c75b6f972b580cc14e9bac74056c4747203
