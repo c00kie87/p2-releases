@@ -1,15 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.124
+version: 0.7.125
 date: 2026-10-27
 host: 21
-commit: c072a3bdcb03926791d6ef9780ff0f731a91655a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.124/p2-0.7.124-mac.zip
-mac.sha512: 79f2e8e78ea122dd315b4ce84d27bb96ce40ee8de9adb51c47f3c19d26b1a44c6bed7a9f4b675d37d914ae23d118113f5ac4bcd39463c6891ea0778e672d4f76
+commit: 349556ca51c920cbccf68dfb2af4a6dd3b28f038
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.125/p2-0.7.125-mac.zip
+mac.sha512: 8023e25c2a28a9f55cec915a72e6b3c07d4def6de54adb998dcaf4be057d3b147be3f76a8b3e7d15e7c638777096d55545e20771cf3c90382efaa9046ac78bf7
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Ausgewählte Templates sind durch einen kräftigen Rahmen und ein Häkchen auf jeder Kachel deutlich erkennbar, auch bei Mehrfachauswahl.
-- Unten rechts in der Templates-Palette löscht ein Papierkorb die ausgewählten Templates nach Bestätigung. Ohne Auswahl ist er deaktiviert.
-- Projektauswahl und Papierkorb bleiben beim Vergrößern der Palette am unteren Rand.
-signature: 12e03a32003b33bf5b3ee5a83ec891a188598771d00429a8f379857ba25194f800b89609507db4ea88053d11a8a72d6d9fe01610516635d4be9cc6fee428150f
+- Ausgabe am Drop-Punkt korrigiert: Templates werden auch am oberen Seitenrand korrekt verankert. Einzelne ausgewählte Datensätze innerhalb einer Gruppe werden berücksichtigt.
+- Verschachtelte Textplatzhalter werden erkannt und befüllt; doppelte Marker führen nicht mehr zu mehrfachen Ersetzungen desselben Bereichs.
+- Das ausgewählte Bibliotheks-Template wird auch bei normaler Ausgabe direkt verwendet. Rahmengruppen bleiben beim Publizieren erhalten.
+- p2-Rahmengruppen verwenden kurze interne Kennungen wie T1 und T2, unabhängig von Datenquellen und Datensatzschlüsseln. Importierte Rahmengruppen und Füllnummern bleiben aus den Skriptetiketten erhalten.
+- Die Palette heißt jetzt Automatisieren. Doppelte Menüeinträge wurden entfernt, Template-Aktionen ins Bibliotheksmenü verschoben und die Wiederholung verständlicher beschriftet. Publizierregeln bleiben erhalten.
+signature: fce6ae19c0c4575b746b0cc89e1e99f8cdba3b0c17bd4b5913ec1dc71ca3e299c094f448b2c849c80e7b1824895534ec0779b4967072efa8801b633ddca97609
