@@ -1,17 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.125
+version: 0.7.126
 date: 2026-10-27
 host: 21
-commit: 349556ca51c920cbccf68dfb2af4a6dd3b28f038
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.125/p2-0.7.125-mac.zip
-mac.sha512: 8023e25c2a28a9f55cec915a72e6b3c07d4def6de54adb998dcaf4be057d3b147be3f76a8b3e7d15e7c638777096d55545e20771cf3c90382efaa9046ac78bf7
+commit: 95e29e5df90368f9410446c6d5aa0ad70ad4f5e6
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.126/p2-0.7.126-mac.zip
+mac.sha512: 0281d8df4a7beaf7b9ee79a8620a1b4af9f613f74e8c7012a2abbce963630a877747599f2d5c0558a5c22a102ba0941b2d71c2d30ad0ad14189d41d4b6ea9814
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Ausgabe am Drop-Punkt korrigiert: Templates werden auch am oberen Seitenrand korrekt verankert. Einzelne ausgewählte Datensätze innerhalb einer Gruppe werden berücksichtigt.
-- Verschachtelte Textplatzhalter werden erkannt und befüllt; doppelte Marker führen nicht mehr zu mehrfachen Ersetzungen desselben Bereichs.
-- Das ausgewählte Bibliotheks-Template wird auch bei normaler Ausgabe direkt verwendet. Rahmengruppen bleiben beim Publizieren erhalten.
-- p2-Rahmengruppen verwenden kurze interne Kennungen wie T1 und T2, unabhängig von Datenquellen und Datensatzschlüsseln. Importierte Rahmengruppen und Füllnummern bleiben aus den Skriptetiketten erhalten.
-- Die Palette heißt jetzt Automatisieren. Doppelte Menüeinträge wurden entfernt, Template-Aktionen ins Bibliotheksmenü verschoben und die Wiederholung verständlicher beschriftet. Publizierregeln bleiben erhalten.
-signature: fce6ae19c0c4575b746b0cc89e1e99f8cdba3b0c17bd4b5913ec1dc71ca3e299c094f448b2c849c80e7b1824895534ec0779b4967072efa8801b633ddca97609
+- Objektbezogene Automatisieren-Einstellungen werden über Dokumentbefehle gespeichert und zurückgelesen. Bildanpassung, Bezugspunkt und bewusst geleerte Zuordnungen bleiben erhalten.
+- Native Neunpunkt-Auswahl für Bezugspunkte; Rahmen an Inhalt und proportionale Bildanpassungen werden berücksichtigt.
+- Verwendung nach Datensatz, Gruppe, erstem/letztem Vorkommen, Feldwechsel oder Seite; Gruppen- und Feldauswahl mit Datenvorschau.
+- Tabellenparameter bei Tabellen- und Zellenauswahl: Geltungsbereich, Kopf-/Fußbereiche, Wiederholungsblöcke, Feldzuordnungen und Pivot-Ausgabe.
+- Weitere bekannte Eigenschaften bestehender Vorlagen werden übernommen. Textplatzhalter in Tabellen und die Ausgabe bei erst später zutreffenden Regeln wurden korrigiert.
+signature: 86b89694106543c0c96260da08ea2c605af8fd925fad2dc3b2c31e55998bf5c7b36c39557fbe6b8d3c76506e316e94dd0acca271f1532fdc91a8c14f8e38ea07
