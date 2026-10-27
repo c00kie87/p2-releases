@@ -1,13 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.123
+version: 0.7.124
 date: 2026-10-27
 host: 21
-commit: d5aa0fb0569719a1021273a13c5c3a5ae8043ccd
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.123/p2-0.7.123-mac.zip
-mac.sha512: a3e2af0c681fc256e1827e2e00c61f0e849cb148682262c6d8301313e5f5beb21ba151d731f01a1f4f4ef61ed1cfa7dc647fe27bf4e382e981cad8a0d85d4dd6
+commit: c072a3bdcb03926791d6ef9780ff0f731a91655a
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.124/p2-0.7.124-mac.zip
+mac.sha512: 79f2e8e78ea122dd315b4ce84d27bb96ce40ee8de9adb51c47f3c19d26b1a44c6bed7a9f4b675d37d914ae23d118113f5ac4bcd39463c6891ea0778e672d4f76
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Beim Ersetzen oder Aktualisieren eines Templates lädt die Bibliothek dessen neues Vorschaubild sofort neu.
-- Kann keine neue Vorschau erzeugt werden, wird die alte Vorschau entfernt, damit kein veralteter Template-Stand angezeigt wird.
+- Ausgewählte Templates sind durch einen kräftigen Rahmen und ein Häkchen auf jeder Kachel deutlich erkennbar, auch bei Mehrfachauswahl.
+- Unten rechts in der Templates-Palette löscht ein Papierkorb die ausgewählten Templates nach Bestätigung. Ohne Auswahl ist er deaktiviert.
+- Projektauswahl und Papierkorb bleiben beim Vergrößern der Palette am unteren Rand.
