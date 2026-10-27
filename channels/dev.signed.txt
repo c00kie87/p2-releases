@@ -1,17 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.119
+version: 0.7.120
 date: 2026-10-27
 host: 21
-commit: a3a3ad2385a50afc6ce0e885fa748112b0bf557e
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.119/p2-0.7.119-mac.zip
-mac.sha512: d34d91443d17d3a0196e274eb706e1fab00472f2b90127c8c6bc3fb157b614ff59ca1e3ed238c3037bce763a08b1d65e123b5004fa7b0fd3e9052d34f52caa84
+commit: 95f2bd40b33ca39cdf9f774bb425000b67245203
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.120/p2-0.7.120-mac.zip
+mac.sha512: aea040bc2ffd623a077530a265cb6b053a055979c261c35d16121ba5802d52a58aa636fe91c0614d62de9fd5b1fdcaba4def5d2c01503d15ca401d04df6dd7eb
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Die Templates-Palette verwaltet jetzt eine eigene, projektbezogene Bibliothek. Vorlagen lassen sich aus Dokumenten ablegen, zwischen Projekten verschieben, wieder einsetzen und nach Änderungen aktualisieren.
-- Die Bibliothek öffnet standardmäßig das aktive Projekt und kann andere Projekte über die Auswahl anzeigen.
-- Der Button „Publizieren“ verarbeitet die aktuelle Datensatz-Auswahl; ohne Auswahl wird die gesamte Quelle ausgegeben. Der Buttontext folgt der Auswahl.
-- Das Einsetzen von Bildern verwendet jetzt den vorhandenen Bildrahmen und prüft Bilddateien vor dem Import.
-- Deutsche Umlaute und der Ausgabetext in der Publizieren-Palette werden korrekt dargestellt.
-signature: 96d65a28bd9ca3e1810af5d578c76e45e6ccb214016ccd6d5d6e6031a6df85c454cc55985cb6a4ac8d77d59b1faaa5bfd11d596182657b741e6c48dacfd48207
+- Die Templates-Palette zeigt InDesign-Vorschaubilder in einem proportionalen Kachelraster mit weißem Hintergrund und einem Namensfeld unter jeder Kachel.
+- Templates lassen sich per Drag-and-drop speichern, als Kopie in ein Dokument ziehen und durch Ablegen auf eine Vorschau ersetzen oder neu anlegen.
+- Doppelklick öffnet bearbeitbare Template-Details. Namen lassen sich direkt unter den Kacheln ändern.
+- Mehrfachauswahl, Projektzuordnung sowie Kopieren und Verschieben sind in der Templates-Palette verfügbar. „Template aktualisieren“ liegt im Palettenmenü.
+- Die bisherigen Schaltflächen zum Speichern und Einfügen wurden entfernt; diese Aktionen erfolgen direkt über Drag-and-drop.
+signature: 88be7ec0a87217af929aea9e40a38c0c937971ce67eca6cb7fbf1f95f3a9a21725fe8129332e80c9dc9a7a9e434380ef916b530c20dbe5fbece6a13ae2ee3c02
