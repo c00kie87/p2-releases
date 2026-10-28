@@ -1,17 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.127
+version: 0.7.128
 date: 2026-10-28
 host: 21
-commit: 2dbe9c86e07ab99b2ba949edba16b9db5747e2ab
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.127/p2-0.7.127-mac.zip
-mac.sha512: 0270e61a2fa54bad05723f421d769f073ae2487915cbfbe08efecb20bd665dd4183d55bfb430042917ef8d6a0897535a442e964aadc4c595fcdead6abe89573a
+commit: 1dfe5c664171779d226cf5d61caa66edfcacf656
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.128/p2-0.7.128-mac.zip
+mac.sha512: 97e7ac40770355e26721235ce0bd6cbf3bc1e83388f9c53c4b2c7753c99e7e6505e59191859b3561e0380140cb5f895cc5042f2ce0de7a9442af18edc4e220a4
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Tabellenplatzhalter: XML-Elternstruktur der Zelle vor der Markierung vorbereiten und Bereichsgrenzen prüfen.
-- Datensätze und Gruppen direkt aus dem Datenraster mit ausgewähltem Bibliotheks-Template auf eine Dokumentseite ziehen; Mehrfachauswahl bleibt erhalten. Bisheriger Zieh-Hinweis entfällt.
-- Schlüsselfelder stehen in festgelegter Reihenfolge vorn, erhalten ein Schlüsselsymbol und bleiben beim Feldfilter sichtbar. Feldoptionen zeigen die Schlüsselposition; der Schlüsselhinweis unten entfällt.
-- Startpunkt, Zielseiten und Flussrichtung sind ausdrücklich einstellbar. Satzspiegel und Hilfslinien werden relativ zur jeweiligen Zielseite ausgewertet; Druckbogenhilfslinien werden ausgeschlossen.
-- Größere Rahmen und Kollisionen werden mit begrenzter Platzsuche behandelt. Deaktivierte Vorlagenobjekte werden im Ergebnisbericht genannt.
-signature: 80a18a6b27388715236a9b6590f6eb77ed53613195b70e6fea9e271271fddeb7e7796a7551a38cbaa05f13d5acc4cb1fe3089ea57acb680134caff86bc33fb0f
+- Manuelles Platzieren ist auch außerhalb von Seite und Satzspiegel im Montagebereich möglich. Weitere ausgewählte Datensätze folgen ohne Seitenwechsel; bei Überschreiten des Montagebereichs erscheint eine konkrete Meldung.
+- Der Aktiv-Schalter entfällt. Bereits gespeicherte Aktiv-Flags lassen zugeordnete Vorlagenelemente nicht mehr aus.
+- Ersatzbilder werden auch bei Löschregeln berücksichtigt. Ein hinterlegtes Ersatzbild schützt den Bildrahmen vor der Leer-Löschung; nicht erreichbare Ersatzbilder werden gemeldet.
+- Tabellenplatzhalter zeigen den Feldnamen ohne « ». Alias-Umbenennung behält die bestehende XML-Markierung; feldgleiche doppelte Markierungen werden beim Prüfen bereinigt.
+- Schlüsselsymbole sind kleiner, horizontal und feiner gezeichnet.
+signature: 84da4ee77f3d108da6e9bdd3b83acb19c22f1cdfd06697d6b9c2b3ae62c7f05c3f519d6924a47c455a364c6a20b3379c2eb7134d0e2739be2060041eb4a37c00
