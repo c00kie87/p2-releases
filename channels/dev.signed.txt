@@ -1,17 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.128
+version: 0.7.129
 date: 2026-10-28
 host: 21
-commit: 1dfe5c664171779d226cf5d61caa66edfcacf656
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.128/p2-0.7.128-mac.zip
-mac.sha512: 97e7ac40770355e26721235ce0bd6cbf3bc1e83388f9c53c4b2c7753c99e7e6505e59191859b3561e0380140cb5f895cc5042f2ce0de7a9442af18edc4e220a4
+commit: 6fe5a304df0b3462a8f911d6d82526d97812090e
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.129/p2-0.7.129-mac.zip
+mac.sha512: 23bd568e809036f84b886e00c73c35298d5fbc5322e0892c3ad77b9f6dbc94dbb629408653240fd044527cbd7a57dc2b6280537a590f7a522ab066ddd5795d3c
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Manuelles Platzieren ist auch außerhalb von Seite und Satzspiegel im Montagebereich möglich. Weitere ausgewählte Datensätze folgen ohne Seitenwechsel; bei Überschreiten des Montagebereichs erscheint eine konkrete Meldung.
-- Der Aktiv-Schalter entfällt. Bereits gespeicherte Aktiv-Flags lassen zugeordnete Vorlagenelemente nicht mehr aus.
-- Ersatzbilder werden auch bei Löschregeln berücksichtigt. Ein hinterlegtes Ersatzbild schützt den Bildrahmen vor der Leer-Löschung; nicht erreichbare Ersatzbilder werden gemeldet.
-- Tabellenplatzhalter zeigen den Feldnamen ohne « ». Alias-Umbenennung behält die bestehende XML-Markierung; feldgleiche doppelte Markierungen werden beim Prüfen bereinigt.
-- Schlüsselsymbole sind kleiner, horizontal und feiner gezeichnet.
-signature: 84da4ee77f3d108da6e9bdd3b83acb19c22f1cdfd06697d6b9c2b3ae62c7f05c3f519d6924a47c455a364c6a20b3379c2eb7134d0e2739be2060041eb4a37c00
+- Automatisieren enthält einen getrennten Bereich für objektbezogene Bedingungen mit Anlegen, Bearbeiten und Entfernen.
+- Verschachtelte UND/ODER/NICHT/XOR/NAND/NOR-Regeln, Feld-/Wert-/Feldvergleiche, Zahlen, Texte, Suchmuster, Wechsel sowie Satz- und Seitenbedingungen.
+- Dann-/Sonst-Aktionen: ausgeben, auslassen, löschen, ein-/ausblenden, Stapelreihenfolge, Inhalte, Bildfeld, Formate, Farben und Einpassungen. Aktionswerte können aus einem Datenfeld stammen.
+- Regeln werden dauerhaft am Objekt bzw. Tabellenbereich gespeichert. Bekannte Projektbedingungen aus alten Rahmenetiketten werden ausgewertet und können übernommen werden.
+- Bedingte Rahmen tragen oben rechts eine runde B-Markierung. Tabellenbedingungen steuern Wiederholungen, Pivot-Daten und Zellinhalte.
+signature: 83ba85752cbc30479cbff67186f0fff2294a74e5960d0721dce6a9a596fde628d4530091ddbdac78c9196540fb6e2a0a10b5a1c1e606926d02070cb406451b0f
