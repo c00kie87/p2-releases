@@ -1,16 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.129
+version: 0.7.130
 date: 2026-10-28
 host: 21
-commit: 6fe5a304df0b3462a8f911d6d82526d97812090e
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.129/p2-0.7.129-mac.zip
-mac.sha512: 23bd568e809036f84b886e00c73c35298d5fbc5322e0892c3ad77b9f6dbc94dbb629408653240fd044527cbd7a57dc2b6280537a590f7a522ab066ddd5795d3c
+commit: b5b17e508c41fbb211eda6789aa758784f30dcde
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.130/p2-0.7.130-mac.zip
+mac.sha512: 32d0d767170760252bbf8356cad27a3f3ef553323df1449e66b0499def4823255a2b6d9a2d823cf3b3880cf65466239e19ad6078b96fe0c5decd3db6f9928e50
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Automatisieren enthält einen getrennten Bereich für objektbezogene Bedingungen mit Anlegen, Bearbeiten und Entfernen.
-- Verschachtelte UND/ODER/NICHT/XOR/NAND/NOR-Regeln, Feld-/Wert-/Feldvergleiche, Zahlen, Texte, Suchmuster, Wechsel sowie Satz- und Seitenbedingungen.
-- Dann-/Sonst-Aktionen: ausgeben, auslassen, löschen, ein-/ausblenden, Stapelreihenfolge, Inhalte, Bildfeld, Formate, Farben und Einpassungen. Aktionswerte können aus einem Datenfeld stammen.
-- Regeln werden dauerhaft am Objekt bzw. Tabellenbereich gespeichert. Bekannte Projektbedingungen aus alten Rahmenetiketten werden ausgewertet und können übernommen werden.
-- Bedingte Rahmen tragen oben rechts eine runde B-Markierung. Tabellenbedingungen steuern Wiederholungen, Pivot-Daten und Zellinhalte.
+- Paletten-Schaltflächen verwenden wieder die native Klick-Verarbeitung. Bedingungen-Plus, Bearbeiten/Entfernen, Datenvorschau, Automatisieren und gleichartige Template-Aktionen sind entsprechend korrigiert.
+- Ohne markierte Datensätze wird ein gezogenes Template mit seinen Platzhaltern eingesetzt. Ein bloßer Fokusindex zählt nicht mehr als Datensatzauswahl; die Auswahl wird vor dem Import eingefroren.
+- Doppelte Markierungen desselben Feldes werden beim Template-Import bereinigt. Befüllung und Tokenbereinigung behalten den bestehenden XML-Bezug, statt weitere Tags zu verschachteln.
+- Fehler beim Öffnen eines Dialogs werden sichtbar gemeldet.
