@@ -1,16 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.126
-date: 2026-10-27
+version: 0.7.127
+date: 2026-10-28
 host: 21
-commit: 95e29e5df90368f9410446c6d5aa0ad70ad4f5e6
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.126/p2-0.7.126-mac.zip
-mac.sha512: 0281d8df4a7beaf7b9ee79a8620a1b4af9f613f74e8c7012a2abbce963630a877747599f2d5c0558a5c22a102ba0941b2d71c2d30ad0ad14189d41d4b6ea9814
+commit: 2dbe9c86e07ab99b2ba949edba16b9db5747e2ab
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.127/p2-0.7.127-mac.zip
+mac.sha512: 0270e61a2fa54bad05723f421d769f073ae2487915cbfbe08efecb20bd665dd4183d55bfb430042917ef8d6a0897535a442e964aadc4c595fcdead6abe89573a
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Objektbezogene Automatisieren-Einstellungen werden über Dokumentbefehle gespeichert und zurückgelesen. Bildanpassung, Bezugspunkt und bewusst geleerte Zuordnungen bleiben erhalten.
-- Native Neunpunkt-Auswahl für Bezugspunkte; Rahmen an Inhalt und proportionale Bildanpassungen werden berücksichtigt.
-- Verwendung nach Datensatz, Gruppe, erstem/letztem Vorkommen, Feldwechsel oder Seite; Gruppen- und Feldauswahl mit Datenvorschau.
-- Tabellenparameter bei Tabellen- und Zellenauswahl: Geltungsbereich, Kopf-/Fußbereiche, Wiederholungsblöcke, Feldzuordnungen und Pivot-Ausgabe.
-- Weitere bekannte Eigenschaften bestehender Vorlagen werden übernommen. Textplatzhalter in Tabellen und die Ausgabe bei erst später zutreffenden Regeln wurden korrigiert.
+- Tabellenplatzhalter: XML-Elternstruktur der Zelle vor der Markierung vorbereiten und Bereichsgrenzen prüfen.
+- Datensätze und Gruppen direkt aus dem Datenraster mit ausgewähltem Bibliotheks-Template auf eine Dokumentseite ziehen; Mehrfachauswahl bleibt erhalten. Bisheriger Zieh-Hinweis entfällt.
+- Schlüsselfelder stehen in festgelegter Reihenfolge vorn, erhalten ein Schlüsselsymbol und bleiben beim Feldfilter sichtbar. Feldoptionen zeigen die Schlüsselposition; der Schlüsselhinweis unten entfällt.
+- Startpunkt, Zielseiten und Flussrichtung sind ausdrücklich einstellbar. Satzspiegel und Hilfslinien werden relativ zur jeweiligen Zielseite ausgewertet; Druckbogenhilfslinien werden ausgeschlossen.
+- Größere Rahmen und Kollisionen werden mit begrenzter Platzsuche behandelt. Deaktivierte Vorlagenobjekte werden im Ergebnisbericht genannt.
