@@ -1,18 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.149
+version: 0.7.150
 date: 2026-10-29
 host: 21
-commit: 880f1f066f20f6ad6772b6d421ab8842775f7f8f
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.149/p2-0.7.149-mac.zip
-mac.sha512: 252d8ce814e83d0afe6f4296de4ff8b6bd75c4dfb28c4dedda66b507103da56412fc12c67c8184f0ed9b1afee8fd28b5a61d6c0e63096c231ad75d0e7db42195
+commit: a39e2852f73b38a703e60da8b6add5905c7f7b8f
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.150/p2-0.7.150-mac.zip
+mac.sha512: 6c1db388db5bea38ae26f23686ece536a05eb1eb37e5d6993978bcc442a94193e38d20e9d62b7279ca7ecb15a78471eaeb5d82dbed041b04413c866fb845f347
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Automatisieren ab "markierte Seite (Seiten einschieben)": neue Seiten werden an der markierten Seite eingeschoben (leere markierte Seite wird selbst befüllt)
-- Aufrücken im Rahmenfluss: die p2-Templates der direkt folgenden Seiten schließen nahtlos an die letzte neue Seite an, leer gewordene Seiten werden entfernt
-- Folgeseiten, die durch das Einschieben links und rechts tauschen, werden neu ausgerichtet (Innen-/Außenrand) und ihre Seitenbeschriftungen neu befüllt
-- Umbruch davor heißt jetzt nächste Spalte / nächste Seite / nächste rechte Seite / nächste linke Seite und richtet sich nach der tatsächlichen Seite
-- Neu in Automatisieren: "Fortsetzen in" (nächste Spalte, Seite, rechte oder linke Seite) beim Umbruch im Template
-- Neu in den Bedingungen: Aktionen "Umbruch davor: nächste Spalte/Seite/rechte/linke Seite" (z. B. für ein Seitenumbruch-Feld je Datensatz)
-- Spielwiese S20 (Umbruch per Bedingung, markierte Seite, doppelseitig); Anleitung aktualisiert
+- Rechtsklick auf einen Spaltenkopf: "Datenfeld bearbeiten …" (Feldoptionen) statt Umwandeln in ein Zusatzfeld; "Neues Zusatzfeld …" legt ein leeres Zusatzfeld hinten in der Reihe an; Zusatzfeld bearbeiten/löschen nur bei Zusatzfeldern aktiv
+- Spalten per Ziehen am Spaltenkopf verschieben (Klick sortiert weiterhin); Reihenfolge je Tabelle in der Konfiguration gespeichert
+- Datenquelle › Felder: Felder sortieren A bis Z, Z bis A, Felder in Quellreihenfolge
+- Zusatzfelder: neue Art "Manuell" (Wert je Datensatz von Hand, Text = Vorgabe)
+- Neu: Werte erfassen … (Eingabemaske für manuelle Zusatzfelder mit Zurück/Weiter, gespeichert je Datensatz-Schlüssel)
+- Spielwiese S21 (manuelles Zusatzfeld); Anleitung aktualisiert
