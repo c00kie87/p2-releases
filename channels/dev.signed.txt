@@ -1,15 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.153
+version: 0.7.154
 date: 2026-10-29
 host: 21
-commit: 501d402f88f08a5b4c7e4adab734a931a89bf484
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.153/p2-0.7.153-mac.zip
-mac.sha512: 18905a10520a5f1b0ef2fabdf01e8ecdd9339caff47744a224b038ba41efaa0e952d7659cc069e0ccaadc52cb67efa0aaa21ce7d0c228a34f5fce275cbd441e8
+commit: db041de674fcfeb74df3ed39b4ce010931057ed2
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.154/p2-0.7.154-mac.zip
+mac.sha512: 15bbf79b6843c784d01d3ffa49d5e13cb2bba6b9dd289393f1a81351590225d7d02b6da739b8926183b62afeaeb6c314ffc89f292f766ee70e9ab987f44cbfa8
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Datentabelle: Spaltenbreite am rechten Rand im Spaltenkopf ziehen; Doppelklick auf die rechte Linie passt die Spalte an den Inhalt an (höchstens 360 px); Breiten je Tabelle gespeichert
-- Behoben: Feldoptionen für Zusatzfelder ließen sich nicht öffnen ("Bitte in der Datentabelle eine Spalte wählen"); Doppelklick auf den Kopf eines Zusatzfelds öffnet jetzt dessen Zusatzfeld-Dialog, Feldoptionen über Rechtsklick › Datenfeld bearbeiten
-- Neu als Seite: Abdeckungsmatrix Altsystem (Stufe 1 des Exports ins Fremdformat); Anleitung aktualisiert
-signature: 555db8270d8ca0e34908ae7e5c1d43caec3a2a59b1a564bb27954da3d11eedf7f62c2f7e9cf9c7bb977638e10063ad71ab4ee65b8c1b470e0ece2c791389010e
+- Zusatzfelder: Doppelklick auf den Spaltenkopf öffnet die Feldoptionen mit den Reitern "Feldoptionen | Zusatzfeld"; ein Klick auf den anderen Reiter übernimmt die Eingaben und öffnet die andere Ansicht
+- Anleitung: die Abdeckungsmatrix Altsystem ist jetzt ein Kapitel der Anleitung (mit eigener Suche und Statusfilter)
+signature: 7c84d8d588850fb66af7e9795b3b6455dcc91109b11a024d4cec8200dfeee65e47d6795bb7eb5717501a95ca084ada2019fb881601410aaac5c766f060a4e30d
