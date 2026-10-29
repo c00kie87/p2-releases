@@ -1,12 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.152
+version: 0.7.153
 date: 2026-10-29
 host: 21
-commit: dc98720501c3e6d26f68d9c3473ed24516a13914
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.152/p2-0.7.152-mac.zip
-mac.sha512: f8068bd945ddce973ea9098ddbcf0997a2dc45fa43c7bb4b8540c635dbb458fcf6bc91fa1d9c91bd4c097a7df7ec6ffaf6157d31caefeac2395e9ccf64399304
+commit: 501d402f88f08a5b4c7e4adab734a931a89bf484
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.153/p2-0.7.153-mac.zip
+mac.sha512: 18905a10520a5f1b0ef2fabdf01e8ecdd9339caff47744a224b038ba41efaa0e952d7659cc069e0ccaadc52cb67efa0aaa21ce7d0c228a34f5fce275cbd441e8
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Rahmenbezüge: die graue Leiste zeigt den in der Bibliothek hinterlegten Template-Namen (z. B. T1) statt der Rahmengruppe (z. B. T5); Anleitung aktualisiert
+- Datentabelle: Spaltenbreite am rechten Rand im Spaltenkopf ziehen; Doppelklick auf die rechte Linie passt die Spalte an den Inhalt an (höchstens 360 px); Breiten je Tabelle gespeichert
+- Behoben: Feldoptionen für Zusatzfelder ließen sich nicht öffnen ("Bitte in der Datentabelle eine Spalte wählen"); Doppelklick auf den Kopf eines Zusatzfelds öffnet jetzt dessen Zusatzfeld-Dialog, Feldoptionen über Rechtsklick › Datenfeld bearbeiten
+- Neu als Seite: Abdeckungsmatrix Altsystem (Stufe 1 des Exports ins Fremdformat); Anleitung aktualisiert
