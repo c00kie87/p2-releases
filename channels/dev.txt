@@ -1,16 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.131
+version: 0.7.132
 date: 2026-10-29
 host: 21
-commit: 43bb772321cc9bfacb7c5859c9c3b30494e3dded
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.131/p2-0.7.131-mac.zip
-mac.sha512: ef58e5d6f71144a49ae18efdc62ef91918f8b27e0e806b02814795e97c11b04dc7cc083b0fc1530ba01379d7651708e4ea90873f4dde4754a639c9ecd1c4a78d
+commit: a0150cf90d41cd7f20c8108aa516924be9f92fda
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.132/p2-0.7.132-mac.zip
+mac.sha512: 68090767ce0b89625832190c4815542b39c7cdc0cd71d40a55e883c863a93cfcc5bb0ecfeb5a5dd9809e63b1e879156613b959d42aa2b3f7bd8db03ce28f5780
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Bedingungen als scrollbare Listen mit Stift-Bearbeitung und sichtbarer Einrückung für verschachtelte Ausdrücke.
-- Ort-, absolute und Zählbedingungen getrennt; Datentyp und erklärte Operatoren separat. Umlaute, kurze Erklärung und Mausover-Hilfen ergänzt.
-- Weitere Bedingungen lassen sich mit UND, ODER, XOR, NAND oder NOR zu gemeinsamen Dann-/Sonst-Blöcken verknüpfen. Vorhandene unabhängige Regeln bleiben erhalten.
-- Bestehende Projektbedingungen behalten ihre Originalzählung. Verlustfrei darstellbare Definitionen können als XML-Austausch exportiert werden; nicht darstellbare Ausdrücke werden erklärt abgelehnt.
-- Ressourcenregistrierung eigener Schlüssel- und Vorschau-Views korrigiert. Der gemeldete Sortierabsturz führte beim Doppelklick in das Laden der Feldoptionen.
+- Änderungen im Bedingungseditor erscheinen unmittelbar im Ausdruck: Datenfelder, Vergleichswerte, Ort, Zählung und Verknüpfungen ohne zusätzlichen Übernehmen-Klick.
+- Texteingaben aktualisieren die Ansicht ohne erneutes Befüllen des Formulars; Cursor und Textauswahl bleiben erhalten.
+- Die Schaltfläche Übernehmen entfällt. OK speichert die gesamte Bedingung am Objekt, Abbrechen verwirft die Änderungen.
+- Baumverzweigungen in Bedingungenlisten werden direkt gezeichnet; fehlende Pfeilglyphen erscheinen nicht mehr als Kästchen.
