@@ -1,17 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.140
+version: 0.7.141
 date: 2026-10-29
 host: 21
-commit: 99b18b6eee63edeced452839eb1c7db45cba201e
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.140/p2-0.7.140-mac.zip
-mac.sha512: 9f347e6b851b3a0c3dc5980fbb9a2c06981c0052649e3d24d8575613b3d54f985efe8172c1a1f5e22ea28249a769ae9bb58c1366cb3bf98a47e8bbf99edd7da2
+commit: d21a6d304e0e7a2c1c7eb9a8e69bdefcfdf315ae
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.141/p2-0.7.141-mac.zip
+mac.sha512: af1ae1c07d698c4cd0286a686448835a81651890b29403c39bf901cb694d7bb708bbb5da8c68b763aa850a38128d518e44f76e5166a979d7b038a2a603bd31c8
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu: Automatisieren fragt die Publikationsmethode ab (Rahmenfluss · Textfluss · Seitenfluss); der Dialog zeigt alle Parameter, OK startet die Ausgabe (Textfluss und Seitenfluss folgen in Stufe 2/3)
-- Neu Rahmenfluss: nur im Satzspiegel, Spalten und Stege aus der Seite (oder abweichend), erst vertikal oder erst horizontal, dynamisch je Spalte oder Raster je Zeile (Nachbarn bestimmen die Zeilenhöhe), Abstände vertikal/horizontal, vertikaler Keil je Spalte oder je Seite mit Obergrenze, Umbruch zwischen zwei Templates bei vollem Satzspiegel, Spaltenumbruch vor Einheiten, Kollisionen
-- Neu: Musterseite für neu angelegte Seiten wählbar
-- Automatisieren-Palette: Objekte von Musterseiten ohne Vorlage werden als SEITENBESCHRIFTUNG ausgewiesen (je Seite befüllt, nie wiederholt)
-- Spielwiese: Szenarien S12 (zwei Spalten mit Keil) und S13 (Raster je Zeile)
-signature: 3a1d854f93ef80983abbd50d669aca5b76323a82bfe15417fcf4d4a45e2860fd90b8e756c384277189717b48d518f0694f6c1eb6301ae41f6f238bb496d11d0b
+- Neu: Zusatzfelder (Alias mit Textkonsolidierung) je Konfiguration – Datenquelle › Felder › "Neues Zusatzfeld …" bzw. Rechtsklick auf einen Spaltenkopf → "Zusatzfeld bearbeiten …"/"löschen"
+- Dialog Zusatzfeld: Alias, optionales Datenfeld, "Textkonsolidierung aktiv"; Varianten (die erste zutreffende gilt) mit Art Vorlage/Liste/Ersetzen, "Feld einfügen", Präfix/Suffix, Trenner und "gleicher Wert in" (Liste), Suchen/Ersetzen (regulär), Bedingung (Feld · Operator · Wert, komplexe Bedingungen bleiben erhalten), "Leer -> nächste Variante", "leere Felder samt Text weglassen"; Vorschau mit dem markierten Datensatz; jede Eingabe wirkt sofort, OK speichert
+- Zusatzfelder erscheinen als Spalten und sind als Platzhalter, in Bedingungen, Gruppierung und Sortierung nutzbar
+- Projekte im Fremdformat: Textkonsolidierungen (Platzhalter mit aktiver Konsolidierung + gleichnamige Kette) werden beim Laden als Zusatzfelder übernommen
+- Spielwiese: Szenario S14 (Zusatzfeld mit Varianten)
+signature: 73efff9f2897b2d4715f6e77a7eb5746fdbeee87e3fcf99d72550ef8b0be072718d04514bd241bc8c3576fa7becf5c366334da6cc5abffe469243ab6f699230d
