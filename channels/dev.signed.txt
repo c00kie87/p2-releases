@@ -1,15 +1,21 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.147
+version: 0.7.148
 date: 2026-10-29
 host: 21
-commit: ca5c6afecdc4fed72fba28b35ff73a59dc8f9c10
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.147/p2-0.7.147-mac.zip
-mac.sha512: 39da5fe68adcef3480ba6a1bbb2b1484ebd4af7f3421d500aeca5b7129e171f8760f657cffd4cab1d11bc453cf02b85df9249924bd43df3f772677b9b099a1f1
+commit: cc5620089975c0a9c3e3c4309a399bfa6e44f1f9
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.148/p2-0.7.148-mac.zip
+mac.sha512: 47aedd3cba6205acb0d0ee170e31283f133b43092ee82985386b90f0ffa0f6d712137f75f3f48def70b4788ba573b36e9f973314ba2fff7c88874a0100d76d3f
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu: Template-Wahl je Datensatz bzw. Gruppe im Methodendialog – fest, Templatename aus einem Datenfeld oder nach Regeln (Bedingung → Template, Regeln hinzufügen/entfernen)
-- Rahmen- und Textfluss wählen aus der Template-Bibliothek (die gewählten Templates werden für die Ausgabe eingelesen und danach entfernt), der Seitenfluss wählt Musterseiten der InDesign-Datei
-- Mehrdeutige Regeln, keine zutreffende Regel, leere Felder oder unbekannte Templatenamen werden je Datensatz gemeldet; mit Rückfall-Template (z. B. "Standard") wird trotzdem publiziert und der Bericht nennt die betroffenen Datensätze, ohne Rückfall wird nicht publiziert
-signature: 8ca280012678abf5eca39421bbf9756cefb48979140f76862e5186314178e5d1262ba0244feed7d6956eb9e42883ad0048794a8cc91787273751902552858f05
+- Dialog Automatisieren neu aufgebaut: Flussart oben als drei Schaltflächen (Rahmen-, Text-, Seitenfluss), darunter nur die passenden Einstellungen; abhängige Zeilen erscheinen erst, wenn sie greifen; gespeicherte Automatisierungen unten
+- Template-Wahl automatisch: Template aus Datenfeld (Vorbelegung aus dem Projekt im Fremdformat) oder nach den Regeln der Templates; neuer Dialog Template-Regeln ("Verwenden, wenn …") für Bibliotheks-Templates und Musterseiten
+- Unklare Template-Wahl: Standard ist eine Nachfrage mit Grund, Template-Auswahl, "für gleiche Fälle merken", Fortsetzen oder Abbrechen; in Konfigurieren umstellbar auf ein Rückfall-Template
+- Seitenaufbau: "Automatisieren ab" (erste freie Seite, erste freie linke/rechte Seite, nach der letzten Seite) ersetzt Zielseiten; Musterseite statisch oder aus Datenfeld
+- Rahmenfluss: Reihenfolge N (spaltenweise) oder Z (zeilenweise, Zeilen oben bündig) als Symbole; Positionierung an Hilfslinien oder frei mit Abständen; Abstand horizontal wirkt auf einspaltigen Seiten; Kollisionserkennung
+- Nachträgliche Verteilung: vertikaler Keil nur auf vollen Seiten, nicht bei einem einzelnen Template, auf der letzten Seite oder vor erzwungenem Umbruch; max. Abstand begrenzt
+- Einheit (je Datensatz oder je Gruppe) ergibt sich aus der Verwendung der Template-Rahmen
+- Neu: Fenster > p2 > Anleitung und Glossar … (interaktive Anleitung, liegt dem Plugin bei)
+- Spielwiese: S18 Rahmenfluss frei/zeilenweise, S19 Seitenfluss mit Template-Regel
+signature: 270595890d5d2b7bae54eb8d888a3bfc3d74e0b973f0c28b9a4dc4344f879d075ae9e7cac2d2a77c391f54f884209aa49b9e384414eefc94929c7cb5c59cb102
