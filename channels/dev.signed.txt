@@ -1,15 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.144
+version: 0.7.145
 date: 2026-10-29
 host: 21
-commit: ec1fac1bb957dd62147c43a0c9359ef7824ab94c
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.144/p2-0.7.144-mac.zip
-mac.sha512: 85183983bbbc6ce9b7438c2945750b5e90d9dd83c9dc860e8e419d5f4f78396a03f37e41c964c4c4e661493a7fe63abdbedf8291f429950d627a84dda4191511
+commit: a3a7bea84df4eaa74de1a57aa00945d0241a7127
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.145/p2-0.7.145-mac.zip
+mac.sha512: 8a23bc769119327af3619c7ea9c8ebe4b07193a91d7384b895ec85eac7b1f90d3319aac58017d6a52857b2ee3a8180255c480d33850653575327f5691fc50182
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Methodendialog: alle Einstellungen bleiben gespeichert, bis sie geändert werden (je Konfiguration); neu: Vorgaben – aktuelle Einstellungen unter einem Namen speichern, wieder laden und löschen (für alle Quellen)
-- Neu: Musterseite aus Datenfeld (Feldwert = Name der Musterseite) – im Rahmenfluss beginnt bei einem Wechsel eine neue Seite mit dieser Musterseite, im Seitenfluss bestimmt der erste Datensatz der Seite die Musterseite; je Datensatz oder je Gruppe über die Einheit (Gruppen frei anlegbar über Gruppierung)
-- Neu: Rahmenfluss richtet Templates an horizontalen Seitenhilfslinien (Seite und Musterseite) aus; bei Kollision springt das Template zur nächsten Hilfslinie darunter
-signature: 70a048a40327a5f60892d730df53e34138d56d6064f8acee142c501670d15c32af8dc7f4079406237037e188a3ba7e1580c6f01023fec63338f4f08f547a200b
+- Textfluss: bei Übersatz legt p2 automatisch neue Seiten (mit der Musterseite für neue Seiten) und an gleicher Stelle verkettete Textrahmen an, bis der Text vollständig steht; neu angelegte leere Seiten werden danach wieder gelöscht
+- Textfluss: ein einteiliges Textrahmen-Template wird als formatierter Text in die Story eingesetzt statt verankert (abschaltbar im Methodendialog: "Textfluss: einzelnen Textrahmen als Text einsetzen")
+signature: 4847e0720968661cb36d4eccbf2cbcf6a6e3b399fc26a3aaa38e29c5fee4fd20c9dab1d9a898f1f89decc1316201f31ac2876bad595a878b92794b635e9d440b
