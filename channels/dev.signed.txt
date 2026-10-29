@@ -1,16 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.151
+version: 0.7.152
 date: 2026-10-29
 host: 21
-commit: 296318059f3cd4955b7d7c428023b674b667150e
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.151/p2-0.7.151-mac.zip
-mac.sha512: 24e80811cfad42d6f029213e3adbfe65a8875d6a52fe80d0c2c5dee6e7342f2718f2d3bd075c160d285f59cc17d03237bbb1eaa94d78cbd70f3f7bec08c2e6ae
+commit: dc98720501c3e6d26f68d9c3473ed24516a13914
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.152/p2-0.7.152-mac.zip
+mac.sha512: f8068bd945ddce973ea9098ddbcf0997a2dc45fa43c7bb4b8540c635dbb458fcf6bc91fa1d9c91bd4c097a7df7ec6ffaf6157d31caefeac2395e9ccf64399304
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu: Datenquelle › Quellen › Änderungen in die Quelle zurückschreiben … – vorgemerkte Werte und freigegebene Felder (auch manuelle Zusatzfelder) werden in die CSV- bzw. Excel-Datei geschrieben; vorher Prüfung auf unveränderte Datei, Rückfrage und Sicherung im p2-Ordner der Quelle; danach wird die Quelle neu eingelesen
-- CSV behält Trennzeichen, Zeilenende und Kodierung; in Excel werden Formelzellen nicht überschrieben
-- Rückweg ins Fremdformat: beim Export werden auf Wunsch die Zusatzfelder als Textkonsolidierungen übernommen (fehlende Platzhalter und Bedingungen werden angelegt, unveränderte Felder bleiben unberührt)
-- Spielwiese: spielwiese-daten.csv zum Ausprobieren des Zurückschreibens; Anleitung aktualisiert
-signature: 48da5b5251b0be8c5131aefff4dbfc8d61b8a8579380bbd857b7484cbf10b8683915eb54d499eb2016b660e228e58a4fb98c4b1b6cfcffbf24c9aabde8e6c10c
+- Rahmenbezüge: die graue Leiste zeigt den in der Bibliothek hinterlegten Template-Namen (z. B. T1) statt der Rahmengruppe (z. B. T5); Anleitung aktualisiert
+signature: cc7170ea4b17297b419e4b39a98ef486e51e8074106c63edd23b16a97c12a3298706af7b1fd1f10c25e8fd7231999e9704d548bd6e4b38ec1dff7976eff48507
