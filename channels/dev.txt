@@ -1,13 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.139
+version: 0.7.140
 date: 2026-10-29
 host: 21
-commit: 678ab2d67a485f23eccffc44a44dfe0a2223683e
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.139/p2-0.7.139-mac.zip
-mac.sha512: 3ba13b7ee722b83989a2cc2a2c7b99c03a5ac0b5699b3c9e72c6a792a3cce6419f4bbefd46e1459cd880bb7cccad4ee38d2ee07c27627055e941917a687b83d1
+commit: 99b18b6eee63edeced452839eb1c7db45cba201e
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.140/p2-0.7.140-mac.zip
+mac.sha512: 9f347e6b851b3a0c3dc5980fbb9a2c06981c0052649e3d24d8575613b3d54f985efe8172c1a1f5e22ea28249a769ae9bb58c1366cb3bf98a47e8bbf99edd7da2
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Datenquelle: ausgeblendete Gruppierungsebenen werden durch eine dicke farbige Linie an ihrer Stelle angezeigt (ordnen die Reihenfolge, sind aber nicht sichtbar)
-- Templates: Klick ins Leere hebt die Auswahl auf
+- Neu: Automatisieren fragt die Publikationsmethode ab (Rahmenfluss · Textfluss · Seitenfluss); der Dialog zeigt alle Parameter, OK startet die Ausgabe (Textfluss und Seitenfluss folgen in Stufe 2/3)
+- Neu Rahmenfluss: nur im Satzspiegel, Spalten und Stege aus der Seite (oder abweichend), erst vertikal oder erst horizontal, dynamisch je Spalte oder Raster je Zeile (Nachbarn bestimmen die Zeilenhöhe), Abstände vertikal/horizontal, vertikaler Keil je Spalte oder je Seite mit Obergrenze, Umbruch zwischen zwei Templates bei vollem Satzspiegel, Spaltenumbruch vor Einheiten, Kollisionen
+- Neu: Musterseite für neu angelegte Seiten wählbar
+- Automatisieren-Palette: Objekte von Musterseiten ohne Vorlage werden als SEITENBESCHRIFTUNG ausgewiesen (je Seite befüllt, nie wiederholt)
+- Spielwiese: Szenarien S12 (zwei Spalten mit Keil) und S13 (Raster je Zeile)
