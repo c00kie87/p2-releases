@@ -1,15 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.155
+version: 0.7.156
 date: 2026-10-29
 host: 21
-commit: efd46dc396e5556cb3e2b585b4875b38226299f7
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.155/p2-0.7.155-mac.zip
-mac.sha512: c6cac57ad7919b75a0131fddad99e73a8987a5fe64dd2cfd13791535bdbfd14664dbb270b89f385ca7ed2654373e6fead60182878b4df42e7905bc4adaae0521
+commit: 6566510117cbebe96f064c1bbce168ffb331e76a
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.156/p2-0.7.156-mac.zip
+mac.sha512: a347268a36af832bbe458a93dbc1f9ad945ec9aa31101731918751fa1a001d2a168c48909f6ecfdcb4ac146c3daa4afe58d356cc6c54a9c098f9c18aa0566e72
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Automatisieren: neuer Haken "Seitenbeschriftung" – das Objekt ist nie Teil eines Templates und wird je Seite aus der Musterseite befüllt
-- Seitenbeschriftung "Werte aus": erstes Vorkommen, letztes Vorkommen oder bedingtes Vorkommen (erster Datensatz der Seite, für den die Bedingungen des Objekts zutreffen; sonst wird die Beschriftung auf der Seite ausgeblendet)
-- Wiederholrahmen aus dem Altsystem (Rahmengruppe "…Repeat") werden als Seitenbeschriftung übernommen, mit Bedingung als bedingtes Vorkommen
-- Anleitung und Abdeckungsmatrix aktualisiert
+- Tabellen: neue Option "Spaltenbreiten nach Inhalt ausgleichen" (ganze Tabelle markiert) – misst Breite ohne Umbruch und längstes Wort samt Innenabständen, verteilt die Rahmenbreite und gleicht dynamische Spalten aus, bis die Tabelle am niedrigsten ist
+- Tabellen: Spalten statisch oder dynamisch (Mindest-/Höchstbreite, Gewichtung), gleichmäßig verteilen (alle / 2-4 / 1,4,5), statische Spalten schmaler/breiter bis %, leere Zeilen und Spalten löschen, nur statische Spalten: so lassen / Ausgleichsspalte / strecken
+- Tabellen bei Platzmangel: Innenabstände schrittweise verkleinern, feste Zeilenhöhen bei Übersatz aufheben, Schrift verkleinern bis %
+- Automatisieren-Menü: Platzhalter-Tags auflösen … und Platzhalter ermitteln … (Rahmen wieder einem Datensatz zuordnen und Werte als Felder markieren)
+- Dialog Automatisieren: Template-Bibliothek wählbar
+- Wiederholrahmen „…Repeat“ gelten immer als Seitenbeschriftung, auch wenn der Rahmen in der Palette bearbeitet wurde oder nur die Rahmengruppe so heißt
