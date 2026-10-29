@@ -1,20 +1,18 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.148
+version: 0.7.149
 date: 2026-10-29
 host: 21
-commit: cc5620089975c0a9c3e3c4309a399bfa6e44f1f9
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.148/p2-0.7.148-mac.zip
-mac.sha512: 47aedd3cba6205acb0d0ee170e31283f133b43092ee82985386b90f0ffa0f6d712137f75f3f48def70b4788ba573b36e9f973314ba2fff7c88874a0100d76d3f
+commit: 880f1f066f20f6ad6772b6d421ab8842775f7f8f
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.149/p2-0.7.149-mac.zip
+mac.sha512: 252d8ce814e83d0afe6f4296de4ff8b6bd75c4dfb28c4dedda66b507103da56412fc12c67c8184f0ed9b1afee8fd28b5a61d6c0e63096c231ad75d0e7db42195
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Dialog Automatisieren neu aufgebaut: Flussart oben als drei Schaltflächen (Rahmen-, Text-, Seitenfluss), darunter nur die passenden Einstellungen; abhängige Zeilen erscheinen erst, wenn sie greifen; gespeicherte Automatisierungen unten
-- Template-Wahl automatisch: Template aus Datenfeld (Vorbelegung aus dem Projekt im Fremdformat) oder nach den Regeln der Templates; neuer Dialog Template-Regeln ("Verwenden, wenn …") für Bibliotheks-Templates und Musterseiten
-- Unklare Template-Wahl: Standard ist eine Nachfrage mit Grund, Template-Auswahl, "für gleiche Fälle merken", Fortsetzen oder Abbrechen; in Konfigurieren umstellbar auf ein Rückfall-Template
-- Seitenaufbau: "Automatisieren ab" (erste freie Seite, erste freie linke/rechte Seite, nach der letzten Seite) ersetzt Zielseiten; Musterseite statisch oder aus Datenfeld
-- Rahmenfluss: Reihenfolge N (spaltenweise) oder Z (zeilenweise, Zeilen oben bündig) als Symbole; Positionierung an Hilfslinien oder frei mit Abständen; Abstand horizontal wirkt auf einspaltigen Seiten; Kollisionserkennung
-- Nachträgliche Verteilung: vertikaler Keil nur auf vollen Seiten, nicht bei einem einzelnen Template, auf der letzten Seite oder vor erzwungenem Umbruch; max. Abstand begrenzt
-- Einheit (je Datensatz oder je Gruppe) ergibt sich aus der Verwendung der Template-Rahmen
-- Neu: Fenster > p2 > Anleitung und Glossar … (interaktive Anleitung, liegt dem Plugin bei)
-- Spielwiese: S18 Rahmenfluss frei/zeilenweise, S19 Seitenfluss mit Template-Regel
+- Automatisieren ab "markierte Seite (Seiten einschieben)": neue Seiten werden an der markierten Seite eingeschoben (leere markierte Seite wird selbst befüllt)
+- Aufrücken im Rahmenfluss: die p2-Templates der direkt folgenden Seiten schließen nahtlos an die letzte neue Seite an, leer gewordene Seiten werden entfernt
+- Folgeseiten, die durch das Einschieben links und rechts tauschen, werden neu ausgerichtet (Innen-/Außenrand) und ihre Seitenbeschriftungen neu befüllt
+- Umbruch davor heißt jetzt nächste Spalte / nächste Seite / nächste rechte Seite / nächste linke Seite und richtet sich nach der tatsächlichen Seite
+- Neu in Automatisieren: "Fortsetzen in" (nächste Spalte, Seite, rechte oder linke Seite) beim Umbruch im Template
+- Neu in den Bedingungen: Aktionen "Umbruch davor: nächste Spalte/Seite/rechte/linke Seite" (z. B. für ein Seitenumbruch-Feld je Datensatz)
+- Spielwiese S20 (Umbruch per Bedingung, markierte Seite, doppelseitig); Anleitung aktualisiert
