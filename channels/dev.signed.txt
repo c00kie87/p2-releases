@@ -1,17 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.141
+version: 0.7.142
 date: 2026-10-29
 host: 21
-commit: d21a6d304e0e7a2c1c7eb9a8e69bdefcfdf315ae
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.141/p2-0.7.141-mac.zip
-mac.sha512: af1ae1c07d698c4cd0286a686448835a81651890b29403c39bf901cb694d7bb708bbb5da8c68b763aa850a38128d518e44f76e5166a979d7b038a2a603bd31c8
+commit: e4b9e62ab927cdaaa6eacdede3a7773b9398a396
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.142/p2-0.7.142-mac.zip
+mac.sha512: 4374e780923d030b636fc80e92fb4c60004b2327de2cc2e9e2fcaff004c89b3f408e673025811c093c40dc402c820ace6e026c0bf9494b7a3432f12e624f7eca
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu: Zusatzfelder (Alias mit Textkonsolidierung) je Konfiguration – Datenquelle › Felder › "Neues Zusatzfeld …" bzw. Rechtsklick auf einen Spaltenkopf → "Zusatzfeld bearbeiten …"/"löschen"
-- Dialog Zusatzfeld: Alias, optionales Datenfeld, "Textkonsolidierung aktiv"; Varianten (die erste zutreffende gilt) mit Art Vorlage/Liste/Ersetzen, "Feld einfügen", Präfix/Suffix, Trenner und "gleicher Wert in" (Liste), Suchen/Ersetzen (regulär), Bedingung (Feld · Operator · Wert, komplexe Bedingungen bleiben erhalten), "Leer -> nächste Variante", "leere Felder samt Text weglassen"; Vorschau mit dem markierten Datensatz; jede Eingabe wirkt sofort, OK speichert
-- Zusatzfelder erscheinen als Spalten und sind als Platzhalter, in Bedingungen, Gruppierung und Sortierung nutzbar
-- Projekte im Fremdformat: Textkonsolidierungen (Platzhalter mit aktiver Konsolidierung + gleichnamige Kette) werden beim Laden als Zusatzfelder übernommen
-- Spielwiese: Szenario S14 (Zusatzfeld mit Varianten)
-signature: 73efff9f2897b2d4715f6e77a7eb5746fdbeee87e3fcf99d72550ef8b0be072718d04514bd241bc8c3576fa7becf5c366334da6cc5abffe469243ab6f699230d
+- Neu: Seitenfluss – Templates liegen auf Musterseiten und tragen eine Datensatz-Nr. (Position 1, 2, 3 … in Automatisieren); je Seite werden so viele Datensätze verwendet, wie die Musterseite Positionen hat; die Musterobjekte werden auf der Seite gelöst und befüllt, Positionen ohne Daten entfernt
+- Methodendialog: Seitenfluss wählbar; Musterseite für die erste Seite und für Folgeseiten
+- Seitenbeschriftung lässt Template-Objekte der Musterseite aus
+- Spielwiese: Szenario S15 (Seitenfluss mit drei Positionen)
+signature: 0f051951395b0aafe4e031335a798c28dfcc0e3ed2fcb9f39fb1efeea8c1aa3f5c386389f128846dfdc10a8a8a7b93b637e153caee6b6255d77caade8bf13d01
