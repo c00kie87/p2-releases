@@ -1,13 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.135
+version: 0.7.136
 date: 2026-10-29
 host: 21
-commit: 3919dbbbc0a19f868eaca21739fb131852193421
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.135/p2-0.7.135-mac.zip
-mac.sha512: 42e855571af6d133306f0f912d923235beb782249fe481a30c69f458e80901e0d251c18fad5de70085c540ac612fbf775db25b5cc8cee64d33bbde1af2c84bba
+commit: d25084fd7eccc94a2a35b57ca19de31f8c425c38
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.136/p2-0.7.136-mac.zip
+mac.sha512: 6a1ae7ecd6003fa02d33ac56453143caf90a2b35343580b59b4e2f65faeb0014f5e4ef3189730878a56b990168b21c78a3b8db933f3e5dea8499ee3bece682e3
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fehlerbehebung: Startmeldung "Konflikt zwischen den Zusatzmodulen p2 und p2" mit anschließendem Absturz – doppelt vergebene interne Kennungen (Bibliotheksdialog, zwei Bedienelemente) neu vergeben
-- Enthält 0.7.134: Rechtsklick-Menüs in der Datenquelle, frei verwaltbare Template-Bibliotheken
+- Rechtsklick in der Datenquelle: Menü öffnet jetzt bei Rechtsklick (Drücken oder Loslassen) und bei Ctrl-Klick (Mac); Einträge werden nicht mehr ausgeblendet; jeder Aufruf wird zur Diagnose protokolliert
+- Paletten responsiv: Automatisieren (Beschriftungsspalte passt sich der Breite an, "Datenvorschau" rückt bei schmaler Palette in eine eigene Zeile, Bedingungsliste schrumpft mit) und Datenquelle (Konfiguration/Tabelle sowie Suchen/Felder/Status teilen sich die Breite, Status entfällt bei schmaler Palette)
+- Datenvorschau: interaktive Suche über alle Spalten mit Trefferanzahl ("x von y Zeilen"), * als Platzhalter
