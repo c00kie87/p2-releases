@@ -1,16 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.142
+version: 0.7.143
 date: 2026-10-29
 host: 21
-commit: e4b9e62ab927cdaaa6eacdede3a7773b9398a396
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.142/p2-0.7.142-mac.zip
-mac.sha512: 4374e780923d030b636fc80e92fb4c60004b2327de2cc2e9e2fcaff004c89b3f408e673025811c093c40dc402c820ace6e026c0bf9494b7a3432f12e624f7eca
+commit: 9f8f2506b7dd19946152b92eac89b57de9d02825
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.143/p2-0.7.143-mac.zip
+mac.sha512: e9d71c7c4a326075fbc524cd4c7450ddc770b56f67aafae7472de3548c2d105df1269eb846a0171b52e99efe506148be17f7d46c0a53ed87b5389223d1ea6a08
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu: Seitenfluss – Templates liegen auf Musterseiten und tragen eine Datensatz-Nr. (Position 1, 2, 3 … in Automatisieren); je Seite werden so viele Datensätze verwendet, wie die Musterseite Positionen hat; die Musterobjekte werden auf der Seite gelöst und befüllt, Positionen ohne Daten entfernt
-- Methodendialog: Seitenfluss wählbar; Musterseite für die erste Seite und für Folgeseiten
-- Seitenbeschriftung lässt Template-Objekte der Musterseite aus
-- Spielwiese: Szenario S15 (Seitenfluss mit drei Positionen)
-signature: 0f051951395b0aafe4e031335a798c28dfcc0e3ed2fcb9f39fb1efeea8c1aa3f5c386389f128846dfdc10a8a8a7b93b637e153caee6b6255d77caade8bf13d01
+- Neu: Textfluss – Einfügemarke in einen Text setzen (oder Textrahmen der Verkettung wählen), Automatisieren → Methode Textfluss: je Datensatz bzw. Gruppe wird das befüllte Template als verankertes Objekt (mehrteilige Templates als eine Gruppe) in einem eigenen Absatz in die Story eingefügt; Abstände über das Absatzformat, Spalten-/Seiten-/ungerade/gerade Umbrüche als Umbruchzeichen
+- Voraussetzung: mindestens zwei verkettete Textrahmen; verbleibender Übersatz wird im Bericht gemeldet
+- Spielwiese: Szenario S16 (Textfluss in verketteten Rahmen)
+signature: 6fc614df392431ec856d8ab0a3ae181db09e638b0bf348f16d0c6a79a44147c3b5928329d821f3a676d112e4c886710b7e324100196f424bf1aa5e3a07994f0a
