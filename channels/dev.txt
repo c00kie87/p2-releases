@@ -1,12 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.138
+version: 0.7.139
 date: 2026-10-29
 host: 21
-commit: 7e585d58310c614760144cd898b46e7b40719c60
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.138/p2-0.7.138-mac.zip
-mac.sha512: a987274baca41d9a1f4c7a56f9f1fd685adc0d0b0c4361dd954b1ca8bed6ca4a9e253f5c35458cc5d2388e2b98e05eb5073a4fd82083ae0b7bf976ee21d922c6
+commit: 678ab2d67a485f23eccffc44a44dfe0a2223683e
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.139/p2-0.7.139-mac.zip
+mac.sha512: 3ba13b7ee722b83989a2cc2a2c7b99c03a5ac0b5699b3c9e72c6a792a3cce6419f4bbefd46e1459cd880bb7cccad4ee38d2ee07c27627055e941917a687b83d1
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fehlerbehebung: Beim Wechsel der Tabelle in der Datenquelle ging die Gruppierung verloren – jede Konfiguration speichert jetzt Gruppierung, Sortierung und Feldanzeige je Tabelle und stellt sie beim Zurückwechseln wieder her
+- Datenquelle: ausgeblendete Gruppierungsebenen werden durch eine dicke farbige Linie an ihrer Stelle angezeigt (ordnen die Reihenfolge, sind aber nicht sichtbar)
+- Templates: Klick ins Leere hebt die Auswahl auf
