@@ -1,15 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.157
+version: 0.7.158
 date: 2026-10-29
 host: 21
-commit: 0b4d02d9a8f1084b5430cb602dbaec436629fafe
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.157/p2-0.7.157-mac.zip
-mac.sha512: 60a54a05f4d4d1d17a79062b76f5dd73969f20c8a6640c7d3b96eb5459c284159dd7003156b509adfb68219a5628ea076b88f52cf57642c94590790fbe746244
+commit: 404f3e4e5d3d0e823f0ce1b9049173ca14ecb6d7
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.158/p2-0.7.158-mac.zip
+mac.sha512: 219b1cfd393dda016efd4de6e593ac12295c4f206cbd137762a92ce80e2b46862de52f24f71a174432f1213b2bdd7a428355baf4b54685a31a04b032b7cd88a0
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Behoben: Tabellen-Einstellungen (z. B. Verwendung "je Gruppe") gingen beim Speichern bzw. Aktualisieren eines Templates in der Bibliothek verloren – der Snippet-Export übernimmt das Etikett der Tabelle nicht; p2 sichert die Tabellenregel jetzt zusätzlich am Rahmen (beim Ändern und beim Speichern des Templates)
-- Behoben: "Template aktualisieren" verlor die Regel "Verwenden, wenn …" des Templates
-- Tabellen: Vorgabe "nicht erweitern" – die Tabelle übernimmt die Verwendung ihres Rahmens (je Datensatz bzw. statisch je Gruppe); neuer Haken "Tabelle erweitern" blendet Art, Wiederholbereich und Verwendung der Tabelle ein
-- Palette Automatisieren: Kopf- und Fußzeilen erscheinen nur noch, wenn die Tabelle welche hat
+- Datenquelle: Mauszeiger zeigt über der rechten Linie eines Spaltenkopfs einen Doppelpfeil zum Ziehen der Spaltenbreite.
+- Template-Bibliothek: Eine selbst vergebene Rahmengruppe bleibt beim Aktualisieren des Templates erhalten und wird beim erneuten Herausziehen übernommen.
