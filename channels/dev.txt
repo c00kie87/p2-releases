@@ -1,15 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.146
+version: 0.7.147
 date: 2026-10-29
 host: 21
-commit: 2691524a1635252b91f85ad9caf2bfe0eb8f58d9
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.146/p2-0.7.146-mac.zip
-mac.sha512: 4015800c1d86ab916f7fa7903f3e0cf36ce2246e973fb8278912458e3a2c68a04d5050a5926eebfdd5202ca4cd49205130a6f427693d8c7f5b8e1364e51dd923
+commit: ca5c6afecdc4fed72fba28b35ff73a59dc8f9c10
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.147/p2-0.7.147-mac.zip
+mac.sha512: 39da5fe68adcef3480ba6a1bbb2b1484ebd4af7f3421d500aeca5b7129e171f8760f657cffd4cab1d11bc453cf02b85df9249924bd43df3f772677b9b099a1f1
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu: Umbruchregeln am Rahmen (Automatisieren › "Umbruch im Template"): nicht umbrechen (Standard, ganzes Template auf die nächste Spalte/Seite) · darf zwischen seinen Rahmen umbrechen · Textrahmen verkettet fortsetzen (Rahmen wird am Spaltenende gekürzt, Folgerahmen in der nächsten Spalte bzw. auf der nächsten Seite verkettet)
-- Neu: "Nicht vom vorherigen trennen" am Rahmen – das unmittelbar vorherige Template kommt mit auf die nächste Spalte/Seite; innerhalb eines umbrochenen Templates bleibt der Rahmen beim Rahmen darüber
-- Widersprüche (z. B. zusammengehörige Templates passen gemeinsam auf keine Seite, Verketten bei mehrteiligen Templates) brechen das Publizieren mit genauer Meldung samt Datensatzschlüssel ab und nehmen alles zurück
-- Spielwiese: Szenario S17 (Umbruch im Template, verkettet)
+- Neu: Template-Wahl je Datensatz bzw. Gruppe im Methodendialog – fest, Templatename aus einem Datenfeld oder nach Regeln (Bedingung → Template, Regeln hinzufügen/entfernen)
+- Rahmen- und Textfluss wählen aus der Template-Bibliothek (die gewählten Templates werden für die Ausgabe eingelesen und danach entfernt), der Seitenfluss wählt Musterseiten der InDesign-Datei
+- Mehrdeutige Regeln, keine zutreffende Regel, leere Felder oder unbekannte Templatenamen werden je Datensatz gemeldet; mit Rückfall-Template (z. B. "Standard") wird trotzdem publiziert und der Bericht nennt die betroffenen Datensätze, ohne Rückfall wird nicht publiziert
