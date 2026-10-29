@@ -1,16 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.130
-date: 2026-10-28
+version: 0.7.131
+date: 2026-10-29
 host: 21
-commit: b5b17e508c41fbb211eda6789aa758784f30dcde
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.130/p2-0.7.130-mac.zip
-mac.sha512: 32d0d767170760252bbf8356cad27a3f3ef553323df1449e66b0499def4823255a2b6d9a2d823cf3b3880cf65466239e19ad6078b96fe0c5decd3db6f9928e50
+commit: 43bb772321cc9bfacb7c5859c9c3b30494e3dded
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.131/p2-0.7.131-mac.zip
+mac.sha512: ef58e5d6f71144a49ae18efdc62ef91918f8b27e0e806b02814795e97c11b04dc7cc083b0fc1530ba01379d7651708e4ea90873f4dde4754a639c9ecd1c4a78d
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Paletten-Schaltflächen verwenden wieder die native Klick-Verarbeitung. Bedingungen-Plus, Bearbeiten/Entfernen, Datenvorschau, Automatisieren und gleichartige Template-Aktionen sind entsprechend korrigiert.
-- Ohne markierte Datensätze wird ein gezogenes Template mit seinen Platzhaltern eingesetzt. Ein bloßer Fokusindex zählt nicht mehr als Datensatzauswahl; die Auswahl wird vor dem Import eingefroren.
-- Doppelte Markierungen desselben Feldes werden beim Template-Import bereinigt. Befüllung und Tokenbereinigung behalten den bestehenden XML-Bezug, statt weitere Tags zu verschachteln.
-- Fehler beim Öffnen eines Dialogs werden sichtbar gemeldet.
-signature: c95d720ace40f54a6bf3e1015a017e5e5929b3bb69f45707131904e99fcdd95de8a5a18b733c5887251e949b26efa7cd65606cb44c24bd41e64531d38af6f70f
+- Bedingungen als scrollbare Listen mit Stift-Bearbeitung und sichtbarer Einrückung für verschachtelte Ausdrücke.
+- Ort-, absolute und Zählbedingungen getrennt; Datentyp und erklärte Operatoren separat. Umlaute, kurze Erklärung und Mausover-Hilfen ergänzt.
+- Weitere Bedingungen lassen sich mit UND, ODER, XOR, NAND oder NOR zu gemeinsamen Dann-/Sonst-Blöcken verknüpfen. Vorhandene unabhängige Regeln bleiben erhalten.
+- Bestehende Projektbedingungen behalten ihre Originalzählung. Verlustfrei darstellbare Definitionen können als XML-Austausch exportiert werden; nicht darstellbare Ausdrücke werden erklärt abgelehnt.
+- Ressourcenregistrierung eigener Schlüssel- und Vorschau-Views korrigiert. Der gemeldete Sortierabsturz führte beim Doppelklick in das Laden der Feldoptionen.
+signature: 66bae9bb569739be0bbdcefc9be04dafa40ed26ec0522c5592c93fc5da482d826b40d74e3c482160900dd4f8d9793de6e94604f8d690a686fd5e39bc67e4590f
