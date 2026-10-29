@@ -1,13 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.145
+version: 0.7.146
 date: 2026-10-29
 host: 21
-commit: a3a7bea84df4eaa74de1a57aa00945d0241a7127
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.145/p2-0.7.145-mac.zip
-mac.sha512: 8a23bc769119327af3619c7ea9c8ebe4b07193a91d7384b895ec85eac7b1f90d3319aac58017d6a52857b2ee3a8180255c480d33850653575327f5691fc50182
+commit: 2691524a1635252b91f85ad9caf2bfe0eb8f58d9
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.146/p2-0.7.146-mac.zip
+mac.sha512: 4015800c1d86ab916f7fa7903f3e0cf36ce2246e973fb8278912458e3a2c68a04d5050a5926eebfdd5202ca4cd49205130a6f427693d8c7f5b8e1364e51dd923
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Textfluss: bei Übersatz legt p2 automatisch neue Seiten (mit der Musterseite für neue Seiten) und an gleicher Stelle verkettete Textrahmen an, bis der Text vollständig steht; neu angelegte leere Seiten werden danach wieder gelöscht
-- Textfluss: ein einteiliges Textrahmen-Template wird als formatierter Text in die Story eingesetzt statt verankert (abschaltbar im Methodendialog: "Textfluss: einzelnen Textrahmen als Text einsetzen")
+- Neu: Umbruchregeln am Rahmen (Automatisieren › "Umbruch im Template"): nicht umbrechen (Standard, ganzes Template auf die nächste Spalte/Seite) · darf zwischen seinen Rahmen umbrechen · Textrahmen verkettet fortsetzen (Rahmen wird am Spaltenende gekürzt, Folgerahmen in der nächsten Spalte bzw. auf der nächsten Seite verkettet)
+- Neu: "Nicht vom vorherigen trennen" am Rahmen – das unmittelbar vorherige Template kommt mit auf die nächste Spalte/Seite; innerhalb eines umbrochenen Templates bleibt der Rahmen beim Rahmen darüber
+- Widersprüche (z. B. zusammengehörige Templates passen gemeinsam auf keine Seite, Verketten bei mehrteiligen Templates) brechen das Publizieren mit genauer Meldung samt Datensatzschlüssel ab und nehmen alles zurück
+- Spielwiese: Szenario S17 (Umbruch im Template, verkettet)
