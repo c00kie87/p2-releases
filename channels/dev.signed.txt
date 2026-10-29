@@ -1,18 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.150
+version: 0.7.151
 date: 2026-10-29
 host: 21
-commit: a39e2852f73b38a703e60da8b6add5905c7f7b8f
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.150/p2-0.7.150-mac.zip
-mac.sha512: 6c1db388db5bea38ae26f23686ece536a05eb1eb37e5d6993978bcc442a94193e38d20e9d62b7279ca7ecb15a78471eaeb5d82dbed041b04413c866fb845f347
+commit: 296318059f3cd4955b7d7c428023b674b667150e
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.151/p2-0.7.151-mac.zip
+mac.sha512: 24e80811cfad42d6f029213e3adbfe65a8875d6a52fe80d0c2c5dee6e7342f2718f2d3bd075c160d285f59cc17d03237bbb1eaa94d78cbd70f3f7bec08c2e6ae
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Rechtsklick auf einen Spaltenkopf: "Datenfeld bearbeiten …" (Feldoptionen) statt Umwandeln in ein Zusatzfeld; "Neues Zusatzfeld …" legt ein leeres Zusatzfeld hinten in der Reihe an; Zusatzfeld bearbeiten/löschen nur bei Zusatzfeldern aktiv
-- Spalten per Ziehen am Spaltenkopf verschieben (Klick sortiert weiterhin); Reihenfolge je Tabelle in der Konfiguration gespeichert
-- Datenquelle › Felder: Felder sortieren A bis Z, Z bis A, Felder in Quellreihenfolge
-- Zusatzfelder: neue Art "Manuell" (Wert je Datensatz von Hand, Text = Vorgabe)
-- Neu: Werte erfassen … (Eingabemaske für manuelle Zusatzfelder mit Zurück/Weiter, gespeichert je Datensatz-Schlüssel)
-- Spielwiese S21 (manuelles Zusatzfeld); Anleitung aktualisiert
-signature: 2bef421783b84d6a6ee97a835c66394cd8c3c2dcb52425ad8e53ad825acfc550b9570ac0001fc8d9e5d47f8b7941e13f70a91ae6d6bb7cd9311cf50c71e57908
+- Neu: Datenquelle › Quellen › Änderungen in die Quelle zurückschreiben … – vorgemerkte Werte und freigegebene Felder (auch manuelle Zusatzfelder) werden in die CSV- bzw. Excel-Datei geschrieben; vorher Prüfung auf unveränderte Datei, Rückfrage und Sicherung im p2-Ordner der Quelle; danach wird die Quelle neu eingelesen
+- CSV behält Trennzeichen, Zeilenende und Kodierung; in Excel werden Formelzellen nicht überschrieben
+- Rückweg ins Fremdformat: beim Export werden auf Wunsch die Zusatzfelder als Textkonsolidierungen übernommen (fehlende Platzhalter und Bedingungen werden angelegt, unveränderte Felder bleiben unberührt)
+- Spielwiese: spielwiese-daten.csv zum Ausprobieren des Zurückschreibens; Anleitung aktualisiert
+signature: 48da5b5251b0be8c5131aefff4dbfc8d61b8a8579380bbd857b7484cbf10b8683915eb54d499eb2016b660e228e58a4fb98c4b1b6cfcffbf24c9aabde8e6c10c
