@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.143
+version: 0.7.144
 date: 2026-10-29
 host: 21
-commit: 9f8f2506b7dd19946152b92eac89b57de9d02825
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.143/p2-0.7.143-mac.zip
-mac.sha512: e9d71c7c4a326075fbc524cd4c7450ddc770b56f67aafae7472de3548c2d105df1269eb846a0171b52e99efe506148be17f7d46c0a53ed87b5389223d1ea6a08
+commit: ec1fac1bb957dd62147c43a0c9359ef7824ab94c
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.144/p2-0.7.144-mac.zip
+mac.sha512: 85183983bbbc6ce9b7438c2945750b5e90d9dd83c9dc860e8e419d5f4f78396a03f37e41c964c4c4e661493a7fe63abdbedf8291f429950d627a84dda4191511
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu: Textfluss – Einfügemarke in einen Text setzen (oder Textrahmen der Verkettung wählen), Automatisieren → Methode Textfluss: je Datensatz bzw. Gruppe wird das befüllte Template als verankertes Objekt (mehrteilige Templates als eine Gruppe) in einem eigenen Absatz in die Story eingefügt; Abstände über das Absatzformat, Spalten-/Seiten-/ungerade/gerade Umbrüche als Umbruchzeichen
-- Voraussetzung: mindestens zwei verkettete Textrahmen; verbleibender Übersatz wird im Bericht gemeldet
-- Spielwiese: Szenario S16 (Textfluss in verketteten Rahmen)
+- Methodendialog: alle Einstellungen bleiben gespeichert, bis sie geändert werden (je Konfiguration); neu: Vorgaben – aktuelle Einstellungen unter einem Namen speichern, wieder laden und löschen (für alle Quellen)
+- Neu: Musterseite aus Datenfeld (Feldwert = Name der Musterseite) – im Rahmenfluss beginnt bei einem Wechsel eine neue Seite mit dieser Musterseite, im Seitenfluss bestimmt der erste Datensatz der Seite die Musterseite; je Datensatz oder je Gruppe über die Einheit (Gruppen frei anlegbar über Gruppierung)
+- Neu: Rahmenfluss richtet Templates an horizontalen Seitenhilfslinien (Seite und Musterseite) aus; bei Kollision springt das Template zur nächsten Hilfslinie darunter
