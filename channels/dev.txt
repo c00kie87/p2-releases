@@ -1,17 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.134
+version: 0.7.135
 date: 2026-10-29
 host: 21
-commit: 18a336dfd7af0f4152ef890026300403c5ef2d01
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.134/p2-0.7.134-mac.zip
-mac.sha512: 4bd66bee34e412dca3b1c3dd5bd15dc5a1d8ec4bf3a22005f0d6b17cb7a2d075cc06147a6543eaff75105af38fa1cc35bdf53d3c2960a1550dfc466dc846e09b
+commit: 3919dbbbc0a19f868eaca21739fb131852193421
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.135/p2-0.7.135-mac.zip
+mac.sha512: 42e855571af6d133306f0f912d923235beb782249fe481a30c69f458e80901e0d251c18fad5de70085c540ac612fbf775db25b5cc8cee64d33bbde1af2c84bba
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu: Rechtsklick-Menüs in der Datenquelle je Element
--   - Gruppenknoten: Aufklappen/Zuklappen, alle auf-/zuklappen, Auswahl publizieren, Rahmen der Datensätze wählen, Gruppierung bearbeiten/aufheben
--   - Datenwert: Wert bearbeiten, Wert kopieren, nach diesem Wert suchen, Platzhalter einfügen, publizieren, Rahmen wählen, Feldoptionen, Schlüsselfelder
--   - Spaltenkopf: Feldoptionen, Platzhalter einfügen, Feldnamen kopieren, aufsteigend/absteigend/Quellreihenfolge, nach diesem Feld gruppieren, Feld ausblenden, alle Felder anzeigen, Schlüsselfelder
--   - Leere Fläche: zusätzlich Suche und Filter zurücksetzen, Schlüsselfelder, Quelle aktualisieren
-- Neu: Template-Bibliotheken frei verwaltbar – "Standard" beim ersten Start (bisherige allgemeine Ablage wird zu "Standard"), "+" legt eine neue Bibliothek mit Namen an, Umbenennen und Löschen (mit Rückfrage) im Palettenmenü der Templates; die letzte Bibliothek ist nicht löschbar, fehlt jede, entsteht "Standard" neu; gewählte Bibliothek wird gemerkt
+- Fehlerbehebung: Startmeldung "Konflikt zwischen den Zusatzmodulen p2 und p2" mit anschließendem Absturz – doppelt vergebene interne Kennungen (Bibliotheksdialog, zwei Bedienelemente) neu vergeben
+- Enthält 0.7.134: Rechtsklick-Menüs in der Datenquelle, frei verwaltbare Template-Bibliotheken
