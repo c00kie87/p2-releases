@@ -1,16 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.185
+version: 0.7.186
 date: 2026-10-30
 host: 21
-commit: e8773453a1becc83da2de09848918f2540dfa23d
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.185/p2-0.7.185-mac.zip
-mac.sha512: 870196c87338f9e6d46346d464fffec98bf3237cf206d49fbbed9d800df391fd59f04f9ccd85981d95c40f878adc8f4f8643ad6e1210442eeab48b58c4b7413a
+commit: 684f90ea80ec144761752d79e0b9f3f1b7c918e5
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.186/p2-0.7.186-mac.zip
+mac.sha512: 100aa7d8fc907b60fbfb09f15870db4dd7e959c303285a24f171decc10a38963bbc4fac3adbf460ba5b7ce6f712376881c905cd4ce4efcd2b05d390ae0437bc1
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Vervielfältigen: Richtung als Symbolknöpfe; Abstände nur noch im Raster-Fenster (↔/↕); bei Verwendung mit mehreren Treffern stehen alle in einem gemeinsamen Raster.
-- Maßfelder nehmen jede Einheit an (pt, cm, in, Pica) und zeigen mm.
-- Filter Vorkommnisse: „Leerwerte mitzählen“. Wert bearbeiten trifft den Datensatz über seinen Schlüssel.
-- Anleitung: Beispiele zu allen Funktionen, Glossar neu geordnet.
-signature: 639376fadf560b7a9477a8520c6fbdebfc6f3efab00bb583cf971ea046751ff71386a2e24dba6d475c448169a684690c78a3c40892784269300ca7fc73487f06
+- Absturz beim Automatisieren mit „Kopien gruppieren“ bzw. „Je Template gruppieren“ behoben (auch Textfluss mit mehrteiligen Templates).
+signature: a345c92e1fc327230fd8edce8ab27b07f570fe9a65b68016c53556a827a8fbb017fcf901e2565f5d338229f5073c2af525532b7896e8283e350b210683ff0904
