@@ -1,12 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.180
+version: 0.7.181
 date: 2026-10-30
 host: 21
-commit: 99092ad82fd1ed889ee961df609b1dae9f94fc19
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.180/p2-0.7.180-mac.zip
-mac.sha512: fbec4bbcb14372e67965558ebe3b53c240e8214a3efdde37afb8880707e9c6a5c4fb9d3cde93ea186e4822008e33ae0baa22b18006d51f3a023e0b70f72f9106
+commit: 8dbb90d3d632e0c274cb54bfc3bf456829260ce5
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.181/p2-0.7.181-mac.zip
+mac.sha512: f154eda9567a8d2de3f2eeb572bb5cf667ca0a1dfae6a14946c0240dcf293f691345cec5928c50c3791d43961645189b47b0aa8e4ad4f556377ee35f2e3bf43e
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- „Vorkommen“ ersetzt durch „Einmaliges Vorkommen“ (erstes, n-tes, letztes) je Lauf, Seite, Spalte oder Gruppe.
+- Automatisieren in Bereichen (Rahmen, Verwendung, Vervielfältigen, Ausgabe, Einpassen und Rahmengröße, Fluss, Leere Inhalte), kompakter, Bildlauf bei Bedarf.
+- Höhe anpassen / Breite anpassen je mit Mindest- und Höchstmaß (Text- und Bildrahmen); Bild einpassen inkl. 100 % Originalgröße, Skalierung in % oder aus Datenfeld, Versatz X/Y. Ohne Einstellung passt p2 nichts an.
+- Behoben: „Raster festlegen …“ öffnete „Konfiguration laden“.
