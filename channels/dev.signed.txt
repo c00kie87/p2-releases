@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.183
+version: 0.7.184
 date: 2026-10-30
 host: 21
-commit: d70e8ffc1e1089d90bfee1900e285af7f618ee70
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.183/p2-0.7.183-mac.zip
-mac.sha512: 4fabf05eedfec8929a3cdfa464b17c966b92a8d460a768c9540e67a63d543f1deeda2c0ed775cbce27bc1e4d43d6b7fe33d447afc064f08958a24cd8803621ea
+commit: d7222f9d5930c2285aaa0cd1679f2e4e6f32ef1f
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.184/p2-0.7.184-mac.zip
+mac.sha512: 61b6cfb448e16cbe3c04c8ccfa298affbd5601cd4a9e7f65ffddc7a1216d89260111a9fe312b4297a813b5ef8871db4dd745ee3860548f1bf5659acd95139545
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Datenansicht: Filter „Vorkommnisse“ (z. B. Variationsgruppen mit mehr als einem Herstellerlogo) und Knopf „Gruppen aus/ein“.
-- Vervielfältigen: Vorlage ist immer Platz 1; zehn Richtungen (rechts/links/unten/oben mit Nebenrichtung).
-signature: 197114359f295f848b63b191d3fc35ba8b6821e39674813f58c8c903e8ad37fa97a8776ea075a660bd5e410debc875c187c9adca31452b4c4da25f3a4de0330e
+- Tabellen: Füllart „Je unterschiedlichem Wert“ (Zeilen-/Spaltenblock je Wert, wahlweise vorhandene Zellen zuerst füllen); Bildfelder in Zellen als verankerte Bilder.
+signature: e7ebd8e8596eb5359b944c476e983366b7a1912ad8ae27fa210d36ae335ab9010fe160ff2a2af8ae8d97c6a5948062798ab7c6f744e2ffffa60301401d66f700
