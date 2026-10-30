@@ -1,14 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.193
+version: 0.7.194
 date: 2026-10-30
 host: 21
-commit: 071cc26547a6cdfc612f4f4e8022d1db1eb537c3
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.193/p2-0.7.193-mac.zip
-mac.sha512: 98ce4faeacda4c1e5b6e21531c1c8a5ddefcd6304bba5dabc8b3e5c45f9ecb5b486e611ca4c6efaf483e55599822939858e06b8e1bcf26eebde566af96b51e75
+commit: 055229d903d6eb37f8d69086438c8ac60de7a172
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.194/p2-0.7.194-mac.zip
+mac.sha512: 76767a48c218d51d554d2e0243d6b174dbb1fe77c8290bf1256bde1bb0e59acf122e8746d1e990f626ae34082f3e91cfb39b124c40cc1de03ceb7d9002176c2e
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Abbruchregeln wie im Altsystem: «Feld|erster» / «Feld|letzter» in Tabellenzeilen je Datensatz.
-- Spielwiese S29.
-signature: 95e0b62733f528aaed3908ad1fc509b26a50e46ac4e9f47f11ecdafedf70d1ff8ea7b8cdeaa7bfb7a0ef5501b141f50b4634a592c3df7b379e7c078770352805
+- Sonderzeichen- und Unicode-Marken des Altsystems in Werten (<idEmDash>, <U+20AC> …).
+- Zusatzfelder: optionale Teile [ … ] (Klammerung des Altsystems, Hin- und Rückweg).
+- Datenansicht: platzierte Felder mit normaler Schrift, Änderungen als Randbalken.
+signature: 369d03947bc4b41a6449e95deb37ff0df389aa9c4a9a8cf540c03ee93afc08a23f6c9cbe9a3877c9142ec8f74901e3db92242dafdd303402c30e607a43829406
