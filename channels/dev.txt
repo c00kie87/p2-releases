@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.170
+version: 0.7.171
 date: 2026-10-30
 host: 21
-commit: 7bd015756e6a05ddad74a7813741cacdf83d2c6e
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.170/p2-0.7.170-mac.zip
-mac.sha512: c31aa0bbc3df3050a7e660d2aad09ea5d90dd095fad5c4a58f2137aacb07ba3ca3e2e4159cd8a9d926b3f2733d60be7da9212d7ad02394753f1ec8a4a232675c
+commit: a146b2ee249e557ecebbb41b73d9ab01222c3703
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.171/p2-0.7.171-mac.zip
+mac.sha512: a8b0544881f8f69c78d64bf58a379c1fe1381088a60f311534722367fb7b2dd706f5d0370868fc929e0e76d4749cc73818eaecb0ea40af2a63aa80538c9c9394
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Datenansicht: Knotenpunkt wählt seine Datensätze mit; Auswahl und Suchtreffer halbtransparent; platzierte Werte grün, Fehlbezüge/Abweichungen rot (Zeile leicht, Feld kräftig).
+- Automatisieren › Vorkommen: neu „erstes Vorkommen mit Inhalt“ (erster Datensatz der Gruppe, bei dem ein Feld des Rahmens gefüllt ist).
