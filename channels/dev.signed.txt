@@ -1,13 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.161
+version: 0.7.162
 date: 2026-10-30
 host: 21
-commit: ca7fe1e1e0f6851560fe85d3ef1b07771bb1c72c
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.161/p2-0.7.161-mac.zip
-mac.sha512: 1a9498ddbdd65efebe34bc03a3c715fc64c8190ea99e895460b2fe8129edf52edaef384e57a93941bfa15c1df5e847e854a50f5045952045a7a5b08d2c43d5ca
+commit: c4646d06b1b4bc5c24c9d40260d6015a94fc2fef
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.162/p2-0.7.162-mac.zip
+mac.sha512: b90bdb49e8acc92307d7b1955a3e0d6487d987e97be095add84d7a99e9f3578fd7788d711b126d7cfd64def8e8861125a1132bf53f6e75b694f45f12d9c7535d
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- p2 konfigurieren: Rückfall-Template über Bibliothek und Template wählbar; Templates aus anderer Bibliothek werden beim Automatisieren mit eingelesen.
-signature: 32650ce3ad94122cab6e03a37638ec84f6fb848c4a783b7b8218665976b0a97435a6ea04e6e6b263514cdb3babe76801fbcd181c39022d74cc5174471a724205
+- p2 konfigurieren: Zurückschreiben für alle Datenfelder erlauben (Feld kann sich in den Feldoptionen ausnehmen); geänderte Werte optional sofort in die Quelle schreiben (Vorgabe aus).
+- Neues Menü Datenquelle › Daten synchronisieren: Datenfelder mit Datenquelle synchronisieren (neu einlesen, manuelle Änderungen behalten oder verwerfen) und Datenquelle mit Datenfeldern synchronisieren (mit deutlicher Warnung und Sicherung).
+- Feldoptionen: Kästchen unten bündig, ohne Schlüsselsymbol.
+- Build: Projektdatei für Xcode 27.2 bereinigt (doppelter Gruppeneintrag Cocoa.framework).
+signature: c3e1c184d41526d5d58cd8541c4d6b1158275733ac0c200ca9462ed3c1e1d7b46c60a5f48bdb05e95cd4ef35cd3d2627730e5d4b80e3e3d97e9587d110e27305
