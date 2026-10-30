@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.198
+version: 0.7.199
 date: 2026-10-30
 host: 21
-commit: cd37353e5be7217dcbbb53b1c5ff20fa7283eaf9
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.198/p2-0.7.198-mac.zip
-mac.sha512: 3e0392e4f4081d35e831d50f3d030ea24b62c4ddd431575bfa3c926fe76ac69a24f2e0d7c0936a8c863cc36a63d2d3547dc36a51c5aceff3018a67bb8f656b19
+commit: 2ced84ca40a611787fae7cfc73f0dc2aa63cc24f
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.199/p2-0.7.199-mac.zip
+mac.sha512: f6ce31342ffe3789c64417247fa29aab5a4831fcc65f54199714bc9ce505ba6d2ee08cf89828bccbf83e68ef2c08b7201abe38346353a2a02db23724f0e635ce
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Feldoptionen: „Platzhalter zusammenfassen“ für Feldreihen (Textattribut1–20 → «Textattribut…») mit Trennzeichen.
-- Anleitung: Changelog aller Versionen mit Suche und Schlagwort-Filter.
-signature: c47e71ad053643a4d13bc96d485c515de57d77028597917a7e03ae2a258d08df3bd560d6c050e8024446845c1350cff59a69915a5ca05893402bc59fe6ee4e00
+- Vervielfältigen: Raster ordnet nach dem Einpassen nach echten Größen; Ausrichtung je Raster (3×3-Bezugspunkt im Raster-Fenster).
+signature: 1c19263dbd7398af7142a7312d05c7455ef0aee8b8ab4a8508b538f4ee7f0d9d1248cc0a136669256470cca11dd053fa37a023a99d2298fbe05a5fa027ced40d
