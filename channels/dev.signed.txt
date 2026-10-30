@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.164
+version: 0.7.165
 date: 2026-10-30
 host: 21
-commit: 1a7f26d8c42efa1625dcc841ddbd8295d49a740e
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.164/p2-0.7.164-mac.zip
-mac.sha512: c484ef73cca68fd2275aacafbf958c14a8669075608688436ed2e17721f180d3bd0404e67d8e3916babf3f4e1d9eb732d4ca71b91090bf0012e8b0691b5c8130
+commit: f06123165d5267ea6cf168ecb867e61a81cc90e2
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.165/p2-0.7.165-mac.zip
+mac.sha512: 20020ea2d2a8c05253cc848c149cf7682710a5740800cdee20e9de2ad9c54318c4c99b9b3654c655b46cccf1111bce23d6af8eb1c9749ab68e8c45a85d2a5524
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Automatisieren: Rahmeneigenschaften kopieren und auf gleichartige Objekte einfügen; Füllreihenfolge bleibt in der Rahmengruppe eindeutig.
-- Behoben: „Leeren Rahmen löschen“ greift auch, wenn nur Tag-Marken oder Tabellen-Ankerzeichen übrig sind.
-signature: a61213c6319cc806de1e97f39c83d8eed21c42aa8b37317744bbc0d6fd424f2b87b6e2bbce4e1cf56680336c31dff2acd724a31689f4435949bf58f313389e03
+- Neu: Suchen und Ersetzen – globale Liste je Quelle (Datenquelle › Felder › Suchen und Ersetzen …) und Feldregeln (Feldoptionen); Teiltext, ganzes Feld oder regulärer Ausdruck; wirkt in Datenquelle und Ausgabe; ersetzte Werte türkis; auf Wunsch zum Zurückschreiben vormerken.
+signature: 516320a19dc6b941df9ef3ccf012db00956914cc855159f5d0c84daa0ee2b1d8bbd89142d74cf74f7177c4f0aa376ef272309ce7fb6ef5bae93d887ec8bb3504
