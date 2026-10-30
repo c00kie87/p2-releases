@@ -1,13 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.192
+version: 0.7.193
 date: 2026-10-30
 host: 21
-commit: e7b2dda97d85a452efb4c64816cd91cab965c737
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.192/p2-0.7.192-mac.zip
-mac.sha512: c8390ff8f9362a0c79bca7a8bccfa96621aa0923d46a937fc5bceeb2374ee4e1f12a4e613d09190b96fde9934fdf1ce24949dfbdad209768ed55b6e78f97cfab
+commit: 071cc26547a6cdfc612f4f4e8022d1db1eb537c3
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.193/p2-0.7.193-mac.zip
+mac.sha512: 98ce4faeacda4c1e5b6e21531c1c8a5ddefcd6304bba5dabc8b3e5c45f9ecb5b486e611ca4c6efaf483e55599822939858e06b8e1bcf26eebde566af96b51e75
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Vervielfältigen: Objektformat-Auswahl zeigt alle Objektformate des Dokuments, auch in Ordnern.
-signature: 652cfd28cf6dc778c46ed42b5e4d5307ce16c2735798e92b5afbe1871e366d2049d1aec1d6b6f3d50cf80871cb9cac09ed7e4ccb6f3ffc43c6c9f6ee1a79da0c
+- Abbruchregeln wie im Altsystem: «Feld|erster» / «Feld|letzter» in Tabellenzeilen je Datensatz.
+- Spielwiese S29.
+signature: 95e0b62733f528aaed3908ad1fc509b26a50e46ac4e9f47f11ecdafedf70d1ff8ea7b8cdeaa7bfb7a0ef5501b141f50b4634a592c3df7b379e7c078770352805
