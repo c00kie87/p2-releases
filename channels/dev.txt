@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.179
+version: 0.7.180
 date: 2026-10-30
 host: 21
-commit: 1a9c1fdc27f7ada483ac7b5d003998d4cb8f154e
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.179/p2-0.7.179-mac.zip
-mac.sha512: abbdeab0359b0e1350c0990d1693f348ca4b03f3cf07cc88fbafe017d01191e9c370db3487efcc95f6159626902f1cc7855bb6107599b3287b21b50befcae62d
+commit: 99092ad82fd1ed889ee961df609b1dae9f94fc19
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.180/p2-0.7.180-mac.zip
+mac.sha512: fbec4bbcb14372e67965558ebe3b53c240e8214a3efdde37afb8880707e9c6a5c4fb9d3cde93ea186e4822008e33ae0baa22b18006d51f3a023e0b70f72f9106
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Einpassen wie InDesign/EasyCatalog (sofort ausgeführt), Ausrichtung, Mindest-/Höchstmaße, optischer Ausgleich von Bildern (%).
+- „Vorkommen“ ersetzt durch „Einmaliges Vorkommen“ (erstes, n-tes, letztes) je Lauf, Seite, Spalte oder Gruppe.
