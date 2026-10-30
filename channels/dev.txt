@@ -1,13 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.158
-date: 2026-10-29
+version: 0.7.159
+date: 2026-10-30
 host: 21
-commit: 404f3e4e5d3d0e823f0ce1b9049173ca14ecb6d7
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.158/p2-0.7.158-mac.zip
-mac.sha512: 219b1cfd393dda016efd4de6e593ac12295c4f206cbd137762a92ce80e2b46862de52f24f71a174432f1213b2bdd7a428355baf4b54685a31a04b032b7cd88a0
+commit: 34469ee13676c725063d338e0978143584bb67d4
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.159/p2-0.7.159-mac.zip
+mac.sha512: 31aa96730ade2c02826f2aac1d417d37ce3baff875300c07a8444e1f676db0afa84a9f5f1fbef4d796cbe2b16cc9313fb7da078f59e24af3722e9e6c355ab207
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Datenquelle: Mauszeiger zeigt über der rechten Linie eines Spaltenkopfs einen Doppelpfeil zum Ziehen der Spaltenbreite.
-- Template-Bibliothek: Eine selbst vergebene Rahmengruppe bleibt beim Aktualisieren des Templates erhalten und wird beim erneuten Herausziehen übernommen.
+- Datenquelle: Doppelpfeil beim Ziehen der Spaltenbreite erscheint jetzt; Ziehen und Doppelklick auf der Linie auch in den Datensatz-Zeilen.
+- Bedingungen: Teilausdrücke unter ODER/UND sind wieder auswählbar; beim Umstellen eines Vergleichs auf eine Verknüpfung bleibt der Vergleich als erste Teilbedingung erhalten.
+- Bedingungen: Die Übersicht in Automatisieren zeigt nur noch die Namen.
