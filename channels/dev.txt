@@ -1,14 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.194
+version: 0.7.195
 date: 2026-10-30
 host: 21
-commit: 055229d903d6eb37f8d69086438c8ac60de7a172
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.194/p2-0.7.194-mac.zip
-mac.sha512: 76767a48c218d51d554d2e0243d6b174dbb1fe77c8290bf1256bde1bb0e59acf122e8746d1e990f626ae34082f3e91cfb39b124c40cc1de03ceb7d9002176c2e
+commit: 9b1e08a3562d5d36d57de9c8da02d278013b1ee3
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.195/p2-0.7.195-mac.zip
+mac.sha512: 5293d1051290ad4897ad9ccb82c8860be79070e4a42780f30af4ee79e6af93289197374d0bca03cc3076d89e33adff19641a6c1d554d699d0b93fb35658fc8d1
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Sonderzeichen- und Unicode-Marken des Altsystems in Werten (<idEmDash>, <U+20AC> …).
-- Zusatzfelder: optionale Teile [ … ] (Klammerung des Altsystems, Hin- und Rückweg).
-- Datenansicht: platzierte Felder mit normaler Schrift, Änderungen als Randbalken.
+- Pivot-Tabellen: Zeilen und Spalten sortierbar (auf-/absteigend, optional nach eigenem Feld).
