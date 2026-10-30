@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.174
+version: 0.7.175
 date: 2026-10-30
 host: 21
-commit: afa72258b976c32c4e7f3a41cfaf89c935aeb8d4
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.174/p2-0.7.174-mac.zip
-mac.sha512: 4adedffc8a5af316caee978b85206a4d39df23dc5cb97d3f2b642e1d652e8978da9551aacc36ab9d16f471e8fdfc51028168510a43bebae2c480ea25b9a522cf
+commit: 877b5e9720cfe83339ade78bc632d71b07bf5e19
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.175/p2-0.7.175-mac.zip
+mac.sha512: 7aa808cf2d26b405a60ccc5f19dc50a73c3b9e1ba26c6a4efcf2a1cb1a42740e67a6670eeea5e0dda95424d128ae402dc3c52a41041c03ee37445a5ea4e52625
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu: Vervielfältigen – Rahmen je unterschiedlichem Wert der ausgegebenen Gruppe im Raster (Richtung, Spalten je Anzahl, Abstände, Höchstzahl, Sortieren), Kopien gruppierbar mit Objektformat.
-signature: 27de2668397a6f098390ec3e057f6c6db3c0e1acae25a338b8ea44937436366f7d5ad3b68674b815ac20d5a3df2d48477925a3a6e35f99b8a97b3717e1aca906
+- Behoben: grüne/rote Markierungen in der Datenansicht ohne platzierte Werte; „Feld ausblenden“ lässt die Spalte jetzt verschwinden.
+signature: f3eb6e654a06a1fffdab65973804b93beb6b97bbae91309637d80ba6bb0222ce197e25ce4f975fd45762691a753b2eb4a0a8428f3860ea5124436d0e40dcf404
