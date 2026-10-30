@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.178
+version: 0.7.179
 date: 2026-10-30
 host: 21
-commit: 585b60b3f3fca9550e05863b63149a0bf07fd05a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.178/p2-0.7.178-mac.zip
-mac.sha512: 6562f1e0a2323c3ff4d66c5544e063a22c13d015575ece07a9be4f7be52288b5c93122919194dbca88e5a535a956ff9513c12c9bcda75486a9af522155c88d6b
+commit: 1a9c1fdc27f7ada483ac7b5d003998d4cb8f154e
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.179/p2-0.7.179-mac.zip
+mac.sha512: abbdeab0359b0e1350c0990d1693f348ca4b03f3cf07cc88fbafe017d01191e9c370db3487efcc95f6159626902f1cc7855bb6107599b3287b21b50befcae62d
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Sondergruppierungen werden je Quelle gemerkt und überall vorgeschlagen; löschbar mit Hinweis auf Verwendung im Dokument.
+- Einpassen wie InDesign/EasyCatalog (sofort ausgeführt), Ausrichtung, Mindest-/Höchstmaße, optischer Ausgleich von Bildern (%).
