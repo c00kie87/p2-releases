@@ -1,13 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.187
+version: 0.7.188
 date: 2026-10-30
 host: 21
-commit: 5e1f7a6c3f66fee6487f490ec8f26a706f4b19fd
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.187/p2-0.7.187-mac.zip
-mac.sha512: 7bbf8b696778d3346998c740ff46892ea54d6f6e2d11dde0a30f17bf55999f8097823df7ae115eb2069e5c2b531d27fe84d1aacc0124e4bef1e1e50be6aece81
+commit: 6ed11e98fdbddffbe928647bea1bac56075586bd
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.188/p2-0.7.188-mac.zip
+mac.sha512: 15ad741e2bd93e47c7a5c2238ac657ef613e8212e6238c1ecca5237d95165748989cb4bf8140f72a3bfd0cea0ffe3971b716a941219bb386d80c35273abd5713
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Feldoptionen: „Ordner öffnen“ neben dem Bildordner.
-- Datenansicht: vervielfältigte Bilder markieren ihre eigenen Datensätze grün.
+- Zusatzfelder: Haken „Ganz leer, wenn ein Feld leer ist“ (Null-Qualifizierer des Altsystems).
+- Automatisieren: Einheiten von / bis / höchstens.
+- Export ins Fremdformat übernimmt Suchen und Ersetzen als Ersetzungsliste.
+- Spielwiese S28, Abdeckungsmatrix aktualisiert.
