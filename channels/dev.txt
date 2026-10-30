@@ -1,15 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.188
+version: 0.7.189
 date: 2026-10-30
 host: 21
-commit: 6ed11e98fdbddffbe928647bea1bac56075586bd
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.188/p2-0.7.188-mac.zip
-mac.sha512: 15ad741e2bd93e47c7a5c2238ac657ef613e8212e6238c1ecca5237d95165748989cb4bf8140f72a3bfd0cea0ffe3971b716a941219bb386d80c35273abd5713
+commit: c17c5681b4a97e9578b7f90154821fcd12e9dfec
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.189/p2-0.7.189-mac.zip
+mac.sha512: ceb5e2f2a31eba4573914a21a6b0aececb3b2d4e6dc99e5f90d35b0e8883d9ad19705b60f3d539b67ace2188444a26f0b7e3a477765bba31e0cd16b90678303e
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Zusatzfelder: Haken „Ganz leer, wenn ein Feld leer ist“ (Null-Qualifizierer des Altsystems).
-- Automatisieren: Einheiten von / bis / höchstens.
-- Export ins Fremdformat übernimmt Suchen und Ersetzen als Ersetzungsliste.
-- Spielwiese S28, Abdeckungsmatrix aktualisiert.
+- Feldoptionen: URL-Schablone für Hyperlinks ({wert}, {Feld}); Hyperlinks auch bei markierten Platzhaltern.
