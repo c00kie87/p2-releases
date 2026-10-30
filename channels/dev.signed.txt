@@ -1,15 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.181
+version: 0.7.182
 date: 2026-10-30
 host: 21
-commit: 8dbb90d3d632e0c274cb54bfc3bf456829260ce5
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.181/p2-0.7.181-mac.zip
-mac.sha512: f154eda9567a8d2de3f2eeb572bb5cf667ca0a1dfae6a14946c0240dcf293f691345cec5928c50c3791d43961645189b47b0aa8e4ad4f556377ee35f2e3bf43e
+commit: 798966c88dc6be634575e132e13a715792b06410
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.182/p2-0.7.182-mac.zip
+mac.sha512: ffe38ac31a2ffdfcf0e73554b24596fed425d988fd005ba37bfef3dc463055115b024e06af0d9c9690f9118b533f5f409e0ccd363d33740c90c7da93d303f8ac
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Automatisieren in Bereichen (Rahmen, Verwendung, Vervielfältigen, Ausgabe, Einpassen und Rahmengröße, Fluss, Leere Inhalte), kompakter, Bildlauf bei Bedarf.
-- Höhe anpassen / Breite anpassen je mit Mindest- und Höchstmaß (Text- und Bildrahmen); Bild einpassen inkl. 100 % Originalgröße, Skalierung in % oder aus Datenfeld, Versatz X/Y. Ohne Einstellung passt p2 nichts an.
-- Behoben: „Raster festlegen …“ öffnete „Konfiguration laden“.
-signature: 59432f6705cb4eea3bcca91cd0e6af8cd00b8ae883c93442adeac8fae468bb8ed5ad263f43b889f3412754ea9de50d214c754080c42ea87b3ccedf1234e6a30c
+- Automatisieren: Fortschrittsbalken (abbrechbar); ohne Ausgabe nennt die Meldung die Gründe mit Hinweisen.
+- Datenansicht: Färbung reagiert sofort, wenn befüllte Rahmen gelöscht werden.
+signature: b8b39d710848b6bea81c0ab4a5b01beeac7459117020e5e93596cc049d191e97bdf7a20f43598361a3039462935ebc99727facc4ebfa78a7b01fb64959dbe201
