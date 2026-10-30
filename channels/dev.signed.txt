@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.191
+version: 0.7.192
 date: 2026-10-30
 host: 21
-commit: af3f64766aa276725b7c7e594973bcc24dd59f4f
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.191/p2-0.7.191-mac.zip
-mac.sha512: 03418c81203efce1ce7b1bda0381c24d6d1d559bcbea0443c0f1aa717fca0b1575a54990937cfc2f57add8579b6c343c6797062499d8816e46785cc9e981bf41
+commit: e7b2dda97d85a452efb4c64816cd91cab965c737
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.192/p2-0.7.192-mac.zip
+mac.sha512: c8390ff8f9362a0c79bca7a8bccfa96621aa0923d46a937fc5bceeb2374ee4e1f12a4e613d09190b96fde9934fdf1ce24949dfbdad209768ed55b6e78f97cfab
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Palette Datenquelle neu geordnet: oben Feldfilter, Filter, Gruppen-Symbol; unten Suchen, Konfiguration, Abfrage, Anzahl.
-- Palette Automatisieren: Vervielfältigen-Haken in der Überschrift, abhängige Einstellungen eingerückt.
-signature: 3a232f11e858ab052493c335acde2c99b914158b4a1da829dd9727a930cd5fde969c6fd02476079a30e38b9d8388aa30109f2a5fe87d689b4c42468d2802d006
+- Vervielfältigen: Objektformat-Auswahl zeigt alle Objektformate des Dokuments, auch in Ordnern.
+signature: 652cfd28cf6dc778c46ed42b5e4d5307ce16c2735798e92b5afbe1871e366d2049d1aec1d6b6f3d50cf80871cb9cac09ed7e4ccb6f3ffc43c6c9f6ee1a79da0c
