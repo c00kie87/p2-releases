@@ -1,14 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.159
+version: 0.7.160
 date: 2026-10-30
 host: 21
-commit: 34469ee13676c725063d338e0978143584bb67d4
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.159/p2-0.7.159-mac.zip
-mac.sha512: 31aa96730ade2c02826f2aac1d417d37ce3baff875300c07a8444e1f676db0afa84a9f5f1fbef4d796cbe2b16cc9313fb7da078f59e24af3722e9e6c355ab207
+commit: d6e4bdff9a71e4be5b41591787d348351bc26d7b
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.160/p2-0.7.160-mac.zip
+mac.sha512: 18b149ad64f369c47825c98c24c81ec96fbb92f1150220813e7f8153411b9f3e97857ad9bdf22c1991bcbe1bf071ef51fc4112110364347f040f6b2eb29df820
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Datenquelle: Doppelpfeil beim Ziehen der Spaltenbreite erscheint jetzt; Ziehen und Doppelklick auf der Linie auch in den Datensatz-Zeilen.
-- Bedingungen: Teilausdrücke unter ODER/UND sind wieder auswählbar; beim Umstellen eines Vergleichs auf eine Verknüpfung bleibt der Vergleich als erste Teilbedingung erhalten.
-- Bedingungen: Die Übersicht in Automatisieren zeigt nur noch die Namen.
+- Wert bearbeiten: Haken „Auch übernehmen für:“ – alle angezeigten Datensätze, Datensätze dieser Gruppe, einer anderen Gruppe (wählbar) oder mit gleichem Wert; gilt für Ausgabe und Zurückschreiben.
