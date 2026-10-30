@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.172
+version: 0.7.173
 date: 2026-10-30
 host: 21
-commit: 86f591549af00c2f7d1be6f0de1cc3b1aa66e797
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.172/p2-0.7.172-mac.zip
-mac.sha512: 0255e97acff7eb16c8b2c3fbcf2db5a9f4abb287e87d69980e4dbfe1e891d57eaf12f09171e66ddc005977a5501ce0fa482119c54023709a3d4fab308d20275b
+commit: 72353d64c8de0049ba55ad70913ee15b7c39670e
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.173/p2-0.7.173-mac.zip
+mac.sha512: 3378da7d5d031b91260c9a7f88f11a13a0646b9c83edfb4d04ffb0ccac87225ed29e0e15d0de63a2ab8e207f64aad33e5995f4a24c7bbd1ca225d61f3c7e3e38
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Bedingungssymbol „B“: grau = Rahmen trägt Bedingungen, orange = an diesem erzeugten Rahmen trifft eine Bedingung zu.
+- Bedingungen aus dem Altsystem werden auch im Herkunftsprojekt der Quelle und in Projekten daneben gefunden; nicht auffindbare Bezüge lassen sich mit „−“ entfernen.
