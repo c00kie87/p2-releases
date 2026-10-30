@@ -1,16 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.162
+version: 0.7.163
 date: 2026-10-30
 host: 21
-commit: c4646d06b1b4bc5c24c9d40260d6015a94fc2fef
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.162/p2-0.7.162-mac.zip
-mac.sha512: b90bdb49e8acc92307d7b1955a3e0d6487d987e97be095add84d7a99e9f3578fd7788d711b126d7cfd64def8e8861125a1132bf53f6e75b694f45f12d9c7535d
+commit: 0ca4c20d95fa650a0b349a6259091b848c9848c3
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.163/p2-0.7.163-mac.zip
+mac.sha512: e9dc5a60079d7362bd41058045f7a48916f90f2f861fc785171a55d525c1084aa77bb29168b3c154224fef9e9ae4c12bcbf78ae076b7bee0068f3bba0504052f
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- p2 konfigurieren: Zurückschreiben für alle Datenfelder erlauben (Feld kann sich in den Feldoptionen ausnehmen); geänderte Werte optional sofort in die Quelle schreiben (Vorgabe aus).
-- Neues Menü Datenquelle › Daten synchronisieren: Datenfelder mit Datenquelle synchronisieren (neu einlesen, manuelle Änderungen behalten oder verwerfen) und Datenquelle mit Datenfeldern synchronisieren (mit deutlicher Warnung und Sicherung).
-- Feldoptionen: Kästchen unten bündig, ohne Schlüsselsymbol.
-- Build: Projektdatei für Xcode 27.2 bereinigt (doppelter Gruppeneintrag Cocoa.framework).
-signature: c3e1c184d41526d5d58cd8541c4d6b1158275733ac0c200ca9462ed3c1e1d7b46c60a5f48bdb05e95cd4ef35cd3d2627730e5d4b80e3e3d97e9587d110e27305
+- Templates merken sich die Ebene beim Speichern; beim Hereinholen und Publizieren wieder auf dieser Ebene (fehlende Ebene wird angelegt).
+signature: 268d839dd274b218f5528c93ed1c69df50d2517d770781d82ac2cb3bb4df2e7e00c22d8027102a6693554c0df1ecfae5719636d8187d484fa4011070e0579703
