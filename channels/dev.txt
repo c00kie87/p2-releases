@@ -1,12 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.176
+version: 0.7.177
 date: 2026-10-30
 host: 21
-commit: 8d575c8f4027949239be1bf9f5715aa988ef6983
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.176/p2-0.7.176-mac.zip
-mac.sha512: e228147111938cd908e7956b4109f3eb46e34afceb1dac54fa7be2e4f678e6eecbd900478de0eaf5452f4389b9812f8645ecd0432582ae7d3270823248b62900
+commit: 545fa2f2239d0a19fb6a02820b87b9d16093cb83
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.177/p2-0.7.177-mac.zip
+mac.sha512: f7486cdeecfc4da83c3e8cbc23cdf9e85656db05396521dc07aef355cd4af026b405861e60c11f160c2aa02dfbac59cf601449df3c3280dd0d7cc0623d1798a7
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Vervielfältigen: Raster-Fenster – Spalten × Zeilen mit der Maus markieren, Abstände, Bedingung über die Anzahl; je Bedingung ein weiteres Raster.
+- Automatisieren-Dialog: „Je Template alles gruppieren“; Menü „p2-Gruppierungen aufheben …“ (Vervielfältigungen auf Rückfrage).
+- Feldoptionen: Vorschau zeigt bei Bildfeldern den vollständig aufgelösten Pfad.
+- p2 konfigurieren: Miniaturen von Bildern laden und anzeigen (Vorgabe an).
