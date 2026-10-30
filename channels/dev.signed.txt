@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.166
+version: 0.7.167
 date: 2026-10-30
 host: 21
-commit: 0bc5f3097ce231528999911b39e4bcec09abf50b
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.166/p2-0.7.166-mac.zip
-mac.sha512: c3726a9cc1fcad5d3170a05c284d66f16f6c5f6afda236346dc32e25a73ac85301ecd88e166f0cb266656fc882054dc555aa31bd40b02a96947f1ae39dc580db
+commit: 25027a98d887e4ed74775fcc7ead57a034bba677
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.167/p2-0.7.167-mac.zip
+mac.sha512: 49cf991682cf7a2eb2a26e5a6af7da71298d23aac5f73fbe87d43be11fd7b791b2fadf81fb86332dc82d89d20c29f0e8b656223470b476648aad83dcf70935cf
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Suchen und Ersetzen: Ersatz durch Bild bzw. Symbol, beim Automatisieren im Text verankert.
-signature: 5fb6440daac2a8d2c2f93b56f1b801af639c94785e894c8c9469a51cba1ca2bba2599a716fc02a62773d19914b341ac184f690433a56d95712e53305a4841e0a
+- Behoben: Absturz beim Öffnen von Suchen und Ersetzen (Dialogsteuerung war nicht angemeldet).
+signature: 163413942ca9ccf795c03bc59be3a4176c31442b31613b7b8e014bbbb94a058f20ed3f01f7a586d8e61691a9d0819274a295f62393ce5202b4c5dc5a82419503
