@@ -1,13 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.186
+version: 0.7.187
 date: 2026-10-30
 host: 21
-commit: 684f90ea80ec144761752d79e0b9f3f1b7c918e5
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.186/p2-0.7.186-mac.zip
-mac.sha512: 100aa7d8fc907b60fbfb09f15870db4dd7e959c303285a24f171decc10a38963bbc4fac3adbf460ba5b7ce6f712376881c905cd4ce4efcd2b05d390ae0437bc1
+commit: 5e1f7a6c3f66fee6487f490ec8f26a706f4b19fd
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.187/p2-0.7.187-mac.zip
+mac.sha512: 7bbf8b696778d3346998c740ff46892ea54d6f6e2d11dde0a30f17bf55999f8097823df7ae115eb2069e5c2b531d27fe84d1aacc0124e4bef1e1e50be6aece81
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Absturz beim Automatisieren mit „Kopien gruppieren“ bzw. „Je Template gruppieren“ behoben (auch Textfluss mit mehrteiligen Templates).
-signature: a345c92e1fc327230fd8edce8ab27b07f570fe9a65b68016c53556a827a8fbb017fcf901e2565f5d338229f5073c2af525532b7896e8283e350b210683ff0904
+- Feldoptionen: „Ordner öffnen“ neben dem Bildordner.
+- Datenansicht: vervielfältigte Bilder markieren ihre eigenen Datensätze grün.
+signature: 09ab66458eca5aace8ac86750cecc7e93b8b495aae9cf27a1ce15198b3822e934d0d92429214429aa70f72ab60ff102df7664ed66f9275824d49916beb18c30d
