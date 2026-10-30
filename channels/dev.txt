@@ -1,12 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.163
+version: 0.7.164
 date: 2026-10-30
 host: 21
-commit: 0ca4c20d95fa650a0b349a6259091b848c9848c3
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.163/p2-0.7.163-mac.zip
-mac.sha512: e9dc5a60079d7362bd41058045f7a48916f90f2f861fc785171a55d525c1084aa77bb29168b3c154224fef9e9ae4c12bcbf78ae076b7bee0068f3bba0504052f
+commit: 1a7f26d8c42efa1625dcc841ddbd8295d49a740e
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.164/p2-0.7.164-mac.zip
+mac.sha512: c484ef73cca68fd2275aacafbf958c14a8669075608688436ed2e17721f180d3bd0404e67d8e3916babf3f4e1d9eb732d4ca71b91090bf0012e8b0691b5c8130
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Templates merken sich die Ebene beim Speichern; beim Hereinholen und Publizieren wieder auf dieser Ebene (fehlende Ebene wird angelegt).
+- Automatisieren: Rahmeneigenschaften kopieren und auf gleichartige Objekte einfügen; Füllreihenfolge bleibt in der Rahmengruppe eindeutig.
+- Behoben: „Leeren Rahmen löschen“ greift auch, wenn nur Tag-Marken oder Tabellen-Ankerzeichen übrig sind.
