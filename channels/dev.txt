@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.169
+version: 0.7.170
 date: 2026-10-30
 host: 21
-commit: ca3bae3321634208bd8668ea5e13cae3c599fc69
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.169/p2-0.7.169-mac.zip
-mac.sha512: 08f625f7af97e3c02cea30caffa84b7cc85f97f76eb76c3471c6710dd2339294f95f25f3c5ba8869eb46322c0a73101aea51628141582d1569d3c6e320b87e77
+commit: 7bd015756e6a05ddad74a7813741cacdf83d2c6e
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.170/p2-0.7.170-mac.zip
+mac.sha512: c31aa0bbc3df3050a7e660d2aad09ea5d90dd095fad5c4a58f2137aacb07ba3ca3e2e4159cd8a9d926b3f2733d60be7da9212d7ad02394753f1ec8a4a232675c
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Dialoge ausgerichtet: Feldoptionen (alle Eingaben und Kästchen in einer Spalte, Bildordner/Ersatzbild volle Breite), p2 konfigurieren, Wert bearbeiten, Suchen und Ersetzen.
+- Datenansicht: Knotenpunkt wählt seine Datensätze mit; Auswahl und Suchtreffer halbtransparent; platzierte Werte grün, Fehlbezüge/Abweichungen rot (Zeile leicht, Feld kräftig).
