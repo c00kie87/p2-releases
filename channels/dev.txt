@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.190
+version: 0.7.191
 date: 2026-10-30
 host: 21
-commit: b94c350ddebce682af3c10a40decd710b3cd31b4
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.190/p2-0.7.190-mac.zip
-mac.sha512: de0f118746b8a47ebf5625697b624959ebfff9770edfab0686c4e4efe24bfb3406dca348bd3d6f8503a03e2aba7cb17b52b2e50ff9357c335c6211478e4fab0c
+commit: af3f64766aa276725b7c7e594973bcc24dd59f4f
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.191/p2-0.7.191-mac.zip
+mac.sha512: 03418c81203efce1ce7b1bda0381c24d6d1d559bcbea0443c0f1aa717fca0b1575a54990937cfc2f57add8579b6c343c6797062499d8816e46785cc9e981bf41
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Datenansicht: platzierte Bilder werden grün markiert, auch vervielfältigte Bilder anderer Datensätze.
-- Aktualisieren erkennt Bildrahmen wieder als Bilder.
+- Palette Datenquelle neu geordnet: oben Feldfilter, Filter, Gruppen-Symbol; unten Suchen, Konfiguration, Abfrage, Anzahl.
+- Palette Automatisieren: Vervielfältigen-Haken in der Überschrift, abhängige Einstellungen eingerückt.
