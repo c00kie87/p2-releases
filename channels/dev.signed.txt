@@ -1,13 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.184
+version: 0.7.185
 date: 2026-10-30
 host: 21
-commit: d7222f9d5930c2285aaa0cd1679f2e4e6f32ef1f
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.184/p2-0.7.184-mac.zip
-mac.sha512: 61b6cfb448e16cbe3c04c8ccfa298affbd5601cd4a9e7f65ffddc7a1216d89260111a9fe312b4297a813b5ef8871db4dd745ee3860548f1bf5659acd95139545
+commit: e8773453a1becc83da2de09848918f2540dfa23d
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.185/p2-0.7.185-mac.zip
+mac.sha512: 870196c87338f9e6d46346d464fffec98bf3237cf206d49fbbed9d800df391fd59f04f9ccd85981d95c40f878adc8f4f8643ad6e1210442eeab48b58c4b7413a
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Tabellen: Füllart „Je unterschiedlichem Wert“ (Zeilen-/Spaltenblock je Wert, wahlweise vorhandene Zellen zuerst füllen); Bildfelder in Zellen als verankerte Bilder.
-signature: e7ebd8e8596eb5359b944c476e983366b7a1912ad8ae27fa210d36ae335ab9010fe160ff2a2af8ae8d97c6a5948062798ab7c6f744e2ffffa60301401d66f700
+- Vervielfältigen: Richtung als Symbolknöpfe; Abstände nur noch im Raster-Fenster (↔/↕); bei Verwendung mit mehreren Treffern stehen alle in einem gemeinsamen Raster.
+- Maßfelder nehmen jede Einheit an (pt, cm, in, Pica) und zeigen mm.
+- Filter Vorkommnisse: „Leerwerte mitzählen“. Wert bearbeiten trifft den Datensatz über seinen Schlüssel.
+- Anleitung: Beispiele zu allen Funktionen, Glossar neu geordnet.
+signature: 639376fadf560b7a9477a8520c6fbdebfc6f3efab00bb583cf971ea046751ff71386a2e24dba6d475c448169a684690c78a3c40892784269300ca7fc73487f06
