@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.197
+version: 0.7.198
 date: 2026-10-30
 host: 21
-commit: 771a23064a60836948149361803295ea787cb4ef
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.197/p2-0.7.197-mac.zip
-mac.sha512: 32410bee40ddd2c66c557b93a61b09c95b8699fdacb21c98156b7d8657140938d88dcb84768bafc094e9d9b236fd40386012a8c25581bd635f03b4607f677aef
+commit: cd37353e5be7217dcbbb53b1c5ff20fa7283eaf9
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.198/p2-0.7.198-mac.zip
+mac.sha512: 3e0392e4f4081d35e831d50f3d030ea24b62c4ddd431575bfa3c926fe76ac69a24f2e0d7c0936a8c863cc36a63d2d3547dc36a51c5aceff3018a67bb8f656b19
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Feldoptionen neu aufgeteilt: Reiter Allgemein, Bild, Text & Links (und Zusatzfeld), Knöpfe rechts, Vorschau unten.
-- Bildrahmen mit Höhe und Breite anpassen: proportional, zuerst erreichtes Mindest-/Höchstmaß gewinnt.
-signature: 3f5d1b5632912ca2c71c960a9927a6ae731a73fce3f56a6e3d8d949832135112ae8c50b9b41295e919a0ba18d32a18ca2e29ce1b7bdba1681686056b7b92e401
+- Feldoptionen: „Platzhalter zusammenfassen“ für Feldreihen (Textattribut1–20 → «Textattribut…») mit Trennzeichen.
+- Anleitung: Changelog aller Versionen mit Suche und Schlagwort-Filter.
+signature: c47e71ad053643a4d13bc96d485c515de57d77028597917a7e03ae2a258d08df3bd560d6c050e8024446845c1350cff59a69915a5ca05893402bc59fe6ee4e00
