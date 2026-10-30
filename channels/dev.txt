@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.168
+version: 0.7.169
 date: 2026-10-30
 host: 21
-commit: 632112f3beeab6f13c85743d177fde080f4a209a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.168/p2-0.7.168-mac.zip
-mac.sha512: 7296ab26d55f09386e4e34712b9923f91019b99cc080d1f227d16fcddf43bea98f61e4e8790e290aaa37e8e02fad80d5bbfaf74f40644252dadc026816b6893c
+commit: ca3bae3321634208bd8668ea5e13cae3c599fc69
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.169/p2-0.7.169-mac.zip
+mac.sha512: 08f625f7af97e3c02cea30caffa84b7cc85f97f76eb76c3471c6710dd2339294f95f25f3c5ba8869eb46322c0a73101aea51628141582d1569d3c6e320b87e77
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Suchen und Ersetzen: globale Regeln erscheinen in der Feldansicht und lassen sich je Feld einzeln aus- und einblenden.
+- Dialoge ausgerichtet: Feldoptionen (alle Eingaben und Kästchen in einer Spalte, Bildordner/Ersatzbild volle Breite), p2 konfigurieren, Wert bearbeiten, Suchen und Ersetzen.
