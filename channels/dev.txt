@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.160
+version: 0.7.161
 date: 2026-10-30
 host: 21
-commit: d6e4bdff9a71e4be5b41591787d348351bc26d7b
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.160/p2-0.7.160-mac.zip
-mac.sha512: 18b149ad64f369c47825c98c24c81ec96fbb92f1150220813e7f8153411b9f3e97857ad9bdf22c1991bcbe1bf071ef51fc4112110364347f040f6b2eb29df820
+commit: ca7fe1e1e0f6851560fe85d3ef1b07771bb1c72c
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.161/p2-0.7.161-mac.zip
+mac.sha512: 1a9498ddbdd65efebe34bc03a3c715fc64c8190ea99e895460b2fe8129edf52edaef384e57a93941bfa15c1df5e847e854a50f5045952045a7a5b08d2c43d5ca
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Wert bearbeiten: Haken „Auch übernehmen für:“ – alle angezeigten Datensätze, Datensätze dieser Gruppe, einer anderen Gruppe (wählbar) oder mit gleichem Wert; gilt für Ausgabe und Zurückschreiben.
+- p2 konfigurieren: Rückfall-Template über Bibliothek und Template wählbar; Templates aus anderer Bibliothek werden beim Automatisieren mit eingelesen.
