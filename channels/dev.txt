@@ -1,12 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.189
+version: 0.7.190
 date: 2026-10-30
 host: 21
-commit: c17c5681b4a97e9578b7f90154821fcd12e9dfec
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.189/p2-0.7.189-mac.zip
-mac.sha512: ceb5e2f2a31eba4573914a21a6b0aececb3b2d4e6dc99e5f90d35b0e8883d9ad19705b60f3d539b67ace2188444a26f0b7e3a477765bba31e0cd16b90678303e
+commit: b94c350ddebce682af3c10a40decd710b3cd31b4
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.190/p2-0.7.190-mac.zip
+mac.sha512: de0f118746b8a47ebf5625697b624959ebfff9770edfab0686c4e4efe24bfb3406dca348bd3d6f8503a03e2aba7cb17b52b2e50ff9357c335c6211478e4fab0c
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Feldoptionen: URL-Schablone für Hyperlinks ({wert}, {Feld}); Hyperlinks auch bei markierten Platzhaltern.
+- Datenansicht: platzierte Bilder werden grün markiert, auch vervielfältigte Bilder anderer Datensätze.
+- Aktualisieren erkennt Bildrahmen wieder als Bilder.
