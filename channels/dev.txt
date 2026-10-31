@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.215
+version: 0.7.216
 date: 2026-10-31
 host: 21
-commit: eb8043c79e3c2aeb5f5a2876f2106c7e7e95d40b
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.215/p2-0.7.215-mac.zip
-mac.sha512: d82d8380bfb95651f0a80dcfda647a5a90ced4f2acf4d3d80f4ec1c8a399569c299412711b920eb65cca56d8b6fdf999553fb7db15ee0799a5fbcc659cf3e521
+commit: c9059b860ca115ca1c00ec14ddf1c5dc4d4c72e0
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.216/p2-0.7.216-mac.zip
+mac.sha512: a324589a1f8d3ab5d060eaa334e49e9963f28a1db1aa44b046f7db690d9c874458b6e0dd9aef76cd9adcf7955e9a6c15e7b6ebf52e8602e5772d9d969ae0f22c
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu aufbauen: Aufbau, Datensatz oder Gruppe an derselben Stelle neu ausgeben (Palette Weiterverarbeitung und Kontextmenü der Datenansicht), mit Rückfrage bei Handänderungen und Hinweis auf Überschneidungen.
-- Spielwiese S39.
+- Vervielfältigen im Raster: Seitenrand-Erkennung (Spalte, Spalte mit Steg, Satzspiegel, Seitenkante) – erst Abstände gleichmäßig verringern bis zum Mindestabstand, sonst eine Spalte weniger (z. B. 5 × n statt 6 × 2).
+- Spielwiese S40.
