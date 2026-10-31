@@ -1,13 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.205
+version: 0.7.206
 date: 2026-10-31
 host: 21
-commit: d3522431c5890ce480aff8b9421bee5b7ee32053
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.205/p2-0.7.205-mac.zip
-mac.sha512: 89ce989c2b43ca32957dea8a63ccd5153d00fbf180fb57770f7c7c7ea9335a2f66bfa2218ed60e304e7e71d0d7358fff40bc3b83eee4a34914ea38f8d6932a46
+commit: 3f86a6d62dac3257aa971380f33cbefdde7c537e
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.206/p2-0.7.206-mac.zip
+mac.sha512: 572300216d5c9788efd714e55fda9b748f73823e32b3e0cbaebfc1f27339531dee73b8cde587d48272f3d893bea1ff8cd10775112334bf1e299bbae544af2d66
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Unterabfragen in Tabellen: Zeilen-/Spaltenblock je Treffer, Platzhalter der zweiten Tabelle im Block.
-- Spielwiese S33.
+- Export ins Fremdformat schreibt Unterabfragen als Abfragen (Verknüpfung, Sortierung, Höchstzahl).
