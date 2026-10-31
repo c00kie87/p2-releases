@@ -1,13 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.201
+version: 0.7.202
 date: 2026-10-31
 host: 21
-commit: 0013cf8ef8c5235a3689f1e8949626b202f487d1
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.201/p2-0.7.201-mac.zip
-mac.sha512: 332c0902938bc41954dac1320737adce5b657f1b6cd8d082ea6457c92141438e88de25cfe8df818f10d20c4e9c41a539a6f66dbda215f8f4f6628ed606702578
+commit: 13bc120e2730799b71898cf10afe850a0335d81d
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.202/p2-0.7.202-mac.zip
+mac.sha512: b0e5398b66783aca2a48eb4aa824c53572abb567696866daff26313a2cebc9dbd56bdc5b33f744074735c42fbb51cf4125326c62a0010165e146ca46c9782ac6
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Feldoptionen: „Listenpunkte“ – HTML-Listen als Absätze in einem gewählten Absatzformat statt „•“-Text.
-signature: a77b8a63d25f323106ee021212c137bd9e77c6636ac04b5652f8d21502249fd7cff3c5e98d163560aba07a737ac87227de145dacdc9d2c11544e2bb542206a08
+- Automatisieren: „Eigenschaften für diesen Wert merken …“ – Nacharbeit an einem erzeugten Objekt gilt sofort und künftig für alle Objekte desselben Template-Rahmens mit gleichem Wert.
+- Spielwiese S31.
+signature: eddcd02b59c355a5fb1e1ac0f1f7a17ecced7a04508f2b188f241fa45ff5466ab7200b6743f601f78dffadcc233079904ae8a874f701d4f73afbc2df35ce6c0f
