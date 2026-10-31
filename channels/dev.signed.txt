@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.200
+version: 0.7.201
 date: 2026-10-31
 host: 21
-commit: ea2da36ac488e7e9bcfc2694c3b1caa9210f34a4
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.200/p2-0.7.200-mac.zip
-mac.sha512: 67eb74284724dbbb8b232a4d8cbd16d03bbf92b8cd4e54bfe23847deb7f1a80ee48a1686aa664430db4a52fceef2c761bee53f98af366f2e9c22f8a7579795b8
+commit: 0013cf8ef8c5235a3689f1e8949626b202f487d1
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.201/p2-0.7.201-mac.zip
+mac.sha512: 332c0902938bc41954dac1320737adce5b657f1b6cd8d082ea6457c92141438e88de25cfe8df818f10d20c4e9c41a539a6f66dbda215f8f4f6628ed606702578
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Zusatzfelder: Art „Reihe“ – nummerierte Feldreihen (Name/Wert/Einheit 1…n) je Nummer als eigene Zeile, Vorlage mit #.
-- Spielwiese S30.
-signature: 7cdd346dc2c2a84069f9f9c6f0d2b2ac0c9dea4a9a42eaefeb69a8d8c9c76d0864e11ab7b4bf3b4b8f560696999c2e7ee229a76cc769a84aab930740f00dc606
+- Feldoptionen: „Listenpunkte“ – HTML-Listen als Absätze in einem gewählten Absatzformat statt „•“-Text.
+signature: a77b8a63d25f323106ee021212c137bd9e77c6636ac04b5652f8d21502249fd7cff3c5e98d163560aba07a737ac87227de145dacdc9d2c11544e2bb542206a08
