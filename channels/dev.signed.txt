@@ -1,15 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.213
+version: 0.7.214
 date: 2026-10-31
 host: 21
-commit: 3484ae1541027fc509016ba9eed362e0dd4607d8
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.213/p2-0.7.213-mac.zip
-mac.sha512: ddb21a90174820f41a2a30af9783f2509d6aede85b2b2e9f13874272b6ea8309e870f70098d4d0a5d71edf88a79467b6a7365deec4fb4cbd48aade4dd585b096
+commit: 8253328074c4f4b7e4663419a8e3248deb87a9ee
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.214/p2-0.7.214-mac.zip
+mac.sha512: 7fc4b6a2d3cd5603b3476a6c4fe4d90a0aed3040f373243db2a42f71e51275dc4087fa7e52b9b447bf5481911af4007ca5cc87a540da83ff3d2517a67e2f32c7
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neue Palette Weiterverarbeitung (Fenster › p2): alle erzeugten Objekte als Baum mit Zustand (aktuell, Daten geändert, Objekt geändert, Gruppe aufgelöst …), Auswahl in beide Richtungen, Werte gezielt aktualisieren, aufgelöste Teile wieder gruppieren.
-- Ältere Dokumente ohne Herkunft werden erkannt: Rückfrage „Herkunft ergänzen“ oder „Ignorieren“, nachträglich jederzeit per Knopf.
-- Spielwiese S38.
-signature: 3f8b2e73ad01bd8e5c5b8c76bbd8d0c6014e758112d8d5c715d3c4d2c3c58ff06fe04bad9341d67e86978826ac7d2f80a802ece1e11254f16f8560bc5402340b
+- Hilfstabellen auflösen: Platzhalter-Tags bleiben in den neuen Zellrahmen erhalten.
+signature: a3fe3a1966f7bbd43104ce06317f415a491a5af00903e161185c38781ddd149465803ccd1901f252f8e1f5f98691ed1a807b88d933f8e97bbf11dca3579c9a02
