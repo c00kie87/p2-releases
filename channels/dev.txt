@@ -1,13 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.208
+version: 0.7.209
 date: 2026-10-31
 host: 21
-commit: 35d5f596088d3890518f8cce83e22b23da69a61b
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.208/p2-0.7.208-mac.zip
-mac.sha512: d9d4f346fe0f2924cc5e632154f1d68093295d3e44f2146adb9cc30a28d90c9891a487b37fbf687f01c382cadc160bd26d58b3f468ddb0c59563672c7b037c18
+commit: 3e9d2b06d65e49014894c2a0bcb8c7c39b012304
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.209/p2-0.7.209-mac.zip
+mac.sha512: 3767f8866de794bb86fdafd452405b03e6a626f61724b1ee75f7c5768ad02272e1c3cfb6688c00f02b8761747e92b0eb00b8db0e5dc227b86206f41594f52475
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Hilfstabellen: Tabelle als Raster nutzen und nach dem Automatisieren ohne Versatz in Rahmen auflösen (Prüfung, Objektformate, optional gruppiert).
-- Spielwiese S34.
+- Raster-Fenster: „Ausrichtung“ heißt jetzt „Objekte zueinander ausrichten“; der Bezugspunkt steht ohne zusätzliche Textangabe.
