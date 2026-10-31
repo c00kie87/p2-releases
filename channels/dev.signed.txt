@@ -1,13 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.199
-date: 2026-10-30
+version: 0.7.200
+date: 2026-10-31
 host: 21
-commit: 2ced84ca40a611787fae7cfc73f0dc2aa63cc24f
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.199/p2-0.7.199-mac.zip
-mac.sha512: f6ce31342ffe3789c64417247fa29aab5a4831fcc65f54199714bc9ce505ba6d2ee08cf89828bccbf83e68ef2c08b7201abe38346353a2a02db23724f0e635ce
+commit: ea2da36ac488e7e9bcfc2694c3b1caa9210f34a4
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.200/p2-0.7.200-mac.zip
+mac.sha512: 67eb74284724dbbb8b232a4d8cbd16d03bbf92b8cd4e54bfe23847deb7f1a80ee48a1686aa664430db4a52fceef2c761bee53f98af366f2e9c22f8a7579795b8
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Vervielfältigen: Raster ordnet nach dem Einpassen nach echten Größen; Ausrichtung je Raster (3×3-Bezugspunkt im Raster-Fenster).
-signature: 1c19263dbd7398af7142a7312d05c7455ef0aee8b8ab4a8508b538f4ee7f0d9d1248cc0a136669256470cca11dd053fa37a023a99d2298fbe05a5fa027ced40d
+- Zusatzfelder: Art „Reihe“ – nummerierte Feldreihen (Name/Wert/Einheit 1…n) je Nummer als eigene Zeile, Vorlage mit #.
+- Spielwiese S30.
+signature: 7cdd346dc2c2a84069f9f9c6f0d2b2ac0c9dea4a9a42eaefeb69a8d8c9c76d0864e11ab7b4bf3b4b8f560696999c2e7ee229a76cc769a84aab930740f00dc606
