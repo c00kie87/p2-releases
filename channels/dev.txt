@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.211
+version: 0.7.212
 date: 2026-10-31
 host: 21
-commit: 1e39263dead32b31d98bf36d5f358c00e97cf7d9
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.211/p2-0.7.211-mac.zip
-mac.sha512: a1e0eedda50a0877ba29c17b112d3a0967bc36817d37441dc1217ef3580757ab759d219a5633e61e455c897eae2943b7ce1de30dc8637a389e61d633698604e4
+commit: 6f6a4c7136465f5171e4b98e14b6ed9591c3dcb4
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.212/p2-0.7.212-mac.zip
+mac.sha512: 343e767134ea6e4928e05fb186ffab09302ecfd6bd5186b41b0e5e839d2647c2f14a8e9f2436023fd8b64cc054517262caac3b203eafd2af41eb2d78b15b0146
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Datenansicht, Kontextmenü: Wert, Datensatz, Gruppe oder Datenfeld gezielt im Dokument aktualisieren.
-- Konzept für Herkunft und Palette „Aufbau“ (gezielt aktualisieren und neu aufbauen, auch nach aufgelösten Gruppen).
-- Spielwiese S36.
+- Herkunft der Ausgabeteile wird an Rahmen, Gruppen, Rasterteilen und aufgelösten Hilfstabellen gespeichert und bleibt nach dem Aufheben von Gruppen erhalten.
+- Dokumentbericht zeigt Herkunft, Rollen und unvollständige Altbezüge; Ergänzung nur beim ausdrücklich gewählten Aktualisieren.
+- Spielwiese S37 und Anleitung ergänzt. Aufbaupalette und Neuaufbau folgen in weiteren Stufen; Laufzeitabnahme offen.
