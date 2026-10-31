@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.206
+version: 0.7.207
 date: 2026-10-31
 host: 21
-commit: 3f86a6d62dac3257aa971380f33cbefdde7c537e
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.206/p2-0.7.206-mac.zip
-mac.sha512: 572300216d5c9788efd714e55fda9b748f73823e32b3e0cbaebfc1f27339531dee73b8cde587d48272f3d893bea1ff8cd10775112334bf1e299bbae544af2d66
+commit: 6cbd827c8d80495a5a760885decc47ebcffec8f8
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.207/p2-0.7.207-mac.zip
+mac.sha512: 213df52aae5bcb5e077e4ef902aad821cccb18d190c043221a4f01bbe2d5247658091541ebf9a3d0c05cdba4144bcd05984937e61f0ecedc9df12ca314d29cf7
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Export ins Fremdformat schreibt Unterabfragen als Abfragen (Verknüpfung, Sortierung, Höchstzahl).
-signature: 423923308c90e627fe57e0a3a9c403ed75252f80a72504e5de17db51d9b3f658fec1bbc285442928997e89d199c20053998c2e22d4170e8877981b427db06509
+- Export ins Fremdformat schreibt zusätzlich die Template-Datei: Kopie des Dokuments mit Etiketten des Altsystems an Text- und Bildrahmen.
+signature: 7b432b14a1ce89f58c1a3f0517159a57ecd3b2c1c2ebe6e810da9b3faea0bf130e9f70c4048321550f3e4b13bb4ea513a526fff15e34eb6bdec11d99200de103
