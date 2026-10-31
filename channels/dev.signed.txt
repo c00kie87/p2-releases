@@ -1,15 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.210
+version: 0.7.211
 date: 2026-10-31
 host: 21
-commit: 9a0ea2c5102dbc2746d70092f75f0f81b794ace2
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.210/p2-0.7.210-mac.zip
-mac.sha512: 79d39f4c2abf4cb49f1c0a4c90430b7e023cf9f1c294595a84dc25217b8817efc4f0b0e8dddfdeaa5772646507fd5e09745ad67f50aa13416d3d12d3047f014b
+commit: 1e39263dead32b31d98bf36d5f358c00e97cf7d9
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.211/p2-0.7.211-mac.zip
+mac.sha512: a1e0eedda50a0877ba29c17b112d3a0967bc36817d37441dc1217ef3580757ab759d219a5633e61e455c897eae2943b7ce1de30dc8637a389e61d633698604e4
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Template-Export schreibt Tabellen-Etiketten des Altsystems in die Vorlage-Kopie: Zeilen-/Spaltenblock, Zellfüllung, Pivot-Kennzeichen, Blockbeginn und Unterabfragename.
-- Die p2-Tabellenregel und ihre Rahmensicherung bleiben erhalten; Tabellenkennungen der Kopie werden geprüft.
-- Nicht übertragbare Tabellenoptionen werden im Exportbericht benannt. Spielwiese S35 und Anleitung ergänzt; Laufzeitabnahme offen.
-signature: 1f09f94a3d1850b06b7e8a1032932198904d801c2b0060bfccdca16e100d831a46cb9b0af496f93fc003675761391236e2385f30960364bdd6fbd9f7dd23a90f
+- Datenansicht, Kontextmenü: Wert, Datensatz, Gruppe oder Datenfeld gezielt im Dokument aktualisieren.
+- Konzept für Herkunft und Palette „Aufbau“ (gezielt aktualisieren und neu aufbauen, auch nach aufgelösten Gruppen).
+- Spielwiese S36.
+signature: 99129ae11d0a067b564e31646ac384d8308f3572e68d16dab179b4b8b207c3eaa725109e43ff27af72741f442d85857da8eaf2bbcdf6b588697c975290501500
