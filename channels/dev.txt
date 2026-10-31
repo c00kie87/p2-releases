@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.204
+version: 0.7.205
 date: 2026-10-31
 host: 21
-commit: 76466a828b4b78be28812edaa5d6b8def73deaeb
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.204/p2-0.7.204-mac.zip
-mac.sha512: 47ad7b300883af2d6a0ef2a1691e13bfe83623f75efdfd8ce7704d70cf9a9f9448cae2aa6fc167e2397b1ebfbe60f0d591239d25a37e2c51213bc55e70663a32
+commit: d3522431c5890ce480aff8b9421bee5b7ee32053
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.205/p2-0.7.205-mac.zip
+mac.sha512: 89ce989c2b43ca32957dea8a63ccd5153d00fbf180fb57770f7c7c7ea9335a2f66bfa2218ed60e304e7e71d0d7358fff40bc3b83eee4a34914ea38f8d6932a46
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Unterabfragen (1:n) je Konfiguration mit Fenster (Datenquelle › Konfiguration › Unterabfragen …); Zusatzfeld-Art „Liste aus Unterabfrage“.
-- Spielwiese S32 mit zweiter Tabelle.
+- Unterabfragen in Tabellen: Zeilen-/Spaltenblock je Treffer, Platzhalter der zweiten Tabelle im Block.
+- Spielwiese S33.
