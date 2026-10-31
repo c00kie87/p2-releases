@@ -1,13 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.202
+version: 0.7.203
 date: 2026-10-31
 host: 21
-commit: 13bc120e2730799b71898cf10afe850a0335d81d
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.202/p2-0.7.202-mac.zip
-mac.sha512: b0e5398b66783aca2a48eb4aa824c53572abb567696866daff26313a2cebc9dbd56bdc5b33f744074735c42fbb51cf4125326c62a0010165e146ca46c9782ac6
+commit: 391537ea3e0ba8c89af84f98de79787a3273a545
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.203/p2-0.7.203-mac.zip
+mac.sha512: 836d14ae46b20bc125cf476df027efed4765340e38e1ffa21417bb57744ab2f0eea6d81bd36585149acda17ac465625ccf0a81ff4095f0d37680048e930b7f22
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Automatisieren: „Eigenschaften für diesen Wert merken …“ – Nacharbeit an einem erzeugten Objekt gilt sofort und künftig für alle Objekte desselben Template-Rahmens mit gleichem Wert.
-- Spielwiese S31.
+- Zusatzfeld-Dialog in Reitern: Feldoptionen · Allgemein · Variante · Bedingung & Leer, Vorschau unten.
