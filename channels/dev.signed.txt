@@ -1,13 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.203
+version: 0.7.204
 date: 2026-10-31
 host: 21
-commit: 391537ea3e0ba8c89af84f98de79787a3273a545
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.203/p2-0.7.203-mac.zip
-mac.sha512: 836d14ae46b20bc125cf476df027efed4765340e38e1ffa21417bb57744ab2f0eea6d81bd36585149acda17ac465625ccf0a81ff4095f0d37680048e930b7f22
+commit: 76466a828b4b78be28812edaa5d6b8def73deaeb
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.204/p2-0.7.204-mac.zip
+mac.sha512: 47ad7b300883af2d6a0ef2a1691e13bfe83623f75efdfd8ce7704d70cf9a9f9448cae2aa6fc167e2397b1ebfbe60f0d591239d25a37e2c51213bc55e70663a32
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Zusatzfeld-Dialog in Reitern: Feldoptionen · Allgemein · Variante · Bedingung & Leer, Vorschau unten.
-signature: b271e9b5fe571dc324461555baf45a8ac05330816367a7d936cf5f7385593beacd5f6bbdc2e6c838d7e999656e4cb134fa6c472c7f58f334c9db6e190582c30d
+- Unterabfragen (1:n) je Konfiguration mit Fenster (Datenquelle › Konfiguration › Unterabfragen …); Zusatzfeld-Art „Liste aus Unterabfrage“.
+- Spielwiese S32 mit zweiter Tabelle.
+signature: 6a81d0bd0801ea8faa5acc1a45b954b268845027de0ba7911b0a5153892acea5df2f327ad1fa1d1946ec208251fc23d3744a15b519cae1e3b3dd25c6b9e8fb0a
