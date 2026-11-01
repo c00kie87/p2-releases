@@ -1,14 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.220
+version: 0.7.221
 date: 2026-11-01
 host: 21
-commit: 09d027e97791edaf182f4bb1e006595d149f64b5
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.220/p2-0.7.220-mac.zip
-mac.sha512: 74dc5726386dd0ef8c943832f8f36e488b5f5bb5c8af2e65c26c46e0397c455bb61557abe3a3de33cef453ea1aefe9a20603b5556059022d59f2a9e59abd558d
+commit: c4626996cd43d2c63ddc98b0b4313524570e0d14
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.221/p2-0.7.221-mac.zip
+mac.sha512: e1ea108070971638e794d1efea6efeadf51412b4ed1c56a6f161c471d3d68bf364b61cda88eb38b64384b035a8277cebe2ac5c7239506ec7dad1b01358feb22b
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Dynamik zwischen Aufbauten derselben Seite: wächst oder schrumpft ein ausgegebener Aufbau nach Aktualisieren oder Neu aufbauen, rücken die folgenden Aufbauten nach bzw. heran (einstellbar im Fenster Automatisieren: Aufbauten untereinander, Aufbau folgt).
-- Spielwiese S43.
-signature: a6e643a28b06c2d3d8db943f162f4b6cc9229a656f16730e3f7a5b8702f86faba942b119a69db57ab986efbfea2615df514c90e47d7a88d88843320810f1160d
+- Hilfstabellen: Die beim Auflösen entstehenden Zellrahmen können ihre Höhe und/oder Breite dem Inhalt anpassen, ohne dass sich Text verschiebt.
+- Abschlussmeldung: Abschnitt „Hinweise“ fasst Raster- und Hilfstabellen-Hinweise zusammen.
+- Spielwiese S44.
+signature: d86a9f71bcdde309a4fea472bafbe1d031490ad93c11e01f6b0140169a2590be9156e7fca388867a72c88c0d9ca659571c5366adddcb269eec990ee710ac5301
