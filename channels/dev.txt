@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.228
+version: 0.7.229
 date: 2026-11-01
 host: 21
-commit: dff9fd25b428108f62d6a9d4912c643021028122
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.228/p2-0.7.228-mac.zip
-mac.sha512: 6b337d60d555e884f7a7a25b2430400a9c25351ef998dc3d968c053eb84e565ef4eb68050646293dcf1b8914b59fbd2e67b3768cdab5a0864bf1477fb57b78dd
+commit: 9b680cd54d366801b114e7173f36177938650592
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.229/p2-0.7.229-mac.zip
+mac.sha512: 9404c12be14037174072f1a38134fb16a357925c066b5f5f5f4c879d6784bdc2baf0d282df4e2df56e75fa447a0bb677c98958687ca431ee71f6ca6012f001b9
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Spiegeln (p2-eigen): ganzes Template oder nur markierte Rahmen, auf linken oder rechten Seiten oder im Wechsel je Seite – nur die Lage; der Füllnummern-Weg des Altsystems bleibt erhalten.
-- Spielwiese S51.
+- Datenquelle: Erneuter Klick auf den ausgewählten Gruppenkopf oder dieselbe aktive Zelle hebt die gesamte Auswahl auf.
+- Drag-and-drop erhält die Auswahl; Doppelklick öffnet weiterhin den Werteditor. Spielwiese S52 und Anleitung ergänzt; Laufzeitabnahme offen.
