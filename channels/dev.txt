@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.227
+version: 0.7.228
 date: 2026-11-01
 host: 21
-commit: 7a6f6d9d830d22015c146d8ae0eb80b1186beb3b
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.227/p2-0.7.227-mac.zip
-mac.sha512: fa97e4b84561968fc770b44f19ab49b67449b9800ee5b3ca376a2c70c8eabfbd1e12c01d51e4812bda85df2ca47e2aa13cc5fd2021e2e7b997c286a1db7f3f44
+commit: dff9fd25b428108f62d6a9d4912c643021028122
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.228/p2-0.7.228-mac.zip
+mac.sha512: 6b337d60d555e884f7a7a25b2430400a9c25351ef998dc3d968c053eb84e565ef4eb68050646293dcf1b8914b59fbd2e67b3768cdab5a0864bf1477fb57b78dd
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Umbruch zwischen Rahmen: Rahmen derselben Untergruppe (z. B. Bild und Bildtext) bleiben zusammen; Bildumbruch, Untergruppe und „statisch“ aus Projekten des Altsystems werden übernommen und zurückgeschrieben.
-- Spielwiese S50.
+- Spiegeln (p2-eigen): ganzes Template oder nur markierte Rahmen, auf linken oder rechten Seiten oder im Wechsel je Seite – nur die Lage; der Füllnummern-Weg des Altsystems bleibt erhalten.
+- Spielwiese S51.
