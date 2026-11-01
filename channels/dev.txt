@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.219
+version: 0.7.220
 date: 2026-11-01
 host: 21
-commit: c17f161966ef6daa62beb45bfc0f138c3e1b5b2e
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.219/p2-0.7.219-mac.zip
-mac.sha512: 1474130b2f49e2785abfa498f25d03f7a0c520bec524de4d526e62aee5d37f54df3ed2f8e782cc7ff5d3f4a8547e3e71fa42fa907f72e9b6d3777f6a6234668e
+commit: 09d027e97791edaf182f4bb1e006595d149f64b5
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.220/p2-0.7.220-mac.zip
+mac.sha512: 74dc5726386dd0ef8c943832f8f36e488b5f5bb5c8af2e65c26c46e0397c455bb61557abe3a3de33cef453ea1aefe9a20603b5556059022d59f2a9e59abd558d
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Dynamik wirkt jetzt auch nach Aktualisieren: geänderte Rahmen passen sich an, Folgende rücken nach oder heran.
-- Palette Weiterverarbeitung: „Dynamik anwenden“ stellt Verdrängen/Heranziehen für den gewählten oder alle Aufbauten wieder her.
-- Spielwiese S42.
+- Dynamik zwischen Aufbauten derselben Seite: wächst oder schrumpft ein ausgegebener Aufbau nach Aktualisieren oder Neu aufbauen, rücken die folgenden Aufbauten nach bzw. heran (einstellbar im Fenster Automatisieren: Aufbauten untereinander, Aufbau folgt).
+- Spielwiese S43.
