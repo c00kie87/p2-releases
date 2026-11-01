@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.226
+version: 0.7.227
 date: 2026-11-01
 host: 21
-commit: 8d9cc7ec4571ecabd1beaa7bf9095641959ac1da
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.226/p2-0.7.226-mac.zip
-mac.sha512: 779dec289bab69c4c27cb93c64ec89fad1e5be2a7bc2a1caca50722d800225e254f67ad250d88de08e40ef847513ca6d1d461b9f15f3ee19a7aaa26c73e20661
+commit: 7a6f6d9d830d22015c146d8ae0eb80b1186beb3b
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.227/p2-0.7.227-mac.zip
+mac.sha512: fa97e4b84561968fc770b44f19ab49b67449b9800ee5b3ca376a2c70c8eabfbd1e12c01d51e4812bda85df2ca47e2aa13cc5fd2021e2e7b997c286a1db7f3f44
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Abläufe: mehrere Konfigurationen einer Quelle der Reihe nach automatisieren (Datenquelle › Menü › Konfiguration › Abläufe …) – mit Reihenfolge, aktiv und Startauswahl, eine Meldung, ein Rückgängig-Schritt.
-- Spielwiese S49.
-signature: 8cd7a7c6406f3839ba93c960ff863507602ad3d2544d473d5361aa5e45b5109fc18e2d210dfe3df8b37c7bb0cbacd4e1f00f7edb58c084f642322479f0ca430d
+- Umbruch zwischen Rahmen: Rahmen derselben Untergruppe (z. B. Bild und Bildtext) bleiben zusammen; Bildumbruch, Untergruppe und „statisch“ aus Projekten des Altsystems werden übernommen und zurückgeschrieben.
+- Spielwiese S50.
+signature: f12fac96eeee91f243ca6ccc5a5ab8a1a963687218d91d204431dffd2435916e659dbf05e1f3f1264ba30f8851b9478c857d9bdb2e0c8eb7bc467b2e1196770f
