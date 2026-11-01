@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.224
+version: 0.7.225
 date: 2026-11-01
 host: 21
-commit: 12b57407cc2afba90f6da3083ed42f777b161d91
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.224/p2-0.7.224-mac.zip
-mac.sha512: 1e674c29c44891498b043448047c8152f37dc861f16bbee42a1f9299436664910693ceeddbb5206c95697f2f0f7917e5f11f6aaa1b620fd7344669cbc4267c07
+commit: 1d5919ee423c75e0930ac819e11cb49dfd39333b
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.225/p2-0.7.225-mac.zip
+mac.sha512: c68c3c1142f2a852dc8c3213fbe06f66158329f6d5ac497f7ec0e0a4781a5c3d5bbdea4dda63071ee7223b19fd89c6d7f3100894ce5a17e2202970290ce90302
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Umbruch im Template: „Erst umbrechen ab“ (Grenzwert) und „Fortsetzung aus“ (Folgerahmen aus eigener Rahmengruppe); Umbruch-Angaben aus Projekten des Altsystems werden übernommen und beim Export zurückgeschrieben.
-- Spielwiese S47.
-signature: 62e8ada88feef5a7fa049b68b4eae67a1ee408885d9bff8d4e1bf938370bbfdfaca44248d5b4797eabca28bec5f75ed9a9bc72ebca390fc705a1ce9782333e07
+- Linke und rechte Rahmen: mit Füllnummern 1xx/2xx erscheinen Rahmen nur auf linken bzw. rechten Seiten (Fenster Automatisieren: Linke/rechte Rahmen unterscheiden).
+- Spielwiese S48.
+signature: bbd5c1e0a39e98c902cbdc2d2dd7bcc4fc24294e5f93e8a30868f090092fb3c634c346c9da5f9c8286b5e777b2f79a48c670f1d450532f3e35d8cacfb1c16d06
