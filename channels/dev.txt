@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.225
+version: 0.7.226
 date: 2026-11-01
 host: 21
-commit: 1d5919ee423c75e0930ac819e11cb49dfd39333b
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.225/p2-0.7.225-mac.zip
-mac.sha512: c68c3c1142f2a852dc8c3213fbe06f66158329f6d5ac497f7ec0e0a4781a5c3d5bbdea4dda63071ee7223b19fd89c6d7f3100894ce5a17e2202970290ce90302
+commit: 8d9cc7ec4571ecabd1beaa7bf9095641959ac1da
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.226/p2-0.7.226-mac.zip
+mac.sha512: 779dec289bab69c4c27cb93c64ec89fad1e5be2a7bc2a1caca50722d800225e254f67ad250d88de08e40ef847513ca6d1d461b9f15f3ee19a7aaa26c73e20661
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Linke und rechte Rahmen: mit Füllnummern 1xx/2xx erscheinen Rahmen nur auf linken bzw. rechten Seiten (Fenster Automatisieren: Linke/rechte Rahmen unterscheiden).
-- Spielwiese S48.
+- Abläufe: mehrere Konfigurationen einer Quelle der Reihe nach automatisieren (Datenquelle › Menü › Konfiguration › Abläufe …) – mit Reihenfolge, aktiv und Startauswahl, eine Meldung, ein Rückgängig-Schritt.
+- Spielwiese S49.
