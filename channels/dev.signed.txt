@@ -1,14 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.218
+version: 0.7.219
 date: 2026-11-01
 host: 21
-commit: f92a63e367eb376ef573f7f2d7bdb5046eded707
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.218/p2-0.7.218-mac.zip
-mac.sha512: 3026cfc2df6b87c07b919dbd0c1edccdf1b0e4b1eff563d1f28776a023c05c7f8d4a83c54c631d343642b46e7fdca12b9b13b6c641ae8792dd555fb6b8273ef3
+commit: c17f161966ef6daa62beb45bfc0f138c3e1b5b2e
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.219/p2-0.7.219-mac.zip
+mac.sha512: 1474130b2f49e2785abfa498f25d03f7a0c520bec524de4d526e62aee5d37f54df3ed2f8e782cc7ff5d3f4a8547e3e71fa42fa907f72e9b6d3777f6a6234668e
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Dynamik: Alle Template-Elemente (Rahmen, Bilder, Rechtecke, Linien, Vervielfältigungen) können verdrängen und heranziehen, nach unten und nach rechts; jedes Element legt fest, wem es folgt (direkt darüber, auch aus anderen Spalten, nur bestimmten Füllnummern, fest) und ob es den Abstand bewahrt oder erst bei Berührung rückt.
-- Spielwiese S41.
-signature: 083c5addc577222b6bc5f632b6bf805c00427a3945f39ffb4ac820e1957bcf3913469c4072221091495ebbfe60cfba4ba3f5a09c0dbabf8b0ac791ea51f1db0a
+- Dynamik wirkt jetzt auch nach Aktualisieren: geänderte Rahmen passen sich an, Folgende rücken nach oder heran.
+- Palette Weiterverarbeitung: „Dynamik anwenden“ stellt Verdrängen/Heranziehen für den gewählten oder alle Aufbauten wieder her.
+- Spielwiese S42.
+signature: a0d44d90aa0b19daf51260c53726f16d4dd7a388d01ac9fb2ac98266b813806d4513ee0829d523230fae94501a8c19c733ad2d29ac41836b472062cd8a42370e
