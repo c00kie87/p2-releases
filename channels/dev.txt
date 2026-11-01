@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.221
+version: 0.7.222
 date: 2026-11-01
 host: 21
-commit: c4626996cd43d2c63ddc98b0b4313524570e0d14
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.221/p2-0.7.221-mac.zip
-mac.sha512: e1ea108070971638e794d1efea6efeadf51412b4ed1c56a6f161c471d3d68bf364b61cda88eb38b64384b035a8277cebe2ac5c7239506ec7dad1b01358feb22b
+commit: c5bd08040103eef47c3cda9f34fc977f3c9f43e0
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.222/p2-0.7.222-mac.zip
+mac.sha512: f4d7756dca2bccfe429e0a840dc854e1cd66c3fe93241b11cb7ed04afee5f1a05372dd3696f6343ad474870b80212e86f48cbc0448f4649f9f4b2f1ec133349e
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Hilfstabellen: Die beim Auflösen entstehenden Zellrahmen können ihre Höhe und/oder Breite dem Inhalt anpassen, ohne dass sich Text verschiebt.
-- Abschlussmeldung: Abschnitt „Hinweise“ fasst Raster- und Hilfstabellen-Hinweise zusammen.
-- Spielwiese S44.
+- Rastersatz: feste Zeilenzahl je Seite im Rahmenfluss (Zeilen gleichmäßig verteilt; zeilen- oder spaltenweise; höhere Templates belegen mehrere Zeilen).
+- Spielwiese S45.
