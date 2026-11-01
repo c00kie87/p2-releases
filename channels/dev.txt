@@ -1,13 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.229
+version: 0.7.230
 date: 2026-11-01
 host: 21
-commit: 9b680cd54d366801b114e7173f36177938650592
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.229/p2-0.7.229-mac.zip
-mac.sha512: 9404c12be14037174072f1a38134fb16a357925c066b5f5f5f4c879d6784bdc2baf0d282df4e2df56e75fa447a0bb677c98958687ca431ee71f6ca6012f001b9
+commit: e625236be5b421607f53d743ac686308bcd1db35
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.230/p2-0.7.230-mac.zip
+mac.sha512: 3983e79ef0813c98065e0755ba4080feef64758f157617a67456adb60acdcfb47d7866276712065da172912b2a21681d4da79dd443be1daa4cfa5fc568eb241c
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Datenquelle: Erneuter Klick auf den ausgewählten Gruppenkopf oder dieselbe aktive Zelle hebt die gesamte Auswahl auf.
-- Drag-and-drop erhält die Auswahl; Doppelklick öffnet weiterhin den Werteditor. Spielwiese S52 und Anleitung ergänzt; Laufzeitabnahme offen.
+- Bilder aktualisieren: Tatsächlich gewählte Datei erneut prüfen, auch bei gleichem Feldwert. Ein wieder erreichbares Original ersetzt das bisherige Ersatzbild.
+- Feldoptionen › Bild: Ersatzbild-Vorschau mit Dateistatus und klarer Anzeige für Original oder Ersatz des gewählten Datensatzes.
+- Gemeinsamer Bildsuchweg für Vorschau und Ausgabe; Dateicaches erneuern sich bei fehlenden/geänderten Dateien. Spielwiese S53, Laufzeitabnahme offen.
+- Spielwiesen-Konfigurationen mit eindeutigen XML-Attributen erzeugen, damit die Szenarien gemeinsam geladen werden können.
