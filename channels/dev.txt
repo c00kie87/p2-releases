@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.223
+version: 0.7.224
 date: 2026-11-01
 host: 21
-commit: 3e99f03f6123b3bf07b9199b3df1a91ff4cfbc4c
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.223/p2-0.7.223-mac.zip
-mac.sha512: ba89f62304fa5ed151c79fee331d479bcace6351d8582cb506b45650ef5d98337cf488adc4ec3b8e7e3c28aa805ad3bd58bf8193eafb69037d514da28497a6f2
+commit: 12b57407cc2afba90f6da3083ed42f777b161d91
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.224/p2-0.7.224-mac.zip
+mac.sha512: 1e674c29c44891498b043448047c8152f37dc861f16bbee42a1f9299436664910693ceeddbb5206c95697f2f0f7917e5f11f6aaa1b620fd7344669cbc4267c07
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Seitenaufbau: „an der letzten Ausgabe fortsetzen“, Seitenversatz, „nur eine Seite“ und wählbarer Bereich des Rahmenflusses (Satzspiegel, ganze Seite, feste Grenzen).
-- Spielwiese S46.
+- Umbruch im Template: „Erst umbrechen ab“ (Grenzwert) und „Fortsetzung aus“ (Folgerahmen aus eigener Rahmengruppe); Umbruch-Angaben aus Projekten des Altsystems werden übernommen und beim Export zurückgeschrieben.
+- Spielwiese S47.
