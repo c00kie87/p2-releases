@@ -1,15 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.230
-date: 2026-11-01
+version: 0.7.231
+date: 2026-11-02
 host: 21
-commit: e625236be5b421607f53d743ac686308bcd1db35
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.230/p2-0.7.230-mac.zip
-mac.sha512: 3983e79ef0813c98065e0755ba4080feef64758f157617a67456adb60acdcfb47d7866276712065da172912b2a21681d4da79dd443be1daa4cfa5fc568eb241c
+commit: a5b35b5c92de8a72c1ba0be96eea7546607d9df0
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.231/p2-0.7.231-mac.zip
+mac.sha512: 4bf212b3ce1e021a0ef1eca5eaa21c7bea37b5a18ec47880e00787cdc133fd7fa91bea299add53761a23017a449a024d895f19158f1eb7ed78e7656426faf70f
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Bilder aktualisieren: Tatsächlich gewählte Datei erneut prüfen, auch bei gleichem Feldwert. Ein wieder erreichbares Original ersetzt das bisherige Ersatzbild.
-- Feldoptionen › Bild: Ersatzbild-Vorschau mit Dateistatus und klarer Anzeige für Original oder Ersatz des gewählten Datensatzes.
-- Gemeinsamer Bildsuchweg für Vorschau und Ausgabe; Dateicaches erneuern sich bei fehlenden/geänderten Dateien. Spielwiese S53, Laufzeitabnahme offen.
-- Spielwiesen-Konfigurationen mit eindeutigen XML-Attributen erzeugen, damit die Szenarien gemeinsam geladen werden können.
+- Scrollleisten aller p2-Paletten mit Pfeilen an beiden Enden (Klick = ein Schritt); Palette Templates erhält eine Scrollleiste.
+- Automatisieren: Abschnitte über dezente Pfeile auf-/zuklappbar (auch Bedingungen), Zustand bleibt erhalten; Formular scrollt bei Platzmangel.
+- Bildrahmen: eigener Rahmen-Bezugspunkt für „Rahmen an Inhalt“; der gewählte Punkt des Ausgangsrahmens bleibt stehen. Bisher wurde er bei Höhe und Breite ohne Grenzen ignoriert.
+- Template-Bibliothek: Rahmen des Altsystems gehören beim Einfügen zum Template statt zu ihrer alten Layout-Gruppe und werden befüllt. Spielwiese S54, Laufzeitabnahme offen.
