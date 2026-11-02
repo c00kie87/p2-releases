@@ -1,14 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.243
+version: 0.7.244
 date: 2026-11-02
 host: 21
-commit: 8e6213a4c1b9e6144d2bc57bea92f2ef667dc3f7
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.243/p2-0.7.243-mac.zip
-mac.sha512: 98f71e84c80726cad28cb7930dd0ae4d4770ec12f1d2159af1cb38b97b42ce335cee4654d5e88b786c982aee45922b631ac954968ef973086298dd7247ac796c
+commit: ffdc6c5c1f0e55eeccddeaca57a066e6f87edd57
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.244/p2-0.7.244-mac.zip
+mac.sha512: 8792cc4738caf65e418499d12e3e8399defac52ef13987d0b6f52815a361279ddcb3e59174c5788b90e2664db330c81b1df6e659db7a969d1d309ddf06b82fbf
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Scrollgriff: vorzeitigen Abbruch nach der ersten Bewegung entfernt. Ziehen bleibt bis Loslassen, Escape oder Deaktivierung aktiv.
-- Regressionsprüfung des tatsächlichen Eventhandlers mit mehreren Bewegungen, beiden Achsen, Grenzen und Freigabe ergänzt; kurze Diagnose nach Zugende. Laufzeitprüfung in der Anwendung offen.
-signature: 4434310b415a3cebdd71bb00ccf663eb31524822f9f88e1bd307bfe611717bb1f6324da519d02908386fd4aa82ac1ec0bb5c9a751bc7566a0744b077fba93b0a
+- Objektbedingungen: Anzahl Datensätze oder Anzahl verschiedener Feldwerte innerhalb einer wählbaren Gruppierung vergleichen, z. B. verschiedene BNr = 1.
+- Numerische Operatoren und Vergleich mit Eingabewert/anderem Zahlenfeld; leere Werte wahlweise ignorieren oder als einen Wert zählen. Gruppenauswahl mit Aliasnamen und Hierarchien.
+- Gefilterte Datenquelle als Grundmenge, auch beim einzelnen Drop; Zählung je Ausgabelauf zwischenspeichern. Parameter in p2-XML erhalten, verlustbehafteten Fremdformat-Export verweigern. Spielwiese S62, Laufzeitabnahme offen.
+signature: d8c17659864a0a416c2ea095005b7631e7e30eb750e597a76f3b417c28ecaa6a594cce5913e480a729c746372bd00470c0245118b3b984689fdcf1d46c633b09
