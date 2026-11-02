@@ -1,15 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.242
+version: 0.7.243
 date: 2026-11-02
 host: 21
-commit: f109ac318728201a5e634017b3676dea2b842fe0
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.242/p2-0.7.242-mac.zip
-mac.sha512: acce0b05f2bc67db55c43922e91887226ce13afd992b890bc4d4a30a0e1b65ac03662d262c8bc270241e71a98a5063c85e4ebfbc810b0e8f85d175368741baa7
+commit: 8e6213a4c1b9e6144d2bc57bea92f2ef667dc3f7
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.243/p2-0.7.243-mac.zip
+mac.sha512: 98f71e84c80726cad28cb7930dd0ae4d4770ec12f1d2159af1cb38b97b42ce335cee4654d5e88b786c982aee45922b631ac954968ef973086298dd7247ac796c
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Tabellen: leere Zeilen anhand ihrer Wertespalten löschen, einschließlich der vorhandenen Beschriftungen. Wahlweise alle Spalten, Wertespalten ab 2 oder eigene Prüfspalten.
-- Leere Spalten nach allen oder gewählten Körperzeilen prüfen; Listen wie 2,4-6 oder 2- bis zum Ende. Ungültige Prüfbereiche melden, Bilder/Ersatzbilder und verschachtelte Tabellen schützen.
-- Einstellungen am Objekt speichern, Zuordnungen nach Zeilen-/Spaltenlöschung erhalten. Spielwiese S61 und Anleitung ergänzt; Laufzeitabnahme offen.
-- Scrollgriff: Mausereignisse während des Ziehens bis zum Loslassen übernehmen, auch außerhalb der Leiste; Escape bricht den Zug ab. Lokale Griffkoordinaten und native dunkelgraue Sliderfarbe.
+- Scrollgriff: vorzeitigen Abbruch nach der ersten Bewegung entfernt. Ziehen bleibt bis Loslassen, Escape oder Deaktivierung aktiv.
+- Regressionsprüfung des tatsächlichen Eventhandlers mit mehreren Bewegungen, beiden Achsen, Grenzen und Freigabe ergänzt; kurze Diagnose nach Zugende. Laufzeitprüfung in der Anwendung offen.
