@@ -1,17 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.239
+version: 0.7.240
 date: 2026-11-02
 host: 21
-commit: a8f5cce3b232dba5f0839d2946dc4de7fbc59594
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.239/p2-0.7.239-mac.zip
-mac.sha512: 507c39fad5b1df543777b118623722fdff0bc97bac8cb9adcbd8bc056eb67f374ecf9de9995bc3fe815695334674e7829328c0933ed07e27983a3bf8df64a5bd
+commit: 42b9f23d99a7abc7314628984c15b28a24404a0c
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.240/p2-0.7.240-mac.zip
+mac.sha512: 1e498c0b611ce613df114c95d285d9220b073a0c99675f9289d10112a700e7d25a5e27299ba35a82eba419e39fa6e8b50191c57233cc8736f3e9c2d8dda26ec4
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Logos in Strecken: Verwendungstreffer je Produkt auswerten; keine Gruppenmitglieder anderer Produkte übernehmen und keine Logos wegen früherer Vertreter auslassen.
-- Mehrstufige Gruppenauswahl verwendet die tiefste gewählte Ebene je Rahmen. Vergleich zwischen Strecke und Einzelplatzierung durch Kern-Regression und Spielwiese S58 ergänzt.
-- Automatisieren-Dialog: fünf klappbare Bereiche, Scrollleiste mit Richtungspfeilen, mehrzeilige Hinweise und feste Fußknöpfe ohne Überdeckung.
-- Fortschritt bei Templateimport, Vorbereitung, Aufbauzählung und Seitenfluss anzeigen; Abbruch auch während des Befüllens prüfen. Laufzeitabnahme offen.
-- Die im Automatisieren-Dialog gewählte Bibliothek hat Vorrang vor vorhandenen Dokumentvorlagen; fehlende oder leere Bibliotheken werden gemeldet.
-signature: ef1716b1d49d1614dda222148d227c5318f9f0de874bacc4514bcdc5d2ea656d674e0a72b5f1734b342198191799ac5d93f36e5739392bc6c50b3ebe24d9520f
+- Tabellen: Rahmenbreite, dynamische Inhaltsbreite oder Gesamtbreite in Millimetern wählen. Breite proportional zum Inhalt oder gleichmäßig auf dynamische Spalten verteilen.
+- Messbereich Kopf, Körper, Fuß, alle oder Zeilenliste; dynamische Spalten von der Restbreite ausnehmen. Min/Max werden auch bei Gleichverteilung geschützt, unerreichbare Vorgaben gemeldet.
+- Breiten wiederholt messen und nach dem Umbruch prüfen (2–30 Durchläufe); beste geprüfte Aufteilung behalten, freigegebene statische Breiten nicht schrittweise weiter verkleinern.
+- Leere Körperzeilen und leere Datenspalten getrennt löschen, auch ohne Breitenausgleich. Leerraum erkennen, verankerte Inhalte/Ersatzbilder schützen und Spaltenregeln nach dem Löschen richtig zuordnen.
+- Parameter am Objekt speichern; bisherige kombinierte Löschregel kompatibel einlesen. Spielwiese S59 und Anleitung ergänzt, Laufzeitabnahme offen.
+signature: 43a66b13245b807d1eaef7e6062623d9a0512b1c65d8e52227e672f7c7e8fbfe141256ac6e65b78125e5a5f07b67f03748ba41d0d897fa48e57c50eb650e3c08
