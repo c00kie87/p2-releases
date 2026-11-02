@@ -1,17 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.240
+version: 0.7.241
 date: 2026-11-02
 host: 21
-commit: 42b9f23d99a7abc7314628984c15b28a24404a0c
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.240/p2-0.7.240-mac.zip
-mac.sha512: 1e498c0b611ce613df114c95d285d9220b073a0c99675f9289d10112a700e7d25a5e27299ba35a82eba419e39fa6e8b50191c57233cc8736f3e9c2d8dda26ec4
+commit: 824178cf35603ec98852d34d61f2206e04df3d7c
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.241/p2-0.7.241-mac.zip
+mac.sha512: cfb5c2ed99a0fdaa178738b172c92e3ecbafd74aacb66f2ec27474938a7fb838065dc4b9069c27510c1ec31ede5ce06d43471e108f5be3773451953d72fc3b0d
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Tabellen: Rahmenbreite, dynamische Inhaltsbreite oder Gesamtbreite in Millimetern wählen. Breite proportional zum Inhalt oder gleichmäßig auf dynamische Spalten verteilen.
-- Messbereich Kopf, Körper, Fuß, alle oder Zeilenliste; dynamische Spalten von der Restbreite ausnehmen. Min/Max werden auch bei Gleichverteilung geschützt, unerreichbare Vorgaben gemeldet.
-- Breiten wiederholt messen und nach dem Umbruch prüfen (2–30 Durchläufe); beste geprüfte Aufteilung behalten, freigegebene statische Breiten nicht schrittweise weiter verkleinern.
-- Leere Körperzeilen und leere Datenspalten getrennt löschen, auch ohne Breitenausgleich. Leerraum erkennen, verankerte Inhalte/Ersatzbilder schützen und Spaltenregeln nach dem Löschen richtig zuordnen.
-- Parameter am Objekt speichern; bisherige kombinierte Löschregel kompatibel einlesen. Spielwiese S59 und Anleitung ergänzt, Laufzeitabnahme offen.
-signature: 43a66b13245b807d1eaef7e6062623d9a0512b1c65d8e52227e672f7c7e8fbfe141256ac6e65b78125e5a5f07b67f03748ba41d0d897fa48e57c50eb650e3c08
+- Scrollleisten: sichtbare p2-Spur und ziehbarer Griff in Paletten und Dialogen; Richtungspfeile, Klick in die Spur und Mausrad verwenden denselben Scrollwert.
+- Tabellenbreite bei ganzer Tabelle immer sichtbar. Gesamtbreite vorgeben wählen und Millimeterwert eingeben aktiviert die Breitenautomatik; klarere Beschriftung.
+- Spielwiese S60 für Scrollbedienung ergänzt. Laufzeitprüfung in der Anwendung steht aus.
+signature: dade8fa3d3569888dac3ff6ae25752c242439c53da6fb01c2f9202eb891a04c1a4fc503555e60568d28e033446e3d93c2aae18027bdafcfd66b0ae85c4294a04
