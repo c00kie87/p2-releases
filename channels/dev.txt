@@ -1,13 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.238
+version: 0.7.239
 date: 2026-11-02
 host: 21
-commit: b2745e79d00e25a79070aa051d689f8ed59a18ec
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.238/p2-0.7.238-mac.zip
-mac.sha512: 4d85ee3fde8a0ddf72815444a4a8f15e27a990de37128c76c7653faa33108061085cb2456a8202ce95bb72354a4e2e9dab8d75bbba6ee486bce718454a8cd953
+commit: a8f5cce3b232dba5f0839d2946dc4de7fbc59594
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.239/p2-0.7.239-mac.zip
+mac.sha512: 507c39fad5b1df543777b118623722fdff0bc97bac8cb9adcbd8bc056eb67f374ecf9de9995bc3fe815695334674e7829328c0933ed07e27983a3bf8df64a5bd
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Gemerkte Bildeigenschaften gelten über Datensätze, Gruppen und Vorlagenrahmen hinweg für dasselbe Datenfeld und dieselbe Bilddatei; andere Werte bleiben getrennt.
-- Spielwiese S57 und offener InDesign-Laufzeittest ergänzt.
+- Logos in Strecken: Verwendungstreffer je Produkt auswerten; keine Gruppenmitglieder anderer Produkte übernehmen und keine Logos wegen früherer Vertreter auslassen.
+- Mehrstufige Gruppenauswahl verwendet die tiefste gewählte Ebene je Rahmen. Vergleich zwischen Strecke und Einzelplatzierung durch Kern-Regression und Spielwiese S58 ergänzt.
+- Automatisieren-Dialog: fünf klappbare Bereiche, Scrollleiste mit Richtungspfeilen, mehrzeilige Hinweise und feste Fußknöpfe ohne Überdeckung.
+- Fortschritt bei Templateimport, Vorbereitung, Aufbauzählung und Seitenfluss anzeigen; Abbruch auch während des Befüllens prüfen. Laufzeitabnahme offen.
+- Die im Automatisieren-Dialog gewählte Bibliothek hat Vorrang vor vorhandenen Dokumentvorlagen; fehlende oder leere Bibliotheken werden gemeldet.
