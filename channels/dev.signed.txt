@@ -1,16 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.231
+version: 0.7.232
 date: 2026-11-02
 host: 21
-commit: a5b35b5c92de8a72c1ba0be96eea7546607d9df0
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.231/p2-0.7.231-mac.zip
-mac.sha512: 4bf212b3ce1e021a0ef1eca5eaa21c7bea37b5a18ec47880e00787cdc133fd7fa91bea299add53761a23017a449a024d895f19158f1eb7ed78e7656426faf70f
+commit: 67e1ffee4547f2cbbe8b7663342bbe2ad29f2dbd
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.232/p2-0.7.232-mac.zip
+mac.sha512: 870734c4c6fa0b4cba7742c4237f8e84ff726a0e00b939ded15e3104f1cee4f4ef8e06f519bc684285392eaf7149dad4a550d1098252e494d9ec2aa99fff6e3f
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Scrollleisten aller p2-Paletten mit Pfeilen an beiden Enden (Klick = ein Schritt); Palette Templates erhält eine Scrollleiste.
-- Automatisieren: Abschnitte über dezente Pfeile auf-/zuklappbar (auch Bedingungen), Zustand bleibt erhalten; Formular scrollt bei Platzmangel.
-- Bildrahmen: eigener Rahmen-Bezugspunkt für „Rahmen an Inhalt“; der gewählte Punkt des Ausgangsrahmens bleibt stehen. Bisher wurde er bei Höhe und Breite ohne Grenzen ignoriert.
-- Template-Bibliothek: Rahmen des Altsystems gehören beim Einfügen zum Template statt zu ihrer alten Layout-Gruppe und werden befüllt. Spielwiese S54, Laufzeitabnahme offen.
-signature: ad9689e3125a0c169d48b7cafdd31853141c03c008560f260243588a3ad61c884c52feb4631be371776674673097fe8b5555f8c5f1a152b122cf11ce5b923f02
+- Ziehen aus dem Dokument in die Template-Bibliothek: native Rahmen-/Gruppendaten direkt übernehmen und das Kachelraster als Drop-Ziel verwenden.
+- Ersetzen, Neu anlegen und Abbrechen beibehalten; Übernahme- und Schreibfehler nach dem Drag konkret melden. Keine andere Dokumentauswahl ersatzweise speichern.
+- Spielwiese S55 und Anleitung ergänzt; Laufzeitabnahme offen.
+signature: 312c54ded3f3e071852df3eee9d3968ce63a8fc8dc81c5c3010b3af89c43155d29e519556781ef51f4ee597cd370247885e209d9a29e5652ea7d1d46f2bd6b01
