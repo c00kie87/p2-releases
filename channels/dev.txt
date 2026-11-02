@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.235
+version: 0.7.236
 date: 2026-11-02
 host: 21
-commit: 9d0239d9a26f7ac1626c5f8b539188834e5445d7
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.235/p2-0.7.235-mac.zip
-mac.sha512: d4f9801303c82d824f071b46e9a4d838eff0ca737929cc9553d1f3fe678e609d2d2b4750df495c56d21c602ee55c03cc260bdc9e0714eaace06af2e2d95cb37f
+commit: b5bfb5b62768720fc9690aa17d6f29b4e6332dbc
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.236/p2-0.7.236-mac.zip
+mac.sha512: 4a85bc2334830a0cecdfe2a862d6b3d2612e8bcc24245314f850b0f3e08f30b349ed2b2803017ac38a6c21a4d0a175a4fbd5736b6716a381e18cb7ac3c77557e
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- SDK-Patientenmodus an StartDrag übergeben; Diagnose protokolliert Quelle, Flavor, Drop-Callback und Rückkehr des Drag-Loops.
-- Laufzeitabnahme der beiden Template-Drag-Richtungen in InDesign offen; S56 aktualisiert.
+- Drag-Quelltyp für Bibliotheks- und Datenraster wird explizit vom Eventhandler gesetzt; Auswahlflags bei abgelehntem Start getrennt protokolliert.
+- Laufzeitabnahme beider Template-Drag-Richtungen in InDesign offen; S56 aktualisiert.
