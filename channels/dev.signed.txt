@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.234
+version: 0.7.235
 date: 2026-11-02
 host: 21
-commit: a41120fe6c4f253d7912738d37ced58da3890eda
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.234/p2-0.7.234-mac.zip
-mac.sha512: d532e2b950d5a3d2340ed1283590e5d01652a7b3b97fe601eeeb0e33273f45590cea006a8b154820bae74a3811d972a2f70d8b2d6d8655e5e69ba827e67c2e75
+commit: 9d0239d9a26f7ac1626c5f8b539188834e5445d7
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.235/p2-0.7.235-mac.zip
+mac.sha512: d4f9801303c82d824f071b46e9a4d838eff0ca737929cc9553d1f3fe678e609d2d2b4750df495c56d21c602ee55c03cc260bdc9e0714eaace06af2e2d95cb37f
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Template-Drag auf den früheren SDK-Drop-Ablauf zurückgestellt; S56 prüft Platzieren und Bibliotheksaufnahme in beide Richtungen.
-- Laufzeitabnahme des Drag-Verhaltens in InDesign offen.
-signature: b8a251d1ede0e34aa63b431216f85ab380403cce4b22f6b2ea2e3cd0419a9a601cef51d6a646d27887391402e211beaa3fe826073ed341f1b28ebe7b6ea54603
+- SDK-Patientenmodus an StartDrag übergeben; Diagnose protokolliert Quelle, Flavor, Drop-Callback und Rückkehr des Drag-Loops.
+- Laufzeitabnahme der beiden Template-Drag-Richtungen in InDesign offen; S56 aktualisiert.
+signature: c0fc2745ce829ae49af5ee388453b7cfac40f03662f4b394d51ed900fc37014010f211e776b92dd9d65c61b24f8f959ace2e737bcca0002e76b0994736e60504
