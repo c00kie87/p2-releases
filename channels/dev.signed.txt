@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.236
+version: 0.7.237
 date: 2026-11-02
 host: 21
-commit: b5bfb5b62768720fc9690aa17d6f29b4e6332dbc
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.236/p2-0.7.236-mac.zip
-mac.sha512: 4a85bc2334830a0cecdfe2a862d6b3d2612e8bcc24245314f850b0f3e08f30b349ed2b2803017ac38a6c21a4d0a175a4fbd5736b6716a381e18cb7ac3c77557e
+commit: 5f8fb05d1e7743e7eb5b30518ca0716d213aaaec
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.237/p2-0.7.237-mac.zip
+mac.sha512: 92294a8b0e67f24c9d334e4ddd5f8b00bc4a0fea811001ee85626a28477ddead9422720bbd8eaa7776d4c1991ba4739a8befbebbbd9ebce7658f363fd3b61478
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Drag-Quelltyp für Bibliotheks- und Datenraster wird explizit vom Eventhandler gesetzt; Auswahlflags bei abgelehntem Start getrennt protokolliert.
-- Laufzeitabnahme beider Template-Drag-Richtungen in InDesign offen; S56 aktualisiert.
-signature: 07ec8b5a0d45badc262bf0e3c8b8e4c12a3b8d42317bf7b17354ea1057f39ca8778b7be69a015759820d4d8fe9a18e9e6adf95d9c2acfac8af538f0367cf9009
+- Bilddatenfelder: Ordner mit genau einer Bilddatei eindeutig auflösen; Original zuerst platzieren, Ersatz erst bei fehlgeschlagenem Import verwenden.
+signature: e7a3c7b2f2127ef70d0b24517954f5aa118d6a5ce75427579c40e51df28aafc6807ca375aadef673218d3f54c91588ada62dfb96f3edef2818adec6a5ae1de01
