@@ -1,14 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.241
+version: 0.7.242
 date: 2026-11-02
 host: 21
-commit: 824178cf35603ec98852d34d61f2206e04df3d7c
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.241/p2-0.7.241-mac.zip
-mac.sha512: cfb5c2ed99a0fdaa178738b172c92e3ecbafd74aacb66f2ec27474938a7fb838065dc4b9069c27510c1ec31ede5ce06d43471e108f5be3773451953d72fc3b0d
+commit: f109ac318728201a5e634017b3676dea2b842fe0
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.242/p2-0.7.242-mac.zip
+mac.sha512: acce0b05f2bc67db55c43922e91887226ce13afd992b890bc4d4a30a0e1b65ac03662d262c8bc270241e71a98a5063c85e4ebfbc810b0e8f85d175368741baa7
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Scrollleisten: sichtbare p2-Spur und ziehbarer Griff in Paletten und Dialogen; Richtungspfeile, Klick in die Spur und Mausrad verwenden denselben Scrollwert.
-- Tabellenbreite bei ganzer Tabelle immer sichtbar. Gesamtbreite vorgeben wählen und Millimeterwert eingeben aktiviert die Breitenautomatik; klarere Beschriftung.
-- Spielwiese S60 für Scrollbedienung ergänzt. Laufzeitprüfung in der Anwendung steht aus.
+- Tabellen: leere Zeilen anhand ihrer Wertespalten löschen, einschließlich der vorhandenen Beschriftungen. Wahlweise alle Spalten, Wertespalten ab 2 oder eigene Prüfspalten.
+- Leere Spalten nach allen oder gewählten Körperzeilen prüfen; Listen wie 2,4-6 oder 2- bis zum Ende. Ungültige Prüfbereiche melden, Bilder/Ersatzbilder und verschachtelte Tabellen schützen.
+- Einstellungen am Objekt speichern, Zuordnungen nach Zeilen-/Spaltenlöschung erhalten. Spielwiese S61 und Anleitung ergänzt; Laufzeitabnahme offen.
+- Scrollgriff: Mausereignisse während des Ziehens bis zum Loslassen übernehmen, auch außerhalb der Leiste; Escape bricht den Zug ab. Lokale Griffkoordinaten und native dunkelgraue Sliderfarbe.
