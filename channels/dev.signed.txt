@@ -1,13 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.237
+version: 0.7.238
 date: 2026-11-02
 host: 21
-commit: 5f8fb05d1e7743e7eb5b30518ca0716d213aaaec
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.237/p2-0.7.237-mac.zip
-mac.sha512: 92294a8b0e67f24c9d334e4ddd5f8b00bc4a0fea811001ee85626a28477ddead9422720bbd8eaa7776d4c1991ba4739a8befbebbbd9ebce7658f363fd3b61478
+commit: b2745e79d00e25a79070aa051d689f8ed59a18ec
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.238/p2-0.7.238-mac.zip
+mac.sha512: 4d85ee3fde8a0ddf72815444a4a8f15e27a990de37128c76c7653faa33108061085cb2456a8202ce95bb72354a4e2e9dab8d75bbba6ee486bce718454a8cd953
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Bilddatenfelder: Ordner mit genau einer Bilddatei eindeutig auflösen; Original zuerst platzieren, Ersatz erst bei fehlgeschlagenem Import verwenden.
-signature: e7a3c7b2f2127ef70d0b24517954f5aa118d6a5ce75427579c40e51df28aafc6807ca375aadef673218d3f54c91588ada62dfb96f3edef2818adec6a5ae1de01
+- Gemerkte Bildeigenschaften gelten über Datensätze, Gruppen und Vorlagenrahmen hinweg für dasselbe Datenfeld und dieselbe Bilddatei; andere Werte bleiben getrennt.
+- Spielwiese S57 und offener InDesign-Laufzeittest ergänzt.
+signature: 390a6194e9e8935a0808cfc19c04f6ac677a9e0a45ca4b727b10b6dbfc86ddb98f8f933c3e7f08dc8906918410c27345e58e113af412baf0b40a6ff9ed7e420e
