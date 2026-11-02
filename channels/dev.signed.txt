@@ -1,15 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.233
+version: 0.7.234
 date: 2026-11-02
 host: 21
-commit: 5ba9e62192d705d145ca4d4e060d5b41442815e2
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.233/p2-0.7.233-mac.zip
-mac.sha512: 2b1779d3acd60be4cf3ea726a04223c04b320320a23273519bffaca2ea9676e1ce320018665183fb195b96628e09a4b7633cfb747f0951c4656055bebdc88f66
+commit: a41120fe6c4f253d7912738d37ced58da3890eda
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.234/p2-0.7.234-mac.zip
+mac.sha512: d532e2b950d5a3d2340ed1283590e5d01652a7b3b97fe601eeeb0e33273f45590cea006a8b154820bae74a3811d972a2f70d8b2d6d8655e5e69ba827e67c2e75
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Bibliotheks-Drag: beim Überfahren nur angebotene Datentypen prüfen; Objektdaten erst beim Loslassen lesen.
-- Ersetzen-Abfrage und Speichern erst nach beendetem Drag ausführen. Gezogene Objekte und Zielbibliothek festhalten, vor Speicherung erneut prüfen.
-- Ablaufdiagnose nach Drag-Ende, Spielwiese S56 und Anleitung ergänzt. Laufzeitfehler aus 0.7.232 ist noch nicht abgenommen; erneuter Test erforderlich.
-signature: b06c948d0a9fd5c60915455a6bb418c54f76d5c402c43694999468c97e63f54a42b164c6fd54a71f7804898bfa4d281c40313205d58467bb592f9b1dba120b0b
+- Template-Drag auf den früheren SDK-Drop-Ablauf zurückgestellt; S56 prüft Platzieren und Bibliotheksaufnahme in beide Richtungen.
+- Laufzeitabnahme des Drag-Verhaltens in InDesign offen.
+signature: b8a251d1ede0e34aa63b431216f85ab380403cce4b22f6b2ea2e3cd0419a9a601cef51d6a646d27887391402e211beaa3fe826073ed341f1b28ebe7b6ea54603
