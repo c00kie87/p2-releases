@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.232
+version: 0.7.233
 date: 2026-11-02
 host: 21
-commit: 67e1ffee4547f2cbbe8b7663342bbe2ad29f2dbd
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.232/p2-0.7.232-mac.zip
-mac.sha512: 870734c4c6fa0b4cba7742c4237f8e84ff726a0e00b939ded15e3104f1cee4f4ef8e06f519bc684285392eaf7149dad4a550d1098252e494d9ec2aa99fff6e3f
+commit: 5ba9e62192d705d145ca4d4e060d5b41442815e2
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.233/p2-0.7.233-mac.zip
+mac.sha512: 2b1779d3acd60be4cf3ea726a04223c04b320320a23273519bffaca2ea9676e1ce320018665183fb195b96628e09a4b7633cfb747f0951c4656055bebdc88f66
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Ziehen aus dem Dokument in die Template-Bibliothek: native Rahmen-/Gruppendaten direkt übernehmen und das Kachelraster als Drop-Ziel verwenden.
-- Ersetzen, Neu anlegen und Abbrechen beibehalten; Übernahme- und Schreibfehler nach dem Drag konkret melden. Keine andere Dokumentauswahl ersatzweise speichern.
-- Spielwiese S55 und Anleitung ergänzt; Laufzeitabnahme offen.
+- Bibliotheks-Drag: beim Überfahren nur angebotene Datentypen prüfen; Objektdaten erst beim Loslassen lesen.
+- Ersetzen-Abfrage und Speichern erst nach beendetem Drag ausführen. Gezogene Objekte und Zielbibliothek festhalten, vor Speicherung erneut prüfen.
+- Ablaufdiagnose nach Drag-Ende, Spielwiese S56 und Anleitung ergänzt. Laufzeitfehler aus 0.7.232 ist noch nicht abgenommen; erneuter Test erforderlich.
