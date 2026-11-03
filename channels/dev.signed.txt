@@ -1,16 +1,18 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.247
+version: 0.7.248
 date: 2026-11-03
 host: 21
-commit: 4228de67498842312d367ce0a8af418d30741de9
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.247/p2-0.7.247-mac.zip
-mac.sha512: b266cb69fcf5d9b0c00994dc7ae47187393c6ca6ca1497f41df8a6cf3f2105ad4ad24ce3f106d2b757494bc16a15f0248d0a6e0319976707a061ceae0262a27e
+commit: 5e9eb670299b6dd140e305f4bccd22f57eddea91
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.248/p2-0.7.248-mac.zip
+mac.sha512: 2a68986df5f33e66296ebaf8d98a2b1eb4f9213f019b2db0a5f83f8d94c2a74597625f3749977811cb4f8d046ff0cf8ce2f1419882bae7317e23d5c259b166d4
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Freiraum nutzen heißt jetzt auf Höhe des vorherigen Elements aufrücken. Die vorherige Oberkante ist das Ziel; bei blockiertem Weg bleibt die normale Flussposition.
-- Native Gruppen beachten innere Flussregeln je Rahmen, auch bei Vervielfältigungen. Der Folgeabstand richtet sich nach der fertigen gemeinsamen Ausdehnung der Spalten.
-- Neuer Gruppenschalter innere Flussregeln übergehen, standardmäßig aus. Befüllen, Einpassen und Vervielfältigen bleiben davon unberührt.
-- Herkunft speichert die Gruppenhierarchie. Neue Spielwiese S65 für unabhängige Spalten, Zielhöhe und Gruppenabstand. Gruppeninnenfluss ist nicht ins Altsystem übertragbar.
-signature: 120de068d486997d3fc27efef9d470de3253945774ed14f89d4d142cea3678445b335dfb943ceb6858ee2d93b39e33f0cc646e739d8ef394725ee32b25e6fe0e
+- Freiraum-Aufrücken innerhalb von Gruppen berücksichtigt auch einen ausgelassenen Kopf weiterer Produkte.
+- Fortschritt beginnt sofort, auch bei Drag-and-drop; Kontrollbericht je Konfiguration/Vorgabe abschaltbar.
+- Seitenbeschriftungen im Automatisieren-Menü befüllen, aktualisieren oder zurückwandeln; dieselben Aktionen als gespeicherter Nachlauf.
+- Alt-Drag-and-drop sucht freie Seitenhilfslinienkreuzungen oder die linke Satzspiegelkante mit Template-Abstand; nutzt den Rahmenfluss mit Umbrüchen und Fortsetzungen.
+- Platzhalter-Tags auflösen schützt Musterseiten und Templates. Ermitteln arbeitet mit Auswahl darauf, ohne Auswahl im gesamten Dokument.
+- Spielwiese S66 bis S70 ergänzt; native Laufzeitabnahme offen. Windows bleibt bei 0.7.52.
+signature: b798ce81bea4b26db4c8eb12ed8aa9778b75adcdac1ac22facef1f4fc1eef9b50ed7f5bd188064a5432b520cf1deac24bd9d46d67a939b95fea9dd3be39c8700
