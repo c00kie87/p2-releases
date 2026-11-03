@@ -1,17 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.248
+version: 0.7.249
 date: 2026-11-03
 host: 21
-commit: 5e9eb670299b6dd140e305f4bccd22f57eddea91
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.248/p2-0.7.248-mac.zip
-mac.sha512: 2a68986df5f33e66296ebaf8d98a2b1eb4f9213f019b2db0a5f83f8d94c2a74597625f3749977811cb4f8d046ff0cf8ce2f1419882bae7317e23d5c259b166d4
+commit: bed8377e83c8c9ab3ea19c48f20964640ceef26a
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.249/p2-0.7.249-mac.zip
+mac.sha512: 967268a51e616221be0a7af74d231aeee9026b50a4b3481b55ac9790cdbb5ff18a55bf27a746f542e5212225f2e333f827d1d28b998d503f3cca3e48aacb0176
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Freiraum-Aufrücken innerhalb von Gruppen berücksichtigt auch einen ausgelassenen Kopf weiterer Produkte.
-- Fortschritt beginnt sofort, auch bei Drag-and-drop; Kontrollbericht je Konfiguration/Vorgabe abschaltbar.
-- Seitenbeschriftungen im Automatisieren-Menü befüllen, aktualisieren oder zurückwandeln; dieselben Aktionen als gespeicherter Nachlauf.
-- Alt-Drag-and-drop sucht freie Seitenhilfslinienkreuzungen oder die linke Satzspiegelkante mit Template-Abstand; nutzt den Rahmenfluss mit Umbrüchen und Fortsetzungen.
-- Platzhalter-Tags auflösen schützt Musterseiten und Templates. Ermitteln arbeitet mit Auswahl darauf, ohne Auswahl im gesamten Dokument.
-- Spielwiese S66 bis S70 ergänzt; native Laufzeitabnahme offen. Windows bleibt bei 0.7.52.
+- Aufrücken innerhalb von Gruppen erreicht jetzt auch das bereits höher stehende Logo, wenn Titel und weiterer Kopfrahmen entfallen.
+- Nur aktivierte Rahmen bewegen sich bei freiem Weg; Kollisionen und Abstand nach der fertigen Gruppe bleiben berücksichtigt.
+- Fehler aus 0.7.248 anhand gespeicherter Bewegungsdaten reproduziert. Neue Spielwiese S71; Laufzeitabnahme offen. Windows bleibt bei 0.7.52.
