@@ -1,18 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.251
+version: 0.7.252
 date: 2026-11-03
 host: 21
-commit: a89f9f61b3ba885322198a1581851c5bee6ada7f
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.251/p2-0.7.251-mac.zip
-mac.sha512: 737e5bdcf2ed8c25d2b0111953166f38f4df4dcdac6c88a27f32b1f15a74780738b4291bcd0a42e437707aefa96053b99dba3f84db717f519c87322497a44fb3
+commit: c2dc6b62e81915dfe34ed56f48ff603f5349996a
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.252/p2-0.7.252-mac.zip
+mac.sha512: f8b075745d4fde476eb15e1c723687fa4ba552731457f17689ebb1622ac2be766ef20aca4be9edb649d8476ed2300c3786dde5d9fcb6e6ab811452924bd4dd99
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Datenbankquellen mit stark fragmentierten Zeilen werden vollständig gelesen; die falsche Grenze von 64 Zeilenteilen entfällt.
-- Echte Kreisverweise, fehlende Teile und fremde Seiten werden gezielt erkannt und verständlicher gemeldet. Tabellen werden nicht übersprungen oder still gekürzt.
-- Verwaltungsbits, ausgelagerte Datenseiten und große logische Seitennummern werden korrekt berücksichtigt.
-- Gegen ähnliche Rückfälle: dauerhafte Kern- und Importtests, neun anonyme Datenbankproben in Spielwiese S73; fehlerhafter Import erhält eine vorhandene Arbeitskopie.
-- Große Referenzquelle vollständig importiert: 244 Tabellen, 124843 Zeilen; 2472107 Zellen ohne Abweichung gegen die unveränderte Quelle geprüft. Native Quellenlade-Abnahme offen.
-- Fortsetzungsobjekte sowie Wiederholungs- und Abstandsoptionen folgen separat. Windows bleibt bei 0.7.52.
-signature: 8e29f2bee553a4613c031cc3f8c3c2a6d54d480cddd6d650420f7767f483ba6d7f921dcfb616007c8e089cc872addeb07fe7d8a5b5baf2fff40045f34101920d
+- Automatisieren: frei gestaltbare Objekte wie „Fortsetzung“ vor oder nach echten Seiten- und Spaltenwechseln einblenden; ohne Fortsetzung bleiben zusätzliche Hinweise unsichtbar.
+- „Bei Fortsetzung wiederholen“ erhält den ursprünglichen Rahmen im ersten Abschnitt und wiederholt ihn auf passenden Folgeabschnitten; auch rechte/linke Seiten sind wählbar.
+- Platz für Hinweise wird vor der Textteilung reserviert. Mehrere Hinweise folgen der Füll-/Lesereihenfolge; ein bereits weitergezogenes Original wird nicht doppelt ausgegeben.
+- Innere Objektregeln, Datenfelder und Bedingungen bleiben wirksam; externe Textverkettungen werden als isolierte Hinweise erklärt abgewiesen.
+- Spielwiese S74/S75 ergänzt, native Abnahme offen. Abstandsreduzierung gegen kurze Reststücke folgt separat; Quellenfix 251 bleibt enthalten, Windows bei 0.7.52.
+signature: ae1424c07b4194d423b11ff9901ecf2f3578da793cb36dcd618e6c2e128a3e364e548e5f4a16993465fe7bd080482efde883f8a8259341c2218daed5cea50600
