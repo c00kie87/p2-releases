@@ -1,15 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.244
-date: 2026-11-02
+version: 0.7.245
+date: 2026-11-03
 host: 21
-commit: ffdc6c5c1f0e55eeccddeaca57a066e6f87edd57
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.244/p2-0.7.244-mac.zip
-mac.sha512: 8792cc4738caf65e418499d12e3e8399defac52ef13987d0b6f52815a361279ddcb3e59174c5788b90e2664db330c81b1df6e659db7a969d1d309ddf06b82fbf
+commit: c13889bb9bebd048c0b9d7b9546d549bc0ccada3
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.245/p2-0.7.245-mac.zip
+mac.sha512: c6f8f1128894a22002e67aa89a1957215975c7f00e9178c1f9208b28a41eb63f6b010ab624636d327224087630d98f3e910ce69b74edde46fe4fe9ebc73b6b7e
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Objektbedingungen: Anzahl Datensätze oder Anzahl verschiedener Feldwerte innerhalb einer wählbaren Gruppierung vergleichen, z. B. verschiedene BNr = 1.
-- Numerische Operatoren und Vergleich mit Eingabewert/anderem Zahlenfeld; leere Werte wahlweise ignorieren oder als einen Wert zählen. Gruppenauswahl mit Aliasnamen und Hierarchien.
-- Gefilterte Datenquelle als Grundmenge, auch beim einzelnen Drop; Zählung je Ausgabelauf zwischenspeichern. Parameter in p2-XML erhalten, verlustbehafteten Fremdformat-Export verweigern. Spielwiese S62, Laufzeitabnahme offen.
-signature: d8c17659864a0a416c2ea095005b7631e7e30eb750e597a76f3b417c28ecaa6a594cce5913e480a729c746372bd00470c0245118b3b984689fdcf1d46c633b09
+- Suche und Filter: Vorkommnisse werden innerhalb der Suchtreffer gezählt; genau ein Suchtreffer pausiert den Filter sichtbar.
+- Filter aufheben behält die Eingaben. Gruppe, Feld, Operator, Anzahl und Leerwerte bleiben je Quelle und Tabelle auch nach erneutem Öffnen gespeichert.
+- Filterdialog erklärt die Suchmenge und Pause. Neue Spielwiese S63 zum Prüfen.
+- Diagnose beim manuellen Platzieren ergänzt; die Ursache des gemeldeten Absturzes ist noch offen.
+signature: 73d425fdf9bf8fcb457ebe4b3e504eec8bb886ac6642880291adc2beefa9e01b8d68829058d819e76941c6f09f7744059c57fdbc00c47f4d712c87dc7830dc0a
