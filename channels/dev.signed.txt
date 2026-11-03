@@ -1,16 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.245
+version: 0.7.246
 date: 2026-11-03
 host: 21
-commit: c13889bb9bebd048c0b9d7b9546d549bc0ccada3
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.245/p2-0.7.245-mac.zip
-mac.sha512: c6f8f1128894a22002e67aa89a1957215975c7f00e9178c1f9208b28a41eb63f6b010ab624636d327224087630d98f3e910ce69b74edde46fe4fe9ebc73b6b7e
+commit: e0e66647a50e6a5b431aa42e3ef57deb59f41b33
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.246/p2-0.7.246-mac.zip
+mac.sha512: 96dab3c8223052ed7180f86e7c4cad39b3d0e1fc50920a14f25336ffc96a984ccff072760b4e8a4ec16ad19d62e333b490f865582131eb276dfb5997d528b550
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Suche und Filter: Vorkommnisse werden innerhalb der Suchtreffer gezählt; genau ein Suchtreffer pausiert den Filter sichtbar.
-- Filter aufheben behält die Eingaben. Gruppe, Feld, Operator, Anzahl und Leerwerte bleiben je Quelle und Tabelle auch nach erneutem Öffnen gespeichert.
-- Filterdialog erklärt die Suchmenge und Pause. Neue Spielwiese S63 zum Prüfen.
-- Diagnose beim manuellen Platzieren ergänzt; die Ursache des gemeldeten Absturzes ist noch offen.
-signature: 73d425fdf9bf8fcb457ebe4b3e504eec8bb886ac6642880291adc2beefa9e01b8d68829058d819e76941c6f09f7744059c57fdbc00c47f4d712c87dc7830dc0a
+- Automatisieren / Fluss: Freiraum nutzen am Foto oder Folgeelement aktivieren, um bis zur nächsten Kollision aufzurücken. Standardmäßig aus.
+- Mindestabstand, äußere Rahmenkonturen und gesamter Bewegungsweg werden berücksichtigt. Gelöschte Rahmen blockieren nicht; feste Elemente bleiben stehen.
+- Einstellungen bleiben im Template erhalten; Herkunft und gemerkter Versatz unterstützen erneutes Dynamik anwenden. Neue Spielwiese S64 mit Logo, Foto und verschachtelter Gruppe.
+- Freiraum-Aufrücken ist nicht ins Altsystem übertragbar und wird beim Export im Bericht genannt. Der separate Platzierungsabsturz bleibt offen.
+signature: 35c8e28fb7ed9088fbe3a02ea885f8f6408c99e8f61996a243909f0e57ef7cbd0368567007803f5d0544ea0b5f80f8bac5edba37bdd39ae09e9be752fde5bc0f
