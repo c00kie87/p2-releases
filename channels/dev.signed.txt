@@ -1,18 +1,18 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.250
+version: 0.7.251
 date: 2026-11-03
 host: 21
-commit: c2bb12440a4535d413da53a56d4b4f27a600dcdc
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.250/p2-0.7.250-mac.zip
-mac.sha512: be99ae88f48b67ea05742afe20295d5fbbe884327da539f91f76c8e0d8646dc5dacaafd49bd5dfbaad82b38d8baa8d13cfc05e76be23bd237ad0ec8cae50b45f
+commit: a89f9f61b3ba885322198a1581851c5bee6ada7f
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.251/p2-0.7.251-mac.zip
+mac.sha512: 737e5bdcf2ed8c25d2b0111953166f38f4df4dcdac6c88a27f32b1f15a74780738b4291bcd0a42e437707aefa96053b99dba3f84db717f519c87322497a44fb3
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Rahmenfluss und Alt-Drop: einzelne Textrahmen dürfen auch in mehrteiligen und verschachtelten Gruppen nativ auf Folgeseiten fortgesetzt werden.
-- Inneren Rahmenregeln folgen oder an der Gruppe ausdrücklich „Gruppe vollständig verschieben“ wählen; dieser neue Schalter ist standardmäßig aus.
-- „Nicht vom vorherigen trennen“ berücksichtigt den tatsächlichen Vorgänger und rückwärts verbundene Ketten.
-- Größen- und Fortsetzungsfehler erklären Artikel, betroffenen Rahmen, Abbruchgrund und Lösung; zwischen Rahmen umbrechen wird von Textfortsetzung unterschieden.
-- Teilseiten behalten native Textverkettung, eigene Bewegungsbeziehungen und abgeleitete p2-Objektformate. Bei anderer benötigter Seitenzahl gesamte Ausgabe neu erzeugen.
-- Spielwiese S72 ergänzt. Native Laufzeitabnahme offen; Windows bleibt bei 0.7.52.
-signature: 60b618fc8bd6eca671993056b80dcbf1b7e21142c0b3f9171c0a24f4286d80fedfbc1f4acdf579077ab07f9761aef5a04da1f44684b78b7d18d7ccfc1923da03
+- Datenbankquellen mit stark fragmentierten Zeilen werden vollständig gelesen; die falsche Grenze von 64 Zeilenteilen entfällt.
+- Echte Kreisverweise, fehlende Teile und fremde Seiten werden gezielt erkannt und verständlicher gemeldet. Tabellen werden nicht übersprungen oder still gekürzt.
+- Verwaltungsbits, ausgelagerte Datenseiten und große logische Seitennummern werden korrekt berücksichtigt.
+- Gegen ähnliche Rückfälle: dauerhafte Kern- und Importtests, neun anonyme Datenbankproben in Spielwiese S73; fehlerhafter Import erhält eine vorhandene Arbeitskopie.
+- Große Referenzquelle vollständig importiert: 244 Tabellen, 124843 Zeilen; 2472107 Zellen ohne Abweichung gegen die unveränderte Quelle geprüft. Native Quellenlade-Abnahme offen.
+- Fortsetzungsobjekte sowie Wiederholungs- und Abstandsoptionen folgen separat. Windows bleibt bei 0.7.52.
+signature: 8e29f2bee553a4613c031cc3f8c3c2a6d54d480cddd6d650420f7767f483ba6d7f921dcfb616007c8e089cc872addeb07fe7d8a5b5baf2fff40045f34101920d
