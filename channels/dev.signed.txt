@@ -1,17 +1,18 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.252
+version: 0.7.253
 date: 2026-11-03
 host: 21
-commit: c2dc6b62e81915dfe34ed56f48ff603f5349996a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.252/p2-0.7.252-mac.zip
-mac.sha512: f8b075745d4fde476eb15e1c723687fa4ba552731457f17689ebb1622ac2be766ef20aca4be9edb649d8476ed2300c3786dde5d9fcb6e6ab811452924bd4dd99
+commit: 9b4177d0af2c44600b8654cd0911a063e8ac2c24
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.253/p2-0.7.253-mac.zip
+mac.sha512: 6e65c246cb75d4d066ccad90cc05dee12704b075d8257fa4475903936da95e6f7b76e8a9fd4e8692b8f36f1c7e1c3e708b845db2d975fa8e84bdd840af2f7cad
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Automatisieren: frei gestaltbare Objekte wie „Fortsetzung“ vor oder nach echten Seiten- und Spaltenwechseln einblenden; ohne Fortsetzung bleiben zusätzliche Hinweise unsichtbar.
-- „Bei Fortsetzung wiederholen“ erhält den ursprünglichen Rahmen im ersten Abschnitt und wiederholt ihn auf passenden Folgeabschnitten; auch rechte/linke Seiten sind wählbar.
-- Platz für Hinweise wird vor der Textteilung reserviert. Mehrere Hinweise folgen der Füll-/Lesereihenfolge; ein bereits weitergezogenes Original wird nicht doppelt ausgegeben.
-- Innere Objektregeln, Datenfelder und Bedingungen bleiben wirksam; externe Textverkettungen werden als isolierte Hinweise erklärt abgewiesen.
-- Spielwiese S74/S75 ergänzt, native Abnahme offen. Abstandsreduzierung gegen kurze Reststücke folgt separat; Quellenfix 251 bleibt enthalten, Windows bei 0.7.52.
-signature: ae1424c07b4194d423b11ff9901ecf2f3578da793cb36dcd618e6c2e128a3e364e548e5f4a16993465fe7bd080482efde883f8a8259341c2218daed5cea50600
+- Wiederholte Tabellenköpfe: Konturen, Innenabstände und lokale Formatierung erhalten; Text erneut einpassen und prüfen. Kopf und Fortsetzung behalten ihren eigenen Objektabstand statt des Template-Abstands.
+- Kurze Fortsetzungen vermeiden: freigegebene Abstände vor Templates und optional zwischen Elementen proportional verringern, bevor ein neuer Abschnitt nötig wird.
+- Am Rahmen oder für die Strecke wählbar; Schwellwert für fehlenden Platz, Mindestabstand und maximale Verringerung in Prozent. Standard ausgeschaltet.
+- Feste/ausgeschlossene Elemente, Gruppensperren, vorhandene Hindernisse und erzwungene Umbrüche bleiben geschützt. Inhalt und Rahmengröße werden nicht verkleinert.
+- Bei jedem weiteren Datensatz erneut aus den Originalabständen planen, auch für mehrere zusätzliche Datensätze; native Geometrie nachprüfen. S76/S77 ergänzt, Laufzeitabnahme offen.
+- Frei automatisch gesetzter Rahmenfluss; Hilfslinien, festes Zeilenraster und manuelle Drop-Position bleiben unverändert. Fortsetzungsoptionen 252 und Quellenfix 251 enthalten; Windows bei 0.7.52.
+signature: 0bedce63e12256190e4e52a72e749d1c4128117bd8c5d4f382624e87983fa49a66e1ef571d687365ddc9af3fbed70f2f366fd9d2db98f1cf2aaf8a9aa8845a0f
