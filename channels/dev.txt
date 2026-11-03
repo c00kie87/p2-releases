@@ -1,15 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.246
+version: 0.7.247
 date: 2026-11-03
 host: 21
-commit: e0e66647a50e6a5b431aa42e3ef57deb59f41b33
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.246/p2-0.7.246-mac.zip
-mac.sha512: 96dab3c8223052ed7180f86e7c4cad39b3d0e1fc50920a14f25336ffc96a984ccff072760b4e8a4ec16ad19d62e333b490f865582131eb276dfb5997d528b550
+commit: 4228de67498842312d367ce0a8af418d30741de9
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.247/p2-0.7.247-mac.zip
+mac.sha512: b266cb69fcf5d9b0c00994dc7ae47187393c6ca6ca1497f41df8a6cf3f2105ad4ad24ce3f106d2b757494bc16a15f0248d0a6e0319976707a061ceae0262a27e
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Automatisieren / Fluss: Freiraum nutzen am Foto oder Folgeelement aktivieren, um bis zur nächsten Kollision aufzurücken. Standardmäßig aus.
-- Mindestabstand, äußere Rahmenkonturen und gesamter Bewegungsweg werden berücksichtigt. Gelöschte Rahmen blockieren nicht; feste Elemente bleiben stehen.
-- Einstellungen bleiben im Template erhalten; Herkunft und gemerkter Versatz unterstützen erneutes Dynamik anwenden. Neue Spielwiese S64 mit Logo, Foto und verschachtelter Gruppe.
-- Freiraum-Aufrücken ist nicht ins Altsystem übertragbar und wird beim Export im Bericht genannt. Der separate Platzierungsabsturz bleibt offen.
+- Freiraum nutzen heißt jetzt auf Höhe des vorherigen Elements aufrücken. Die vorherige Oberkante ist das Ziel; bei blockiertem Weg bleibt die normale Flussposition.
+- Native Gruppen beachten innere Flussregeln je Rahmen, auch bei Vervielfältigungen. Der Folgeabstand richtet sich nach der fertigen gemeinsamen Ausdehnung der Spalten.
+- Neuer Gruppenschalter innere Flussregeln übergehen, standardmäßig aus. Befüllen, Einpassen und Vervielfältigen bleiben davon unberührt.
+- Herkunft speichert die Gruppenhierarchie. Neue Spielwiese S65 für unabhängige Spalten, Zielhöhe und Gruppenabstand. Gruppeninnenfluss ist nicht ins Altsystem übertragbar.
