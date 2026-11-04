@@ -1,16 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.260
+version: 0.7.261
 date: 2026-11-04
 host: 21
-commit: 75e6a8d94ae49af0b7222bec3ba68cca8256536c
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.260/p2-0.7.260-mac.zip
-mac.sha512: 536640c8b650286dd6a58041d1dd0e13da2d352e3e4566c7da3219cb509bfe69a7ee88f30a4d6a1e49a1d9b1d069ba0c1f5122cc93bbad2157ae660fc19549fd
+commit: 25bbd2dec6859deaebc35ebf2d7b63309b5a59a4
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.261/p2-0.7.261-mac.zip
+mac.sha512: 78348b742b51e54cec7f157fbbf28b14ece4bb7c7ba1d8592a2ec7934bcab82ac1688cc8608fc5274629e802272a2fe8116462e7b45536737ef93d4bffd5e22b
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Parallele Text-/Bildrahmen beim Umbruch gemeinsam weitergeben; Kopf und Logo bleiben nicht allein vor ihrem ungeteilten Rest zurück.
-- Gruppen können die Trennung paralleler Rahmen ausdrücklich erlauben. Ganze Gruppe sowie Bindungen an Vorgänger und Nachfolger bleiben maßgebend; echte Fortsetzungen und Wiederholungen bleiben möglich.
-- Neu erzeugte Seitenbeschriftungsformate erhalten Kontur, Füllung und Innenabstände des Musters; keine zusätzliche Standardkontur.
-- Spielwiese S85 und Regressionen ergänzt. Native Abnahme der eigenen Strecke offen; Windows bleibt bei 0.7.52.
-signature: 9c5815b9ff29e801a0f107965c3d3cdf2581857e69862e1ecb754196a8c2f3b06b76f6d14bc491b3707fa4fecf34c9f321b68c988c143e525f2472ab17993b00
+- Nummerierung, Abschnitte und Kapitel im Automatisieren-Dialog: native Bestandswerte, Formate, Seitenstart, Präfix und Feldzuweisungen.
+- Abschnittsmarke bei Feldwechsel: neue Seite oder Anwendung auf der nächsten Ausgabeseite wählbar; Wechsel- und Markenfeld dürfen identisch sein.
+- Kapitel aus Datenfeld: eigene gespeicherte Kapitel-Dokumente im gewählten Ablageordner; Ausgangsdokument bleibt unverändert. Alternativ bei wechselnden Werten anhalten.
+- Nummerierungsparameter in Konfigurationen und Vorgaben speichern; fehlende Felder und ungültige Zahlen melden. Spielwiese S86 ergänzt.
+- Native Laufzeitabnahme der drei Flussarten und Kapiteldateien offen. Windows bleibt bei 0.7.52.
+signature: eee6aaf4b2ea8b1b395056eaf3fb4a3f33540f82521bcdce6eb7c9c6df9de21a75d4794b4fc8b80dcf4515d1c2b3d484e2a84e93f63b3cae58bb61c621690801
