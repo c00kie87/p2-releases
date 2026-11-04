@@ -1,14 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.255
+version: 0.7.256
 date: 2026-11-04
 host: 21
-commit: 46584fe823f9d448e910ebd47d81c07fb7949c53
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.255/p2-0.7.255-mac.zip
-mac.sha512: fa785930443e7239ff77f79c7ca4c93aed4ed28657ffbf7c72a6ef31358eb264574fb5010a8448a9c7409fc10f0c27228879a610db8b22ee1ad9082a07000793
+commit: 654ec7325a041171cb3376432aac8e42951d6d0f
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.256/p2-0.7.256-mac.zip
+mac.sha512: 583415330408fa1eea60f2ffbd704ce782c74d532da7b54e7134f3e6907e950c4c7f74665609330a6f336c7ff3107e4fc936a018b301ad86cf21dc45abef8ce9
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Scrollleisten: Der dunkelgraue Schieber wird beim Ziehen unmittelbar mit dem Inhalt aktualisiert. Auch Pfeile, Mausrad und Spur-Klicks zeichnen seine Position neu.
-- Nach Größenänderung, Quellenwechsel oder Auf-/Zuklappen von Abschnitten werden Griffposition und -größe aktualisiert. Spielwiese S80 zur Prüfung aller Leisten.
-- Windows bleibt bei 0.7.52. Native Anzeigeabnahme offen.
+- Fortsetzungsköpfe behalten den ursprünglichen Anker und inneren Folgeabstand. Gemeinsame Verschiebungen der ausgegebenen Rahmen verändern diese Werte nicht mehr.
+- Größenkonflikte nennen konkrete Kopfmaße, seitlichen Versatz und verfügbare Fläche. Ein kleiner Kopf wird unabhängig von der gesamten Länge des weiter fortsetzbaren Inhalts geprüft.
+- Bei Layoutkonflikten wählen: Ausgabe zurücknehmen oder Zwischenstand zur visuellen Prüfung behalten. Behalten stoppt den Lauf und folgende Abläufe; Rückgängig bleibt möglich. Technische Befehlsfehler und Abbrechen bleiben Rücknahme.
+- Spielwiese S81 für mehrere Folgeseiten, konstante Kopfposition und beide Fehlerentscheidungen. Native Abnahme offen, Windows bleibt bei 0.7.52.
