@@ -1,16 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.254
+version: 0.7.255
 date: 2026-11-04
 host: 21
-commit: 7d4e537498a7dda350f5e81e45bb712a95a27a98
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.254/p2-0.7.254-mac.zip
-mac.sha512: 423dd79becfd8dc636827f283dd5f5c0bd3a3afb54aa1157a1a7737d8274f4b4ed1073375208d127be986264e6222fa622d44263f7ca93c90cbeef63f92d25af
+commit: 46584fe823f9d448e910ebd47d81c07fb7949c53
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.255/p2-0.7.255-mac.zip
+mac.sha512: fa785930443e7239ff77f79c7ca4c93aed4ed28657ffbf7c72a6ef31358eb264574fb5010a8448a9c7409fc10f0c27228879a610db8b22ee1ad9082a07000793
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fortsetzungen mit mehreren Rahmen: ursprüngliche Reihenfolge, gemeinsame Geometrie und Abstände beim Wechsel des Druckbogens erhalten; native Gruppen und Textverkettungen bleiben bestehen.
-- Satzspiegel auf Folgeseiten: physische Seitenränder verwenden, damit unterschiedliche Innen-/Außenränder keinen seitlichen Versatz erzeugen.
-- Geometrie nach dem Umhängen erneut prüfen. Spielwiese S79 ergänzt; native Abnahme der gemeldeten Fälle offen.
-- Projektanlage mit eigener Ablage und unabhängigen Quellen/Bibliotheken ist dokumentiert und folgt separat. Windows bleibt bei 0.7.52.
-signature: c9ce9a0614f895bead4f78da4fa1daa8642fee7508a8a6e72a454d2079963ba08beff46d0183d207b318dae075dba6600dc5e3dbceafadb33570648041fdfc0e
+- Scrollleisten: Der dunkelgraue Schieber wird beim Ziehen unmittelbar mit dem Inhalt aktualisiert. Auch Pfeile, Mausrad und Spur-Klicks zeichnen seine Position neu.
+- Nach Größenänderung, Quellenwechsel oder Auf-/Zuklappen von Abschnitten werden Griffposition und -größe aktualisiert. Spielwiese S80 zur Prüfung aller Leisten.
+- Windows bleibt bei 0.7.52. Native Anzeigeabnahme offen.
+signature: 5bec6b1e06a661a2eb9d54d7199d77c38bbb2b37e39b8b202c6bd00269084248311fd3c446e307bcbd8925679dbed9de3626ed33ae132d16955275ee10cf1c01
