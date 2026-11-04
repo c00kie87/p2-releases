@@ -1,15 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.256
+version: 0.7.257
 date: 2026-11-04
 host: 21
-commit: 654ec7325a041171cb3376432aac8e42951d6d0f
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.256/p2-0.7.256-mac.zip
-mac.sha512: 583415330408fa1eea60f2ffbd704ce782c74d532da7b54e7134f3e6907e950c4c7f74665609330a6f336c7ff3107e4fc936a018b301ad86cf21dc45abef8ce9
+commit: 2009d3e78faff0b7bb8b3b0a27f579b678013e04
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.257/p2-0.7.257-mac.zip
+mac.sha512: a5faaaba64a2324bb523a7fc17416a1aeb7a713b4ca1e27423d82da032e0e1f07d0d71f5b1f9c2d9ea511e61c9e6259b7668f4f379f864f2a590a498850b1d74
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fortsetzungsköpfe behalten den ursprünglichen Anker und inneren Folgeabstand. Gemeinsame Verschiebungen der ausgegebenen Rahmen verändern diese Werte nicht mehr.
-- Größenkonflikte nennen konkrete Kopfmaße, seitlichen Versatz und verfügbare Fläche. Ein kleiner Kopf wird unabhängig von der gesamten Länge des weiter fortsetzbaren Inhalts geprüft.
-- Bei Layoutkonflikten wählen: Ausgabe zurücknehmen oder Zwischenstand zur visuellen Prüfung behalten. Behalten stoppt den Lauf und folgende Abläufe; Rückgängig bleibt möglich. Technische Befehlsfehler und Abbrechen bleiben Rücknahme.
-- Spielwiese S81 für mehrere Folgeseiten, konstante Kopfposition und beide Fehlerentscheidungen. Native Abnahme offen, Windows bleibt bei 0.7.52.
+- Nicht vom nächsten Element trennen: Köpfe, Texte und Tabellenrahmen auch in Gruppen zusammenhalten.
+- Füllnummern ziehen Tabellen nicht mehr vor unnummerierte Köpfe; ein Wiederholungskopf allein erzeugt keine Teilseite.
+- Automatische Textbreite bis zum rechten Nachbarrahmen begrenzen und Höhe erneut anpassen; zu breite Aufbauten vor weiteren Seitenteilungen melden.
+- Anleitung und Spielwiese S82 ergänzt. Laufzeitabnahme der eigenen Strecke offen. Windows bleibt bei 0.7.52.
