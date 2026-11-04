@@ -1,15 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.259
+version: 0.7.260
 date: 2026-11-04
 host: 21
-commit: 71bfcdf7d051a8d293b6a21540675d0ca791de5a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.259/p2-0.7.259-mac.zip
-mac.sha512: 192404c465d538e4a27169765b366347f5370a8f8c75dee8ed57807c9b0907d546668afbffbbecfbea1763efc2c1aae267a94806fa5336133c0967394adc454b
+commit: 75e6a8d94ae49af0b7222bec3ba68cca8256536c
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.260/p2-0.7.260-mac.zip
+mac.sha512: 536640c8b650286dd6a58041d1dd0e13da2d352e3e4566c7da3219cb509bfe69a7ee88f30a4d6a1e49a1d9b1d069ba0c1f5122cc93bbad2157ae660fc19549fd
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Nicht vom vorherigen trennen bindet die ganze parallele Text-/Logo-Zeile an die Tabelle; Kopfbindungen bleiben wirksam.
-- Optionalen Abstands-Ausgleich vor Seitenwechsel im Automatisieren-Dialog deutlich benannt; Mindestabstand, Schwelle und maximale Verringerung bleiben einstellbar.
-- Geerbte Seitenbeschriftungen von Basismusterseiten werden beim Nachlauf berücksichtigt; Muster und Bibliotheksvorlagen bleiben unverändert.
-- Spielwiese S84 ergänzt. Native Abnahme der eigenen Strecke offen; Windows bleibt bei 0.7.52.
+- Parallele Text-/Bildrahmen beim Umbruch gemeinsam weitergeben; Kopf und Logo bleiben nicht allein vor ihrem ungeteilten Rest zurück.
+- Gruppen können die Trennung paralleler Rahmen ausdrücklich erlauben. Ganze Gruppe sowie Bindungen an Vorgänger und Nachfolger bleiben maßgebend; echte Fortsetzungen und Wiederholungen bleiben möglich.
+- Neu erzeugte Seitenbeschriftungsformate erhalten Kontur, Füllung und Innenabstände des Musters; keine zusätzliche Standardkontur.
+- Spielwiese S85 und Regressionen ergänzt. Native Abnahme der eigenen Strecke offen; Windows bleibt bei 0.7.52.
