@@ -1,17 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.258
+version: 0.7.259
 date: 2026-11-04
 host: 21
-commit: ea734fb7cfced96549ca3de997067dfe51f1bb65
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.258/p2-0.7.258-mac.zip
-mac.sha512: ecfd32fc8a7888a562b8b1bff750bb468b103bcd3a903342419e9d638e1af89b647273add70ca78a7912c2b6c69edadad747757239286c8f2a74c71b372ad61d
+commit: 71bfcdf7d051a8d293b6a21540675d0ca791de5a
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.259/p2-0.7.259-mac.zip
+mac.sha512: 192404c465d538e4a27169765b366347f5370a8f8c75dee8ed57807c9b0907d546668afbffbbecfbea1763efc2c1aae267a94806fa5336133c0967394adc454b
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Gemeinsame Lageänderungen erzeugen keine künstliche Produkthöhe mehr; endgültige Rahmenpositionen werden frisch berechnet.
-- Eigene Ausgabeteile blockieren Folgeseiten nicht als fremde Hindernisse. Tabellen bleiben über ihre Bindungen beim zugehörigen Produkt.
-- Vervielfältigte Logo-Gruppen übernehmen Vorgänger-/Nachfolgerbindung und Umbruchregeln ihres Quellrahmens.
-- Diagnose und Spielwiese S83 für Leerseiten, Tabellenfolge und Logos ergänzt; native Neu-Ausgabe offen. Windows bleibt bei 0.7.52.
-- Große Lücken vor fortgesetzten Tabellen schließen: bei Heranziehen gilt der eigene Abstand zum verbleibenden Vorgänger, feste Rahmen bleiben stehen.
-signature: 990c4173ec3e6f33105b9ed60e5e2d534bd46af6ef98490d106ac9ee9895af7336b0a43af86abe6a548f89ff0f77c36e4e01334b991cc68718e3685b920c3506
+- Nicht vom vorherigen trennen bindet die ganze parallele Text-/Logo-Zeile an die Tabelle; Kopfbindungen bleiben wirksam.
+- Optionalen Abstands-Ausgleich vor Seitenwechsel im Automatisieren-Dialog deutlich benannt; Mindestabstand, Schwelle und maximale Verringerung bleiben einstellbar.
+- Geerbte Seitenbeschriftungen von Basismusterseiten werden beim Nachlauf berücksichtigt; Muster und Bibliotheksvorlagen bleiben unverändert.
+- Spielwiese S84 ergänzt. Native Abnahme der eigenen Strecke offen; Windows bleibt bei 0.7.52.
+signature: a477d21862b9fa4364920af0f0e19c91c2e4d7ed385e3060f6fbff83256b44a803e56b44d733791d86462cb5eef7f6a76a9776bb3d44cb753dbdea3c86e21807
