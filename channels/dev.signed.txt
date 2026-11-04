@@ -1,17 +1,18 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.261
+version: 0.7.262
 date: 2026-11-04
 host: 21
-commit: 25bbd2dec6859deaebc35ebf2d7b63309b5a59a4
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.261/p2-0.7.261-mac.zip
-mac.sha512: 78348b742b51e54cec7f157fbbf28b14ece4bb7c7ba1d8592a2ec7934bcab82ac1688cc8608fc5274629e802272a2fe8116462e7b45536737ef93d4bffd5e22b
+commit: 4e1d282f7ae370263d709bd3bdd68ef3587d5dc5
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.262/p2-0.7.262-mac.zip
+mac.sha512: 00006670e13bbb892ca7f2fe4f2cf58a674b97874416b66b529e8c8dadc069f6d44a4438ca47133a5ffdcf4bbc1001de4f62b6a5bfff28ca52482edc430198d3
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Nummerierung, Abschnitte und Kapitel im Automatisieren-Dialog: native Bestandswerte, Formate, Seitenstart, Präfix und Feldzuweisungen.
-- Abschnittsmarke bei Feldwechsel: neue Seite oder Anwendung auf der nächsten Ausgabeseite wählbar; Wechsel- und Markenfeld dürfen identisch sein.
-- Kapitel aus Datenfeld: eigene gespeicherte Kapitel-Dokumente im gewählten Ablageordner; Ausgangsdokument bleibt unverändert. Alternativ bei wechselnden Werten anhalten.
-- Nummerierungsparameter in Konfigurationen und Vorgaben speichern; fehlende Felder und ungültige Zahlen melden. Spielwiese S86 ergänzt.
-- Native Laufzeitabnahme der drei Flussarten und Kapiteldateien offen. Windows bleibt bei 0.7.52.
-signature: eee6aaf4b2ea8b1b395056eaf3fb4a3f33540f82521bcdce6eb7c9c6df9de21a75d4794b4fc8b80dcf4515d1c2b3d484e2a84e93f63b3cae58bb61c621690801
+- Eigene Projekte neu anlegen, speichern, unter anderem Namen kopieren, öffnen und schließen: Fenster > p2 > Projekt und Palettenmenüs.
+- Überschaubare Projektordner mit Projektdatei, Konfigurationen je Quelle und Sicherung. Quellen und Template-Bibliotheken bleiben unabhängig und projektübergreifend verfügbar.
+- Projektwechsel stellt eigene Ansichten, Feldoptionen, Filter, Abläufe und Automatisierungsparameter wieder her; globale Einstellungen bleiben getrennt.
+- Fehlende Quellen, Bibliotheken, Tabellen und Feldbezüge sowie geänderte Datentypen melden; betroffene Stellen auf Wunsch anzeigen. Keine stille Ersatztabelle oder Standardüberschreibung beschädigter Konfigurationen.
+- Spielwiese S87 und Kernprüfungen ergänzt. Laufzeitabnahme offen; offene Layoutdokumente bleiben unangetastet. Windows bleibt bei 0.7.52.
+- Beim Neustart zuletzt aktives Projekt mit Quelle und Ansicht automatisch laden; ohne Projekt die zuletzt verwendete globale Quelle. Fehlende Ressourcen melden, ausdrücklich geschlossenes Projekt geschlossen lassen.
+signature: e61bc9c203a61d5b6fa3129a2fd6651d3a0930d369cad51828b2998dd0a934d89f02553ffa3ba3297133ffdc5f1ecd74d6d97cccf64d775454ce775f4bb8d606
