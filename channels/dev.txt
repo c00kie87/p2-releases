@@ -1,15 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.257
+version: 0.7.258
 date: 2026-11-04
 host: 21
-commit: 2009d3e78faff0b7bb8b3b0a27f579b678013e04
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.257/p2-0.7.257-mac.zip
-mac.sha512: a5faaaba64a2324bb523a7fc17416a1aeb7a713b4ca1e27423d82da032e0e1f07d0d71f5b1f9c2d9ea511e61c9e6259b7668f4f379f864f2a590a498850b1d74
+commit: ea734fb7cfced96549ca3de997067dfe51f1bb65
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.258/p2-0.7.258-mac.zip
+mac.sha512: ecfd32fc8a7888a562b8b1bff750bb468b103bcd3a903342419e9d638e1af89b647273add70ca78a7912c2b6c69edadad747757239286c8f2a74c71b372ad61d
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Nicht vom nächsten Element trennen: Köpfe, Texte und Tabellenrahmen auch in Gruppen zusammenhalten.
-- Füllnummern ziehen Tabellen nicht mehr vor unnummerierte Köpfe; ein Wiederholungskopf allein erzeugt keine Teilseite.
-- Automatische Textbreite bis zum rechten Nachbarrahmen begrenzen und Höhe erneut anpassen; zu breite Aufbauten vor weiteren Seitenteilungen melden.
-- Anleitung und Spielwiese S82 ergänzt. Laufzeitabnahme der eigenen Strecke offen. Windows bleibt bei 0.7.52.
+- Gemeinsame Lageänderungen erzeugen keine künstliche Produkthöhe mehr; endgültige Rahmenpositionen werden frisch berechnet.
+- Eigene Ausgabeteile blockieren Folgeseiten nicht als fremde Hindernisse. Tabellen bleiben über ihre Bindungen beim zugehörigen Produkt.
+- Vervielfältigte Logo-Gruppen übernehmen Vorgänger-/Nachfolgerbindung und Umbruchregeln ihres Quellrahmens.
+- Diagnose und Spielwiese S83 für Leerseiten, Tabellenfolge und Logos ergänzt; native Neu-Ausgabe offen. Windows bleibt bei 0.7.52.
+- Große Lücken vor fortgesetzten Tabellen schließen: bei Heranziehen gilt der eigene Abstand zum verbleibenden Vorgänger, feste Rahmen bleiben stehen.
