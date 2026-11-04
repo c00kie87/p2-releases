@@ -1,18 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.253
-date: 2026-11-03
+version: 0.7.254
+date: 2026-11-04
 host: 21
-commit: 9b4177d0af2c44600b8654cd0911a063e8ac2c24
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.253/p2-0.7.253-mac.zip
-mac.sha512: 6e65c246cb75d4d066ccad90cc05dee12704b075d8257fa4475903936da95e6f7b76e8a9fd4e8692b8f36f1c7e1c3e708b845db2d975fa8e84bdd840af2f7cad
+commit: 7d4e537498a7dda350f5e81e45bb712a95a27a98
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.254/p2-0.7.254-mac.zip
+mac.sha512: 423dd79becfd8dc636827f283dd5f5c0bd3a3afb54aa1157a1a7737d8274f4b4ed1073375208d127be986264e6222fa622d44263f7ca93c90cbeef63f92d25af
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Wiederholte Tabellenköpfe: Konturen, Innenabstände und lokale Formatierung erhalten; Text erneut einpassen und prüfen. Kopf und Fortsetzung behalten ihren eigenen Objektabstand statt des Template-Abstands.
-- Kurze Fortsetzungen vermeiden: freigegebene Abstände vor Templates und optional zwischen Elementen proportional verringern, bevor ein neuer Abschnitt nötig wird.
-- Am Rahmen oder für die Strecke wählbar; Schwellwert für fehlenden Platz, Mindestabstand und maximale Verringerung in Prozent. Standard ausgeschaltet.
-- Feste/ausgeschlossene Elemente, Gruppensperren, vorhandene Hindernisse und erzwungene Umbrüche bleiben geschützt. Inhalt und Rahmengröße werden nicht verkleinert.
-- Bei jedem weiteren Datensatz erneut aus den Originalabständen planen, auch für mehrere zusätzliche Datensätze; native Geometrie nachprüfen. S76/S77 ergänzt, Laufzeitabnahme offen.
-- Frei automatisch gesetzter Rahmenfluss; Hilfslinien, festes Zeilenraster und manuelle Drop-Position bleiben unverändert. Fortsetzungsoptionen 252 und Quellenfix 251 enthalten; Windows bei 0.7.52.
-signature: 0bedce63e12256190e4e52a72e749d1c4128117bd8c5d4f382624e87983fa49a66e1ef571d687365ddc9af3fbed70f2f366fd9d2db98f1cf2aaf8a9aa8845a0f
+- Fortsetzungen mit mehreren Rahmen: ursprüngliche Reihenfolge, gemeinsame Geometrie und Abstände beim Wechsel des Druckbogens erhalten; native Gruppen und Textverkettungen bleiben bestehen.
+- Satzspiegel auf Folgeseiten: physische Seitenränder verwenden, damit unterschiedliche Innen-/Außenränder keinen seitlichen Versatz erzeugen.
+- Geometrie nach dem Umhängen erneut prüfen. Spielwiese S79 ergänzt; native Abnahme der gemeldeten Fälle offen.
+- Projektanlage mit eigener Ablage und unabhängigen Quellen/Bibliotheken ist dokumentiert und folgt separat. Windows bleibt bei 0.7.52.
+signature: c9ce9a0614f895bead4f78da4fa1daa8642fee7508a8a6e72a454d2079963ba08beff46d0183d207b318dae075dba6600dc5e3dbceafadb33570648041fdfc0e
