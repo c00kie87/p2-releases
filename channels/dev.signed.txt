@@ -1,18 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.283
+version: 0.7.284
 date: 2026-11-05
 host: 21
-commit: 0c40cc8a7aac89f0e49f857965c963cfcb747734
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.283/p2-0.7.283-mac.zip
-mac.sha512: 04f7f2536707a035d643d46d484eccccf4a3538df9fa44bd5f23274656b37e6616c08ba4cf1033328b3b0954f84b8b0e364dbc5ab67f93e079bfe4dd48d98bf6
+commit: df0ef976bd3816aabc24e3c64c294ab3a6620876
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.284/p2-0.7.284-mac.zip
+mac.sha512: 197813f0f58c15d74737528cc93f9688f8aa564a38513756e0932bb451450075a14e574fee7c835fbe328588e07b47f5f43c43b0e375ed307b7fd210f556c3be
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Kreuztabelle im Template: Die Tabelle erhält immer alle Datensätze ihres Kontexts (z. B. alle Artikel der Variationsgruppe), auch wenn nur ein Artikel abgelegt wird – bisher erschien bei „je Datensatz“ nur eine Zeile. Hinweis in der Abschlussmeldung, die Verwendung auf „je Gruppe“ zu stellen.
-- Breitenautomatik: Spalteneinstellungen (fix/dynamisch, Grenzen, Gewicht) der Vorlage gelten jetzt auch für alle Kopien eines wiederholten Spaltenblocks bzw. der Kreuztabelle – bisher wurden sie nach dem Kopieren der falschen Spalte zugeordnet. Gesamtbreite ohne dynamische Spalte: klarer Hinweis in der Abschlussmeldung (die Gesamtbreite wirkt nur über dynamische Spalten).
-- Palette Automatisieren, Tabellen: Felder erscheinen nur, wenn sie den markierten Bereich betreffen (Zeilenhöhe nicht bei Spalten-, Spaltenbreite nicht bei Zeilenmarkierung; Kopf-/Fußzeilen, Kopfspalten und Wiederholung nur bei ganzer Tabelle). Unterschiedliche Werte im markierten Bereich zeigen „gemischt“.
-- Innere Transponierung: neue Regel „je Spalte“ für Zeilenattribute – ein Wert je Spaltenschlüssel, verbunden mit frei wählbarem Trennzeichen (auch Tabulator).
-- Konflikte sichtbar: Vorschau zeigt die widersprüchlichen Werte, die betroffene Zelle im Raster ist rot markiert, die Regel-Auswahl der gewählten Zelle zeigt „KONFLIKT – hier Regel ändern“; der Tipp zur Lösung erscheint bei jedem Konflikt.
-- Spielwiese S111.
-signature: 8d2caeefa8bd27f5daa3f910ba9721a4f603c00cbfd4a34bc0038aacc045181746f6f6b5b3bf64cdd15ab8c48e303abb8151ca705d2d06e3696455a4eac9e809
+- Innere Transponierung: gleiche Werte bleiben zusammengefasst – liefern alle Spalten denselben Wert, steht er nur einmal da („KAL“ statt „KAL#KAL#KAL“); nur unterschiedliche Werte werden je Spalte mit dem Trennzeichen aufgeteilt.
+- Kreuztabelle: Die Hervorhebung „KONFLIKT – hier Regel ändern“ verschwindet sofort, sobald der Konflikt gelöst ist (bisher blieb sie bis zur nächsten Auswahl stehen).
+- Hilfetexte für die Dialoge Feldoptionen, Suchen und Ersetzen und Zusatzfeld (alle Felder und Beschriftungen).
+signature: 32be5194551e886ee5f316450e63e6df0ee3da57a6bacf3cca008465db7ea47dd81f00ccb35895064e1fb0c2db0b5a82988e42e65314ea26273975a88e21e301
