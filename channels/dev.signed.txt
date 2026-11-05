@@ -1,16 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.277
+version: 0.7.278
 date: 2026-11-05
 host: 21
-commit: a1cf3f29fa80b7b3e49a4cc9818d2beff3a6606b
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.277/p2-0.7.277-mac.zip
-mac.sha512: 978da15cec6d5555c0d5500458f82a57aa19132a856ebcd23952f9b368db322db002fb6713b7dd15156785cbfcfbe6628b8b42071267ff253a33dcf44e8eae35
+commit: 97138015a0a845187487589edb895fe004d3d0fe
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.278/p2-0.7.278-mac.zip
+mac.sha512: 17c0722ddcf8800b3c690e521cdb8e209602ec308ac4bc3686b4dab0e471fd5660556c4dc01ef59c355c9da05da7b976b492bb7ab3741a6bc9f5512cae2c5e4c
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Kreuztabellen werden im Projekt gespeichert: bei geöffnetem Projekt liegen sie in dessen Konfigurationsordner der Quelle; erste Übernahme einer Quelle ins Projekt, „Projekt speichern unter“, Ersetzen und Sicherungen nehmen sie jetzt mit.
-- Neueinlesen einer Quelle ohne Projekt behält jetzt alle Benutzerdateien der Konfiguration (Kreuztabellen, Ersetzungen, Abläufe, Vorkommnisfilter, Sondergruppen, Gemerktes) – bisher blieben nur Konfigurationen, Feldoptionen und Nacharbeit erhalten.
-- Eine zentrale Liste der Konfigurationsdateien für alle Kopier- und Übernahmewege.
-- Spielwiese S105.
-signature: bcaf033e45d64ceb5cb117df36e4537fbace70bf82eb64dfe23c2e372c16b407b2a4013e53234b537cfe4e68df4741b2a3acbce8e5823277624500981ad06a04
+- Hilfetexte beim Überfahren: Maus über einem Feld halten und kurz warten zeigt eine Kurzbeschreibung. Zuerst im Dialog Kreuztabelle (alle Felder, Knöpfe, Beschriftungen, Raster, Vorschau) und an der Kreuztabellen-Auswahl in der Palette Automatisieren; weitere Dialoge und Paletten folgen schrittweise.
+- Spielwiese S106.
+signature: e5f19675c07482e103c5eee0fa44540f626f179cf1ab321735e2898f777e0202d7d2d4175e8aff5a161b569d82bdf66fbb6c77c68b5304a3cbe6830c1d35270a
