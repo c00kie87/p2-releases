@@ -1,14 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.272
+version: 0.7.273
 date: 2026-11-05
 host: 21
-commit: 6f99aafdf938ca0cc960b699c1dd2949a9971657
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.272/p2-0.7.272-mac.zip
-mac.sha512: 1a5ae0b0719c3c798ea098bd9d33ef0997269bbcf61894bb2c07017250ffc15a31d9ac7b9cafc08eaa11e3eaf2df1526d8435e41f93af7e1d571b5564c68adb0
+commit: ebbbbbbe793c2e8a864577e4d004d028a27ee1e6
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.273/p2-0.7.273-mac.zip
+mac.sha512: 6ef25947e9b292ac4f24f3291e0d591da344e0c26cc748ba7628801b5c9dc2b1f4b764628ed9f27b484f2f80b2ff245b7d21fddd1b2a9c0e13d73c91125d0bff
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Suchen und Ersetzen: Regeln als scrollbare Tabelle über die ganze Breite mit Spaltenkopf Aktiv, Suchen, Ersetzen, Art, Groß/Klein, Felder, Bild, Liste (statt einer Textzeile mit nicht darstellbarem Pfeilzeichen); Eingabefelder darunter.
-- Aus den Feldoptionen öffnet „Suchen und Ersetzen …“ den Dialog direkt darüber; nach OK geht es in den Feldoptionen mit aktueller Vorschau weiter. Behebt, dass der Weg zurück in die Suchen/Ersetzen-Maske nach einer Ersetzung nicht mehr funktionierte.
-- Spielwiese S100.
+- Kreuztabellen, erster Schritt: neuer Kern für Kreuztabellen mit Kontext, kombinierbaren Zeilen- und Spaltenfeldern, mehreren Werten sowie Zeilen-, Spalten- und Kontextattributen. Jede Kreuzung unterscheidet kein Datensatz, NULL, leer, Wert und Konflikt; unterschiedliche Werte werden nie still zusammengefasst.
+- Datenquelle › Felder › „Kreuztabelle prüfen …“: Felder wählen, Vorschau mit Umfang (erste 10, erste 100, alle Treffer), Konflikten mit Datensatznummern und den ersten Tabellen; vollständiger Bericht in der Ausgabe. OK speichert die Auswahl je Konfiguration.
+- Beispieldaten KG3 analysiert: p2 bildet die 493 Zeilen und 931 Kreuzungen des Altsystems exakt nach und meldet zusätzlich 4 Zeilen, in denen das Altsystem widersprüchliche Angaben still durch den Wert der ersten Spalte ersetzt.
+- Die Ausgabe in eine Dokumenttabelle (Tabellenbereiche, Live-Editor) folgt in den nächsten Updates.
+- Spielwiese S101.
