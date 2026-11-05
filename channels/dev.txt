@@ -1,15 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.287
+version: 0.7.288
 date: 2026-11-05
 host: 21
-commit: af79ce1e6f39297ce734e8658f5fc1a1b83a9362
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.287/p2-0.7.287-mac.zip
-mac.sha512: f063092d5bf2d85522c62516e05e0232d6c2a9ff9988ccf1f7f0e6f9e7b23730bc575dc77f0eef01ad7343dafa8421b7a0d5fd3856789be284c2047d4c2ddb7e
+commit: b216ccc1d761eb0eff3599c32bb63996aeabebd6
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.288/p2-0.7.288-mac.zip
+mac.sha512: 6e7a2bac048b4200841b403c8dcf0a719c6bb4fca1d3b9f9280046440aa0cd1d61ade148c25cd99dc0fb090e7b5c3497bbb091f54ff0f98bca50518a54588581
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Kreuztabelle: Alle Artikelzeilen erscheinen wieder. Bei Tabellen aus Altvorlagen (XML-getaggte Zellen) übernahm InDesign beim Kopieren der Körperzeile die Feldmarken nicht; die kopierten Zeilen blieben leer und „Leere Zeilen löschen“ entfernte sie – übrig blieb nur die erste Artikelzeile. p2 setzt die Werte solcher Kopien jetzt direkt ein (Zeilenschlüssel, Kreuzungswerte, Attribute) und nennt das in der Abschlussmeldung.
-- Kreuztabelle, innere Transponierung („je Spalte“): Gleiche Werte stehen nur einmal, auch wenn sich nur ein Teil der Spalten gleicht – aus „ZERT“, „-“, „-“ wird „ZERT/-“. Verglichen wird ohne Leerraum am Rand.
-- Rahmen ohne „Umbruch im Template“ wachsen in der Höhe mit, wenn eine automatisierte Tabelle sonst im Übersatz läge (aus 0.7.286, das nicht freigegeben wurde).
-- diagnose.log: neue Zeile „Kreuztabelle …: Fuellen: …“ mit kopierten und direkt geschriebenen Zellen.
+- Kreuztabelle: Zeilen, für die p2 Inhalt berechnet hat (Artikelzeilen mit Bez.-Nr., Preisen, Attributen), werden von „Leere Zeilen löschen“ nicht mehr entfernt. In 0.7.287 waren die kopierten Artikelzeilen gefüllt (Diagnose: 53 Zellen mit Platzhaltern), verschwanden aber bei der Bereinigung.
+- diagnose.log: Inhalt jeder Tabellenzeile nach dem Füllen sowie die Zeilen, die die Bereinigung fälschlich als leer ansah („Kreuztabelle …: Zeile …“, „Bereinigung: …“).
