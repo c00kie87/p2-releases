@@ -1,18 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.274
+version: 0.7.275
 date: 2026-11-05
 host: 21
-commit: 69bbfaabfbff2fad53b853fff58e57d98a3e8e2a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.274/p2-0.7.274-mac.zip
-mac.sha512: 2b79e562c2fa3c24973b68c90e0b1685dee0f7ebe398256a8071e047b030d2571052cf6c1b0c3b8269476bf2bc1786cacfbd0b46f77b40df0abd9117207e0abc
+commit: 32374c6ff8680fd7425b5d8f4931e270e4f66ad0
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.275/p2-0.7.275-mac.zip
+mac.sha512: e093b052fa3a5cf42d23d563eab7126a4ea9338731a6a5d8c1f030bfc21a8778791b921d171c5a0360e27827880fc9330f7b5c8f90d86e7c5477500ba91840da
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Kreuztabelle aufbauen wie die Tabelle: Die Eingabemaske ist ein Raster aus Spalten (fest oder je Spaltenschlüssel wiederholt/pivotisiert) und Zeilen in Kopf, Körper (je Zeilenschlüssel wiederholt) und Fuß. Jede Zelle hat Typ und Datenfeld: Zeilenschlüssel, Spaltenschlüssel, Spaltenattribut, Kreuzungswert, Zeilenattribut, Tabellenattribut, fester Text.
-- „+“ an jeder Spalten- und Zeilengrenze fügt ein; Kopf- und Fußzeile per Knopf; Zeile/Spalte entfernen. Beim ersten Datenfeld schlägt p2 den Typ nach Lage vor; je Zelle eine Regel für mehrere Werte (Vorgabe: eindeutig, sonst Konflikt).
-- Name, Einheit und Wert eines Merkmals stehen in derselben Spalte; nicht eindeutige Namen in einer Tabelle werden als Konflikt gemeldet.
-- Vorschau als fertige Tabelle je Kontext (Auswahl der Tabelle, „–“ für fehlende Kombinationen, rote Konfliktzellen), berechnet aus demselben Plan wie die spätere Ausgabe. Hinweise bei falscher Lage (z. B. Kreuzungswert in fester Spalte).
-- Die Ausgabe in eine Template-Tabelle über Automatisieren folgt im nächsten Update.
-- Spielwiese S102.
-signature: f8679dfb84b230ddc2e6ae79c34b241cf21ed24c509c2d2358ca1cf2228a32cff81ef30af501ec35ae7a643589f37ea37e22fb535bdd6ffbd07ac352120e8b0b
+- Mehrere unabhängige Kreuztabellen je Konfiguration: oben im Dialog Auswahl, Name, Neu, Kopie, Löschen – z. B. eine Pivotisierung für Preise und eine für Maße; Templates wählen später eine davon über den Namen. Leere oder doppelte Namen werden beim Speichern abgelehnt. Bisher gespeicherte Kreuztabellen werden übernommen.
+- Raster eleganter: runde „+“-Knöpfe in den Fugen zwischen den Zellen, Zellen als Karten mit Farbkante je Typ, leere Zellen gestrichelt, Abschnitte Kopf/Körper/Fuß durch Abstand getrennt; Spaltenart als „transponiert / nicht transponiert“ (Datenrolle – fix oder dynamisch bestimmt weiterhin das Template in Automatisieren).
+- Spielwiese S103.
+signature: 6b957fe05c87c8693ed4fc62ebfd307004f70888587b34b11048c77b88839717fdb09f2601acbbb58770175bc02ee2409aa14b30448aaf653ba870f9d5c00209
