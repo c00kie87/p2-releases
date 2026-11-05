@@ -1,16 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.264
+version: 0.7.265
 date: 2026-11-05
 host: 21
-commit: 721813ac6e15eb434be8111d1456996bed505b48
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.264/p2-0.7.264-mac.zip
-mac.sha512: 15a8fecd112c6081eec17d7d3dd9ebbd448b149cbc91b697319eae0d17c842f54ef0733f001e3014f58b7a4c6d534e5eaa7f4f5ef81d3f96511998bc30368d26
+commit: 3fb8605fbe8c3d5b823f4d8d213c832b8c05fb5a
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.265/p2-0.7.265-mac.zip
+mac.sha512: a4295132a13d61348cfdf040813f60a8274a507bfcf6a1a13e9bb629ff394b6347ba95c25c7c0e52253d9d15c0599df57960ab09689796b017af912556895d20
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Schlüsselfelder: lesbare Feldnamen und Aliasse ohne angehängte technische Kennungen; gleich benannte Felder erhalten kurze unterscheidbare Namen.
-- Schlüsselkombination über + um weitere Felder erweitern, Einträge entfernen und mit Nach oben/Nach unten ordnen. Keine Begrenzung auf vier Felder.
-- Vorhandene längere Schlüssel vollständig laden und speichern; andere Feldoptionen erhalten. Abbrechen verwirft die Dialogänderungen.
-- Spielwiese S90 und Prüfungen für sechs Schlüssel ergänzt. Native Abnahme offen; Windows bleibt bei 0.7.52.
-signature: 6eb58a19a6a55e22b1233f375fa133d1102dc5a0c54268679373ab07de46fd076847cae0446ac82d8f9410c0a9f27c1d85739308e3a39c3ae2ab9d5c28725109
+- Konfiguration speichern unter: vorhandene Konfiguration auswählen oder neuen Namen eingeben. Zielauswahl lädt keine fremden Einstellungen; Ersetzen wird bestätigt.
+- Vorhandene p2-Projektdateien beim Speichern unter und Anlegen gezielt ersetzen. Der vorherige Projektstand samt Konfigurationen bleibt unter Sicherungen/Ersetzt-… erhalten.
+- Neue Projektdatei und Konfigurationen vor dem Austausch vollständig vorbereiten; bei gemeldetem Fehler den vorherigen Konfigurationsordner zurückstellen. Quellen und Bibliotheken bleiben unabhängig.
+- Spielwiese S91/S92 und Kernprüfungen ergänzt. Native Abnahme offen; Windows bleibt bei 0.7.52.
+signature: 2a02fdd8a13bdcba66b488c22224adae5e205df2dbf0e437676a9586490c86736adffd5cff0f229b27e3263bdd8519e9ad4bfd46408a2465bce5bd6ea5dabb0e
