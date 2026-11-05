@@ -1,15 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.268
+version: 0.7.269
 date: 2026-11-05
 host: 21
-commit: 36180549699fac1c44369e5273f02463ba64e57a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.268/p2-0.7.268-mac.zip
-mac.sha512: 529449abdef09df260abdf9a4e5e56315593bd25ee2ef4a270403b0732414825a4420193bd78424175e1eeb65f667fb53531c32460a02d74672b45225fb59f63
+commit: 5ebe3bc103834ed169916ee356c132f97eb70d65
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.269/p2-0.7.269-mac.zip
+mac.sha512: c5149d435b9eea156fc9d258ee3cef10e55741ac513a384700e3e657e9d1c81bb8b682051bccf21eb417212f7c2beefa4bb027526d4c192552a5e6256d8157c4
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Feldoptionen und Zusatzfeld im neuen Dialograster: Bereichsliste links statt Reiter oben, Beschriftungen in einer Spalte, engere Zeilen, Vorschau über den Knöpfen, OK/Abbrechen unten rechts (Gestaltung Etappe 1).
-- Update-Fehlermeldung nennt jetzt den Grund (z. B. Zeitüberschreitung, Verbindung unterbrochen, Server nicht gefunden) statt nur „endete mit einem Fehler“; Downloads werden häufiger wiederholt und dürfen länger dauern.
-- Spielwiese S96.
-signature: 74190b630f3130b5aaf1aafbcd31844e6f65d81968f9951db593abacc7320515abfc76c80d74ce748ec98f85f77c3c8c70fe9285fc6458b676fc6b36ee8a5402
+- HTML-Schnitte als Zeichenformate: fett/kursiv aus HTML ohne zugeordnetes Hypertextformat wird nicht mehr lokal gesetzt, sondern als Zeichenformat in der Formatgruppe „HTML-Tags“ („<b>“, „<i>“, „<b><i>“). Gleicher Schnitt ergibt dasselbe Format, keine Dopplungen; abweichender Schnittname einer anderen Schrift ergibt „<b> (Schnittname)“.
+- Spielwiese S97.
+signature: 79bb6e2c839ba57232965b502f3c708de9a48dbd0074cb8c0135934c166add3b44d1f416739d5133c0636461cd6d8dc659db274f94cdd600ac04676897451908
