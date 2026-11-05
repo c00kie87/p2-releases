@@ -1,14 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.282
+version: 0.7.283
 date: 2026-11-05
 host: 21
-commit: 52459ffe9e898331199f0fd474da7bf56b653125
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.282/p2-0.7.282-mac.zip
-mac.sha512: b317987c39738184a51255c87ba7cdac53557453347ddc1eb97348d83264b4f668e59e6753ad71f3a9e91153fd51687f3520a0b3657f96e508043a254d895e35
+commit: 0c40cc8a7aac89f0e49f857965c963cfcb747734
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.283/p2-0.7.283-mac.zip
+mac.sha512: 04f7f2536707a035d643d46d484eccccf4a3538df9fa44bd5f23274656b37e6616c08ba4cf1033328b3b0954f84b8b0e364dbc5ab67f93e079bfe4dd48d98bf6
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Leere Absätze und leere Platzhalter in Rahmen und Tabellen: „Leere Absätze entfernen“ wirkt jetzt auch in den Tabellenzellen des Rahmens und erkennt Absätze, in denen nur ein leerer Platzhalter steht. Neu „Leere Platzhalter entfernen“ (leere Klammern löschen) im Abschnitt Leer.
-- Für eine markierte Tabelle: „Leere Absätze: in Zellen entfernen“ und „Leere Platzhalter: in Zellen entfernen“ – wirkt auch bei Kreuztabellen nach dem Füllen.
-- Spielwiese S110.
+- Kreuztabelle im Template: Die Tabelle erhält immer alle Datensätze ihres Kontexts (z. B. alle Artikel der Variationsgruppe), auch wenn nur ein Artikel abgelegt wird – bisher erschien bei „je Datensatz“ nur eine Zeile. Hinweis in der Abschlussmeldung, die Verwendung auf „je Gruppe“ zu stellen.
+- Breitenautomatik: Spalteneinstellungen (fix/dynamisch, Grenzen, Gewicht) der Vorlage gelten jetzt auch für alle Kopien eines wiederholten Spaltenblocks bzw. der Kreuztabelle – bisher wurden sie nach dem Kopieren der falschen Spalte zugeordnet. Gesamtbreite ohne dynamische Spalte: klarer Hinweis in der Abschlussmeldung (die Gesamtbreite wirkt nur über dynamische Spalten).
+- Palette Automatisieren, Tabellen: Felder erscheinen nur, wenn sie den markierten Bereich betreffen (Zeilenhöhe nicht bei Spalten-, Spaltenbreite nicht bei Zeilenmarkierung; Kopf-/Fußzeilen, Kopfspalten und Wiederholung nur bei ganzer Tabelle). Unterschiedliche Werte im markierten Bereich zeigen „gemischt“.
+- Innere Transponierung: neue Regel „je Spalte“ für Zeilenattribute – ein Wert je Spaltenschlüssel, verbunden mit frei wählbarem Trennzeichen (auch Tabulator).
+- Konflikte sichtbar: Vorschau zeigt die widersprüchlichen Werte, die betroffene Zelle im Raster ist rot markiert, die Regel-Auswahl der gewählten Zelle zeigt „KONFLIKT – hier Regel ändern“; der Tipp zur Lösung erscheint bei jedem Konflikt.
+- Spielwiese S111.
