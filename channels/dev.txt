@@ -1,13 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.278
+version: 0.7.279
 date: 2026-11-05
 host: 21
-commit: 97138015a0a845187487589edb895fe004d3d0fe
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.278/p2-0.7.278-mac.zip
-mac.sha512: 17c0722ddcf8800b3c690e521cdb8e209602ec308ac4bc3686b4dab0e471fd5660556c4dc01ef59c355c9da05da7b976b492bb7ab3741a6bc9f5512cae2c5e4c
+commit: dc82fc63a4f075deaa39ee993bec52dfd37d5512
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.279/p2-0.7.279-mac.zip
+mac.sha512: e95fbc1dca783c52470ab1f78dfa7ddb184517700c6b7d2e4bb713c924dadb4384b5d7ac8b2cca7b3e2938c7a676c90d150c1f69ef9833e16ccc713d3cd0fead
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Hilfetexte beim Überfahren: Maus über einem Feld halten und kurz warten zeigt eine Kurzbeschreibung. Zuerst im Dialog Kreuztabelle (alle Felder, Knöpfe, Beschriftungen, Raster, Vorschau) und an der Kreuztabellen-Auswahl in der Palette Automatisieren; weitere Dialoge und Paletten folgen schrittweise.
-- Spielwiese S106.
+- Feldfamilie: Alias mit Nummernmuster in den Feldoptionen – z. B. Alias „Tbl2W#“ an Tabelle2_Attributwert1 und Haken „für alle Felder dieses Schemas“ benennt Tabelle2_Attributwert1 … 12 als Tbl2W1 … Tbl2W12. Muster: # bzw. [#+] = Nummer, [#] = genau eine Ziffer, [## ###] = gegliederte Nummer (z. B. 82 2569). Vor dem Übernehmen Liste mit Hinweis auf ersetzte Aliasse.
+- Original und Alias gleichwertig: Auswahllisten in Automatisieren und Kreuztabelle zeigen „Alias (Original)“; Platzhalter, Suche und Spaltenfilter finden beide.
+- Hilfetexte an Alias und Familien-Haken.
+- Spielwiese S107.
