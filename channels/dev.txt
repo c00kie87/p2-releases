@@ -1,16 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.276
+version: 0.7.277
 date: 2026-11-05
 host: 21
-commit: ec1deb7ebbc3e6134d0f0e2df3793176bcb02750
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.276/p2-0.7.276-mac.zip
-mac.sha512: dd971be33e9b3782c26ffc3fffea32139bc32f8480586741bafa0145c712a029d15f79699b244885e49bb80d54a2f4d3b1955c062140215f093b21c99329919c
+commit: a1cf3f29fa80b7b3e49a4cc9818d2beff3a6606b
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.277/p2-0.7.277-mac.zip
+mac.sha512: 978da15cec6d5555c0d5500458f82a57aa19132a856ebcd23952f9b368db322db002fb6713b7dd15156785cbfcfbe6628b8b42071267ff253a33dcf44e8eae35
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Kreuztabelle im Template: eigene Template-Tabelle markieren, Palette Automatisieren › Tabelle erweitern › Art „Kreuztabelle (aus Datenquelle)“, dann den Namen der Kreuztabelle wählen. Die Körperzeilen des Templates wiederholen sich je Zeilenschlüssel, die Spalten ab „Spalten je Schlüssel ab“ je Spaltenschlüssel; Platzhalter erhalten den Wert ihrer Rolle, Formate der Template-Zellen bleiben. Fix/dynamisch wie bisher im Template. Die bisherigen Pivot-Felder erscheinen nur noch bei „Pivot-Tabelle (einfach)“ für ältere Vorlagen.
-- Zwei Füllzeichen je Kreuztabelle: „Kein Artikel“ für Kombinationen ohne Datensatz (z. B. fehlender Preis) und „Leerer Wert“ für vorhandene Datensätze mit leerem Feld. Das Füllzeichen gilt jetzt für die ganze Kreuztabelle (in 0.7.274 blieb es teils leer).
-- Ruhigeres Farbschema im Raster (Achsen kühl, Werte violett, Attribute warm).
-- Konflikte der Kreuztabelle erscheinen in der Abschlussmeldung des Automatisierens.
-- Spielwiese S104.
+- Kreuztabellen werden im Projekt gespeichert: bei geöffnetem Projekt liegen sie in dessen Konfigurationsordner der Quelle; erste Übernahme einer Quelle ins Projekt, „Projekt speichern unter“, Ersetzen und Sicherungen nehmen sie jetzt mit.
+- Neueinlesen einer Quelle ohne Projekt behält jetzt alle Benutzerdateien der Konfiguration (Kreuztabellen, Ersetzungen, Abläufe, Vorkommnisfilter, Sondergruppen, Gemerktes) – bisher blieben nur Konfigurationen, Feldoptionen und Nacharbeit erhalten.
+- Eine zentrale Liste der Konfigurationsdateien für alle Kopier- und Übernahmewege.
+- Spielwiese S105.
