@@ -1,13 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.281
+version: 0.7.282
 date: 2026-11-05
 host: 21
-commit: 36ba7e262ffdcc250fad59ff8689d150262e65fa
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.281/p2-0.7.281-mac.zip
-mac.sha512: 67481e42a86e7e117f65b4f278d84f6ea1cc65d85e49b93724638a5a5649e8bb8c541f9f4302aa176dfc2acbc08dc68db10ced8cb05ed7d50400cbeef7bd65d0
+commit: 52459ffe9e898331199f0fd474da7bf56b653125
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.282/p2-0.7.282-mac.zip
+mac.sha512: b317987c39738184a51255c87ba7cdac53557453347ddc1eb97348d83264b4f668e59e6753ad71f3a9e91153fd51687f3520a0b3657f96e508043a254d895e35
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Hilfetexte beim Überfahren in allen Paletten und Dialogen vorbereitet (alle Auswahllisten, Eingabefelder, Haken, Knöpfe und Beschriftungen); Texte für die ganze Palette Automatisieren (über 130 Felder, Beschriftungen links zeigen den Text ihres Feldes), die Palette Datenquelle, Kreuztabelle, Feldoptionen (Alias) und Projekt speichern unter. Weitere Dialoge folgen.
-- Erklärt u. a. „Kopfspalten“ und „Wiederholen ab Spalte / Wiederholte Spalten“.
+- Leere Absätze und leere Platzhalter in Rahmen und Tabellen: „Leere Absätze entfernen“ wirkt jetzt auch in den Tabellenzellen des Rahmens und erkennt Absätze, in denen nur ein leerer Platzhalter steht. Neu „Leere Platzhalter entfernen“ (leere Klammern löschen) im Abschnitt Leer.
+- Für eine markierte Tabelle: „Leere Absätze: in Zellen entfernen“ und „Leere Platzhalter: in Zellen entfernen“ – wirkt auch bei Kreuztabellen nach dem Füllen.
+- Spielwiese S110.
