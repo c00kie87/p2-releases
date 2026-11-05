@@ -1,15 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.291
+version: 0.7.292
 date: 2026-11-05
 host: 21
-commit: df1b9faebc8fe4d427942f167511a7ba6b4d016a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.291/p2-0.7.291-mac.zip
-mac.sha512: 8506fc82a6b06ae375275e0f65c45384c12ab497c39f77153b26eb226c90a115a4c2c1c862c11abe99597bc2bf66247e7421e01e4202f196af7cffe27020d645
+commit: 27c41b3ed5b657f5dffedc6f80ef1546a6547dfb
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.292/p2-0.7.292-mac.zip
+mac.sha512: 0cf3ae0fc67d1a6e4b05c7527033ca445f17af17b95e6df9df307f13e2798c1e35ed2a091fedf1885848ce5ec0ad791c504a511ab8c950f2b82f3514685af32b
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Kreuztabelle: Leere Zeilen und Spalten erkennt p2 jetzt selbst aus dem geschriebenen Text. Bisher las die Skriptprüfung kopierte Artikelzeilen als leer und löschte sie (6150/7150).
-- Die Prüfung, ob eine Tabelle ganz leer ist, nutzt dieselbe Quelle.
-- Diagnose: Weicht die Sicht des Skripts ab, steht das mit Textpositionen im Protokoll. Bricht die Kreuztabelle nach dem Füllen ab, stehen Fehlercode und Hinweise im Protokoll.
-signature: e9087a83ce70544c4557e00a9a36e1bffd4812f1daf8a10588c978789e1191c05c2a07d6f4534aa565c122089cab818fd79e9ab75701d91c32e5edd96e00420b
+- Kreuztabelle: Mit der Regel „je Spalte (innere Transponierung)“ steht das Trennzeichen „ | “ sichtbar im Feld und lässt sich ändern.
+signature: 22bface79bf5c6647d4b838ac1ade7c6fa4f86b78c1f4a8ec621b0e223f0abb2c099831657b5cea5d3366af915bc8358618d7959342985ceedec3592b90a1206
