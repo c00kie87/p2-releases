@@ -1,14 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.271
+version: 0.7.272
 date: 2026-11-05
 host: 21
-commit: f8b25bfa748be66d54ea5fdfa472039b7c793a5b
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.271/p2-0.7.271-mac.zip
-mac.sha512: 7a8edcda77706fc10f26bdfd71be19d58e2f7991caad909440c8cf3d87f5aa0aaa269f845260e98f4339c653aa71a2481dc3ab208e0a153254e0499ba256bb12
+commit: 6f99aafdf938ca0cc960b699c1dd2949a9971657
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.272/p2-0.7.272-mac.zip
+mac.sha512: 1a5ae0b0719c3c798ea098bd9d33ef0997269bbcf61894bb2c07017250ffc15a31d9ac7b9cafc08eaa11e3eaf2df1526d8435e41f93af7e1d571b5564c68adb0
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Palette Automatisieren als Liste „Attribut | Wert“: Abschnitte als graue Titelzeilen mit Klapppfeil, Zeilen abwechselnd hinterlegt, Trennlinie zwischen Beschriftung und Feld, 22 px statt 28 px je Zeile – deutlich mehr Einstellungen ohne Scrollen (Gestaltung Etappe 2).
-- Spielwiese S99.
-signature: e4aca82578eaceed99a0bbef308c7ba243f2546bcb90e87bb142fe9fcc9aee7e81be5022e0d6096d7703b35c31a23c01f09886fc1e4865da77531c66fd6f8e01
+- Suchen und Ersetzen: Regeln als scrollbare Tabelle über die ganze Breite mit Spaltenkopf Aktiv, Suchen, Ersetzen, Art, Groß/Klein, Felder, Bild, Liste (statt einer Textzeile mit nicht darstellbarem Pfeilzeichen); Eingabefelder darunter.
+- Aus den Feldoptionen öffnet „Suchen und Ersetzen …“ den Dialog direkt darüber; nach OK geht es in den Feldoptionen mit aktueller Vorschau weiter. Behebt, dass der Weg zurück in die Suchen/Ersetzen-Maske nach einer Ersetzung nicht mehr funktionierte.
+- Spielwiese S100.
+signature: 659b86adcb96d7f7da2f6439f1519a90fa34bab0a11a667a570eff8bb53fd15cd9532f7eaf94348fd53a37c700512664ac03e71fd985544f6e287489e70b6601
