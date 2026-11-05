@@ -1,15 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.275
+version: 0.7.276
 date: 2026-11-05
 host: 21
-commit: 32374c6ff8680fd7425b5d8f4931e270e4f66ad0
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.275/p2-0.7.275-mac.zip
-mac.sha512: e093b052fa3a5cf42d23d563eab7126a4ea9338731a6a5d8c1f030bfc21a8778791b921d171c5a0360e27827880fc9330f7b5c8f90d86e7c5477500ba91840da
+commit: ec1deb7ebbc3e6134d0f0e2df3793176bcb02750
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.276/p2-0.7.276-mac.zip
+mac.sha512: dd971be33e9b3782c26ffc3fffea32139bc32f8480586741bafa0145c712a029d15f79699b244885e49bb80d54a2f4d3b1955c062140215f093b21c99329919c
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Mehrere unabhängige Kreuztabellen je Konfiguration: oben im Dialog Auswahl, Name, Neu, Kopie, Löschen – z. B. eine Pivotisierung für Preise und eine für Maße; Templates wählen später eine davon über den Namen. Leere oder doppelte Namen werden beim Speichern abgelehnt. Bisher gespeicherte Kreuztabellen werden übernommen.
-- Raster eleganter: runde „+“-Knöpfe in den Fugen zwischen den Zellen, Zellen als Karten mit Farbkante je Typ, leere Zellen gestrichelt, Abschnitte Kopf/Körper/Fuß durch Abstand getrennt; Spaltenart als „transponiert / nicht transponiert“ (Datenrolle – fix oder dynamisch bestimmt weiterhin das Template in Automatisieren).
-- Spielwiese S103.
-signature: 6b957fe05c87c8693ed4fc62ebfd307004f70888587b34b11048c77b88839717fdb09f2601acbbb58770175bc02ee2409aa14b30448aaf653ba870f9d5c00209
+- Kreuztabelle im Template: eigene Template-Tabelle markieren, Palette Automatisieren › Tabelle erweitern › Art „Kreuztabelle (aus Datenquelle)“, dann den Namen der Kreuztabelle wählen. Die Körperzeilen des Templates wiederholen sich je Zeilenschlüssel, die Spalten ab „Spalten je Schlüssel ab“ je Spaltenschlüssel; Platzhalter erhalten den Wert ihrer Rolle, Formate der Template-Zellen bleiben. Fix/dynamisch wie bisher im Template. Die bisherigen Pivot-Felder erscheinen nur noch bei „Pivot-Tabelle (einfach)“ für ältere Vorlagen.
+- Zwei Füllzeichen je Kreuztabelle: „Kein Artikel“ für Kombinationen ohne Datensatz (z. B. fehlender Preis) und „Leerer Wert“ für vorhandene Datensätze mit leerem Feld. Das Füllzeichen gilt jetzt für die ganze Kreuztabelle (in 0.7.274 blieb es teils leer).
+- Ruhigeres Farbschema im Raster (Achsen kühl, Werte violett, Attribute warm).
+- Konflikte der Kreuztabelle erscheinen in der Abschlussmeldung des Automatisierens.
+- Spielwiese S104.
+signature: dd519ab71123310c5a108427ce4d4e69536fb4431e42af0f701ad56c082d87158ca752b997976f21bdab3da2d8e6b1152b8ba9c2463a4547d666b10f666faf00
