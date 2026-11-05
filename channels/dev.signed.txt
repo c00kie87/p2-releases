@@ -1,20 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.280
+version: 0.7.281
 date: 2026-11-05
 host: 21
-commit: 755df92f84da3a0cb71f786710349521c549b0ab
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.280/p2-0.7.280-mac.zip
-mac.sha512: 687a39f1d9506d30ba43187ba62ddf0c231390ef27927fb61be154d3af876b04191217df9680519c5f42c191a780cc027698cbc2289879aff5b4102349bcbb44
+commit: 36ba7e262ffdcc250fad59ff8689d150262e65fa
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.281/p2-0.7.281-mac.zip
+mac.sha512: 67481e42a86e7e117f65b4f278d84f6ea1cc65d85e49b93724638a5a5649e8bb8c541f9f4302aa176dfc2acbc08dc68db10ced8cb05ed7d50400cbeef7bd65d0
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Projekt speichern unter: nach der Zielwahl fragt p2, was in den Projektordner kommt – Projektrelevantes immer (Konfigurationen, Feldoptionen, Kreuztabellen, Ersetzungen, Abläufe, Filter), wahlweise eine Kopie der Quelle (Ordner „Quellen“) und der Template-Bibliothek (Ordner „Bibliotheken“, mit Prüfsummen). Die Quelle bleibt austauschbar.
-- Feldfamilien in der Kreuztabelle: Familien stehen als ein Eintrag in der Feldliste (z. B. „Tbl2W# (Tabelle2_Attributwert#, 12 Felder)“); Name, Einheit und Wert derselben Spalte erhalten dieselbe Nummer, je Nummer entsteht eine Spalte.
-- Aufrücken: Nummern ohne Wert in einer Tabelle entfallen; im Template mit festen Plätzen (Tbl2W1 … 7) rücken die folgenden Werte auf.
-- Vorschau der Kreuztabelle blendet Spalten ganz ohne Werte aus.
-- Update-Download wiederholt länger (6 × 10 s); Veröffentlichung gibt den Kanal erst frei, wenn das Paket abrufbar ist.
-- Spielwiese S108, S109.
-- Kreuztabelle: ausgeblendete Felder stehen jetzt ebenfalls in den Feldlisten (Kontext, Datenfelder).
-- Palette Automatisieren, Tabellenmodus Kreuztabelle: verständlichere Beschriftungen „Wiederholen ab Spalte“ und „Wiederholte Spalten“ mit Hilfetexten.
-signature: 2cec4ff10b325a8de89343edab1fe51d2fce4bd91a78f681fe217849d51571198e0973a95725637c6864aa29f1d84f1ccd9049d1d191d6961452573b8cf1b805
+- Hilfetexte beim Überfahren in allen Paletten und Dialogen vorbereitet (alle Auswahllisten, Eingabefelder, Haken, Knöpfe und Beschriftungen); Texte für die ganze Palette Automatisieren (über 130 Felder, Beschriftungen links zeigen den Text ihres Feldes), die Palette Datenquelle, Kreuztabelle, Feldoptionen (Alias) und Projekt speichern unter. Weitere Dialoge folgen.
+- Erklärt u. a. „Kopfspalten“ und „Wiederholen ab Spalte / Wiederholte Spalten“.
+signature: 2b161e53ce45fe68a14629223c72fada9f8d2a6dfdda260bc2d8759504da71439479fdeee88168adc186fd3672ab246c46ae1991a973ab21b846103d59769308
