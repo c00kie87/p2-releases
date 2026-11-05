@@ -1,17 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.267
+version: 0.7.268
 date: 2026-11-05
 host: 21
-commit: 98c733c915dee57c42730d676809180c50370abe
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.267/p2-0.7.267-mac.zip
-mac.sha512: 462ce666c87d085fc8df00cd239f0378cf434cfb5a3f4d248c03f4e09b8dfd26b68eae62c9b478a1527597c864e6c35a80a26fdf703d8ffea6b5568f20484180
+commit: 36180549699fac1c44369e5273f02463ba64e57a
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.268/p2-0.7.268-mac.zip
+mac.sha512: 529449abdef09df260abdf9a4e5e56315593bd25ee2ef4a270403b0732414825a4420193bd78424175e1eeb65f667fb53531c32460a02d74672b45225fb59f63
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Konfiguration aus anderer Quelle: Datenquelle › Projekt › „Konfiguration aus anderer Quelle ...“ überträgt eine gespeicherte Konfiguration einer anderen geladenen Quelle in die aktive Quelle – als neue Konfiguration, das Original bleibt unverändert.
-- Quelle mit Konfiguration wechseln: dieselbe Prüfung in umgekehrter Richtung; OK legt die Konfiguration in der Zielquelle neu an und aktiviert sie. Abbrechen lässt alles unverändert.
-- Die Übertragung vergleicht Tabellen, Felder und Datentypen; wählbar sind Ansicht, Feldoptionen und Schlüssel, Zusatzfelder, Verknüpfungen und Unterabfragen sowie Automatisieren. Nur vollständig passende Bereiche werden übernommen, eine teilweise passende Schlüsselkombination nie verkleinert; der Bericht nennt jede ausgelassene Stelle.
-- Schnelle Feldprüfung: der Dialog liest nur die Spaltenköpfe der Quellen, auch große Quellen öffnen ohne Laden der ganzen Tabellen.
-- Spielwiese S95.
-signature: 8eaf4e87e5451207fccdedfdc34c4cb2fd0d2f5e8a404e50f5f4a6cd951c530a50121905eb033249e3cdede5e30e3173ea2b9399f2398d8e63f84e0ff11af002
+- Feldoptionen und Zusatzfeld im neuen Dialograster: Bereichsliste links statt Reiter oben, Beschriftungen in einer Spalte, engere Zeilen, Vorschau über den Knöpfen, OK/Abbrechen unten rechts (Gestaltung Etappe 1).
+- Update-Fehlermeldung nennt jetzt den Grund (z. B. Zeitüberschreitung, Verbindung unterbrochen, Server nicht gefunden) statt nur „endete mit einem Fehler“; Downloads werden häufiger wiederholt und dürfen länger dauern.
+- Spielwiese S96.
+signature: 74190b630f3130b5aaf1aafbcd31844e6f65d81968f9951db593abacc7320515abfc76c80d74ce748ec98f85f77c3c8c70fe9285fc6458b676fc6b36ee8a5402
