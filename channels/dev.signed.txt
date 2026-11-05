@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.289
+version: 0.7.290
 date: 2026-11-05
 host: 21
-commit: cf0b4811365ff842e70925ce56da9031a70d36d2
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.289/p2-0.7.289-mac.zip
-mac.sha512: a0aaa637dd58d3c189a038ab21cf7f295bd1f780d222458918f9fbd44cabc84c636ec81b394f57ce9116c8cf1be97f0a4c2f945000887510d6727ca9091170b1
+commit: b87a1dbd683d8b2c380f38be5f044ad646645c0b
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.290/p2-0.7.290-mac.zip
+mac.sha512: a366d41410ab76fcd9e95646fbb7fd8c47246315e2a2749b241d1378d970707d9c9dcbf18b21eab4678e9f7100dcf240bf6f38db090a482da6c6cfbe2b6a8ff8
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Kreuztabelle: Die Artikelzeilen bleiben jetzt wirklich erhalten. 0.7.288 schützte Zeilen nach vorab berechneten Werten – laut Diagnose griff das nicht, „Leere Zeilen löschen“ entfernte die gefüllten Zeilen 6150/7150 weiterhin. Jetzt gilt der tatsächliche Inhalt nach dem Füllen: Jede Tabellenzeile mit Text bleibt stehen.
-- diagnose.log: „Bereinigung: …“ nennt gelöschte und geschützte Zeilen sowie, was die Prüfung fälschlich als leer las.
-signature: 7b57ede95a7f40f8866288637d1eb3b819a3043925e8e13ff1ea72c637f5f33bd7f294d3910bfc62865cd409dee42352631c55d80e306293a2e2ac035c54a407
+- Kreuztabelle: Der Schutz der Artikelzeilen vor „Leere Zeilen löschen“ greift jetzt. In 0.7.289 standen die Zeilen 6150/7150 auf der Schutzliste, wurden aber trotzdem gelöscht: Ein gleichnamiger Wert im Prüfskript überschrieb die Schutzliste.
+- diagnose.log: „Bereinigung: …“ nennt zusätzlich, was die Prüfung in geschützten Zeilen als leer las.
+signature: cd6bb562efdc58e19c0288a19c5ec4bc8eb845bec1e4c7ae72d8baf0509be941fc051c3037da41350f994561348d96ef39153c09f02e79994c716e5ddf4d5604
