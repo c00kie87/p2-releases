@@ -1,15 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.270
+version: 0.7.271
 date: 2026-11-05
 host: 21
-commit: 571813327aa25c683ad71c354802032191b5d190
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.270/p2-0.7.270-mac.zip
-mac.sha512: 144a86af4859f9221de900de0344ffac10343ba60d8c012ae8c675fbb310bbaaf7ed28887098dbf3b9e328c7c6689530528f5283fd93a0d8fd76b82b82f06cf1
+commit: f8b25bfa748be66d54ea5fdfa472039b7c793a5b
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.271/p2-0.7.271-mac.zip
+mac.sha512: 7a8edcda77706fc10f26bdfd71be19d58e2f7991caad909440c8cf3d87f5aa0aaa269f845260e98f4339c653aa71a2481dc3ab208e0a153254e0499ba256bb12
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Sämtliche HTML-Auszeichnungen als Zeichenformate in „HTML-Tags“: neben fett/kursiv auch unterstrichen (<u>, <ins>), durchgestrichen (<s>, <del>, <strike>), hoch-/tiefgestellt (<sup>, <sub>) sowie <code>, <mark>, <small>, <big> (leer angelegt, frei gestaltbar, z. B. mit eigener Schrift). Kombinationen erhalten ein eigenes Format („<b><u>“), gleichbedeutende Tags teilen eines (strong = b, em = i …).
-- Vom Anwender gestaltete Formate in „HTML-Tags“ bleiben unverändert und werden weiterverwendet – auch wenn der aktuellen Schrift der fette bzw. kursive Schnitt fehlt.
-- Hypertextformate bieten zusätzlich s, small, code und mark zur Zuordnung an.
-- Spielwiese S98 (neues Feld auszeichnung).
+- Palette Automatisieren als Liste „Attribut | Wert“: Abschnitte als graue Titelzeilen mit Klapppfeil, Zeilen abwechselnd hinterlegt, Trennlinie zwischen Beschriftung und Feld, 22 px statt 28 px je Zeile – deutlich mehr Einstellungen ohne Scrollen (Gestaltung Etappe 2).
+- Spielwiese S99.
