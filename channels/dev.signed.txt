@@ -1,18 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.285
+version: 0.7.287
 date: 2026-11-05
 host: 21
-commit: 79814277b4de6d477d09e8c8dba5ab487860742f
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.285/p2-0.7.285-mac.zip
-mac.sha512: 9347e917e7f05ec1cdbb1cdf5a229deb827c49584463738ca15d1a9aec31b8b2635d653b24d1b187f49f75e135a22d0cd5fa19859dbdafb7cf9ce576c5495069
+commit: af79ce1e6f39297ce734e8658f5fc1a1b83a9362
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.287/p2-0.7.287-mac.zip
+mac.sha512: f063092d5bf2d85522c62516e05e0232d6c2a9ff9988ccf1f7f0e6f9e7b23730bc575dc77f0eef01ad7343dafa8421b7a0d5fd3856789be284c2047d4c2ddb7e
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Abschlussmeldung: Hinweise (Tabellen, Kreuztabellen, Bilder, Übersatz) stehen jetzt in einem eigenen Abschnitt „Hinweise“ statt unter „Unbekannte Platzhalter“.
-- Kreuztabelle: Die Abschlussmeldung nennt nur Konflikte der tatsächlich ausgegebenen Tabelle – bisher kamen Meldungen aus der Datenvorschau (alle Datensätze) hinzu.
-- Neuer Tipp, wenn sich Tabellenattribute innerhalb eines Kontexts widersprechen: Kontext vermutlich zu grob (z. B. Produktgruppe statt Variationsgruppe).
-- Breitenhinweis verständlicher: Ist die Gesamtbreite erreicht, aber breiter als der Rahmen bzw. die Spalte, sagt die Meldung genau das.
-- Kreuztabelle größer als die Auswahl (z. B. Kreuztabelle je Produktgruppe, gewählt nur eine Variationsgruppe): p2 fragt einmal je Vorgang – „Ganze Gruppe“ (alle Datensätze der übergeordneten Gruppe), „Nur Auswahl“ oder „Abbrechen“ – statt still zu erweitern.
-- Diagnose: Kreuztabellen protokollieren Datensätze, Zeilen-/Spaltenschlüssel und Tabellengröße vor und nach dem Aufbau in diagnose.log (zur Klärung, warum nur eine Artikelzeile erscheint).
-signature: 3671fa50cd01186266dc4076dabe46ae3afeb2d79db9597056741652db0a671c45500bb64ee11270813054e65685808710bda6a5bfc912781a2db5844b5dea01
+- Kreuztabelle: Alle Artikelzeilen erscheinen wieder. Bei Tabellen aus Altvorlagen (XML-getaggte Zellen) übernahm InDesign beim Kopieren der Körperzeile die Feldmarken nicht; die kopierten Zeilen blieben leer und „Leere Zeilen löschen“ entfernte sie – übrig blieb nur die erste Artikelzeile. p2 setzt die Werte solcher Kopien jetzt direkt ein (Zeilenschlüssel, Kreuzungswerte, Attribute) und nennt das in der Abschlussmeldung.
+- Kreuztabelle, innere Transponierung („je Spalte“): Gleiche Werte stehen nur einmal, auch wenn sich nur ein Teil der Spalten gleicht – aus „ZERT“, „-“, „-“ wird „ZERT/-“. Verglichen wird ohne Leerraum am Rand.
+- Rahmen ohne „Umbruch im Template“ wachsen in der Höhe mit, wenn eine automatisierte Tabelle sonst im Übersatz läge (aus 0.7.286, das nicht freigegeben wurde).
+- diagnose.log: neue Zeile „Kreuztabelle …: Fuellen: …“ mit kopierten und direkt geschriebenen Zellen.
+signature: e43d668dd4fbc918bba8820d51a2810ee0dc35c9c8417cd4e49feaaf0da02b03c77bed576c9a1f4130f971f7804659f5356fff15b5ad5576b8bfa19243bebb07
