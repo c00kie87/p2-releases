@@ -1,16 +1,21 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.265
+version: 0.7.266
 date: 2026-11-05
 host: 21
-commit: 3fb8605fbe8c3d5b823f4d8d213c832b8c05fb5a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.265/p2-0.7.265-mac.zip
-mac.sha512: a4295132a13d61348cfdf040813f60a8274a507bfcf6a1a13e9bb629ff394b6347ba95c25c7c0e52253d9d15c0599df57960ab09689796b017af912556895d20
+commit: 6fccf538e0189c946aeb313512565605841bd140
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.266/p2-0.7.266-mac.zip
+mac.sha512: cc820189a2b3c1a2c5d899bef708f61dde158f22c822231536554fc8db576ea0d9fb41277d8b2739989002de5d6ea1a9d88fc471406b225b7486153f989cc910
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Konfiguration speichern unter: vorhandene Konfiguration auswählen oder neuen Namen eingeben. Zielauswahl lädt keine fremden Einstellungen; Ersetzen wird bestätigt.
-- Vorhandene p2-Projektdateien beim Speichern unter und Anlegen gezielt ersetzen. Der vorherige Projektstand samt Konfigurationen bleibt unter Sicherungen/Ersetzt-… erhalten.
-- Neue Projektdatei und Konfigurationen vor dem Austausch vollständig vorbereiten; bei gemeldetem Fehler den vorherigen Konfigurationsordner zurückstellen. Quellen und Bibliotheken bleiben unabhängig.
-- Spielwiese S91/S92 und Kernprüfungen ergänzt. Native Abnahme offen; Windows bleibt bei 0.7.52.
-signature: 2a02fdd8a13bdcba66b488c22224adae5e205df2dbf0e437676a9586490c86736adffd5cff0f229b27e3263bdd8519e9ad4bfd46408a2465bce5bd6ea5dabb0e
+- Ablegen ohne Alt: Gruppen-Templates („je Gruppe“) werden wie beim Automatisieren einmal je Gruppe ausgegeben statt je Datensatz wiederholt (auch beim Neu aufbauen).
+- Rahmengruppe: aus herausgezogenen Rahmen gespeicherte Templates erben keine fremde Kennung mehr (z. B. 7-1 statt K1); doppelte Gruppen werden beim Herausziehen repariert.
+- Datenquelle: leere Tabellen- und Konfigurationsauswahl wird nachgefüllt, sobald Daten geladen sind.
+- Bibliotheks-Drag: vollständiges Diagnoseprotokoll mit Uhrzeit und Quelle für die Fehlersuche.
+- „ist leer“ / „ist nicht leer“ in Bedingungen für alle Datentypen und im Filter Vorkommnisse.
+- Spaltenlinie in Gruppenzeilen nicht mehr greifbar; Projekt öffnen/schließen meldet als einfache Bestätigung.
+- Templates › Bibliotheksstand sichern: vollständige Kopie mit Prüfsummen.
+- HTML fett/kursiv ohne eigene Zuordnung: passender Schnitt der verwendeten Schrift statt fehlendem „Bold“.
+- Spielwiese S93, S94.
+signature: 64e19efac51891d679214a08d3f53e32bc46a42cb2488360480abc56f7a312003c6cd6aa950959220a0387e8a833aecbdb03005eaabc2e7ac6c3552916cef007
