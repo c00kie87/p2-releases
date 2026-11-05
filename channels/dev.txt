@@ -1,14 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.284
+version: 0.7.285
 date: 2026-11-05
 host: 21
-commit: df0ef976bd3816aabc24e3c64c294ab3a6620876
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.284/p2-0.7.284-mac.zip
-mac.sha512: 197813f0f58c15d74737528cc93f9688f8aa564a38513756e0932bb451450075a14e574fee7c835fbe328588e07b47f5f43c43b0e375ed307b7fd210f556c3be
+commit: 79814277b4de6d477d09e8c8dba5ab487860742f
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.285/p2-0.7.285-mac.zip
+mac.sha512: 9347e917e7f05ec1cdbb1cdf5a229deb827c49584463738ca15d1a9aec31b8b2635d653b24d1b187f49f75e135a22d0cd5fa19859dbdafb7cf9ce576c5495069
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Innere Transponierung: gleiche Werte bleiben zusammengefasst – liefern alle Spalten denselben Wert, steht er nur einmal da („KAL“ statt „KAL#KAL#KAL“); nur unterschiedliche Werte werden je Spalte mit dem Trennzeichen aufgeteilt.
-- Kreuztabelle: Die Hervorhebung „KONFLIKT – hier Regel ändern“ verschwindet sofort, sobald der Konflikt gelöst ist (bisher blieb sie bis zur nächsten Auswahl stehen).
-- Hilfetexte für die Dialoge Feldoptionen, Suchen und Ersetzen und Zusatzfeld (alle Felder und Beschriftungen).
+- Abschlussmeldung: Hinweise (Tabellen, Kreuztabellen, Bilder, Übersatz) stehen jetzt in einem eigenen Abschnitt „Hinweise“ statt unter „Unbekannte Platzhalter“.
+- Kreuztabelle: Die Abschlussmeldung nennt nur Konflikte der tatsächlich ausgegebenen Tabelle – bisher kamen Meldungen aus der Datenvorschau (alle Datensätze) hinzu.
+- Neuer Tipp, wenn sich Tabellenattribute innerhalb eines Kontexts widersprechen: Kontext vermutlich zu grob (z. B. Produktgruppe statt Variationsgruppe).
+- Breitenhinweis verständlicher: Ist die Gesamtbreite erreicht, aber breiter als der Rahmen bzw. die Spalte, sagt die Meldung genau das.
+- Kreuztabelle größer als die Auswahl (z. B. Kreuztabelle je Produktgruppe, gewählt nur eine Variationsgruppe): p2 fragt einmal je Vorgang – „Ganze Gruppe“ (alle Datensätze der übergeordneten Gruppe), „Nur Auswahl“ oder „Abbrechen“ – statt still zu erweitern.
+- Diagnose: Kreuztabellen protokollieren Datensätze, Zeilen-/Spaltenschlüssel und Tabellengröße vor und nach dem Aufbau in diagnose.log (zur Klärung, warum nur eine Artikelzeile erscheint).
