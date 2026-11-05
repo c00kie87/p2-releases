@@ -1,17 +1,18 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.273
+version: 0.7.274
 date: 2026-11-05
 host: 21
-commit: ebbbbbbe793c2e8a864577e4d004d028a27ee1e6
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.273/p2-0.7.273-mac.zip
-mac.sha512: 6ef25947e9b292ac4f24f3291e0d591da344e0c26cc748ba7628801b5c9dc2b1f4b764628ed9f27b484f2f80b2ff245b7d21fddd1b2a9c0e13d73c91125d0bff
+commit: 69bbfaabfbff2fad53b853fff58e57d98a3e8e2a
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.274/p2-0.7.274-mac.zip
+mac.sha512: 2b79e562c2fa3c24973b68c90e0b1685dee0f7ebe398256a8071e047b030d2571052cf6c1b0c3b8269476bf2bc1786cacfbd0b46f77b40df0abd9117207e0abc
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Kreuztabellen, erster Schritt: neuer Kern für Kreuztabellen mit Kontext, kombinierbaren Zeilen- und Spaltenfeldern, mehreren Werten sowie Zeilen-, Spalten- und Kontextattributen. Jede Kreuzung unterscheidet kein Datensatz, NULL, leer, Wert und Konflikt; unterschiedliche Werte werden nie still zusammengefasst.
-- Datenquelle › Felder › „Kreuztabelle prüfen …“: Felder wählen, Vorschau mit Umfang (erste 10, erste 100, alle Treffer), Konflikten mit Datensatznummern und den ersten Tabellen; vollständiger Bericht in der Ausgabe. OK speichert die Auswahl je Konfiguration.
-- Beispieldaten KG3 analysiert: p2 bildet die 493 Zeilen und 931 Kreuzungen des Altsystems exakt nach und meldet zusätzlich 4 Zeilen, in denen das Altsystem widersprüchliche Angaben still durch den Wert der ersten Spalte ersetzt.
-- Die Ausgabe in eine Dokumenttabelle (Tabellenbereiche, Live-Editor) folgt in den nächsten Updates.
-- Spielwiese S101.
-signature: b2ad577eb17176547b64f819e711971a43dee97022e1b0f23b261b62e78ae4ea6dc26b6e739adb4478fb9d300c80e1c5bf18bcb926d233e04b1483dc03eb3400
+- Kreuztabelle aufbauen wie die Tabelle: Die Eingabemaske ist ein Raster aus Spalten (fest oder je Spaltenschlüssel wiederholt/pivotisiert) und Zeilen in Kopf, Körper (je Zeilenschlüssel wiederholt) und Fuß. Jede Zelle hat Typ und Datenfeld: Zeilenschlüssel, Spaltenschlüssel, Spaltenattribut, Kreuzungswert, Zeilenattribut, Tabellenattribut, fester Text.
+- „+“ an jeder Spalten- und Zeilengrenze fügt ein; Kopf- und Fußzeile per Knopf; Zeile/Spalte entfernen. Beim ersten Datenfeld schlägt p2 den Typ nach Lage vor; je Zelle eine Regel für mehrere Werte (Vorgabe: eindeutig, sonst Konflikt).
+- Name, Einheit und Wert eines Merkmals stehen in derselben Spalte; nicht eindeutige Namen in einer Tabelle werden als Konflikt gemeldet.
+- Vorschau als fertige Tabelle je Kontext (Auswahl der Tabelle, „–“ für fehlende Kombinationen, rote Konfliktzellen), berechnet aus demselben Plan wie die spätere Ausgabe. Hinweise bei falscher Lage (z. B. Kreuzungswert in fester Spalte).
+- Die Ausgabe in eine Template-Tabelle über Automatisieren folgt im nächsten Update.
+- Spielwiese S102.
+signature: f8679dfb84b230ddc2e6ae79c34b241cf21ed24c509c2d2358ca1cf2228a32cff81ef30af501ec35ae7a643589f37ea37e22fb535bdd6ffbd07ac352120e8b0b
