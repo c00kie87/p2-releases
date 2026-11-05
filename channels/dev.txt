@@ -1,20 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.266
+version: 0.7.267
 date: 2026-11-05
 host: 21
-commit: 6fccf538e0189c946aeb313512565605841bd140
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.266/p2-0.7.266-mac.zip
-mac.sha512: cc820189a2b3c1a2c5d899bef708f61dde158f22c822231536554fc8db576ea0d9fb41277d8b2739989002de5d6ea1a9d88fc471406b225b7486153f989cc910
+commit: 98c733c915dee57c42730d676809180c50370abe
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.267/p2-0.7.267-mac.zip
+mac.sha512: 462ce666c87d085fc8df00cd239f0378cf434cfb5a3f4d248c03f4e09b8dfd26b68eae62c9b478a1527597c864e6c35a80a26fdf703d8ffea6b5568f20484180
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Ablegen ohne Alt: Gruppen-Templates („je Gruppe“) werden wie beim Automatisieren einmal je Gruppe ausgegeben statt je Datensatz wiederholt (auch beim Neu aufbauen).
-- Rahmengruppe: aus herausgezogenen Rahmen gespeicherte Templates erben keine fremde Kennung mehr (z. B. 7-1 statt K1); doppelte Gruppen werden beim Herausziehen repariert.
-- Datenquelle: leere Tabellen- und Konfigurationsauswahl wird nachgefüllt, sobald Daten geladen sind.
-- Bibliotheks-Drag: vollständiges Diagnoseprotokoll mit Uhrzeit und Quelle für die Fehlersuche.
-- „ist leer“ / „ist nicht leer“ in Bedingungen für alle Datentypen und im Filter Vorkommnisse.
-- Spaltenlinie in Gruppenzeilen nicht mehr greifbar; Projekt öffnen/schließen meldet als einfache Bestätigung.
-- Templates › Bibliotheksstand sichern: vollständige Kopie mit Prüfsummen.
-- HTML fett/kursiv ohne eigene Zuordnung: passender Schnitt der verwendeten Schrift statt fehlendem „Bold“.
-- Spielwiese S93, S94.
+- Konfiguration aus anderer Quelle: Datenquelle › Projekt › „Konfiguration aus anderer Quelle ...“ überträgt eine gespeicherte Konfiguration einer anderen geladenen Quelle in die aktive Quelle – als neue Konfiguration, das Original bleibt unverändert.
+- Quelle mit Konfiguration wechseln: dieselbe Prüfung in umgekehrter Richtung; OK legt die Konfiguration in der Zielquelle neu an und aktiviert sie. Abbrechen lässt alles unverändert.
+- Die Übertragung vergleicht Tabellen, Felder und Datentypen; wählbar sind Ansicht, Feldoptionen und Schlüssel, Zusatzfelder, Verknüpfungen und Unterabfragen sowie Automatisieren. Nur vollständig passende Bereiche werden übernommen, eine teilweise passende Schlüsselkombination nie verkleinert; der Bericht nennt jede ausgelassene Stelle.
+- Schnelle Feldprüfung: der Dialog liest nur die Spaltenköpfe der Quellen, auch große Quellen öffnen ohne Laden der ganzen Tabellen.
+- Spielwiese S95.
