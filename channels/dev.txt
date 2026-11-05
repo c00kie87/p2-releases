@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.288
+version: 0.7.289
 date: 2026-11-05
 host: 21
-commit: b216ccc1d761eb0eff3599c32bb63996aeabebd6
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.288/p2-0.7.288-mac.zip
-mac.sha512: 6e7a2bac048b4200841b403c8dcf0a719c6bb4fca1d3b9f9280046440aa0cd1d61ade148c25cd99dc0fb090e7b5c3497bbb091f54ff0f98bca50518a54588581
+commit: cf0b4811365ff842e70925ce56da9031a70d36d2
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.289/p2-0.7.289-mac.zip
+mac.sha512: a0aaa637dd58d3c189a038ab21cf7f295bd1f780d222458918f9fbd44cabc84c636ec81b394f57ce9116c8cf1be97f0a4c2f945000887510d6727ca9091170b1
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Kreuztabelle: Zeilen, für die p2 Inhalt berechnet hat (Artikelzeilen mit Bez.-Nr., Preisen, Attributen), werden von „Leere Zeilen löschen“ nicht mehr entfernt. In 0.7.287 waren die kopierten Artikelzeilen gefüllt (Diagnose: 53 Zellen mit Platzhaltern), verschwanden aber bei der Bereinigung.
-- diagnose.log: Inhalt jeder Tabellenzeile nach dem Füllen sowie die Zeilen, die die Bereinigung fälschlich als leer ansah („Kreuztabelle …: Zeile …“, „Bereinigung: …“).
+- Kreuztabelle: Die Artikelzeilen bleiben jetzt wirklich erhalten. 0.7.288 schützte Zeilen nach vorab berechneten Werten – laut Diagnose griff das nicht, „Leere Zeilen löschen“ entfernte die gefüllten Zeilen 6150/7150 weiterhin. Jetzt gilt der tatsächliche Inhalt nach dem Füllen: Jede Tabellenzeile mit Text bleibt stehen.
+- diagnose.log: „Bereinigung: …“ nennt gelöschte und geschützte Zeilen sowie, was die Prüfung fälschlich als leer las.
