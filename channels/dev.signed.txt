@@ -1,13 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.292
+version: 0.7.293
 date: 2026-11-05
 host: 21
-commit: 27c41b3ed5b657f5dffedc6f80ef1546a6547dfb
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.292/p2-0.7.292-mac.zip
-mac.sha512: 0cf3ae0fc67d1a6e4b05c7527033ca445f17af17b95e6df9df307f13e2798c1e35ed2a091fedf1885848ce5ec0ad791c504a511ab8c950f2b82f3514685af32b
+commit: f1d8940dd7d35abca6b63d615a47e513d03eef67
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.293/p2-0.7.293-mac.zip
+mac.sha512: 557f847c7bb2b8d41ddb617b1bb2eb818ad2265f06c15f23e1654f2506ad6d97343d37657e258e3f7b2e821bf3077c5c0f0f3211ef7f4fa4d7dd3f781217069c
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Kreuztabelle: Mit der Regel „je Spalte (innere Transponierung)“ steht das Trennzeichen „ | “ sichtbar im Feld und lässt sich ändern.
-signature: 22bface79bf5c6647d4b838ac1ade7c6fa4f86b78c1f4a8ec621b0e223f0abb2c099831657b5cea5d3366af915bc8358618d7959342985ceedec3592b90a1206
+- Feldketten: Durchnummerierte Felder (z. B. Tbl1N#, Tbl1E#, Tbl1W#) lassen sich in den Feldoptionen › Verkettung verketten, mit Bezugsfeld und Aufrücken. Leere Nummern entfallen, belegte rücken samt Name und Einheit auf die Plätze des Templates. In Kreuztabellen gilt das je Tabelle. Ketten gelten für alle Quellen; Kettenfelder tragen ein Kettensymbol im Spaltenkopf. Ein Überlauf steht in der Abschlussmeldung.
+- Template-Wahl: Templates ohne eigene Regel scheiden aus, wenn alle ihre Rahmen mit Bedingung für den Datensatz entfallen. Bisher kam die Rückfrage „mehrere Templates ohne Regel“, obwohl die Bedingungen an den Rahmen gesetzt waren.
+- Feldoptionen: Formatgruppen erscheinen in den Auswahllisten als „Gruppe › Format“ statt mit Kästchen.
+- Hilfstabellen: Jeder Auflöseversuch steht mit Ergebnis im Protokoll (Diagnose für vervielfältigte Rahmen).
+signature: 3442d2cbca9f044dc1bfadc330c580d1309a481e35d060f77db5ded521ddbf0da50f6765e993ad27d1806ea53f9f890b8981bcbea0d01bb38b49da7c29b7d809
