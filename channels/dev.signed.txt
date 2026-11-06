@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.296
+version: 0.7.297
 date: 2026-11-06
 host: 21
-commit: ae29cb255560f18f5a71c3e6915436f44f02cbf8
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.296/p2-0.7.296-mac.zip
-mac.sha512: 33561da9e950640a8ce485993f305e397150e8bec45ff94812ef7378ad9fabb85568ceeb36a0b750fc450456f2ef999a3303d6f6a99d5c08f177fa48be33ba10
+commit: e2891783c89c914c53db3e040a571dd5ef629ad1
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.297/p2-0.7.297-mac.zip
+mac.sha512: f312ed3bf47390134c4ccd10de53034e70245b8e5f6f1fb2d5f490b3dba59d5acde8fa1d196c5d2416e02bcb36de46a3e7861a80bcc7333da276792959b379a4
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Tabellen teilen (Palette Automatisieren › Tabelle): nach n Körperzeilen, nach dem Wechsel eines Feldes oder nach transponierten Spaltenblöcken (halbieren, Stücke zu n oder so viele wie passen). Die Teile erscheinen entweder als wiederholte Tabelle mit Kopf darunter (Abstand wie im Template oder fest) oder als geteilte Template-Gruppe, d. h. je Teil das ganze Template. Bei Spaltenblöcken enthält jeder Teil nur die Datensätze seiner Spalten. Ohne Einstellung bleibt alles wie bisher.
-- Vervielfältigen: Neue Einstellung „Umbruch zwischen Kopien erlauben“. Passen die Kopien nicht mehr in Spalte bzw. Seite, gehen die übrigen in den nächsten Abschnitt. Jede Kopie bleibt dabei ganz.
-signature: ccc2242a09e230427e0fbbcd4787aa3b51e7c40e52008a9ec7e1f79fdd85d2ccafddce02a7f1ad44d3b2929c23392dc55fa50acca16d6fb8669ea0b89b4cd908
+- Tabellen teilen: Neue Option „bei Übersatz (Tabelle zu breit)“. Geteilt wird nur, wenn die Tabelle breiter als ihr Rahmen ist; wahlweise werden die Spalten gleichmäßig verteilt oder so viele wie passen, der Rest folgt danach. „So viele wie passen“ misst jetzt auch bei „Template-Gruppe teilen“, und zwar an der Template-Tabelle. „Alle n Körperzeilen“ steht nicht mehr zur Wahl, weil InDesign lange Tabellen ohnehin mit Kopf im nächsten Rahmen fortsetzt; bestehende Regeln bleiben lesbar.
+signature: 1c69238afbca14e4389278820a0eaa45953d3d3e52551759858c606fbe98c3e4bead5a7304f1f7d53cc4e5dbc45dc8e666b74f83ae0e099b708df2f32b0c390d
