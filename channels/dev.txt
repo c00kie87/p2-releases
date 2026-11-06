@@ -1,15 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.303
+version: 0.7.304
 date: 2026-11-06
 host: 21
-commit: 563a251be9e5d48e34fa02de83daaf827c14702b
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.303/p2-0.7.303-mac.zip
-mac.sha512: 5465d3b4ba8c5889dccf6e5c37ca505c9ab1c798f0424f2722f6f82be1bcdb393609b2d6d6b8f7d6355d5f178b0302a1639516fad845c44a02d8b7041b2082f4
+commit: a3f8887a889db3daed4437c627765b7d10f47207
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.304/p2-0.7.304-mac.zip
+mac.sha512: 92babca395193e93564687d1f94da5a7f3a3d95d961343e43a53eecc0d3eeaea89fbf55215c6363e82df84afbe7abf0c5334f0251004cfd533000d0d64b1c9c2
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Palette Automatisieren, Stufe b: Werte stehen als Text in der Liste. Auswahlen tragen ein kleines Dreieck, Haken erscheinen als Kästchen mit ✓. Die Zeilen sind dichter (20 statt 22 px).
-- Ein Klick auf einen Haken schaltet ihn sofort um und speichert. Ein Klick auf eine Auswahl blendet das Feld ein und klappt es auf. Ein Klick auf Zahl oder Text öffnet das Eingabefeld mit Fokus; Enter oder Tab übernimmt den Wert. Ein Klick daneben schließt das Feld.
-- Tastatur: Pfeil hoch und runter markiert Zeilen, Enter oder Leertaste bearbeitet bzw. schaltet um.
-- Richtungssymbole, Bezugspunkt, Bedingungen und Knöpfe bleiben eingebettete Bedienelemente.
+- Produktversionen, Stufe 1: Die Palette Templates hat oben einen Umschalter „Templates | Produktversionen“.
+- Sichern: Die publizierten Rahmen eines Produkts auf die Palette ziehen (Modus Produktversionen) oder Automatisieren › „Als Produktversion sichern“. Gesichert werden alle Rahmen der Einheit samt Nacharbeit, dazu Datensatz, Template und dessen Stand sowie die Werte der Platzhalter. Jedes weitere Sichern legt eine neue Version an (v1, v2 …).
+- Einsetzen: Eine Kachel auf die Seite ziehen. Das Produkt erscheint mit seinem Stand, ohne neu befüllt zu werden. Danach vergleicht p2 die Werte mit der aktiven Quelle. Bei Abweichungen gilt die neue Einstellung in Konfigurieren: nachfragen, alten Stand einsetzen (aktualisierbar) oder direkt aktualisieren. Ein seither geändertes Template wird gemeldet.
+- Doppelklick auf eine Kachel zeigt Template, Datensatz, Datum und Werte. Der Papierkorb löscht Versionen. Der Kopieren-Knopf überträgt sie in eine andere Bibliothek, unabhängig vom Template.
+- Noch nicht enthalten: automatisches Einsetzen beim Publizieren und das Übertragen von Template-Änderungen auf Versionen (folgt in der nächsten Stufe).
