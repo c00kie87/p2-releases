@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.299
+version: 0.7.300
 date: 2026-11-06
 host: 21
-commit: 5bbc0587c758111e89c27d21b8b6fe73012cd914
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.299/p2-0.7.299-mac.zip
-mac.sha512: 4f013b646ffd620733a70fc11b24c996cf38d5e3ebbe92b8c1c2938d2114bef53b4b1fcf1c444772c851db57a0612bd3c0968f88cde4ca5509fde54cfb76df16
+commit: ac2925d7a322e90055a26d13d93cbeb33f1dfbbe
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.300/p2-0.7.300-mac.zip
+mac.sha512: 3e3c7e01eca6d037645ec42ebeb7b3c8688da286623d7bff3ecdb288e4328413dc417b949e5968cbdf6d62bf647b5749bda96104921e0505e90dc973d9ca42fa
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neuer Dialog „Quelle: Eigenschaften und Vorschau“. Er zeigt Datei, Tabelle, Anzahl der Datensätze und Felder, Schlüssel und die ersten zehn Datensätze; Schlüsselspalten sind hervorgehoben. Der Dialog öffnet nach dem Laden einer Quelle und ist über Datenquelle › Quellen erreichbar.
-signature: 7a331b711f6695623cac87fdf1c94fa6dfc640eb626ef6f56d8a252d1dca48fdf6793260624e861182d77986968df89c42f477ae7ad066dd9c451cac2d037605
+- Innere Transponierung: Ob die Zelle geteilt wird, stellst du jetzt in der Palette Automatisieren an der Template-Tabelle ein. Zur Wahl stehen „Trennzeichen verwenden (aus Kreuztabelle)“, „Zelle vertikal teilen“ und „Zelle horizontal teilen“, jeweils mit der Verteilung gleichmäßig oder proportional zum Inhalt. Der Kreuztabellen-Dialog kennt nur noch das Trennzeichen, und die Vorschau zeigt kein Sonderzeichen mehr.
+signature: c45504343e00a6d8220bca07c7a7bb949c2be98e3dc6c9497d30821652c29305bb303fd205ea6f7705658322fca1898fc172a814e6df77359d7e24b65a698f0e
