@@ -1,16 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.302
+version: 0.7.303
 date: 2026-11-06
 host: 21
-commit: 5031cc5dc09f6eb22511fa9b342fb00f48a6ad94
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.302/p2-0.7.302-mac.zip
-mac.sha512: 58e32413f0d0b292dc08c03b1ef4d1cc50f4bbc93267a7139dbbf1389a6e5043f70f61f9b54a45fb3c2c25f4996164e9e03aacfe1dcc34a4838edfcb15b431ca
+commit: 563a251be9e5d48e34fa02de83daaf827c14702b
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.303/p2-0.7.303-mac.zip
+mac.sha512: 5465d3b4ba8c5889dccf6e5c37ca505c9ab1c798f0424f2722f6f82be1bcdb393609b2d6d6b8f7d6355d5f178b0302a1639516fad845c44a02d8b7041b2082f4
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Nacharbeit: Neue Konfliktliste unter Automatisieren › „Nacharbeit: Konflikte …“. Je Datensatz und Rahmen lässt sich der Konflikt übernehmen (gesicherter Text bzw. Objekt wird eingesetzt), verwerfen oder im Dokument zeigen.
-- Nacharbeit wird auf neue Datenwerte übertragen: Hat sich ein Datenwert geändert und kommt der alte Wert genau einmal im nachgearbeiteten Text vor, wird er dort ersetzt; Text und Typografie bleiben erhalten. Die Abschlussmeldung bittet um Prüfung. Sonst bleibt der neue Text stehen und der Fall erscheint in der Konfliktliste.
-- Nacharbeit exportieren und importieren: Die Nacharbeit einer Quelle lässt sich als Ordner exportieren und in eine andere Quelle übernehmen. Zugeordnet wird über Vorlagenrahmen und Datensatz-Schlüssel.
-- Konfigurieren: „Nacharbeit in diesem Projekt beim Publizieren anwenden“ schaltet die Nacharbeit je Projekt ein oder aus. Die gesicherte Nacharbeit bleibt dabei erhalten.
-- Datenansicht: Die Markierung bleibt beim Auf- und Zuklappen von Gruppen bei denselben Datensätzen. Ein Klick in eine Mehrfachauswahl wählt danach nur diese Zeile. ⌘-Klick auf eine Zeile einer markierten Gruppe hebt die Markierung auf.
+- Palette Automatisieren, Stufe b: Werte stehen als Text in der Liste. Auswahlen tragen ein kleines Dreieck, Haken erscheinen als Kästchen mit ✓. Die Zeilen sind dichter (20 statt 22 px).
+- Ein Klick auf einen Haken schaltet ihn sofort um und speichert. Ein Klick auf eine Auswahl blendet das Feld ein und klappt es auf. Ein Klick auf Zahl oder Text öffnet das Eingabefeld mit Fokus; Enter oder Tab übernimmt den Wert. Ein Klick daneben schließt das Feld.
+- Tastatur: Pfeil hoch und runter markiert Zeilen, Enter oder Leertaste bearbeitet bzw. schaltet um.
+- Richtungssymbole, Bezugspunkt, Bedingungen und Knöpfe bleiben eingebettete Bedienelemente.
