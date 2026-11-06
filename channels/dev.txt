@@ -1,13 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.314
+version: 0.7.315
 date: 2026-11-06
 host: 21
-commit: db0df107e342083d98f9529f4413eb13267fd838
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.314/p2-0.7.314-mac.zip
-mac.sha512: db3b5172722f89ac33549552029fd6926d84e22f8eccc20e4246b6bdb2c8da63ce525416db1762d5d15fcdbcceb25b5231bfa292ca3950a73f1bcfcc2536bda0
+commit: c15b1b731499085fbac27ca4965750be69c9e777
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.315/p2-0.7.315-mac.zip
+mac.sha512: 75260a70007ccd4b9359252f72ddf93a9a42245c7b3c1c7b60a89beb2bf3e7174bc767680dd0afd1335fb8a2eeb29f453ef7a026806cf66c90ef906f7d48c9f1
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Kreuztabelle und bedingte Verwendung: Ist eine Einheit durch eine bedingte Verwendung entstanden (z. B. je Variationsgruppe bei „_“-Produktgruppen), bildet die Kreuztabelle ihre Tabelle nur aus den Datensätzen dieser Einheit. Bisher holte sie alle Datensätze ihres Kontexts (z. B. der ganzen Produktgruppe) dazu, sodass jede Teil-Einheit die ganze Produktgruppe zeigte.
-- Für alle anderen Einheiten bleibt es wie bisher: Die Kreuztabelle nimmt die Datensätze ihres Kontexts.
+- Fehler behoben: Der Abstand zwischen vervielfältigten Text/Bild-Gruppen und der Tabelle darunter schwankte (z. B. 20 mm auf Seite 1, 8,16 mm auf Folgeseiten statt 5 mm wie im Template). Ursache: Die Gruppe rückt mit „Freiraum nutzen“ nachträglich auf, die Tabelle hatte ihre Lage aber schon vorher berechnet und blieb stehen. Jetzt folgen die nachfolgenden Elemente dem aufgerückten Element mit dem Abstand aus dem Template.
