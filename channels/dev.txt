@@ -1,16 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.305
+version: 0.7.306
 date: 2026-11-06
 host: 21
-commit: 20062cb24ca4297ee600feff4693178a28dadc69
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.305/p2-0.7.305-mac.zip
-mac.sha512: d750ff4795759f03f099e6ade9db855f979297ec36f9230518e642b21d85a4ae786329f636eeb78d36dcc468ae60630f2c112f09c8d78b1021fafaafdfd22d4f
+commit: a66dc849c8fae49902b6b61067a2077106ee7207
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.306/p2-0.7.306-mac.zip
+mac.sha512: 89d9a35f17d0e50f9ea539af2a59c957072048ac21608c8898c6d7c483ff84d59a96008418784aa09409d098ceedb696fd425a72f44f5e139d5a34fb0e594aa5
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Produktversionen, Stufe 2: Beim Publizieren setzt p2 zu einem Produkt die neueste Version mit gleichem Datensatz und Template-Stand ein, statt es neu aufzubauen. Die Version bringt ihre Nacharbeit mit und fließt wie ein Template; Abstände und Dynamik wirken wie bisher.
-- Template geändert: p2 fragt einmal je Lauf. „Neu aufbauen“ nutzt das neue Template und wendet die gesicherte Nacharbeit (Text, Lage, Objekte) an, soweit sie zuordenbar ist. „Alte Versionen verwenden“ setzt die Versionen unverändert ein.
-- Werte abweichend: Es gilt die Einstellung in Konfigurieren. Bei „nachfragen“ fragt p2 einmal je Lauf: alten Stand verwenden (aktualisierbar) oder neu aufbauen.
-- Passt eine Version ungebrochen nicht in den Ausgabebereich, wird das Produkt neu aufgebaut, und die Umbruchregeln greifen. Die Abschlussmeldung nennt eingesetzte und neu aufgebaute Produkte.
-- Konfigurieren: „Produktversionen in diesem Projekt beim Publizieren einsetzen“ schaltet das je Projekt ein oder aus.
+- Produktversionen: Template-Änderungen lassen sich jetzt in Versionen übertragen, ohne neu aufzubauen. Jede neue Version sichert dazu das Template in seinem damaligen Stand mit.
+- Ist das Template seither geändert, vergleicht p2 alten und neuen Stand je Vorlagenrahmen. Übertragen werden nur die geänderten Eigenschaften: Füllung, Kontur, Objektformat, Absatzformate sowie Lage und Größe. Die übrige Nacharbeit bleibt erhalten.
+- Beim Publizieren fragt p2 einmal je Lauf: „Änderungen übertragen“, „Neu aufbauen“ oder „Alte Versionen“. Beim Einsetzen per Drag-and-drop fragt p2 nach dem Ablegen.
+- Geänderter fester Text im Template wird nicht übertragen; die Meldung nennt das. Versionen aus 0.7.304/0.7.305 haben keinen gesicherten Template-Stand und werden in diesem Fall neu aufgebaut.
