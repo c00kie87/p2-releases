@@ -1,12 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.300
+version: 0.7.301
 date: 2026-11-06
 host: 21
-commit: ac2925d7a322e90055a26d13d93cbeb33f1dfbbe
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.300/p2-0.7.300-mac.zip
-mac.sha512: 3e3c7e01eca6d037645ec42ebeb7b3c8688da286623d7bff3ecdb288e4328413dc417b949e5968cbdf6d62bf647b5749bda96104921e0505e90dc973d9ca42fa
+commit: ec7aa4d7c4092d66b7badfc2e5d10a8870c435e3
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.301/p2-0.7.301-mac.zip
+mac.sha512: fe18f0a7fdf3e73c9fcbe6ca94075a71d813bfa8f502e7d1c7d2d19b93d1b65c43c3752e6c183960fc0871a773ab17a894cf4890a4d6733d965a631fc17ebf0c
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Innere Transponierung: Ob die Zelle geteilt wird, stellst du jetzt in der Palette Automatisieren an der Template-Tabelle ein. Zur Wahl stehen „Trennzeichen verwenden (aus Kreuztabelle)“, „Zelle vertikal teilen“ und „Zelle horizontal teilen“, jeweils mit der Verteilung gleichmäßig oder proportional zum Inhalt. Der Kreuztabellen-Dialog kennt nur noch das Trennzeichen, und die Vorschau zeigt kein Sonderzeichen mehr.
+- Nacharbeit, Stufe 2: „Nacharbeit sichern“ sichert jetzt außer Lage, Größe und Bildausschnitt auch Text samt Typografie (als getaggter Text), gelöschte Rahmen und hinzugefügte Objekte. Hinzugefügte Objekte vorher auswählen; sie werden an den nächsten Rahmen ihrer Einheit gebunden.
+- Beim Neu-Publizieren wird alles wieder angewendet. Hat sich der Text in den Daten geändert, bleibt der neue Text stehen, und die Abschlussmeldung nennt den Konflikt. Die vollständige Liste steht in nacharbeit-konflikte.txt der Quelle.
+- Konfigurieren: Neue Einstellung „Nacharbeit automatisch beim Speichern des Dokuments sichern“; Vorgabe ist „von Hand“.
+- Die Nacharbeit gilt je Quelle und Datensatz und damit auch in anderen Dokumenten mit derselben Quelle und demselben Template.
