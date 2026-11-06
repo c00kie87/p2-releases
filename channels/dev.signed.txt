@@ -1,16 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.301
+version: 0.7.302
 date: 2026-11-06
 host: 21
-commit: ec7aa4d7c4092d66b7badfc2e5d10a8870c435e3
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.301/p2-0.7.301-mac.zip
-mac.sha512: fe18f0a7fdf3e73c9fcbe6ca94075a71d813bfa8f502e7d1c7d2d19b93d1b65c43c3752e6c183960fc0871a773ab17a894cf4890a4d6733d965a631fc17ebf0c
+commit: 5031cc5dc09f6eb22511fa9b342fb00f48a6ad94
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.302/p2-0.7.302-mac.zip
+mac.sha512: 58e32413f0d0b292dc08c03b1ef4d1cc50f4bbc93267a7139dbbf1389a6e5043f70f61f9b54a45fb3c2c25f4996164e9e03aacfe1dcc34a4838edfcb15b431ca
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Nacharbeit, Stufe 2: „Nacharbeit sichern“ sichert jetzt außer Lage, Größe und Bildausschnitt auch Text samt Typografie (als getaggter Text), gelöschte Rahmen und hinzugefügte Objekte. Hinzugefügte Objekte vorher auswählen; sie werden an den nächsten Rahmen ihrer Einheit gebunden.
-- Beim Neu-Publizieren wird alles wieder angewendet. Hat sich der Text in den Daten geändert, bleibt der neue Text stehen, und die Abschlussmeldung nennt den Konflikt. Die vollständige Liste steht in nacharbeit-konflikte.txt der Quelle.
-- Konfigurieren: Neue Einstellung „Nacharbeit automatisch beim Speichern des Dokuments sichern“; Vorgabe ist „von Hand“.
-- Die Nacharbeit gilt je Quelle und Datensatz und damit auch in anderen Dokumenten mit derselben Quelle und demselben Template.
-signature: 8a50757b77b8101c2dcfe74fa908dddfc85934ba79b7d7a5c88eb3e74b4dac67890507d06aa56fa038de9b173611856b046d9bb9fc9f2a20dc8ff0fd663fff04
+- Nacharbeit: Neue Konfliktliste unter Automatisieren › „Nacharbeit: Konflikte …“. Je Datensatz und Rahmen lässt sich der Konflikt übernehmen (gesicherter Text bzw. Objekt wird eingesetzt), verwerfen oder im Dokument zeigen.
+- Nacharbeit wird auf neue Datenwerte übertragen: Hat sich ein Datenwert geändert und kommt der alte Wert genau einmal im nachgearbeiteten Text vor, wird er dort ersetzt; Text und Typografie bleiben erhalten. Die Abschlussmeldung bittet um Prüfung. Sonst bleibt der neue Text stehen und der Fall erscheint in der Konfliktliste.
+- Nacharbeit exportieren und importieren: Die Nacharbeit einer Quelle lässt sich als Ordner exportieren und in eine andere Quelle übernehmen. Zugeordnet wird über Vorlagenrahmen und Datensatz-Schlüssel.
+- Konfigurieren: „Nacharbeit in diesem Projekt beim Publizieren anwenden“ schaltet die Nacharbeit je Projekt ein oder aus. Die gesicherte Nacharbeit bleibt dabei erhalten.
+- Datenansicht: Die Markierung bleibt beim Auf- und Zuklappen von Gruppen bei denselben Datensätzen. Ein Klick in eine Mehrfachauswahl wählt danach nur diese Zeile. ⌘-Klick auf eine Zeile einer markierten Gruppe hebt die Markierung auf.
+signature: eb5863d14ba7de39e33ba36552f3c5d1d06fe33ffc8bffdeb3a9456fae37aa701307c8ca8f404ed1fe0160963a86316f08d27cec79286662629682e3fe558b08
