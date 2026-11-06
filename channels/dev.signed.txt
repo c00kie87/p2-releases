@@ -1,13 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.315
+version: 0.7.316
 date: 2026-11-06
 host: 21
-commit: c15b1b731499085fbac27ca4965750be69c9e777
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.315/p2-0.7.315-mac.zip
-mac.sha512: 75260a70007ccd4b9359252f72ddf93a9a42245c7b3c1c7b60a89beb2bf3e7174bc767680dd0afd1335fb8a2eeb29f453ef7a026806cf66c90ef906f7d48c9f1
+commit: a061ef30c778afcca328fc439174d6aa881949e9
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.316/p2-0.7.316-mac.zip
+mac.sha512: 531b16765cee41ff2741a8f81be586c50b218f960d983e1aa7853daeb9f24a89f83bdc906502b38258d2974b3e8f04575be7ae10bd6dedc3b194f64fc895f547
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fehler behoben: Der Abstand zwischen vervielfältigten Text/Bild-Gruppen und der Tabelle darunter schwankte (z. B. 20 mm auf Seite 1, 8,16 mm auf Folgeseiten statt 5 mm wie im Template). Ursache: Die Gruppe rückt mit „Freiraum nutzen“ nachträglich auf, die Tabelle hatte ihre Lage aber schon vorher berechnet und blieb stehen. Jetzt folgen die nachfolgenden Elemente dem aufgerückten Element mit dem Abstand aus dem Template.
-signature: e29b7796273c4e827321f4415a7f80266b788ad044f0619effb93c7a15da6e72fb2d68b7b4872fe78383b69d36822e645c595081224814ffa413ea7dc363bd0b
+- Neu: Tabelle ausgleichen › „Breite verteilen: Lesbarkeit (wenige Umbrüche, nie im Wort)“. Dynamische Spalten dürfen umbrechen, Wörter werden dabei nie getrennt. Der Platz geht jeweils an die Spalte, in der er die meisten Zeilen spart. Kurze Werte und Zahlen bleiben einzeilig, lange Texte brechen um, und die Tabelle wird so niedrig wie möglich. Übriger Platz wird wie bisher nach Inhalt verteilt.
+- Ohne diese Einstellung bleibt die bisherige Verteilung (proportional bzw. gleichmäßig).
+signature: d27c63465a4709c8d60d9cb8554de589c23b111b2d15b1d57205380a1508aaff9878a46447e7268d01ecf2e055c18ae862bb1da91a0a9cde0ebe1231fe51f102
