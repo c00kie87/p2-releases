@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.313
+version: 0.7.314
 date: 2026-11-06
 host: 21
-commit: 9dd22119c87d5006a761d9ede26336cf03675093
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.313/p2-0.7.313-mac.zip
-mac.sha512: 830f2a3bf66595f66a5a98bdc96ee212b46a43afc170decdde56a351f663f7dc729b75b379bb876a2e8cc27adf24e634cd381f0553170895ad5b145b42e579b4
+commit: db0df107e342083d98f9529f4413eb13267fd838
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.314/p2-0.7.314-mac.zip
+mac.sha512: db3b5172722f89ac33549552029fd6926d84e22f8eccc20e4246b6bdb2c8da63ce525416db1762d5d15fcdbcceb25b5231bfa292ca3950a73f1bcfcc2536bda0
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fehler behoben: Das Kachelraster der Palette Templates lief nicht bis an den rechten Rand. Die Palette ordnet Raster, Scrollleiste und die untere Leiste jetzt bei jeder Größenänderung selbst an; das Raster nutzt die ganze Breite.
-- Fehler behoben: Der Dialog „Bedingte Verwendung“ (und „Eigenschaften zurücksetzen“) öffnete sich nach OK ein zweites Mal. Knöpfe der Palette Automatisieren reagieren jetzt nur noch beim Drücken.
-signature: d3957ead5b7a7d0945059fd2a927841c98f214b44aadaf19f1d17b468dc83d11f52a7912caedc0253c763467380b9a1c249661197e8158252c91307a16217507
+- Kreuztabelle und bedingte Verwendung: Ist eine Einheit durch eine bedingte Verwendung entstanden (z. B. je Variationsgruppe bei „_“-Produktgruppen), bildet die Kreuztabelle ihre Tabelle nur aus den Datensätzen dieser Einheit. Bisher holte sie alle Datensätze ihres Kontexts (z. B. der ganzen Produktgruppe) dazu, sodass jede Teil-Einheit die ganze Produktgruppe zeigte.
+- Für alle anderen Einheiten bleibt es wie bisher: Die Kreuztabelle nimmt die Datensätze ihres Kontexts.
+signature: 671d9c2cbf922349a580a600417709acd5951be494c03100e42adc599dd97009cbdf595965fac595a4d1780dccb0b9e0ae4128ac81f25088660b10f33f9feb0b
