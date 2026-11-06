@@ -1,18 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.311
+version: 0.7.312
 date: 2026-11-06
 host: 21
-commit: db8ed92842b711b47da0f9288b261b8ec718fcf8
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.311/p2-0.7.311-mac.zip
-mac.sha512: 135c41fe251d0342d7749ed9c857602a35b11395b39722fbf89d0caae1bce7c17039299ff88f2b90019b81d5000c449c0cccdc6d2e8c71e4e3b52bc090d82810
+commit: ebe474891fe06b603ec03658bef4753812722aea
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.312/p2-0.7.312-mac.zip
+mac.sha512: eac6dd0752285196a61229482c2b8b222db39437c3697e4098f3b1d6ec716df2ef3885c9ae875951d657fd0629ca9ab265209b2c790f2506563544480411dc2f
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu: Bedingte Verwendung. In der Palette Automatisieren steht unter Verwendung die Zeile „Bedingte Verwendung“; der Knopf öffnet die Regeln des Templates.
-- Jede Regel hat eine Bedingung, eine Verwendung und eine Gruppe. Die Bedingung legst du wie gewohnt unten unter „Bedingungen“ am Template an und weist sie hier zu. Mit „+“ kommen weitere Regeln dazu.
-- Es gibt keine Reihenfolge. Trifft eine Bedingung auf eine Gruppe zu, gilt ihre Verwendung, sonst die Verwendung des Templates. Feiner teilt eine Gruppe auf (z. B. Produktgruppe → Variationsgruppe), gröber fasst benachbarte Gruppen zusammen.
-- Widersprüche verhindern das Publizieren: wenn mehrere Regeln auf eine Gruppe zutreffen, wenn eine Bedingung nur für einen Teil einer Gruppe gilt, wenn Bedingung oder Feld fehlen. „Mit den Daten prüfen“ zeigt das vorab, OK speichert nur widerspruchsfreie Regeln.
-- Eine Bedingung, die einer bedingten Verwendung zugewiesen ist, wirkt nur als „Wenn“; ihre Dann-/Sonst-Aktionen gelten nicht am Objekt. In der Liste „Bedingungen“ trägt sie den Zusatz „(für Verwendung)“. Die Rahmen im Template behalten ihre eigenen Bedingungen.
-- Behoben: Im Dialog „Nacharbeit: Konflikte“ erscheint die Beschriftung „Übernehmen“ korrekt.
-signature: ef2c27f72684f9b3eb1cb939e5bfb1a9c82df904eabfd201e7dce743412bcf17ec5cb1244bcbfab919dd81613dab283a9afe4ada9319216dbbd6455a965fde05
+- Bedingte Verwendung: Jede Regel hat jetzt ihre eigene Bedingung, unabhängig von den Objekten (Hinweis des Anwenders). Der Knopf „Bedingung“ im Dialog öffnet den Bedingungseditor nur mit „Wenn“; Dann und Sonst sind gesperrt. Die Bedingung wird mit der Regel am Template gespeichert und erscheint nicht in der Liste „Bedingungen“ der Objekte.
+- „+“ legt eine Regel an und öffnet gleich den Editor für ihre Bedingung.
+- Regeln aus 0.7.311, die noch auf eine Bedingung des Objekts verweisen, funktionieren weiter; der Dialog weist darauf hin, sie als eigene Bedingung festzulegen.
+signature: e15bd9aeaa2c54852afbbe5d90fe8879925ab67d0f1d087715449c80603b279ae9d383dfcac7bc0969445e013d45d104210cd69ebb4bfc235babf225c7963c04
