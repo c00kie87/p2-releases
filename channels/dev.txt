@@ -1,13 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.309
+version: 0.7.310
 date: 2026-11-06
 host: 21
-commit: c9036a60e6bc91399fa98adc8b35205fd113675a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.309/p2-0.7.309-mac.zip
-mac.sha512: 383ae1061450c324d041a619c7098dd42094ac2481b6fe9ff9b029be9ca03aae46b62694b456ad2f7962114d150b09df872e4c7baf76087ecab8f163e9411cc6
+commit: 4811afe8f5924f648a8e760893892b0e743ee459
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.310/p2-0.7.310-mac.zip
+mac.sha512: 94ae8c713e668cf89fcfadff471d433462cc467c6c1e1d0e387e552a72a2b881c2a04ef635cf0dc741eb3e7e486c118e952aa44d38b95a4779b3e777b386d2f4
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fehler behoben: Nach einem Umbruch auf die Folgeseite konnte ein weitergezogener Textrahmen mit Tabelle zu niedrig bleiben und Übersatz haben. p2 prüft jetzt am Ende jedes Laufs alle neuen Rahmen auf Übersatz und passt Rahmen mit „Höhe anpassen“ erneut an. Die Abschlussmeldung nennt behobene und verbleibende Fälle.
-- Fehler behoben: „Neu aufbauen“ meldete bei Gruppen mit Fortsetzung „teilt Rahmen mit anderen Aufbauten (Textfluss)“. Die Bilder in weitergezogenen Rahmen behielten ihre alte Herkunft und galten deshalb als fremder Aufbau. Sie werden jetzt mit umgeschrieben; bestehende Dokumente prüft p2 ebenfalls richtig.
+- Fehler behoben: „Neu aufbauen“ scheiterte mit „Keine Vorlage im Dokument“ bzw. „keine Ausgabe erstellt“, wenn der Aufbau mit einem Template aus der Bibliothek entstanden war und das Template nicht im Dokument liegt. p2 holt das Template jetzt aus der Bibliothek, aus der der Aufbau stammt, baut neu auf und entfernt es danach wieder. Liegt das Template im Dokument, wird wie bisher dieses verwendet.
