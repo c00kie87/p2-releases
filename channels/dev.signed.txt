@@ -1,15 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.308
+version: 0.7.309
 date: 2026-11-06
 host: 21
-commit: 15945ea179115387041d74e7884f3ed2a519df9a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.308/p2-0.7.308-mac.zip
-mac.sha512: dbedc08404a91df068e16971ac39d82f789790bf56aab6d6fd9c2a37c7a71c00bf7aecc1ae7314be07933a155194c20286f255b7ea78d3dcede4df70533d498f
+commit: c9036a60e6bc91399fa98adc8b35205fd113675a
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.309/p2-0.7.309-mac.zip
+mac.sha512: 383ae1061450c324d041a619c7098dd42094ac2481b6fe9ff9b029be9ca03aae46b62694b456ad2f7962114d150b09df872e4c7baf76087ecab8f163e9411cc6
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fehler behoben: Vervielfältigte Gruppen brachen trotz „Umbruch: zwischen Kopien erlauben“ nicht um, wenn an der Gruppe auch „nicht vom vorherigen trennen“ gesetzt war. Die Bindung hielt alle Kopien aneinander, sodass der ganze Block über die Seite hinauslief.
-- Jetzt gilt „nicht vom vorherigen/nächsten trennen“ nur zum Element außerhalb der Vervielfältigung, z. B. zur Überschrift: Die erste Kopie bleibt bei ihr, zwischen den Kopien darf umbrochen werden. Jede Kopie bleibt ganz.
-- Hinweis: Der Umbruch zwischen Kopien ist weiterhin eine Einstellung je Objekt (Palette Automatisieren › Vervielfältigen › „Umbruch: zwischen Kopien erlauben“). Ohne sie bleibt der Block zusammen.
-signature: 4b7f3d2de6d4947251744e079736d82d23798b10076c9a42d25c0e68a6f3f736811916d1d66631a7efd151258c90c39d7f69aae63b42394598b278b6dc6e440a
+- Fehler behoben: Nach einem Umbruch auf die Folgeseite konnte ein weitergezogener Textrahmen mit Tabelle zu niedrig bleiben und Übersatz haben. p2 prüft jetzt am Ende jedes Laufs alle neuen Rahmen auf Übersatz und passt Rahmen mit „Höhe anpassen“ erneut an. Die Abschlussmeldung nennt behobene und verbleibende Fälle.
+- Fehler behoben: „Neu aufbauen“ meldete bei Gruppen mit Fortsetzung „teilt Rahmen mit anderen Aufbauten (Textfluss)“. Die Bilder in weitergezogenen Rahmen behielten ihre alte Herkunft und galten deshalb als fremder Aufbau. Sie werden jetzt mit umgeschrieben; bestehende Dokumente prüft p2 ebenfalls richtig.
+signature: 351a71e8641e97c71a88c5a077389cc00c9e2d4cd7bc62f110ff923f5013aa2c9dc61d724b167709f789aac31ecc62f9980175f4af6fe5d9a60a70d40c0feb06
