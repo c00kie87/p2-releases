@@ -1,16 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.293
-date: 2026-11-05
+version: 0.7.294
+date: 2026-11-06
 host: 21
-commit: f1d8940dd7d35abca6b63d615a47e513d03eef67
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.293/p2-0.7.293-mac.zip
-mac.sha512: 557f847c7bb2b8d41ddb617b1bb2eb818ad2265f06c15f23e1654f2506ad6d97343d37657e258e3f7b2e821bf3077c5c0f0f3211ef7f4fa4d7dd3f781217069c
+commit: 140aa3db1b82754995f68a8864bd9ed0b4de7c40
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.294/p2-0.7.294-mac.zip
+mac.sha512: 099650cb2c5c28bdb1feeb58ded5039b2a0de436e8dce50f621511edc027befd1301ab11dc0c8e387efd5bc4c04d43aeba1180b9f054bd8fc79721afda2ec940
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Feldketten: Durchnummerierte Felder (z. B. Tbl1N#, Tbl1E#, Tbl1W#) lassen sich in den Feldoptionen › Verkettung verketten, mit Bezugsfeld und Aufrücken. Leere Nummern entfallen, belegte rücken samt Name und Einheit auf die Plätze des Templates. In Kreuztabellen gilt das je Tabelle. Ketten gelten für alle Quellen; Kettenfelder tragen ein Kettensymbol im Spaltenkopf. Ein Überlauf steht in der Abschlussmeldung.
-- Template-Wahl: Templates ohne eigene Regel scheiden aus, wenn alle ihre Rahmen mit Bedingung für den Datensatz entfallen. Bisher kam die Rückfrage „mehrere Templates ohne Regel“, obwohl die Bedingungen an den Rahmen gesetzt waren.
-- Feldoptionen: Formatgruppen erscheinen in den Auswahllisten als „Gruppe › Format“ statt mit Kästchen.
-- Hilfstabellen: Jeder Auflöseversuch steht mit Ergebnis im Protokoll (Diagnose für vervielfältigte Rahmen).
-signature: 3442d2cbca9f044dc1bfadc330c580d1309a481e35d060f77db5ded521ddbf0da50f6765e993ad27d1806ea53f9f890b8981bcbea0d01bb38b49da7c29b7d809
+- Palette Automatisieren: Neuer Button „Eigenschaften zurücksetzen“ setzt das Gewählte (Objekt, Gruppe, Tabelle) auf Ursprung, wahlweise samt Inhalt. Template-Zugehörigkeit und Rahmengruppe bleiben.
+- Kreuztabellen-Dialog: „−“ rechts neben jeder Zeile und unter jeder Spalte entfernt sie. Die Buttons zum Entfernen und „+ Kopf-/Fußzeile“ entfallen. Kopf, Körper und Fuß behalten immer mindestens eine Zeile.
+- Bedingungen: „wechselt“ vergleicht mit dem vorigen ausgegebenen Datensatz. Eine allein ausgegebene Variationsgruppe erscheint jetzt.
+- Freiraum nutzen: Kopien einer Vervielfältigung werden einzeln geprüft. Die Gruppe rückt auf die Höhe des vorherigen Elements, wenn keine Kopie anstößt.
+- Kreuztabelle: „Kein Artikel“ steht nur in der Kreuzung bei nicht vorhandenem Artikel. „Leerer Wert“ füllt nur leere Körperzellen nicht transponierter Felder. Die innere Transponierung lässt fehlende Artikel und leere Werte weg, also kein Trennzeichen ohne Wert danach.
+signature: 5be0a983e9df52fdac59eee692da75960a3b5fbc677e181e1e3ad3812b63c72c9155f95e8675373f0ec388e861b3416f2e7b9d522f6eb5f4744a36918e079f01
