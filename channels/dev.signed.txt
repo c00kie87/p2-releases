@@ -1,16 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.307
+version: 0.7.308
 date: 2026-11-06
 host: 21
-commit: 07eda3680e846299696cec9cff163a465e2c9851
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.307/p2-0.7.307-mac.zip
-mac.sha512: 364da44b848bb58cf188dfedfd75076065c4a32f02a91b32ca4d69a45ff06a21bd899603c5e71502a2395e04b17ee5e4e27bad06949d09cd8a461f32137f1456
+commit: 15945ea179115387041d74e7884f3ed2a519df9a
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.308/p2-0.7.308-mac.zip
+mac.sha512: dbedc08404a91df068e16971ac39d82f789790bf56aab6d6fd9c2a37c7a71c00bf7aecc1ae7314be07933a155194c20286f255b7ea78d3dcede4df70533d498f
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Produktversionen: Beim Übertragen von Template-Änderungen kommen jetzt auch feste Texte mit. p2 teilt den Text an den Platzhaltern in Abschnitte. Ein im Template geänderter Abschnitt wird in die Version übernommen, wenn er dort noch dem alten Template entspricht. Hast du ihn in der Version nachgearbeitet, bleibt dein Text stehen, und die Meldung nennt die Stelle.
-- Konfigurieren: Neue Einstellung „Nacharbeit sichern legt zugleich Produktversionen an“. Sie gilt nur beim Sichern von Hand: für die gewählten Produkte bzw. ohne Auswahl für alle nachgearbeiteten Produkte. Das automatische Sichern beim Speichern legt keine Versionen an.
-- Die Meldung von „Nacharbeit sichern“ beschreibt jetzt das Übertragen auf neue Datenwerte.
-- Prüfwerkzeug für die Tabellenskripte aktualisiert; alle fünf Skripte werden wieder geprüft.
-signature: f11be77b68994edee582dbd1e62ab3e2c0b5be646697254db2cbc4cc665db21e70b3e66c68db7fad560b0dde5cda4faf879fd8e0870bfbbc50c62cee68709901
+- Fehler behoben: Vervielfältigte Gruppen brachen trotz „Umbruch: zwischen Kopien erlauben“ nicht um, wenn an der Gruppe auch „nicht vom vorherigen trennen“ gesetzt war. Die Bindung hielt alle Kopien aneinander, sodass der ganze Block über die Seite hinauslief.
+- Jetzt gilt „nicht vom vorherigen/nächsten trennen“ nur zum Element außerhalb der Vervielfältigung, z. B. zur Überschrift: Die erste Kopie bleibt bei ihr, zwischen den Kopien darf umbrochen werden. Jede Kopie bleibt ganz.
+- Hinweis: Der Umbruch zwischen Kopien ist weiterhin eine Einstellung je Objekt (Palette Automatisieren › Vervielfältigen › „Umbruch: zwischen Kopien erlauben“). Ohne sie bleibt der Block zusammen.
+signature: 4b7f3d2de6d4947251744e079736d82d23798b10076c9a42d25c0e68a6f3f736811916d1d66631a7efd151258c90c39d7f69aae63b42394598b278b6dc6e440a
