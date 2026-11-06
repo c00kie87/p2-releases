@@ -1,13 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.319
+version: 0.7.320
 date: 2026-11-06
 host: 21
-commit: fc4311449570345ee77e3f8ff1bed7aab0e76d5b
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.319/p2-0.7.319-mac.zip
-mac.sha512: 1fac116711fcab35f36c59f127b6c542e5b1851004409c7b01f360094f672be670cb122f1ed4694b15a997beb5096e104edab4dcbfc493bb9ffb3d985e04a2b6
+commit: aafa62298cf7aa0c4044a88dc6ccea1f2c2dbb6a
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.320/p2-0.7.320-mac.zip
+mac.sha512: 370d6dd38b064c1b11b4acd588e559cd6fac9054db1b9373667b1871066668e91b69795fe4b3125f6da9ceafc8967cf60f032a987412bd3eb7d36d187c290663
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Laufzeit-Auswertung: p2 misst jetzt jeden wesentlichen Arbeitsschritt (Aufbau je Einheit, Platzhalter ersetzen, Bilder laden, Bedingungen, Einpassen, gemerkte Eigenschaften, Tabellen und Kreuztabellen, Text neu umbrechen, Umbruch/Fortsetzung, Gruppieren, Seitenbeschriftung, alle Abschlussschritte und Skriptaufrufe). Je Lauf schreibt p2 eine Zeile in laufzeit.csv im p2-Ordner (in einer Tabellenkalkulation zu öffnen). So lassen sich Engstellen über viele Läufe vergleichen.
-- Schneller: Die ausführlichen Zeilenabzüge der Kreuztabellen im Protokoll entfallen im Normalbetrieb. Wer sie braucht, legt im p2-Ordner eine Datei „diagnose-ausfuehrlich.txt“ an.
+- Fehler behoben: Elemente mit „Freiraum nutzen“ (z. B. die Text/Bild-Gruppe mit VG-Beschreibung und BNr) konnten in einen darüber gewachsenen Text rutschen bzw. standen zu eng darunter. Sie halten jetzt den Abstand aus dem Template ein; beim Aufrücken gilt der Template-Abstand, wenn kein Mindestabstand gesetzt ist.
+- Neu in den Feldoptionen: „Einheiten nie von Werten trennen“. Zahl und Einheit („1,9 mm“, „40 °C“), Zahlengruppen („1 000“) und Zeichen vor Zahlen („Ø 1,9“, „± 0,02“) werden mit geschützten Leerzeichen verbunden.
+- Neu bei Tabelle ausgleichen: „Ausgleich: optimiert – so kompakt und lesbar wie möglich“. Die Breite wird nach Lesbarkeit verteilt, danach gibt p2 Breite von Spalten mit Luft an mehrzeilige Spalten ab, solange die echte Tabellenhöhe sinkt.
+- „Inhalte messen“ kann jetzt auch Kopf- und Körperzeilen, Körper- und Fußzeilen oder Kopf- und Fußzeilen gemeinsam berücksichtigen.
