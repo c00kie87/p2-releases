@@ -1,17 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.304
+version: 0.7.305
 date: 2026-11-06
 host: 21
-commit: a3f8887a889db3daed4437c627765b7d10f47207
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.304/p2-0.7.304-mac.zip
-mac.sha512: 92babca395193e93564687d1f94da5a7f3a3d95d961343e43a53eecc0d3eeaea89fbf55215c6363e82df84afbe7abf0c5334f0251004cfd533000d0d64b1c9c2
+commit: 20062cb24ca4297ee600feff4693178a28dadc69
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.305/p2-0.7.305-mac.zip
+mac.sha512: d750ff4795759f03f099e6ade9db855f979297ec36f9230518e642b21d85a4ae786329f636eeb78d36dcc468ae60630f2c112f09c8d78b1021fafaafdfd22d4f
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Produktversionen, Stufe 1: Die Palette Templates hat oben einen Umschalter „Templates | Produktversionen“.
-- Sichern: Die publizierten Rahmen eines Produkts auf die Palette ziehen (Modus Produktversionen) oder Automatisieren › „Als Produktversion sichern“. Gesichert werden alle Rahmen der Einheit samt Nacharbeit, dazu Datensatz, Template und dessen Stand sowie die Werte der Platzhalter. Jedes weitere Sichern legt eine neue Version an (v1, v2 …).
-- Einsetzen: Eine Kachel auf die Seite ziehen. Das Produkt erscheint mit seinem Stand, ohne neu befüllt zu werden. Danach vergleicht p2 die Werte mit der aktiven Quelle. Bei Abweichungen gilt die neue Einstellung in Konfigurieren: nachfragen, alten Stand einsetzen (aktualisierbar) oder direkt aktualisieren. Ein seither geändertes Template wird gemeldet.
-- Doppelklick auf eine Kachel zeigt Template, Datensatz, Datum und Werte. Der Papierkorb löscht Versionen. Der Kopieren-Knopf überträgt sie in eine andere Bibliothek, unabhängig vom Template.
-- Noch nicht enthalten: automatisches Einsetzen beim Publizieren und das Übertragen von Template-Änderungen auf Versionen (folgt in der nächsten Stufe).
-signature: 5d5bc1f2f69a343c52aa50a5a1c5879059a0226131f6966a4c1981b2d83d9debeeed6b9825b920c40161a34b1e46305f1159fd2962cd3447179e43e94dad6e02
+- Produktversionen, Stufe 2: Beim Publizieren setzt p2 zu einem Produkt die neueste Version mit gleichem Datensatz und Template-Stand ein, statt es neu aufzubauen. Die Version bringt ihre Nacharbeit mit und fließt wie ein Template; Abstände und Dynamik wirken wie bisher.
+- Template geändert: p2 fragt einmal je Lauf. „Neu aufbauen“ nutzt das neue Template und wendet die gesicherte Nacharbeit (Text, Lage, Objekte) an, soweit sie zuordenbar ist. „Alte Versionen verwenden“ setzt die Versionen unverändert ein.
+- Werte abweichend: Es gilt die Einstellung in Konfigurieren. Bei „nachfragen“ fragt p2 einmal je Lauf: alten Stand verwenden (aktualisierbar) oder neu aufbauen.
+- Passt eine Version ungebrochen nicht in den Ausgabebereich, wird das Produkt neu aufgebaut, und die Umbruchregeln greifen. Die Abschlussmeldung nennt eingesetzte und neu aufgebaute Produkte.
+- Konfigurieren: „Produktversionen in diesem Projekt beim Publizieren einsetzen“ schaltet das je Projekt ein oder aus.
+signature: b84f357fe8b9c538ce40cbef1c4a08251644f07425f537d1d9336a214293a275af173dda36693e3b242e5f64a5e69d93a2590fa2d6982affba864eea57651403
