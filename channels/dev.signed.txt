@@ -1,17 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.294
+version: 0.7.295
 date: 2026-11-06
 host: 21
-commit: 140aa3db1b82754995f68a8864bd9ed0b4de7c40
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.294/p2-0.7.294-mac.zip
-mac.sha512: 099650cb2c5c28bdb1feeb58ded5039b2a0de436e8dce50f621511edc027befd1301ab11dc0c8e387efd5bc4c04d43aeba1180b9f054bd8fc79721afda2ec940
+commit: ccb958fd9774be04932a0c1375d77d17d596a510
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.295/p2-0.7.295-mac.zip
+mac.sha512: 7d443d86b2c5b90cc4752515407739083fa0594573433956abc32673f607cde5b86d9624ab85a153f52bae7e26ad1f6150c86e48f5c18d171a4889c9707e2e0c
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Palette Automatisieren: Neuer Button „Eigenschaften zurücksetzen“ setzt das Gewählte (Objekt, Gruppe, Tabelle) auf Ursprung, wahlweise samt Inhalt. Template-Zugehörigkeit und Rahmengruppe bleiben.
-- Kreuztabellen-Dialog: „−“ rechts neben jeder Zeile und unter jeder Spalte entfernt sie. Die Buttons zum Entfernen und „+ Kopf-/Fußzeile“ entfallen. Kopf, Körper und Fuß behalten immer mindestens eine Zeile.
-- Bedingungen: „wechselt“ vergleicht mit dem vorigen ausgegebenen Datensatz. Eine allein ausgegebene Variationsgruppe erscheint jetzt.
-- Freiraum nutzen: Kopien einer Vervielfältigung werden einzeln geprüft. Die Gruppe rückt auf die Höhe des vorherigen Elements, wenn keine Kopie anstößt.
-- Kreuztabelle: „Kein Artikel“ steht nur in der Kreuzung bei nicht vorhandenem Artikel. „Leerer Wert“ füllt nur leere Körperzellen nicht transponierter Felder. Die innere Transponierung lässt fehlende Artikel und leere Werte weg, also kein Trennzeichen ohne Wert danach.
-signature: 5be0a983e9df52fdac59eee692da75960a3b5fbc677e181e1e3ad3812b63c72c9155f95e8675373f0ec388e861b3416f2e7b9d522f6eb5f4744a36918e079f01
+- Hilfstabellen: Vor dem Auflösen wird der Text neu gesetzt. Vervielfältigte Rahmen werden nach dem Füllen im Raster verschoben. Das Auflösen las danach veraltete Textpositionen und brach ab, die Rahmen blieben Tabellen. Jeder Versuch steht weiterhin mit Ergebnis im Protokoll.
+signature: 0f1a034f43212fff47634a18cb6f6b6e0ec512715baec85614f9395031899f07bfa68d002773c7814495545dc674dc2bbca440f230f62b237eba52d5e9578404
