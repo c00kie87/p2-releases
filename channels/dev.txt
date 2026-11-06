@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.312
+version: 0.7.313
 date: 2026-11-06
 host: 21
-commit: ebe474891fe06b603ec03658bef4753812722aea
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.312/p2-0.7.312-mac.zip
-mac.sha512: eac6dd0752285196a61229482c2b8b222db39437c3697e4098f3b1d6ec716df2ef3885c9ae875951d657fd0629ca9ab265209b2c790f2506563544480411dc2f
+commit: 9dd22119c87d5006a761d9ede26336cf03675093
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.313/p2-0.7.313-mac.zip
+mac.sha512: 830f2a3bf66595f66a5a98bdc96ee212b46a43afc170decdde56a351f663f7dc729b75b379bb876a2e8cc27adf24e634cd381f0553170895ad5b145b42e579b4
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Bedingte Verwendung: Jede Regel hat jetzt ihre eigene Bedingung, unabhängig von den Objekten (Hinweis des Anwenders). Der Knopf „Bedingung“ im Dialog öffnet den Bedingungseditor nur mit „Wenn“; Dann und Sonst sind gesperrt. Die Bedingung wird mit der Regel am Template gespeichert und erscheint nicht in der Liste „Bedingungen“ der Objekte.
-- „+“ legt eine Regel an und öffnet gleich den Editor für ihre Bedingung.
-- Regeln aus 0.7.311, die noch auf eine Bedingung des Objekts verweisen, funktionieren weiter; der Dialog weist darauf hin, sie als eigene Bedingung festzulegen.
+- Fehler behoben: Das Kachelraster der Palette Templates lief nicht bis an den rechten Rand. Die Palette ordnet Raster, Scrollleiste und die untere Leiste jetzt bei jeder Größenänderung selbst an; das Raster nutzt die ganze Breite.
+- Fehler behoben: Der Dialog „Bedingte Verwendung“ (und „Eigenschaften zurücksetzen“) öffnete sich nach OK ein zweites Mal. Knöpfe der Palette Automatisieren reagieren jetzt nur noch beim Drücken.
