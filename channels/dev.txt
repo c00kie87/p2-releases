@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.317
+version: 0.7.318
 date: 2026-11-06
 host: 21
-commit: c889c1c369b1624b2f9bef358376a72c2f4474c9
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.317/p2-0.7.317-mac.zip
-mac.sha512: 6916988ecf5cf4c7934b9531fa044e439b3dff84eee5bb6bd7751e097a840a64302808fa716adb387b7cbc652b5f791bee13dd122447573157ae5083f4afc53f
+commit: dbb2d23353a3c5cd80f7bf2a8fbdc6d5194e5391
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.318/p2-0.7.318-mac.zip
+mac.sha512: 0d36acb05ebcfed73d93792096ed43fc81702d4e967b826e67a795796fda5474f4aea54e8f332f676c5dd83877bc5c13b0ffb70095237a37f540cf93dff240f3
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Laufzeit: Die Abschlussmeldung nennt jetzt die Dauer des Laufs und die teuersten Arbeitsschritte (Aufbau, Tabellen, Abschlussschritte, Skriptaufrufe). Die vollständige Aufschlüsselung steht in der diagnose.log (Zeile „Laufzeit …“).
-- Schneller: Beim Ausgleichen von Tabellen misst p2 den Text nur noch einmal je Tabelle statt in jedem Durchgang und setzt gleiche Breiten nicht erneut. Das spart je Tabelle etwa drei der bisher fünf Skriptaufrufe.
+- Schneller: Der letzte Abschlussschritt „Herkunft ergänzen“ arbeitet jetzt viel sparsamer. Er liest jede Objektkennung nur einmal, lässt den vorhandenen Bestand unangetastet und beschriftet jedes neue Objekt genau einmal statt zweimal. Lage und Seite werden zwischengespeichert. In der letzten Vollausgabe (51 Gruppen, 29 Seiten) entfiel fast die gesamte Laufzeit von knapp einer Stunde auf diesen Schritt. Das Ergebnis bleibt gleich.
+- Die diagnose.log enthält dazu je Lauf die Zeile „Herkunft …“ mit Anzahlen und Millisekunden je Abschnitt; die Abschlussmeldung nennt die Dauer (seit 0.7.317).
