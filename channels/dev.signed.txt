@@ -1,13 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.297
+version: 0.7.298
 date: 2026-11-06
 host: 21
-commit: e2891783c89c914c53db3e040a571dd5ef629ad1
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.297/p2-0.7.297-mac.zip
-mac.sha512: f312ed3bf47390134c4ccd10de53034e70245b8e5f6f1fb2d5f490b3dba59d5acde8fa1d196c5d2416e02bcb36de46a3e7861a80bcc7333da276792959b379a4
+commit: 14b9114a7f39036c60ad77c0ed43cec3bf227a99
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.298/p2-0.7.298-mac.zip
+mac.sha512: b53e72b9ba55a77a5fe81ae131a4c1530ade4f9165fa5864c22a7164df3768743cfbcde68bc3754a3925b82f35353c6698afcd3f87ca7e22d62c63d8e3e8dd39
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Tabellen teilen: Neue Option „bei Übersatz (Tabelle zu breit)“. Geteilt wird nur, wenn die Tabelle breiter als ihr Rahmen ist; wahlweise werden die Spalten gleichmäßig verteilt oder so viele wie passen, der Rest folgt danach. „So viele wie passen“ misst jetzt auch bei „Template-Gruppe teilen“, und zwar an der Template-Tabelle. „Alle n Körperzeilen“ steht nicht mehr zur Wahl, weil InDesign lange Tabellen ohnehin mit Kopf im nächsten Rahmen fortsetzt; bestehende Regeln bleiben lesbar.
-signature: 1c69238afbca14e4389278820a0eaa45953d3d3e52551759858c606fbe98c3e4bead5a7304f1f7d53cc4e5dbc45dc8e666b74f83ae0e099b708df2f32b0c390d
+- Kreuztabelle, innere Transponierung: Neue „Darstellung“. Neben dem Trennzeichen kann die Zelle in der Ausgabe nebeneinander oder untereinander geteilt werden, je Wert ein Teil. Die Vorschau zeigt die Teile mit │.
+- Die Vorschau im Dialog Kreuztabelle rückt Feldketten jetzt auf wie die Ausgabe.
+- Tabellen teilen „bei Übersatz“: Beim Teilen der Template-Gruppe wird auch nach Höhe geteilt, wenn die Tabelle nicht zu breit, aber zu hoch ist. Gemessen wird an der Template-Tabelle.
+- Hilfetexte: In allen Dialogen erscheint beim Überfahren ein Text, u. a. in Paginieren, Unterabfragen, Abläufe, Raster, Schlüssel und Template-Regeln.
+signature: 948049554141f6d554a0851212d01fbb60fd867f31f1d44876f0dbfff9ad446385efebac83db05106a9d5357132092cde25a052805e2023bcb205320c69cb507
