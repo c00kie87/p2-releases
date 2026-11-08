@@ -1,16 +1,18 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.320
-date: 2026-11-06
+version: 0.7.321
+date: 2026-11-08
 host: 21
-commit: aafa62298cf7aa0c4044a88dc6ccea1f2c2dbb6a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.320/p2-0.7.320-mac.zip
-mac.sha512: 370d6dd38b064c1b11b4acd588e559cd6fac9054db1b9373667b1871066668e91b69795fe4b3125f6da9ceafc8967cf60f032a987412bd3eb7d36d187c290663
+commit: 3b77d6073736189e084ac348eb2c1eeceee3348a
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.321/p2-0.7.321-mac.zip
+mac.sha512: 334ed431bf829807c0ccce5241785231de4318262c99883c964d3e9c8b0624932b60d02c81e86d5d3b74561cc87d3a303d47772db85d3d770bf50ef6f0b029ac
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fehler behoben: Elemente mit „Freiraum nutzen“ (z. B. die Text/Bild-Gruppe mit VG-Beschreibung und BNr) konnten in einen darüber gewachsenen Text rutschen bzw. standen zu eng darunter. Sie halten jetzt den Abstand aus dem Template ein; beim Aufrücken gilt der Template-Abstand, wenn kein Mindestabstand gesetzt ist.
-- Neu in den Feldoptionen: „Einheiten nie von Werten trennen“. Zahl und Einheit („1,9 mm“, „40 °C“), Zahlengruppen („1 000“) und Zeichen vor Zahlen („Ø 1,9“, „± 0,02“) werden mit geschützten Leerzeichen verbunden.
-- Neu bei Tabelle ausgleichen: „Ausgleich: optimiert – so kompakt und lesbar wie möglich“. Die Breite wird nach Lesbarkeit verteilt, danach gibt p2 Breite von Spalten mit Luft an mehrzeilige Spalten ab, solange die echte Tabellenhöhe sinkt.
-- „Inhalte messen“ kann jetzt auch Kopf- und Körperzeilen, Körper- und Fußzeilen oder Kopf- und Fußzeilen gemeinsam berücksichtigen.
-signature: 6a49d97ed17400cf7705a360d686d2d754f6af0b0df9d828cc9825c49d7c0a6b91a2122befdfd6c6774e86f6b843c30da260cf9013a3e9505bb770dac403a30c
+- Schneller: Die Tabellenskripte waren der größte Zeitposten der Vollausgabe. Die Diagnose je Zelle beim Bereinigen entfällt im Normalbetrieb, Bereinigen läuft nur noch, wenn etwas zu löschen ist, gleiche Breiten werden nicht doppelt gesetzt, Messen und Prüfen lesen gesammelt statt Zelle für Zelle, und alle Skripte laufen im schnellen Undo-Modus. „Nacharbeit“ und „Herkunft ergänzen“ durchlaufen nicht mehr das ganze Dokument, sondern nur noch die betroffenen Objekte und Seiten.
+- Fortschritt: zwei Balken. Oben „Gesamtfortschritt … %“, darunter der jeweilige Prozessabschnitt mit Prozent.
+- Verborgene Ausgabe: Während des Publizierens bleibt die Layoutansicht ausgeblendet, zu sehen ist nur der Fortschritt. In Konfigurieren lässt sich „Ausgabe … mitverfolgen“ einschalten.
+- Neu: Gleiche Werte verbinden (Palette Automatisieren, Tabelle): erst senkrecht dann waagrecht, erst waagrecht dann senkrecht, nur senkrecht oder nur waagrecht; einzeln für Kopf-, Körper- und Fußzeilen; alle, feste, pivotisierte Spalten oder eine Spaltenliste. Die Ausrichtung der Vorlagenzelle bleibt.
+- Aufrücken in Gruppen: In einer vervielfältigten Gruppe rückt ein Rahmen mit „Freiraum nutzen“ (z. B. der Text neben dem Produktbild) in der obersten Kopie auf.
+- Fehler behoben: Die Hinweise „… Zelle(n) mit Übersatz“ waren Fehlalarme, weil vor dem Einpassen des Rahmens geprüft wurde.
+signature: 5ee306ed6e7200d82809df282bded76ff1fa34f84ba99ca0c64ce1d7f70b5099e686503cc8568eb1e215ec3c3ef118e36e2625dd8658a6c31aa566885bbe6b03
