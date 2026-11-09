@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.335
+version: 0.7.336
 date: 2026-11-09
 host: 21
-commit: 27852f81fd1fb0b8b30ee81df72b92a9ddedebcf
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.335/p2-0.7.335-mac.zip
-mac.sha512: f261003a0074e9ad61f8766638a194a2c6e0165eb7e8ac2f47a68b57e4398be34ee84699718ab455f57df03fdc9cd38ac6d09d8e463ae0ded8e785da3f3bfe18
+commit: 87a259a6868ff11cc82c3b27321efc923f5dfe30
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.336/p2-0.7.336-mac.zip
+mac.sha512: 934527eefd1c0124b68028e31648237b0011cd46d2622702b8e32054d978f073d9381b246f443ae4d3a84430cac647ea07a52d6d34c9c0b0b9c5d65456a172bf
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu: Zusatzfelder nach Schema. Ein Name mit # wie „Txt#“ legt ein Schema an; p2 bietet analoge Felder für alle Nummern an und sortiert sie ein. Neue Felder erkennt p2 beim Laden der Quelle und schlägt sie vor. Ändert sich die Quelle in Größe oder Zeitstempel, bietet p2 das Neueinlesen an.
-- Neu: „Absätze ohne Wert auch mit Trennzeichen entfernen“ am Rahmen. Bleibt von einem Absatz nur „:⇥ “ übrig, gilt er als leer.
-- Aktualisieren: Wird ein Wert leer, gelten die Regeln des Rahmens. Bekommt ein entfallenes Feld wieder einen Wert, wird das Produkt neu aufgebaut.
+- Neu: Vervielfältigen je Feldfamilie. Ein Bildrahmen mit Gruppenpiktogramm1 ergibt je belegter Nummer eine Kopie. Felder einzeln an- und abwählbar, gleiche Werte gruppieren oder nicht, gemeinsame Werte an der Produktgruppe, die übrigen an den Variationsgruppen.
+- Korrektur: Updates entfernen nicht mehr den Ordner der noch laufenden p2-Version; sonst ließen sich Fenster wie „Raster festlegen“ nicht öffnen. Fehlt der Ordner, sagt p2 nun, dass InDesign neu gestartet werden muss.
