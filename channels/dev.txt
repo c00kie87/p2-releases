@@ -1,12 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.334
+version: 0.7.335
 date: 2026-11-09
 host: 21
-commit: afe2e95ed90ed7670b3420b2aef3a63ff1eeb2cd
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.334/p2-0.7.334-mac.zip
-mac.sha512: 125cd4bcd1eb4af521c00b33e0dea9a58488e07387b0bcebd6c373a9cb26091b1ea747bd51a861f2d867f19ec246b8ba046f420c0a95e8308f56afc1c3cabfaf
+commit: 27852f81fd1fb0b8b30ee81df72b92a9ddedebcf
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.335/p2-0.7.335-mac.zip
+mac.sha512: f261003a0074e9ad61f8766638a194a2c6e0165eb7e8ac2f47a68b57e4398be34ee84699718ab455f57df03fdc9cd38ac6d09d8e463ae0ded8e785da3f3bfe18
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Konfigurieren: Neue Einstellung „Herkunft schon bei der Ausgabe ergänzen“ (Vorgabe aus). Neben jeder Einstellung öffnet „?“ ein Erklärfenster.
+- Neu: Zusatzfelder nach Schema. Ein Name mit # wie „Txt#“ legt ein Schema an; p2 bietet analoge Felder für alle Nummern an und sortiert sie ein. Neue Felder erkennt p2 beim Laden der Quelle und schlägt sie vor. Ändert sich die Quelle in Größe oder Zeitstempel, bietet p2 das Neueinlesen an.
+- Neu: „Absätze ohne Wert auch mit Trennzeichen entfernen“ am Rahmen. Bleibt von einem Absatz nur „:⇥ “ übrig, gilt er als leer.
+- Aktualisieren: Wird ein Wert leer, gelten die Regeln des Rahmens. Bekommt ein entfallenes Feld wieder einen Wert, wird das Produkt neu aufgebaut.
