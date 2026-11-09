@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.329
+version: 0.7.330
 date: 2026-11-09
 host: 21
-commit: 4d4a7ff75714e3363d9f2e4188daf99be4026d17
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.329/p2-0.7.329-mac.zip
-mac.sha512: 5152c50bb532206a7b7949dd2f729c2df1b2f6d2cff03c77ef17f9d1132f70836d62caa54872efb7adf2aca05c175c42703e6596839ceb37c0ce12444ae41a83
+commit: d58f8a6b225513d57995794f1b99a502440552ae
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.330/p2-0.7.330-mac.zip
+mac.sha512: f5f8f7c30ef78f3b1dfce9a4f076d71aa8fef05a6d2ddb186fe1f5efaabd3778665e77b7c03d3267fbf1cbbb596d2f4002c80604cdd833ee18f437923b3c6d51
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu: Produkt ersetzen (Stufe 1). Produkt auf der Seite markieren, in der Datenansicht beim neuen Produkt per Rechtsklick „Markiertes Produkt ersetzen“. Im Dialog Template und Verhalten bei Überhang wählen. Das neue Produkt entsteht an derselben Stelle, das Folgende der Seite rückt nach, ein Rückgängig-Schritt.
-- Mehrseitige Produkte werden mit einer Meldung abgelehnt; der Neuumbruch folgt in Stufe 2.
-signature: 9eb9fa0b3222408dffd3b2093888deb7d5bb7b05367e0e842a6690bafbc96fd47169a992c848a3dc006eea3fca1a0204129636a2fe2a249dcbf624c09e7ac908
+- Produkt ersetzen, Stufe 2: Neuumbruch ab der Seite des Produkts, auf Wunsch automatisch bei Überhang. Mehrseitige Produkte lassen sich jetzt ersetzen. Produkte tauschen, wenn das neue schon im Dokument steht. Datenzeile auf ein vorhandenes Produkt ziehen öffnet den Dialog; mit Alt bleibt das automatische Einsetzen.
+signature: 5b775d01d20db43dd87fb5aedc25ed1b8294499b646b39dced0e026fb5eb6d66f16b29a85085a171587cb935f8154aebaf9045e6f57c84f1a2eb34805d8b5d01
