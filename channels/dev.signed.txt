@@ -1,15 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.322
-date: 2026-11-08
+version: 0.7.323
+date: 2026-11-09
 host: 21
-commit: 08731af44934a923199e14b8464a831f1a3dec73
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.322/p2-0.7.322-mac.zip
-mac.sha512: a7a5a3fe0f5d57ab64b8a01d0263d8eee7608368dca18c7ec5ec39256413f59055c8b4025aec8b7120e41ed7d75e960f1338ebaa17c6f1ac8f9ef93fa1e54c8e
+commit: 690d38a68ade8a15d664a129183df74852fc6285
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.323/p2-0.7.323-mac.zip
+mac.sha512: ca87a75f56c7b8e68b744b47a0c206b34fcc2ed38f714f52b765d82b0d76e32fe297d3b30648d1d372cc3f311d5ab095e56cd0146f66840489d2c511f7028f5a
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Korrektur: Tabellen erhalten wieder ihre eingestellten Breiten. Der in 0.7.321 eingeführte schnelle Skriptmodus nahm Änderungen still zurück, sobald im Skript ein abgefangener Fehler auftrat. Das kann auch den Abbruch der Ausgabe verursacht haben.
-- Tabellen, Nacharbeit und Herkunft laufen jetzt im sicheren Modus, der im Test ebenso schnell war.
-- Neu: p2 prüft nach dem Ausgleich, ob die Breiten in InDesign angekommen sind, und meldet Abweichungen. Bei einer nicht beendeten Ausgabe steht der Grund im Protokoll.
-signature: 1ea6de4b1eb717a2d38adbc61ae9af637b2e4b7a3df8f206219845d1ed956523cba06760610aecd706f8e317f5b43238168ce669a573705b1b7598970c8db201
+- Dialog Automatisieren: Die zuletzt mit OK bestätigte Vorgabe ist beim Öffnen vorausgewählt, auch nach einem Neustart. Die Felder zeigen weiter die zuletzt gespeicherten Einstellungen.
+signature: c02fab9ffea34e5dc7d29ae2160254bb9ad6001c6e9ce0bff52595c8b4e7460c9004fae14bf68128e5aa86d2da169bd06623212a0c0724cd5b59a270cc833a0e
