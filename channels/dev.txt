@@ -1,12 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.328
+version: 0.7.329
 date: 2026-11-09
 host: 21
-commit: f57c956807588a2695699f47b5bd2e715bffab07
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.328/p2-0.7.328-mac.zip
-mac.sha512: a282be097d636e4ad2988df85620e65725e4cac249a965e81de9e4fa169a891ffcabc6991305c8afd8feee61b85d88631ad3296cbcabd4f2c2c082e59f1a6b30
+commit: 4d4a7ff75714e3363d9f2e4188daf99be4026d17
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.329/p2-0.7.329-mac.zip
+mac.sha512: 5152c50bb532206a7b7949dd2f729c2df1b2f6d2cff03c77ef17f9d1132f70836d62caa54872efb7adf2aca05c175c42703e6596839ceb37c0ce12444ae41a83
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu: Spaltenformate. In der Konfiguration der Quelle (Datenquelle › Menü › Konfiguration › Spaltenformate, Verweis in den Feldoptionen) erhält eine Tabellenspalte über ihre Kopfzelle ein eigenes Absatzformat, „ist gleich“ oder „enthält“, unabhängig davon, in welcher Spalte der Wert durch das Aufrücken steht.
+- Neu: Produkt ersetzen (Stufe 1). Produkt auf der Seite markieren, in der Datenansicht beim neuen Produkt per Rechtsklick „Markiertes Produkt ersetzen“. Im Dialog Template und Verhalten bei Überhang wählen. Das neue Produkt entsteht an derselben Stelle, das Folgende der Seite rückt nach, ein Rückgängig-Schritt.
+- Mehrseitige Produkte werden mit einer Meldung abgelehnt; der Neuumbruch folgt in Stufe 2.
