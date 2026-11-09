@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.326
+version: 0.7.327
 date: 2026-11-09
 host: 21
-commit: 297bfa1f0f13eabeba5bc4e7978a37c9b175c29b
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.326/p2-0.7.326-mac.zip
-mac.sha512: 417a938f868f3588385a4bb181b701f19f153ea0150ad80b63983447fcd8ddce99e440cbf96d1b2ea5557a0aeb00bf583b8cf40c80e7a3503408d4cb37084b15
+commit: 2db7b58a9b3a7db1f5600f77ba927d937fc7db19
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.327/p2-0.7.327-mac.zip
+mac.sha512: 64f16ecee121d3ba0ce24befd95f48fca0bf69606c8e0a4873ebbf7840d02393d995c50cd0299a387f4df14896e1aef0be63f266b7d8248371ec3087e96820f0
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Korrektur: Rückt ein Rahmen per „Freiraum nutzen“ auf und wird die Gruppe dadurch niedriger, rücken die übrigen Kopien und das Folgende, etwa die Tabelle, um diese Höhe nach und halten den Template-Abstand. Bestimmt das Bild die Höhe, bleibt alles stehen.
-signature: 69fe4ef547ef497d41a2b0667c52e2ff8261c8eb41a4b7e0fed427bea4ea0e9ef883ee54ec660bcf38d4c2d2b4cc503caf0bc3960e8a2e8a6bf8d66a34ceb103
+- Korrektur: Beim Tabellenausgleich zählte Text in Zeilen im Übersatz nicht mit, weil der Rahmen beim Messen noch klein war. Spalten mit viel Text im Tabellenkörper bekommen jetzt die passende Breite; zuvor richtete sich die Breite oft nur nach den Überschriften. Tabellen können dadurch andere Spaltenbreiten und Höhen erhalten.
+signature: ae501620bd8b1393e1ed56385847912c0232fcc950631d7c63dee683460f4fe711419a657e500e221e59f1a7a10f04da13f54e25f4c4cd4b6b85354cbb9a9d0d
