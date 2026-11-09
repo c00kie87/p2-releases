@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.325
+version: 0.7.326
 date: 2026-11-09
 host: 21
-commit: 85363da41cc4b9d7c4eac76b473799a8aa1230bf
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.325/p2-0.7.325-mac.zip
-mac.sha512: 8b7397ecffeb6f7bd0d9c1f63f110e633d95f7d26eb391796a97a736886e8327b74020fd6aaf05968205f721a7972f15ca085034ca3c0de658e498500f65a0a9
+commit: 297bfa1f0f13eabeba5bc4e7978a37c9b175c29b
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.326/p2-0.7.326-mac.zip
+mac.sha512: 417a938f868f3588385a4bb181b701f19f153ea0150ad80b63983447fcd8ddce99e440cbf96d1b2ea5557a0aeb00bf583b8cf40c80e7a3503408d4cb37084b15
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Korrektur: „Freiraum nutzen“ am Rahmen in einer Gruppe rückt jetzt wirklich auf. Ein Nachbar, der schon im Template seitlich steht, etwa das Bild, blockiert nicht mehr. Ein in dieser Einheit entfallenes Element davor zählt für den Abstand mit, ein Mindestabstand ist dafür nicht nötig.
+- Korrektur: Rückt ein Rahmen per „Freiraum nutzen“ auf und wird die Gruppe dadurch niedriger, rücken die übrigen Kopien und das Folgende, etwa die Tabelle, um diese Höhe nach und halten den Template-Abstand. Bestimmt das Bild die Höhe, bleibt alles stehen.
