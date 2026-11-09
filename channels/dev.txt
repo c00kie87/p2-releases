@@ -1,13 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.324
+version: 0.7.325
 date: 2026-11-09
 host: 21
-commit: 595de5ba0c113fb21826cacb88ecc5f8ff73e449
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.324/p2-0.7.324-mac.zip
-mac.sha512: f8fb0d5b894c3ab6fed5bd4e693ded70dca59fd9d57d51e6c7a8fca8051910788a21595327ef72c9a910d362c682b730336e57a31dadc6b50a14adf900b9408b
+commit: 85363da41cc4b9d7c4eac76b473799a8aa1230bf
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.325/p2-0.7.325-mac.zip
+mac.sha512: 8b7397ecffeb6f7bd0d9c1f63f110e633d95f7d26eb391796a97a736886e8327b74020fd6aaf05968205f721a7972f15ca085034ca3c0de658e498500f65a0a9
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Korrektur: Ein Rahmen mit „Freiraum nutzen“ in einer vervielfältigten Gruppe konnte die Ausgabe abbrechen. Die übrigen Kopien blieben zurück, überlappten die vorherige Kopie, und die Gruppe ließ sich nicht mehr umbrechen.
-- „Freiraum nutzen“ am Rahmen wirkt jetzt auch in Gruppen mit „innere Flussregeln übergehen“. Nur dieser Rahmen rückt auf, die Gruppe und das Folgende reagieren nicht darauf. Dafür einen Mindestabstand eintragen.
+- Korrektur: „Freiraum nutzen“ am Rahmen in einer Gruppe rückt jetzt wirklich auf. Ein Nachbar, der schon im Template seitlich steht, etwa das Bild, blockiert nicht mehr. Ein in dieser Einheit entfallenes Element davor zählt für den Abstand mit, ein Mindestabstand ist dafür nicht nötig.
