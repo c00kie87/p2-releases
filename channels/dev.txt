@@ -1,12 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.323
+version: 0.7.324
 date: 2026-11-09
 host: 21
-commit: 690d38a68ade8a15d664a129183df74852fc6285
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.323/p2-0.7.323-mac.zip
-mac.sha512: ca87a75f56c7b8e68b744b47a0c206b34fcc2ed38f714f52b765d82b0d76e32fe297d3b30648d1d372cc3f311d5ab095e56cd0146f66840489d2c511f7028f5a
+commit: 595de5ba0c113fb21826cacb88ecc5f8ff73e449
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.324/p2-0.7.324-mac.zip
+mac.sha512: f8fb0d5b894c3ab6fed5bd4e693ded70dca59fd9d57d51e6c7a8fca8051910788a21595327ef72c9a910d362c682b730336e57a31dadc6b50a14adf900b9408b
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Dialog Automatisieren: Die zuletzt mit OK bestätigte Vorgabe ist beim Öffnen vorausgewählt, auch nach einem Neustart. Die Felder zeigen weiter die zuletzt gespeicherten Einstellungen.
+- Korrektur: Ein Rahmen mit „Freiraum nutzen“ in einer vervielfältigten Gruppe konnte die Ausgabe abbrechen. Die übrigen Kopien blieben zurück, überlappten die vorherige Kopie, und die Gruppe ließ sich nicht mehr umbrechen.
+- „Freiraum nutzen“ am Rahmen wirkt jetzt auch in Gruppen mit „innere Flussregeln übergehen“. Nur dieser Rahmen rückt auf, die Gruppe und das Folgende reagieren nicht darauf. Dafür einen Mindestabstand eintragen.
