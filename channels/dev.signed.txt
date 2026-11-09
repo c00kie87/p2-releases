@@ -1,15 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.338
+version: 0.7.339
 date: 2026-11-09
 host: 21
-commit: 13480111229b2d27017e632f1026c722dcdcb967
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.338/p2-0.7.338-mac.zip
-mac.sha512: 0fd121395190e3648675c849acd0fe8837f561ef9db07cae12bf824d855fc393dcc31dd2f97706111a0fe0f524b8ea5d15139bc927098efea88b1cf56aa44f15
+commit: 8ea4321f27c73a236ec9d35914972799450ec75f
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.339/p2-0.7.339-mac.zip
+mac.sha512: 023894ebdd638d1f958ba65af4a960d06d2cf4343a0c6ca5a204f6d7f08e344de9ad7de95a552b9d59c82ee986da83fb32224a8a1ba4b8d781a51548ecbf1c76
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Dynamik: Eine vervielfältigte Gruppe rückt nicht mehr unter eine Bilderreihe (z. B. Piktogramme), und die Kopien überlappen sich dabei nicht mehr. Ein Text mit „Freiraum nutzen“ wird beim Aufrücken nicht mehr unter das Bild daneben geschoben.
-- Konfigurieren: Statt der „?“-Knöpfe zeigt ein dezentes „!“ die Erklärung beim Überfahren.
-- Performance: Das Messen der Tabellen ordnet Zeilen und Wörter ohne teure Einzelabfrage zu; das Neuzeichnen ist während der Tabellenskripte aus.
-signature: 607308b431b925385c02d45f768e783a5c3705e13fc3286796b193f35187e255a3a23feec5c63f356a4f0b754e88f6e978619fae69af88f6d275d537aa200809
+- Dynamik: „Freiraum nutzen“ rückt einen Text wieder ganz nach oben, auch wenn daneben Logo oder eine Bilderreihe stehen und der Abstand im Template groß ist. Ein Element darunter (z. B. die Tabelle) hindert das Aufrücken nicht mehr.
+signature: 4548cdc9d1d62330033d9e415aa913da80be9d0071d03a1e75ffa4b7ffb6b4a9baa45ef9d78fb6574f45807ca4e21aeafa5ae52b624ab2c9fc1b84caf64d3108
