@@ -1,13 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.333
+version: 0.7.334
 date: 2026-11-09
 host: 21
-commit: e1eb7eef684ed35915a4ca5e73a7bbc19ddad9c4
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.333/p2-0.7.333-mac.zip
-mac.sha512: 2e7e431512943253c5bce8e8a8dc33fbf82c8c7d2f87b4f386abe088c9bd67828230514c5769f645237ee3c0063ab6e9c205076ef7c4008bded7dab48f967236
+commit: afe2e95ed90ed7670b3420b2aef3a63ff1eeb2cd
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.334/p2-0.7.334-mac.zip
+mac.sha512: 125cd4bcd1eb4af521c00b33e0dea9a58488e07387b0bcebd6c373a9cb26091b1ea747bd51a861f2d867f19ec246b8ba046f420c0a95e8308f56afc1c3cabfaf
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Performance: Das Messen der Tabellen liest Zeilen und Wörter jetzt gesammelt je Tabelle statt je Zelle; es war durch die Korrektur der Spaltenbreiten stark langsamer geworden.
-- „Herkunft ergänzen“ läuft nicht mehr bei jeder Ausgabe, sondern erst vor Schritten, die sie brauchen (Produkt ersetzen, Neu aufbauen, Aktualisieren, Weiterverarbeitung), mit Hinweis im Fortschrittsfenster.
+- Konfigurieren: Neue Einstellung „Herkunft schon bei der Ausgabe ergänzen“ (Vorgabe aus). Neben jeder Einstellung öffnet „?“ ein Erklärfenster.
