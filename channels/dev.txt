@@ -1,12 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.332
+version: 0.7.333
 date: 2026-11-09
 host: 21
-commit: f4b31f587763a48dc89080a535396ea92e31959f
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.332/p2-0.7.332-mac.zip
-mac.sha512: b8e3bf904e0e8d1efd9fa0353d53c952dcdeaedf19ed416bc6f143d8725db8512f7c8025e3a433a23008906ba61a9f312100040a78d45cf3c9f25b37e3c67feb
+commit: e1eb7eef684ed35915a4ca5e73a7bbc19ddad9c4
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.333/p2-0.7.333-mac.zip
+mac.sha512: 2e7e431512943253c5bce8e8a8dc33fbf82c8c7d2f87b4f386abe088c9bd67828230514c5769f645237ee3c0063ab6e9c205076ef7c4008bded7dab48f967236
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Korrektur: Ein eingefügter Platzhalter lässt sich mit einem einzigen Rückgängig-Schritt wieder entfernen. Bisher waren es fünf bis sechs.
+- Performance: Das Messen der Tabellen liest Zeilen und Wörter jetzt gesammelt je Tabelle statt je Zelle; es war durch die Korrektur der Spaltenbreiten stark langsamer geworden.
+- „Herkunft ergänzen“ läuft nicht mehr bei jeder Ausgabe, sondern erst vor Schritten, die sie brauchen (Produkt ersetzen, Neu aufbauen, Aktualisieren, Weiterverarbeitung), mit Hinweis im Fortschrittsfenster.
