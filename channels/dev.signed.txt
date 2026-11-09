@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.331
+version: 0.7.332
 date: 2026-11-09
 host: 21
-commit: 93ffc50bda4205b34143753ed2091a1636a5c967
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.331/p2-0.7.331-mac.zip
-mac.sha512: 9d48b8bd3ee2822e93066c5d8cb12bf3d6051e6bc881a62ad6410c004e92f926b736d040b36d7318a6c8cf790817a0b3f08ece50a0b7e2afb5233272455e22dc
+commit: f4b31f587763a48dc89080a535396ea92e31959f
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.332/p2-0.7.332-mac.zip
+mac.sha512: b8e3bf904e0e8d1efd9fa0353d53c952dcdeaedf19ed416bc6f143d8725db8512f7c8025e3a433a23008906ba61a9f312100040a78d45cf3c9f25b37e3c67feb
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Produkt ersetzen, Stufe 3: Ersetzungsliste je Projekt (Datenquelle › Menü › Konfiguration › Ersetzungsliste). Jede Ersetzung wird gemerkt und bei einer Vollausgabe wiederholt; abschaltbar, je Eintrag aktiv oder inaktiv, Import und Export, „Im Dokument anwenden“ für mehrere Ersetzungen in einem Lauf.
-- Im Dialog „Produkt ersetzen“ kann das Template jetzt auch nach den Publizier-Regeln ermittelt werden.
-signature: 82fd34d1ee4e004c51999f793640982baac8ce78a2fa282ada28368182abe7364715082ca49b9c7bc1b0f12244177192a0cd2ef9f09cd3a95a0d765d1cdf0102
+- Korrektur: Ein eingefügter Platzhalter lässt sich mit einem einzigen Rückgängig-Schritt wieder entfernen. Bisher waren es fünf bis sechs.
+signature: 9e231e00bf02c3bb826e6f1aef5b9c51952d44faaf5cf8dd53cd01aecb30534eca15310bae5411c200f8d1c0a8173aa49f14bcf3fe4bc633356f5af0bc62cd00
