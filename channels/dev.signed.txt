@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.336
+version: 0.7.337
 date: 2026-11-09
 host: 21
-commit: 87a259a6868ff11cc82c3b27321efc923f5dfe30
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.336/p2-0.7.336-mac.zip
-mac.sha512: 934527eefd1c0124b68028e31648237b0011cd46d2622702b8e32054d978f073d9381b246f443ae4d3a84430cac647ea07a52d6d34c9c0b0b9c5d65456a172bf
+commit: 225681687ce4b2799f3751a0253152e52c8400f3
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.337/p2-0.7.337-mac.zip
+mac.sha512: 485d07529e316a916d708d723ff6e746826a765f453a4ee441dcb5302ed03cf613ac08f3791c55f71616612fee78ee40adcc817ad3d0d2499ebd45940909dfa2
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu: Vervielfältigen je Feldfamilie. Ein Bildrahmen mit Gruppenpiktogramm1 ergibt je belegter Nummer eine Kopie. Felder einzeln an- und abwählbar, gleiche Werte gruppieren oder nicht, gemeinsame Werte an der Produktgruppe, die übrigen an den Variationsgruppen.
-- Korrektur: Updates entfernen nicht mehr den Ordner der noch laufenden p2-Version; sonst ließen sich Fenster wie „Raster festlegen“ nicht öffnen. Fehlt der Ordner, sagt p2 nun, dass InDesign neu gestartet werden muss.
-signature: c4c54a57c171bbf13ca16d95018b8c645094b301fe8180b3bccf48264a34aa205f3dc74fd2f3d02aca1454357aca8eeb308da9a3d27051163ff703600d446700
+- Performance: Das gesammelte Messen der Tabellen funktioniert jetzt auch bei leeren Zellen; bisher fiel p2 unbemerkt auf das langsame Lesen je Zelle zurück. Das Vormerken der Herkunft läuft direkt statt per Skript. Die Zeitmessung trennt beim Messen Satz und Lesen.
+signature: ef936f3f215fa0bd52f3baac60618078415c04f5c914bb5460f7842f0817f394900d6267e8582193cd13b898021fc0ef51b628b5ebfa4d69488aaba257cd8501
