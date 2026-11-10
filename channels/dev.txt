@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.346
+version: 0.7.347
 date: 2026-11-10
 host: 21
-commit: f18241825a248142519362f0104cc752f0c26703
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.346/p2-0.7.346-mac.zip
-mac.sha512: 9ef432d51fbbfe59badf7b6ba417a9cb68b23a191ed9bee947fa4c399797840b762f484dbd4206d5d2402e29ca6d712297f2a3b0675cc439aab57db0c104d840
+commit: 630355c7a9e5c97213d71c4d604e09c410dc571a
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.347/p2-0.7.347-mac.zip
+mac.sha512: f12a74c5baf689b1ea7fba03c4a461bc943d289bad94f2f720b04fd6de061a752474fb2e35cca5eb7197ee905ee7514c2463372da111e571c7fe366a5fa79003
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Hilfstabellen „Höhe/Breite anpassen“: Das Anpassen der aufgelösten Rahmen brach ab (Zelle war schon gelöscht) bzw. wurde verworfen, weil ein Objektformat Kontur und Ausrichtung zurücksetzte und der Bezugspunkt zu spät gesetzt wurde. Jetzt passen sich die Rahmen an, ohne dass der Text verrutscht.
+- Hilfstabellen: Zellen ohne Fläche und Kontur werden zu Rahmen ohne Kontur, Fläche und Innenabstand (auf die Textfläche verkleinert, Text bleibt stehen). Zellen mit Fläche oder Kontur behalten Zellgröße, Innenabstand, Fläche und Kontur (mittig; obere Kante gilt, sonst die erste vorhandene). Verbundene Zellen lösen sich auf.
