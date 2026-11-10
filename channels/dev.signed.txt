@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.345
+version: 0.7.346
 date: 2026-11-10
 host: 21
-commit: 419c3dc7491f00d104132d858842feda648bd7b6
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.345/p2-0.7.345-mac.zip
-mac.sha512: f498f0b70d10d0757d7104a3886178c6da0050b7c85524c2b566a6ef44357432f34599d27d66f1adabb5350226d4481107ee6e6f3e0b2c5da49d3761c2c19ee2
+commit: f18241825a248142519362f0104cc752f0c26703
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.346/p2-0.7.346-mac.zip
+mac.sha512: 9ef432d51fbbfe59badf7b6ba417a9cb68b23a191ed9bee947fa4c399797840b762f484dbd4206d5d2402e29ca6d712297f2a3b0675cc439aab57db0c104d840
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Hilfstabellen: Die Lageprüfung misst am ersten und letzten sichtbaren Zeichen. Unsichtbare Feldmarkierungen lagen in Zelle und Rahmen um Bruchteile eines Punkts verschieden; deshalb wurde bisher keine Tabelle mit Platzhalter aufgelöst.
-signature: c81219573c5b7e5f0c5464346ab2baf0adaa9ec75b90fae4e12630826c42c18040ff1bd773d89cd02689f72aedca2a49f44b1c1bb3bde6093ce08b653d674c08
+- Hilfstabellen „Höhe/Breite anpassen“: Das Anpassen der aufgelösten Rahmen brach ab (Zelle war schon gelöscht) bzw. wurde verworfen, weil ein Objektformat Kontur und Ausrichtung zurücksetzte und der Bezugspunkt zu spät gesetzt wurde. Jetzt passen sich die Rahmen an, ohne dass der Text verrutscht.
+signature: a8f21ad39d80e4baf45c1f2c4d50e7e3d7fdfb6adb37471bf4522a73e1cd299f58a429e5276c502b5708e2511a86508672d641aa2dd41bbf1e9c984e3b456201
