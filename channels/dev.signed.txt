@@ -1,13 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.347
+version: 0.7.348
 date: 2026-11-10
 host: 21
-commit: 630355c7a9e5c97213d71c4d604e09c410dc571a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.347/p2-0.7.347-mac.zip
-mac.sha512: f12a74c5baf689b1ea7fba03c4a461bc943d289bad94f2f720b04fd6de061a752474fb2e35cca5eb7197ee905ee7514c2463372da111e571c7fe366a5fa79003
+commit: ad0027afedb87aebd5428b1674f2ab672fc24a35
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.348/p2-0.7.348-mac.zip
+mac.sha512: 584eb879e4933fa3cc6d0753cb1a33888e98e7c876c0256f0710fc8dac1eedeab48ed739e8aae9301543a0a494500f9d8818e8a945b7ee1b0f39612e4fc1d67b
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Hilfstabellen: Zellen ohne Fläche und Kontur werden zu Rahmen ohne Kontur, Fläche und Innenabstand (auf die Textfläche verkleinert, Text bleibt stehen). Zellen mit Fläche oder Kontur behalten Zellgröße, Innenabstand, Fläche und Kontur (mittig; obere Kante gilt, sonst die erste vorhandene). Verbundene Zellen lösen sich auf.
-signature: b527292270dd815f38e8f72a9746702696ac9207588fc4f9421d2ff3f08f03ad4150b09d50e591fdfac9e7692985eb8dd722da92b2505fcc894947c00baa8609
+- Hilfstabellen: Innenabstand, Fläche, Kontur, Konturlage und die Ausgabe leerer Flächenzellen sind je Tabelle wählbar und gespeichert. Die Optionen gelten auch bei getrennten Flächen und Linien.
+- Leere Flächenzellen werden als Rechtecke in Zellgröße ausgegeben, ohne einen unnötigen Textrahmen. Textlage und Umbruch werden weiterhin geprüft; bei Abweichung bleibt die Tabelle erhalten. Spielwiese S157, Laufzeitabnahme offen.
+signature: 95e306a1e2f22c1041a767547e53c591e844a97dc52cead96a3e346724a0f6e4415c94b650b291880ff7e1b0901a81cb1d92d52d4999d500990b7c47fc9d4e07
