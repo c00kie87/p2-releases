@@ -1,12 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.342
+version: 0.7.343
 date: 2026-11-10
 host: 21
-commit: 235bd5831d758cfb44037bba4a77f8761d1e51f4
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.342/p2-0.7.342-mac.zip
-mac.sha512: b12bcea3396a1489e112e6a59671e66785ab8efbb8d0813fc44ce99880f6705ca9dd99f7afa4bfe713853c66b4c64ec0bce4958130404b94eaf11f60e7cd4347
+commit: 488a4e0f448d835206e7471186d3682a14c51c10
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.343/p2-0.7.343-mac.zip
+mac.sha512: 2eef0a942e7b33d86fd82ceadb4c39bb080d46a42db760ddd44418a7cfc141d4b5903e9ad881e99c829141f7d6e13441576fa1e758279105d315b98f7d07f1b6
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Dynamik: Neue Option am Rahmen „Überlagerung: Position auf dem darunterliegenden Rahmen beibehalten“. Nur mit diesem Haken wandert ein Rahmen, der im Template auf einem größeren liegt (z. B. Piktogramme auf der Bildecke, auch vervielfältigt), mit diesem mit. Im Template angelegte Überlappungen gelten nie als Überschneidung.
+- Dynamik: Entfällt eine Bilderreihe (z. B. bedingte Piktogramme), rückt eine Gruppe mit „Freiraum nutzen“ wieder nach; geprüft wird je Rahmen statt der Gesamtfläche, und der Abstand gilt auch zum entfallenen Element. Beispiel: Text unter den Titel, Bild unter das Logo, Tabelle zieht nach.
+- Hilfstabellen: Weicht die Lage nach dem Verschieben ab, setzt p2 das Dokument neu und prüft erneut; das Protokoll nennt sonst die genauen Positionen. Der Rahmen wird direkt über seine Kennung gefunden.
