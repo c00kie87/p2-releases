@@ -1,15 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.341
+version: 0.7.342
 date: 2026-11-10
 host: 21
-commit: f7c562c6f0f005d5bc334992190174df08f6f35d
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.341/p2-0.7.341-mac.zip
-mac.sha512: 6a3f8b0377d724c00b0791438ca8cbfa551e7fcfab30606a86cce31030214e0d204bdd617e8778b744a00c50c542f27f4fdc07a9f047ef399931d68a9f0d325a
+commit: 235bd5831d758cfb44037bba4a77f8761d1e51f4
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.342/p2-0.7.342-mac.zip
+mac.sha512: b12bcea3396a1489e112e6a59671e66785ab8efbb8d0813fc44ce99880f6705ca9dd99f7afa4bfe713853c66b4c64ec0bce4958130404b94eaf11f60e7cd4347
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Hilfstabellen: Der neue Rahmen wird vor der Lageprüfung neu gesetzt; im Lauf scheiterte das Auflösen sonst an jeder Tabelle („Textlage weicht ab“) und kostete viel Zeit.
-- Dynamik: Ein Rahmen, der im Template auf einem größeren liegt (z. B. Piktogramme auf der Bildecke), bleibt an dessen Lage und gilt nicht als Überschneidung.
-- Bedingungen: diagnose.log nennt je bedingtem Rahmen das Ergebnis jeder Bedingung (wahr, falsch oder Fehler).
-signature: 26105012e41252e24e57aef9612b37a4d749208727a89b4af4255ec46d8601eb0a78e842904b04bfe46fb27895348c1fc5215a633ecab5c5d832d5370b469402
+- Dynamik: Neue Option am Rahmen „Überlagerung: Position auf dem darunterliegenden Rahmen beibehalten“. Nur mit diesem Haken wandert ein Rahmen, der im Template auf einem größeren liegt (z. B. Piktogramme auf der Bildecke, auch vervielfältigt), mit diesem mit. Im Template angelegte Überlappungen gelten nie als Überschneidung.
+signature: 640f587fa0a6a4ddc3cd51401d895bf5370d863e71e861dcb29243bc377cc0d4383e7068166b1e483d81ecd71ecb6ebb23997efac58ab789e8b841d31c460e08
