@@ -1,12 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.339
-date: 2026-11-09
+version: 0.7.340
+date: 2026-11-10
 host: 21
-commit: 8ea4321f27c73a236ec9d35914972799450ec75f
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.339/p2-0.7.339-mac.zip
-mac.sha512: 023894ebdd638d1f958ba65af4a960d06d2cf4343a0c6ca5a204f6d7f08e344de9ad7de95a552b9d59c82ee986da83fb32224a8a1ba4b8d781a51548ecbf1c76
+commit: 7c37837e1d0b36c0d269f5de90369e2a4557972c
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.340/p2-0.7.340-mac.zip
+mac.sha512: 425400d44cfb42d3ffe32e35b0d6dd51821356e9ecaef5c46bae429ffe9a4bf15058deea5f4ce407fc4118e2745e7162683b419f04ff2dffc7f38645efbb6e1d
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Dynamik: „Freiraum nutzen“ rückt einen Text wieder ganz nach oben, auch wenn daneben Logo oder eine Bilderreihe stehen und der Abstand im Template groß ist. Ein Element darunter (z. B. die Tabelle) hindert das Aufrücken nicht mehr.
+- Hilfstabellen werden jetzt auch in Gruppen und vervielfältigten Gruppen nach dem Automatisieren aufgelöst; bisher blieben sie dort unbemerkt Tabellen.
+- Performance: Während jeder Ausgabe steht die Anzeigeleistung auf „Schnell“, danach immer auf „Normal“.
+- Palette Automatisieren: Lange Werte und Haken-Texte brechen um, statt abgeschnitten zu werden.
