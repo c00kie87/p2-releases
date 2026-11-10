@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.349
+version: 0.7.350
 date: 2026-11-10
 host: 21
-commit: 3664bdd0469eda37eea4966f95b0735efc7d6a07
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.349/p2-0.7.349-mac.zip
-mac.sha512: b90349a7c40578220f14451801e1ac20c055c01c102aa944c5e74bd9946e8fdc345ce108739bf838e1d0f262af5938ba45a17e86901fdb7637cd8717c466ec10
+commit: c53059697c8b830cf5116e9318ec568ffa353afc
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.350/p2-0.7.350-mac.zip
+mac.sha512: 0552bc03595666bb63cd8946ee19f8b4b111adbb7e20429d86886dad407685ffc21971050884fbfa41bab376a08cf1fdbb3903f189ad224f03d458ea8f1f9cc9
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Hilfstabellen: Feld-Tags werden nach dem Auflösen wieder um die richtigen Werte gesetzt. Bei mehreren Feldern in einer Zelle verschoben bisher unsichtbare XML-Zeichen die folgenden Grenzen.
-- Bestehende Ausgaben mit falsch gesetzten Tags bitte neu aufbauen. Spielwiese S158 prüft mehrere Felder, feste Beschriftungen und Trennzeichen; native Abnahme offen.
-signature: 3b14d103e4250694d1b821b88fa8527d4d27eb77a16b4c6f20f8ed40d99c111ca329225fe657335b38bc4d097315fed7b13cf5b7dbda1dbd733292e6c64abf02
+- Objektbedingungen: „Zählung innerhalb: Aktueller Aufbau (nach Verwendungsregeln)“ zählt Datenwerte nur innerhalb der tatsächlich gebildeten Ausgabeeinheit. Bestehende Gruppenzählungen bleiben unverändert.
+- Datenvorschau am Rahmen zeigt Aufbau und ermittelte Anzahlen. Ohne bekannten Aufbau bzw. bei Selbstbezug einer aufteilenden Verwendung erscheint eine Erklärung. Gezählt werden Daten, keine sichtbaren Objekte. Spielwiese S159, native Abnahme offen.
+signature: 8cc23b7654961d7c1c466add508366a4da0060d46b983a9adb26c42504edc69f1e76ec0329d98aaaf2eab65303d0ed45c3059d29895997e07151ebc94075be02
