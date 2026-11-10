@@ -1,14 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.343
+version: 0.7.344
 date: 2026-11-10
 host: 21
-commit: 488a4e0f448d835206e7471186d3682a14c51c10
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.343/p2-0.7.343-mac.zip
-mac.sha512: 2eef0a942e7b33d86fd82ceadb4c39bb080d46a42db760ddd44418a7cfc141d4b5903e9ad881e99c829141f7d6e13441576fa1e758279105d315b98f7d07f1b6
+commit: 2bb8b5207bccb9840274f867fb91b9ad834a940d
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.344/p2-0.7.344-mac.zip
+mac.sha512: 5ffa508cfc3a5465c7a304899972e627e41db9eca6add1a56852b78a01b0fa091818982af1fc81fbea1cdaa9054e08382d81866083923ecce254a88f63fc5c85
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Dynamik: Entfällt eine Bilderreihe (z. B. bedingte Piktogramme), rückt eine Gruppe mit „Freiraum nutzen“ wieder nach; geprüft wird je Rahmen statt der Gesamtfläche, und der Abstand gilt auch zum entfallenen Element. Beispiel: Text unter den Titel, Bild unter das Logo, Tabelle zieht nach.
-- Hilfstabellen: Weicht die Lage nach dem Verschieben ab, setzt p2 das Dokument neu und prüft erneut; das Protokoll nennt sonst die genauen Positionen. Der Rahmen wird direkt über seine Kennung gefunden.
-signature: 9ba01dca2084b861b34b02ac3963819e264beb6810e2ca353b0ba4836b62b1eecef7671d34e3776bb392616e0d3e0425721a3d1245bae5b4f3daaf97d8206709
+- Vervielfältigen je Feldfamilie: Mit gewähltem Feld unter „Unterscheiden nach“ (voller Name mit Tabelle) fand p2 keine Felder und vervielfältigte nicht mehr; behoben.
+- Jeder Rahmen hat eine eigene Kennung: Duplizierte Rahmen teilten bisher die Kennung des Originals; beim Speichern und Laden eines Templates erhalten sie jetzt eine eigene, gleichbleibende.
+- Neu in Automatisieren: „Übertragen: Eigenschaften kopieren“ und „Eigenschaften einfügen“ für Objekte desselben Typs (Regeln und Bedingungen; Datenbezug bleibt).
+signature: 6b0774cf2bd57424176c7271d7f2f230cb44d0402a46d44e0dafb6e481b96e1c2e0b525b41f37c8c2a5bfa30872273d78f67f6358ecf0b1bfe9177b6507d5c02
