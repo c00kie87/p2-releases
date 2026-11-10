@@ -1,15 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.344
+version: 0.7.345
 date: 2026-11-10
 host: 21
-commit: 2bb8b5207bccb9840274f867fb91b9ad834a940d
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.344/p2-0.7.344-mac.zip
-mac.sha512: 5ffa508cfc3a5465c7a304899972e627e41db9eca6add1a56852b78a01b0fa091818982af1fc81fbea1cdaa9054e08382d81866083923ecce254a88f63fc5c85
+commit: 419c3dc7491f00d104132d858842feda648bd7b6
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.345/p2-0.7.345-mac.zip
+mac.sha512: f498f0b70d10d0757d7104a3886178c6da0050b7c85524c2b566a6ef44357432f34599d27d66f1adabb5350226d4481107ee6e6f3e0b2c5da49d3761c2c19ee2
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Vervielfältigen je Feldfamilie: Mit gewähltem Feld unter „Unterscheiden nach“ (voller Name mit Tabelle) fand p2 keine Felder und vervielfältigte nicht mehr; behoben.
-- Jeder Rahmen hat eine eigene Kennung: Duplizierte Rahmen teilten bisher die Kennung des Originals; beim Speichern und Laden eines Templates erhalten sie jetzt eine eigene, gleichbleibende.
-- Neu in Automatisieren: „Übertragen: Eigenschaften kopieren“ und „Eigenschaften einfügen“ für Objekte desselben Typs (Regeln und Bedingungen; Datenbezug bleibt).
-signature: 6b0774cf2bd57424176c7271d7f2f230cb44d0402a46d44e0dafb6e481b96e1c2e0b525b41f37c8c2a5bfa30872273d78f67f6358ecf0b1bfe9177b6507d5c02
+- Hilfstabellen: Die Lageprüfung misst am ersten und letzten sichtbaren Zeichen. Unsichtbare Feldmarkierungen lagen in Zelle und Rahmen um Bruchteile eines Punkts verschieden; deshalb wurde bisher keine Tabelle mit Platzhalter aufgelöst.
+signature: c81219573c5b7e5f0c5464346ab2baf0adaa9ec75b90fae4e12630826c42c18040ff1bd773d89cd02689f72aedca2a49f44b1c1bb3bde6093ce08b653d674c08
