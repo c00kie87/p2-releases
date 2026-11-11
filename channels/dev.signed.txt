@@ -1,14 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.350
-date: 2026-11-10
+version: 0.7.352
+date: 2026-11-11
 host: 21
-commit: c53059697c8b830cf5116e9318ec568ffa353afc
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.350/p2-0.7.350-mac.zip
-mac.sha512: 0552bc03595666bb63cd8946ee19f8b4b111adbb7e20429d86886dad407685ffc21971050884fbfa41bab376a08cf1fdbb3903f189ad224f03d458ea8f1f9cc9
+commit: fe78c560c5a6c44b82d04bf9c1ff853cb072f521
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.352/p2-0.7.352-mac.zip
+mac.sha512: f34bdb98f021ec083e290b1918d0c84d86aa93cddd1b11462ecbc0b541f6686abdad258733fe62c9661311f09c342a239f43051553d1869250533973d1a8acde
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Objektbedingungen: „Zählung innerhalb: Aktueller Aufbau (nach Verwendungsregeln)“ zählt Datenwerte nur innerhalb der tatsächlich gebildeten Ausgabeeinheit. Bestehende Gruppenzählungen bleiben unverändert.
-- Datenvorschau am Rahmen zeigt Aufbau und ermittelte Anzahlen. Ohne bekannten Aufbau bzw. bei Selbstbezug einer aufteilenden Verwendung erscheint eine Erklärung. Gezählt werden Daten, keine sichtbaren Objekte. Spielwiese S159, native Abnahme offen.
-signature: 8cc23b7654961d7c1c466add508366a4da0060d46b983a9adb26c42504edc69f1e76ec0329d98aaaf2eab65303d0ed45c3059d29895997e07151ebc94075be02
+- Vervielfältigen je Feldfamilie: „nur gemeinsame der Obergruppe“ als zusätzliche Auswahl. Bestehende Regeln bleiben erhalten.
+- Hilfstabellen: kopierte unsichtbare Restmarken an Feldgrenzen vor Wiederanlegen verlorener Bezüge entfernen; lebende Bezüge und fremde XML-Strukturen schützen. Fehlerhafte alte Ausgaben neu aufbauen. Spielwiese S160/S161, native Abnahme offen.
+- Zusatzfeld löschen entfernt eigene Anzeige- und Sortiermetadaten. Alte reine Anzeigereste blockieren die Ausgabe nicht mehr; fehlende Schlüsselfelder und echte Regel-/Abfragebezüge bleiben prüfpflichtig. Spaltenauswahl nach Änderungen neu zuordnen.
+- Piktogramme: Bei nur einer beteiligten Untergruppe bleiben alle Werte dort; gemeinsame Kopfwerte erscheinen erst bei mehreren Untergruppen. Anleitung mit Beispiel für drei Gruppen und alternative Positionen nach Logoanzahl. S162/S163, native Abnahme offen.
+signature: a519bb0a904e5a998125a74cd16b96ce29f9ac88d08032950083d190a8b7c7c2c2d1eaa5f135ff2c34b06580bd099d8836be5a6967f93bc2d5e2d7a2b6098205
