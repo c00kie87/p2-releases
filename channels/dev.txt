@@ -1,13 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.353
+version: 0.7.354
 date: 2026-11-11
 host: 21
-commit: 67eaf536708a64a16dc86b0c7a8cf6494489acc5
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.353/p2-0.7.353-mac.zip
-mac.sha512: 96766613c3ee7d862ed878503d2fb5e66d72218cadaa83379937782d59fa8929c2b0db41c6e1f347d1a9feff768d27cdef22f18e339dc2270d96fbe708f76bdd
+commit: b6778cb3c077c30130b3617c3cbe0bc2907fb3db
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.354/p2-0.7.354-mac.zip
+mac.sha512: a0bcd7f301762ceb1a5d71841302b69a0f6e091c009ac6784622e447f46c3f04780c7c998336166ec1742dc00c484c60517ae831607989e44836f569e0202ac9
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Bildbeschriftungen in vervielfältigten Gruppen folgen dem Bild ihrer eigenen Kopie. Weitere Beschriftungen springen nicht mehr auf den ersten Träger; die letzte bleibt zugeordnet.
-- Andocken berücksichtigt Größenänderungen des Bildrahmens an der passenden Kante bzw. Mitte. Alte fehlerhafte Ausgaben neu aufbauen. Spielwiese S164, native Abnahme offen.
+- Tabellen: Optimierter Spaltenausgleich prüft mehrere Breitenverteilungen. Lange Kopf-/Fußtexte dürfen gemäß ihren Absatzregeln umbrechen und wiederkehrenden Körperwerten mehr Platz lassen.
+- „Inhalte messen“ bestimmt auch die Bewertung des Ausgleichs: Kopf, Körper, Fuß, alle Kombinationen, alle oder bestimmte Zeilen. Feste, ausgeschlossene und ausdrücklich gleichgesetzte Spalten sowie Breitenlimits bleiben geschützt.
+- Spielwiese S165 ergänzt; native Abnahme offen. Kombinierte Zellwerte bleiben vorerst mit Trennzeichen bestehen, vertikale Zellteilung ist noch nicht enthalten.
