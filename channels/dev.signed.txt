@@ -1,15 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.354
+version: 0.7.355
 date: 2026-11-11
 host: 21
-commit: b6778cb3c077c30130b3617c3cbe0bc2907fb3db
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.354/p2-0.7.354-mac.zip
-mac.sha512: a0bcd7f301762ceb1a5d71841302b69a0f6e091c009ac6784622e447f46c3f04780c7c998336166ec1742dc00c484c60517ae831607989e44836f569e0202ac9
+commit: 5fb385aa3c89eacdb85ae7938f32478c6248f312
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.355/p2-0.7.355-mac.zip
+mac.sha512: f03e1224c81d19d9cd33c9d6180251b46856355223d5e1e2ed082ecafb6ef754edc96bc5bdf5d8c76154b64719af2506719e3504604c18931cfed01f1eabb39f
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Tabellen: Optimierter Spaltenausgleich prüft mehrere Breitenverteilungen. Lange Kopf-/Fußtexte dürfen gemäß ihren Absatzregeln umbrechen und wiederkehrenden Körperwerten mehr Platz lassen.
-- „Inhalte messen“ bestimmt auch die Bewertung des Ausgleichs: Kopf, Körper, Fuß, alle Kombinationen, alle oder bestimmte Zeilen. Feste, ausgeschlossene und ausdrücklich gleichgesetzte Spalten sowie Breitenlimits bleiben geschützt.
-- Spielwiese S165 ergänzt; native Abnahme offen. Kombinierte Zellwerte bleiben vorerst mit Trennzeichen bestehen, vertikale Zellteilung ist noch nicht enthalten.
-signature: 6aaf8bea8208ec7c9aa40458cfa7df5ec60c32b27dd51430b8ed776a9720a2337c0239d589c250d97cb7a0ebf753343c8af4c0e6903707be76e7bfd692f2de09
+- Bildbeschriftungen bleiben an der Unterkante ihres Bildes, auch wenn die Gruppe die übrigen inneren Flussregeln übergeht. Explizite Trägerbindung bleibt wirksam.
+- Innere Zellteilung: Teilungsmarken werden in Tabellenzellen erkannt. Mehrere unterschiedliche Werte können dadurch in echte Teilzellen aufgeteilt werden; einzelne Werte bleiben ungeteilt.
+- Spielwiese S166/S167 ergänzt; native Abnahme offen. Objektstatus ist noch nicht enthalten.
+signature: 6ca835fb6ffa096567490f93fee67cacd0eeb12dd699383b6d7aa3136d4dd6be71123264c2611de0f67591ec79f8913d94668a9958d197e40a5be76fda535509
