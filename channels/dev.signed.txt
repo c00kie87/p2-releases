@@ -1,19 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.357
+version: 0.7.358
 date: 2026-11-11
 host: 21
-commit: eea4705ee3a49df949b49ac2f46638868e9a7323
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.357/p2-0.7.357-mac.zip
-mac.sha512: bf70bb6b1ae0a36539ae13ff503b8d847c74b67f7546a0a3948ff00b86dff47c049fe6bd469b87d4fdd12c0cdbb8f3682e205aa45c69c7c6af1a6797afa37af7
+commit: b4aa417faac3926f777a0379998e8bfb9a2cbc0f
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.358/p2-0.7.358-mac.zip
+mac.sha512: 0edfeeb55ae1badc635497b29ad33b210d269b4058c49bcf8d9c9af826cffbdd37e88c1fcb81d84b89f9a4714e99f89ca04348ad342f6c954517531ea3c1b332
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fortschritt: Datengruppe statt Produkt; Prozentwerte in gleicher Größe rechts auf Höhe der Beschriftung.
-- Nach der Ausgabe wird immer eine Zeitübersicht mit Zugriff auf den Bericht angeboten; Gesamt- und Schrittzeiten bleiben getrennt.
-- Konfigurieren: Reiter Datenquelle, Ausgabe, Nacharbeit und Templates; Eingaben bleiben beim Wechsel erhalten.
-- Spielwiese S170/S171; native Abnahme offen.
-- Preflight pausiert standardmäßig während der Ausgabe; Zustand wird wiederhergestellt, unter Konfigurieren > Ausgabe abschaltbar.
-- Hilfstabellen: gemeinsamer Rahmenindex, gezielter Satz und Fortschritt je Rahmen; neue Teilzeiten für die nächste Laufzeitauswertung.
-- Freiraum: Schlussprüfung korrigiert echte Kollisionen einzelner Rahmen, stellt den verkürzten Vorlagenabstand nicht pauschal wieder her.
-signature: ea066dbcd419c02437aa1c721abae7c002d576c057f55dcd9ea46eba53965e595bc6644485de2dc474f99f595bd0e5c5b160797073db931de33b4bcc6d6e4b07
+- Absturz beim Template-Platzieren: fehlerhafte Registrierung des eigenen Fortschritts-Widgets zentral entfernt.
+- Standard-Fortschrittsdialog mit zwei Balken, Abbrechen, Datengruppe, Prozenten und Teilzählern; eigene rechtsbündige Prozentfelder vorerst zurückgestellt.
+- Zeitbericht, Preflight-Pause, Konfigurationsreiter und Laufzeitoptimierungen bleiben erhalten.
+- Spielwiese S172: normaler und Alt-Drop mit/ohne Daten; native Abnahme offen.
+signature: 2c2d88efc94d8386970da4edd31d4372e828c6fdb5c41818b047d31cc37d9c09cd2a013dfc9d094a73c5c9ee934db652a5cc9fabd5abcb2eaa9bcef1d6bcfb08
