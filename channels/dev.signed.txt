@@ -1,17 +1,19 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.356
+version: 0.7.357
 date: 2026-11-11
 host: 21
-commit: 7544808b6b717aa1a72ded610d4be88d84f497af
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.356/p2-0.7.356-mac.zip
-mac.sha512: 96b3bfc0ed628f7de226d489d33f1cd72ea518cc106ad3552d8643661ac269b8fddb0c6d581afd29fa32325bcfc5d5baf5db46a8be504e5bbcd2a2a8e7be5ff1
+commit: eea4705ee3a49df949b49ac2f46638868e9a7323
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.357/p2-0.7.357-mac.zip
+mac.sha512: bf70bb6b1ae0a36539ae13ff503b8d847c74b67f7546a0a3948ff00b86dff47c049fe6bd469b87d4fdd12c0cdbb8f3682e205aa45c69c7c6af1a6797afa37af7
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Tabellen: ausgewählte Spalten, Zeilen und Zellen vom Verbinden gleicher Werte ausnehmen; Wiederholungen erben die Ausnahme.
-- Automatisieren: Positionen vor dem Befüllen seitenbezogen sichern und Folgeabstände nach der nativen Größenanpassung erneut prüfen.
-- Umbruch: Gruppenzwang in der Fehlermeldung nur nennen, wenn eine einzelne zusammenzuhaltende Gruppe tatsächlich zu hoch ist.
-- Innere Transponierung: ungültigen Story-Zugriff bei der Zellteilung korrigiert.
-- Spielwiese S168/S169 ergänzt; Laufzeitabnahme der neuen Ausgabe offen.
-signature: 8d432e7d9c57026623714c732d1be8db46d7ef703e01182a0af73a55dc825b63b58263be2205d12a9b41e73929624ceef348b200daa37393b129f00e03066208
+- Fortschritt: Datengruppe statt Produkt; Prozentwerte in gleicher Größe rechts auf Höhe der Beschriftung.
+- Nach der Ausgabe wird immer eine Zeitübersicht mit Zugriff auf den Bericht angeboten; Gesamt- und Schrittzeiten bleiben getrennt.
+- Konfigurieren: Reiter Datenquelle, Ausgabe, Nacharbeit und Templates; Eingaben bleiben beim Wechsel erhalten.
+- Spielwiese S170/S171; native Abnahme offen.
+- Preflight pausiert standardmäßig während der Ausgabe; Zustand wird wiederhergestellt, unter Konfigurieren > Ausgabe abschaltbar.
+- Hilfstabellen: gemeinsamer Rahmenindex, gezielter Satz und Fortschritt je Rahmen; neue Teilzeiten für die nächste Laufzeitauswertung.
+- Freiraum: Schlussprüfung korrigiert echte Kollisionen einzelner Rahmen, stellt den verkürzten Vorlagenabstand nicht pauschal wieder her.
+signature: ea066dbcd419c02437aa1c721abae7c002d576c057f55dcd9ea46eba53965e595bc6644485de2dc474f99f595bd0e5c5b160797073db931de33b4bcc6d6e4b07
