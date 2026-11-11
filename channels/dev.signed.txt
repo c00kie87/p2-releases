@@ -1,15 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.355
+version: 0.7.356
 date: 2026-11-11
 host: 21
-commit: 5fb385aa3c89eacdb85ae7938f32478c6248f312
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.355/p2-0.7.355-mac.zip
-mac.sha512: f03e1224c81d19d9cd33c9d6180251b46856355223d5e1e2ed082ecafb6ef754edc96bc5bdf5d8c76154b64719af2506719e3504604c18931cfed01f1eabb39f
+commit: 7544808b6b717aa1a72ded610d4be88d84f497af
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.356/p2-0.7.356-mac.zip
+mac.sha512: 96b3bfc0ed628f7de226d489d33f1cd72ea518cc106ad3552d8643661ac269b8fddb0c6d581afd29fa32325bcfc5d5baf5db46a8be504e5bbcd2a2a8e7be5ff1
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Bildbeschriftungen bleiben an der Unterkante ihres Bildes, auch wenn die Gruppe die übrigen inneren Flussregeln übergeht. Explizite Trägerbindung bleibt wirksam.
-- Innere Zellteilung: Teilungsmarken werden in Tabellenzellen erkannt. Mehrere unterschiedliche Werte können dadurch in echte Teilzellen aufgeteilt werden; einzelne Werte bleiben ungeteilt.
-- Spielwiese S166/S167 ergänzt; native Abnahme offen. Objektstatus ist noch nicht enthalten.
-signature: 6ca835fb6ffa096567490f93fee67cacd0eeb12dd699383b6d7aa3136d4dd6be71123264c2611de0f67591ec79f8913d94668a9958d197e40a5be76fda535509
+- Tabellen: ausgewählte Spalten, Zeilen und Zellen vom Verbinden gleicher Werte ausnehmen; Wiederholungen erben die Ausnahme.
+- Automatisieren: Positionen vor dem Befüllen seitenbezogen sichern und Folgeabstände nach der nativen Größenanpassung erneut prüfen.
+- Umbruch: Gruppenzwang in der Fehlermeldung nur nennen, wenn eine einzelne zusammenzuhaltende Gruppe tatsächlich zu hoch ist.
+- Innere Transponierung: ungültigen Story-Zugriff bei der Zellteilung korrigiert.
+- Spielwiese S168/S169 ergänzt; Laufzeitabnahme der neuen Ausgabe offen.
+signature: 8d432e7d9c57026623714c732d1be8db46d7ef703e01182a0af73a55dc825b63b58263be2205d12a9b41e73929624ceef348b200daa37393b129f00e03066208
