@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.387
+version: 0.7.388
 date: 2026-11-12
 host: 21
-commit: f7df4bb5e4f757a8214d3d8423defacceae15f3e
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.387/p2-0.7.387-mac.zip
-mac.sha512: ae5481c2a2092209b8a7d5563c5a44df5b0cd6ece0fa8676c49e6db66b6ae0978feae75be8ba20c4ecf22aa25354301ce1571da9d19b1d760562296e3b1def6c
+commit: 6c9aef6e6487eab371fa9051ff034ba2afdefde2
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.388/p2-0.7.388-mac.zip
+mac.sha512: 7d8d6cf1a6fd923928f9cd0f4a6a6cd12678f8935ff2479f57eceb6f9d410f8182a4cbd1af9c6c660ddaa78f2f214c677174472489c240254ab475c8b5ad7ac5
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Tabellenumbruch mit verbundenen Zellen nach Soll: Die Umbruchstelle liegt bevorzugt zwischen zwei Blöcken (z. B. nach „KAL“), Kalibrierart-Blöcke bleiben ganz; geteilt werden nur Verbindungen über die Umbruchstelle (z. B. „0,01“), ihr Inhalt steht auf beiden Seiten. Passt kein ganzer Block, wird innerhalb geteilt. Je Umbruchstelle nur eine Teilung.
-- Diagnose: Jede Umbruchentscheidung steht im Protokoll („Umbruch …“: freier Platz, Schnitt, Rahmen mit Teilungsergebnis, Textprobe).
-signature: 07c56bb5f75ac6b27d0072dff7a9dec1ea2569876cbd9c4c747b4e1cb23b876c939ae240da48a87edb0288677492f9f545f315bbbf3f270a61414138351d310b
+- Produktversionen, Einstellung „Werte weichen ab“ (Konfiguration): nachfragen / wie gesichert (1:1) / Datenfelder aktualisieren (Version einsetzen, Felder mit aktuellen Werten, Gestaltung und Nacharbeit bleiben) / neu erstellen (Datenfelder, Vervielfältigungen und Tabellen aus dem Template, Nacharbeit wird angewendet).
+- Neuer Befehl „Produktversionen erstellen (Dokument, Auswahl, Seiten)“ im Templates-Menü: versioniert jedes mit einem Template erstellte Produkt im Bereich und ersetzt bestehende Versionen.
+signature: ce868eb4748a885b3f2f6a1ac38c2a1bfb402758ce5a78cf496d464aa737b509f25a440028fb05fc2b5be98ef1682f488072821d577bc67ee865819a5577820c
