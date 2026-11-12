@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.360
+version: 0.7.361
 date: 2026-11-12
 host: 21
-commit: 829346967dada8e76a157481109ede6fb6a2332a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.360/p2-0.7.360-mac.zip
-mac.sha512: 2e1f1bcb8aa3aeb5184402cd0a38b1983a0c0fa156d05c029f587f2ffaab0041b3c6558a66460bd46e9a7c1300614df39c9c7823a51e57122561dc33a78e1584
+commit: 35d3e701ab32832d381cc61ca7d7c7992a0fdce4
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.361/p2-0.7.361-mac.zip
+mac.sha512: 790f29d59f13e49670455e13fd9564f4631534dbbc871787fd36149084eee62ee16cb0bad302d530bf926617e2eb9d5c6ee88c4086546975b4ffcdd2014c196e
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Zelle teilen (innere Transponierung): Die Teilung läuft jetzt vor dem Breitenausgleich; die Teilwerte zählen bei der Messung als eigene Zellen, die neue Spalte erbt die Einstellungen ihrer Ursprungsspalte. Damit entsteht kein Übersatz mehr aus zu schmalen Teilzellen.
-- Die Teilwerte werden samt Absatz- und Zeichenformat in die neuen Zellen verschoben (bisher als reiner Text neu gesetzt, dabei kam fremde Formatierung hinein), und jeder Teil trägt eine eigene Feldmarke mit Feld, Quelle und „Teil i von n“.
-signature: 08f29999c6ccca03509e477e3ac572d68bc36711256049c3862881556fdb542dd0758eac21c2a4847c523a84647b35c3dbb64449c7c930c99ad65e0b4de85e05
+- Neu unter „Einpassen und Rahmengröße“: „Andocken“ für Rahmen mit Breite an Inhalt – die bewegliche Kante springt an die nächste Spalten- oder Stegkante des Satzspiegels, wahlweise nur an linke Stegkanten (Spaltenende) oder nur an rechte (Spaltenanfang). Der kleinere Abstand gewinnt, solange der Text passt.
+- Template-Gruppen (z. B. Logo und Piktogramm mit Objektformat und Textumfluss): Bleibt bei der Ausgabe nur ein Objekt übrig, löst p2 die Gruppe auf, und das Objekt behält seine eigenen Regeln.
+signature: 576b858173e1dfda9baef184ed9945fa506cdd1f5b9d6da05876fdfa45331a14b35b9937a9915a4058ee46d5dcfac106a025482db2e67e863ff8224a5347fd0b
