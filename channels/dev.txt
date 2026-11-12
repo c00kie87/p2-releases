@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.378
+version: 0.7.379
 date: 2026-11-12
 host: 21
-commit: a7246d3d074f8cd301d943bd95928362f6ea41aa
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.378/p2-0.7.378-mac.zip
-mac.sha512: ebb330233f91574f39296661b30a400377c242ad11bfa3b8da9fc146e76e5a2aa3592abafcc5eee14cb9724e01575170fe4229f3702d0440fefef0e5129b89d8
+commit: e3ef5ebc7c7a8b93a4c59f7cfd4083f6c0882436
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.379/p2-0.7.379-mac.zip
+mac.sha512: 42f7d19b368670c89df3f448321165c3235e4113da48cdea1b22674db66ac3fb89e255045e06cab0ec9f5a58c246475a8658221b1d1481beeb94d4c2a3fc08fb
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Tabellen: Zellen im Übersatz werden jetzt richtig vermessen. InDesign verweigert dort die Zeilenmaße und meldet einen leeren Inhalt; p2 zählt nun die Zeichen einzeln. Damit greifen Spaltenmessung und Übersatz-Abschlussprüfung (z. B. geteilte Zelle „DAKKS | KAL“: an einer Kopie des Dokuments geprüft, kein Übersatz mehr).
+- Tabellen: Die Spaltenmessung schätzt Zellen im Übersatz nicht mehr (überschätzte Kopfzellen mit Silbentrennung, z. B. „Kalibrierart“, und machte Spalten viel zu breit). Übersatz behebt allein die Abschlussprüfung, die nur die tatsächlich nötige Breite von Spalten mit Reserve nimmt.
