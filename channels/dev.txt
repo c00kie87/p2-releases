@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.379
+version: 0.7.380
 date: 2026-11-12
 host: 21
-commit: e3ef5ebc7c7a8b93a4c59f7cfd4083f6c0882436
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.379/p2-0.7.379-mac.zip
-mac.sha512: 42f7d19b368670c89df3f448321165c3235e4113da48cdea1b22674db66ac3fb89e255045e06cab0ec9f5a58c246475a8658221b1d1481beeb94d4c2a3fc08fb
+commit: 5714469c51a4694cd6dfb4a61b94eb4b60629ee1
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.380/p2-0.7.380-mac.zip
+mac.sha512: ab9d1e7d1b1428aacb6ff2b02d9d05de1222887510abddb99a0480d006aab33d1b6afa8677fabec76ac3fd5748886cb8f14e9b2e54706c46523db6b6b476d8c3
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Tabellen: Die Spaltenmessung schätzt Zellen im Übersatz nicht mehr (überschätzte Kopfzellen mit Silbentrennung, z. B. „Kalibrierart“, und machte Spalten viel zu breit). Übersatz behebt allein die Abschlussprüfung, die nur die tatsächlich nötige Breite von Spalten mit Reserve nimmt.
+- Tabellen: Die Übersatz-Abschlussprüfung vergrößert den Textrahmen vorübergehend, solange die Tabelle noch unten herausragt. Zellen außerhalb des Rahmens galten sonst als Übersatz und wurden sinnlos verbreitert (Kalibrierart-Spalte 58 statt 30 pt). Die Nachbesserung ist auf 3 Runden zu je 3 pt begrenzt. An einer Kopie des Dokuments geprüft: 12 pt Umverteilung, kein Übersatz.
