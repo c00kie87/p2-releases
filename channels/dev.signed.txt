@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.362
+version: 0.7.363
 date: 2026-11-12
 host: 21
-commit: b9e1fb40f895594f3327967a7c2d2c2601a4a8bd
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.362/p2-0.7.362-mac.zip
-mac.sha512: bf101b6acb69aebf88a3ef8b2a46f4dbd5ccb89a2dc6b320d74a33c6ef5b94c1cd1ac948e3e186d6090d19fd7001ccdf3057de0aec3ab195d4d53a843b5e0750
+commit: 7d46848a9a527e0eee887ba397c24c7e4087f0dc
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.363/p2-0.7.363-mac.zip
+mac.sha512: 207e53e474451792206984b371a2f22a1425f6e1016ac411865454af4e742708cd85dc083d5eced56e602d2b0b8d151d008a774c05986304583518242aef38fe
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Datenquelle: Konfigurations- und Tabellenauswahl werden nachgefüllt, sobald Liste oder Auswahl veraltet sind (bisher nur, wenn die Liste ganz leer war) – die aktive Konfiguration und Tabelle stehen damit immer drin. Die Tabellenauswahl erscheint nur noch bei Quellen mit mehreren Tabellen.
-signature: 8679a82a21b1e2ce7570e2ecce9f0a52ffe13bc7d92a59d15e753226871498c6120bdfa04db6aca14e531a95dcaf2853206c47d9bbf1217ffdf512ac8a6cc10a
+- Beim Öffnen fragte p2 nach dem Ergänzen der Herkunft, obwohl die letzte Ausgabe sie nur vorgemerkt hatte (Herkunft auf Bedarf). Ist eine Vormerkung vorhanden, fragt p2 nicht mehr; ergänzt wird wie vorgesehen vor dem ersten Arbeitsschritt, der sie braucht.
+signature: f38bcef8ba0eadb2046084440bd865730aa74d249b3943ec1c2a19ba6eb98d16a3007370bb75b03a69b7c1696b12c164a1bfcfab92659cae97ec55e29ccbcb0a
