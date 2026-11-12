@@ -1,13 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.376
+version: 0.7.377
 date: 2026-11-12
 host: 21
-commit: 73a2d47d8a379f926ccac7adebf6aa8a404981f0
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.376/p2-0.7.376-mac.zip
-mac.sha512: e209705ec981525e40f3409fdcd2f160f8145bf6e4aa98c7081c6ded522fbbbddfc6a82debac2fd4c934b6f737692a254127104dc4adf9cc48e48106c336c6b0
+commit: be0c4015c208b02c21c3ac3ba0627ea1b9eaed90
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.377/p2-0.7.377-mac.zip
+mac.sha512: 05dae78e054254888fa8de27a70b582b8ae1f0ccacbc65b842672ed3d0c07ca28ef8c9b5aa5f3d8183d25ff5cef524c27babc87b35a3ec2c31eb8682bcc49e04
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu aufbauen: Es werden nur Produkte gebaut, die einen Datensatz des gewählten Aufbaus enthalten. Ursache des Montagebereich-Fehlers: Die gespeicherte Ebene umfasste mehrere Produkte, die bedingte Template-Verwendung teilte sie auf, und alle wurden an derselben Stelle gebaut.
-signature: debf486dc06c55e620398f10664e4066a56c7bf811294770999795a7d3ed5814ac030a08f0628c011eb95de38ce0b2272a064d91c50b9c69a982c4e27474a207
+- Tabellen: allgemeine Übersatz-Abschlussprüfung nach allen Tabellenschritten – jede Zelle im Übersatz wird verbreitert, die Breite kommt von Spalten mit Reserve (auch von Nachbarteilen geteilter Zellen); feste Spalten und Gesamtbreite bleiben; zu knappe Schätzungen werden schrittweise nachgebessert.
+- Neu aufbauen/Ersetzen: Das Seitenbild bleibt während des Laufs stehen (nur Neuzeichnen unterdrückt). Vor der Rückfrage zum Zwischenstand wird die Ansicht eingeblendet, damit er prüfbar ist.
+signature: d4401cff3cb74c40f8b0ee2546a6044a68ea724b169597a36de244a42c3f6ceeeba64f89de28bda37f088072a3777bbcf7a97368e0c0fdcf4c05d93373f8c302
