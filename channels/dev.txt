@@ -1,13 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.367
+version: 0.7.368
 date: 2026-11-12
 host: 21
-commit: fae3062731a307348283818170137eb67da2c962
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.367/p2-0.7.367-mac.zip
-mac.sha512: c8204f40bde21029dbe21165654b15403c27258079b2914e3885eb06279b89533d01c02e50cf80637fc6d09c37b109cff2b66d1ea2483eceb68bfb30850f7269
+commit: 6b2e83216cdf93209358441d7f4926c26a7e7d91
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.368/p2-0.7.368-mac.zip
+mac.sha512: 53cd147a9078020c0a6f7246b88f9575a8123905ee68773470ba4c4122793053a3449c41711802eec2ad9d6d79c0ed383b8df17eddb66e7d23d1ec802dfd5ecf
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Zelle teilen: Seit 0.7.360 wurde nicht mehr geteilt (Trennmarke blieb in der Zelle, z. B. „DAKKS/KAL“, Messbereiche „75/100“), weil die Teilung vor dem Breitenausgleich die Zellinhalte noch nicht sah. Das Teilungsskript setzt den Text jetzt zuerst neu; bleiben dennoch Marken übrig, teilt p2 nach dem Ausgleich und gleicht erneut aus.
-- Läuft eine Teilzelle nach dem Ausgleich noch über, verbreitert p2 ihre Spalte schrittweise aus der breitesten flexiblen Spalte (feste Spalten bleiben unberührt).
+- Formate löschen und ersetzen: Löschst du in InDesign ein Absatz-, Zeichen-, Objekt-, Tabellen- oder Zellenformat und ersetzt es durch ein anderes, übernimmt p2 den Wechsel in die Konfigurationen (Hypertext-Formate, Spaltenformate), in die Objektregeln des Dokuments (Objektformat der Vervielfältigung) und in alle Templates der Bibliotheken (vorher gesichert unter .sicherungen). Zeichenformate von Platzhaltern ($…) bleiben unverändert und werden gemeldet.
