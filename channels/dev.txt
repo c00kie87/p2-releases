@@ -1,12 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.394
+version: 0.7.395
 date: 2026-11-12
 host: 21
-commit: fc169b3288ad04a9f91e5903d276a467fd9df377
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.394/p2-0.7.394-mac.zip
-mac.sha512: 0f42ee1c919b89bfb3792c1f02792bdf07c24567e3776f7f415d77d53cc863a8dcf1a179704905b4fb22bd0a014368bbf45cd466a9c07e5675b6f3818663500d
+commit: af5b18d5d230cb1ef8567bf70affd52911c8aa30
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.395/p2-0.7.395-mac.zip
+mac.sha512: 6dfa2d514c64a1db4f27d3a3a439b70bd41a9758c138902de814a2b1c62a39f0bd74e6fe20e532d9e5777800a84f3919682888a7cc660de1a01c69d0b9ea1f7c
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Templates-Palette, Menü: „Als Rückfall-Template festlegen“ für das gewählte Template. Es gibt immer nur eines; es gilt bei unklarer Template-Wahl (mehrere oder keine passende Regel) und ist an der Kachel mit „· Rückfall“ markiert. Erneut wählen hebt es auf.
+- Template-Varianten: In den Template-Details „Variante von“ wählen. Automatisieren › „Template-Varianten“: fest / vorschlagen / automatisch. Automatisch baut p2 Grund-Template und Varianten unsichtbar probeweise auf und nimmt die, die ohne Umbruch auf den Restplatz passt, sonst die niedrigste, bei Gleichstand das Grund-Template. Vorschlagen fragt je Produkt (mit Höhe und Empfehlung, „Rest automatisch“). Der Bericht nennt die gewählten Varianten und die gewonnene Höhe.
+- Produktversionen erstellen (Dokument/Auswahl/Seiten): je Template-Ausgabe genau eine Version (nicht mehr je Rahmen oder Datensatz); manuell ergänzte bzw. mit dem Produkt kollidierende Fremdelemente gehören dazu, Seitenbeschriftungen nicht. Über Seiten umbrochene Produkte werden gemeldet und nicht versioniert. Gilt auch für „Als Produktversion sichern“.
+- Templates-Palette: Regler unter dem Raster für die Kachelgröße (stufenlos, gleich große Kacheln, für Templates und Produktversionen; wird gemerkt).
