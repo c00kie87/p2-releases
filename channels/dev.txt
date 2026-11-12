@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.393
+version: 0.7.394
 date: 2026-11-12
 host: 21
-commit: 3eb651488fa6a8cbc26cd2d15349a32dd2e96992
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.393/p2-0.7.393-mac.zip
-mac.sha512: e22a1e0c72f24f51b4a0081021cbb87fc8e4814e7517e2de756fde040369ad74dd4d3b29736e01b7be611182934c2d1994509dbc6c41f01d38621fa2d4a8c9d4
+commit: fc169b3288ad04a9f91e5903d276a467fd9df377
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.394/p2-0.7.394-mac.zip
+mac.sha512: 0f42ee1c919b89bfb3792c1f02792bdf07c24567e3776f7f415d77d53cc863a8dcf1a179704905b4fb22bd0a014368bbf45cd466a9c07e5675b6f3818663500d
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Textrahmen (Automatisieren › Leere Inhalte), beide standardmäßig an: „Leerzeichen vor Absatzende entfernen“ und „Leere Absatzenden am Text- bzw. Zellende entfernen“. Gilt für den Rahmen und seine Tabellenzellen, beim Ausgeben, im Textfluss und beim Aktualisieren. Die Weiterverarbeitung wertet entfernte Leerzeichen am Ende nicht als Handänderung.
+- Templates-Palette, Menü: „Als Rückfall-Template festlegen“ für das gewählte Template. Es gibt immer nur eines; es gilt bei unklarer Template-Wahl (mehrere oder keine passende Regel) und ist an der Kachel mit „· Rückfall“ markiert. Erneut wählen hebt es auf.
