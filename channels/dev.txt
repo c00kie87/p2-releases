@@ -1,12 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.383
+version: 0.7.384
 date: 2026-11-12
 host: 21
-commit: 0b491640eace06d33f2984447d67668ddfc0f73e
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.383/p2-0.7.383-mac.zip
-mac.sha512: ff7a2a2e023f1d07dd257d897617819b2b86f45bdb5248e4634c211d711cccd9320a5a5acee3fc972d4eccdb7cb5bc60fddf36cd61092aafbf48cb87fae3249b
+commit: c746ad5119e5a6572e03cb2aedeb0285eda58c81
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.384/p2-0.7.384-mac.zip
+mac.sha512: 2c6e43f39b590daa68c637d7ebde799dd52c0e1328fb492e1c8655de361c8bb08434120b34da4abe35380d9e3b5164cc1d8ed52a854388855f48c7a030572b95
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Tabellen mit verbundenen Zellen setzen sich über Rahmen fort: Rückt ein Block verbundener Zellen ganz in den Folgerahmen, obwohl oben Platz ist, hebt p2 die Verbindungen an der Umbruchstelle auf, verbindet jeden Teil neu und übernimmt den Inhalt in den Fortsetzungsteil. Gilt für „Text im nächsten Rahmen fortsetzen“ und den Textfluss über neue Seiten. Kopf- und Fußzeilen bleiben unberührt.
+- Tabelle teilen „Tabelle wiederholen“: verbundene Zellen über die Teilgrenze werden aufgehoben, je Teil neu verbunden, der Inhalt im Folgeteil wiederholt. Außerdem behoben: Das Teilen-Skript brach bei der Story-Ermittlung ab (Tabellen haben kein parentStory).
+- Neu aufbauen: Auch ein Template aus dem Dokument (Rückfall) entsteht als Arbeitskopie auf der unsichtbaren Aufbauebene.
+- Neuumbruch: Alte Produkte bleiben sichtbar, der neue Umbruch entsteht auf der unsichtbaren Aufbauebene, Austausch am Ende in einem Schritt.
