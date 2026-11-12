@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.390
+version: 0.7.391
 date: 2026-11-12
 host: 21
-commit: 5c00287f42fae76d8bc4754c10ec6371f7fbdf11
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.390/p2-0.7.390-mac.zip
-mac.sha512: 45a836d7793e955fcf239b17ff8d6682f72b04bdcdffdcabde1b3c406f4a46841aab7597a29824c1da6dcf4a05bbebbe6300de675e2418b92782bf07051c0b5f
+commit: d98caf2c7733a623f8d0a997696cd71ff11db5e5
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.391/p2-0.7.391-mac.zip
+mac.sha512: 2e6c5f165ed645b7eb0ea0fc64f964f382424d7dfaf8a1cced9adf9cf7e8fae6d9fb758ae977cb2027fea2d31ccfd6076bd99b013f96014a362a2e8478152c7d
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Diagnose: Das Protokoll nennt jetzt, ob an der Umbruchstelle verbundene Zellen geteilt wurden (Anzahl) bzw. warum nicht (Skriptfehler).
-signature: 1c1a04a4cc78472433337ada6badba1d277fcd9aa76eac6373c8e15650b95de3be00c2057dc6a7ed868be9a91d3a05dc54b20fd79bf32961bf9011937b6c2a0c
+- Tabellenumbruch mit verbundenen Zellen: Die Teilung greift jetzt auch, wenn die Tabelle im Moment des Umbruchs noch ganz im Übersatz steht (der Folgerahmen wird erst danach eingepasst). Damit beginnt die Tabelle auf der ersten Seite, bricht zwischen Zellblöcken um, und nur durchgehende Verbindungen werden geteilt.
+signature: 019df83b42a2d8b21d472fa1d160490f3862c9eda225ea1a14b314579573cbc9eb174b557963a46032931cac7a171850d5f0bd6def93d61e200477d10d0b6a06
