@@ -1,12 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.386
+version: 0.7.387
 date: 2026-11-12
 host: 21
-commit: 503d0fb89566ca069c4c574c959fcdeb2dddfe43
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.386/p2-0.7.386-mac.zip
-mac.sha512: d52c1cd6d306fd1fac2bc4bf8a134cfe843bfcb6e05bd097c6ba25e61fe501b6cf95e8018bdc2c3ecc8a5b4ca3b4c3b8c567f91955bfc8f81b24c88488945c37
+commit: f7df4bb5e4f757a8214d3d8423defacceae15f3e
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.387/p2-0.7.387-mac.zip
+mac.sha512: ae5481c2a2092209b8a7d5563c5a44df5b0cd6ece0fa8676c49e6db66b6ae0978feae75be8ba20c4ecf22aa25354301ce1571da9d19b1d760562296e3b1def6c
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Platzierung: Breiten werden mit 0,5 pt Toleranz verglichen. Ein Aufbau, der durch Rundung oder Konturen um Bruchteile breiter rechnet als der Bereich (Meldung „183,0 mm breit; 183,0 mm zur Verfügung“), wird nicht mehr abgelehnt.
+- Tabellenumbruch mit verbundenen Zellen nach Soll: Die Umbruchstelle liegt bevorzugt zwischen zwei Blöcken (z. B. nach „KAL“), Kalibrierart-Blöcke bleiben ganz; geteilt werden nur Verbindungen über die Umbruchstelle (z. B. „0,01“), ihr Inhalt steht auf beiden Seiten. Passt kein ganzer Block, wird innerhalb geteilt. Je Umbruchstelle nur eine Teilung.
+- Diagnose: Jede Umbruchentscheidung steht im Protokoll („Umbruch …“: freier Platz, Schnitt, Rahmen mit Teilungsergebnis, Textprobe).
