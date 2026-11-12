@@ -1,13 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.366
+version: 0.7.367
 date: 2026-11-12
 host: 21
-commit: 508965f0317e0775cb89cf1963bdd34811bf60d4
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.366/p2-0.7.366-mac.zip
-mac.sha512: c2b7f58758cb55ba25fd5f3d25e103e22574cf65e85bc862d00035d1f54a7bcf85ddb6860451f8e6cf193d3e759dbd0a8488ac25bd61d5cb3f9a0d5b783ba636
+commit: fae3062731a307348283818170137eb67da2c962
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.367/p2-0.7.367-mac.zip
+mac.sha512: c8204f40bde21029dbe21165654b15403c27258079b2914e3885eb06279b89533d01c02e50cf80637fc6d09c37b109cff2b66d1ea2483eceb68bfb30850f7269
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu aufbauen: Es entsteht wieder die ganze Gruppe mit allen Datensätzen (bisher nur die Datensätze, deren Werte im Dokument eine Feldmarke trugen – Kreuztabellen verloren Werte, geteilte Zellen fehlten). Neu aufbauen verwendet immer den aktuellen Stand des Templates aus der Bibliothek; das Template im Dokument nur, wenn es in der Bibliothek fehlt.
-signature: 5c07f41b377b64e389c5a6dd93653a0d20115217c085032c8f8274b9ed2f85ea1d82a74e7773307c2507fcefb27ce401b82768685c253acc872afc0f73a79300
+- Zelle teilen: Seit 0.7.360 wurde nicht mehr geteilt (Trennmarke blieb in der Zelle, z. B. „DAKKS/KAL“, Messbereiche „75/100“), weil die Teilung vor dem Breitenausgleich die Zellinhalte noch nicht sah. Das Teilungsskript setzt den Text jetzt zuerst neu; bleiben dennoch Marken übrig, teilt p2 nach dem Ausgleich und gleicht erneut aus.
+- Läuft eine Teilzelle nach dem Ausgleich noch über, verbreitert p2 ihre Spalte schrittweise aus der breitesten flexiblen Spalte (feste Spalten bleiben unberührt).
+signature: d2028b5f3e4437a54e963d87f8afb79f928d1c32e827af8396c9c065af459c73dc48c7d651498c0e3296be2554c33de239cd4067872573224d6dc81e71eb2108
