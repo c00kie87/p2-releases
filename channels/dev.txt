@@ -1,13 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.392
+version: 0.7.393
 date: 2026-11-12
 host: 21
-commit: 6b3e61018f758ee2ec24abe9391f6db28080a907
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.392/p2-0.7.392-mac.zip
-mac.sha512: 1f8f7c0d8e0258a5ea47b438187ee0346f56576be4a3df9c81048f2c8a344d6cd63cb8e32a25440126d8f742bbfc895a6a085dbe4df46e13fd7411167e91ae17
+commit: 3eb651488fa6a8cbc26cd2d15349a32dd2e96992
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.393/p2-0.7.393-mac.zip
+mac.sha512: e22a1e0c72f24f51b4a0081021cbb87fc8e4814e7517e2de756fde040369ad74dd4d3b29736e01b7be611182934c2d1994509dbc6c41f01d38621fa2d4a8c9d4
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Tabellenregel „Verbundene Zellen beim Umbruch“ (ganze Tabelle gewählt): zwischen Blöcken umbrechen (Standard) / exakt am Rahmenende teilen und neu verbinden / bei Fortsetzung alle Verbindungen aufheben / nicht teilen. Dazu „Inhalt geteilter Zellen wiederholen“ (Vorgabe an).
-- Breitenautomatik „Gesamtbreite vorgeben“: mehrere Breiten kommagetrennt (z. B. 183, 150, 87); die Tabelle nimmt die kleinste, in die ihr Inhalt passt, sonst die größte. Anzeige aufsteigend.
+- Textrahmen (Automatisieren › Leere Inhalte), beide standardmäßig an: „Leerzeichen vor Absatzende entfernen“ und „Leere Absatzenden am Text- bzw. Zellende entfernen“. Gilt für den Rahmen und seine Tabellenzellen, beim Ausgeben, im Textfluss und beim Aktualisieren. Die Weiterverarbeitung wertet entfernte Leerzeichen am Ende nicht als Handänderung.
