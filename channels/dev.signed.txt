@@ -1,14 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.374
+version: 0.7.375
 date: 2026-11-12
 host: 21
-commit: ec829b3fd5ecfac2fd82cac53756a7d9fd741f6f
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.374/p2-0.7.374-mac.zip
-mac.sha512: 86b16dba89ca7aa7d8eda269a1db4d3ba4dea31a9450d2bd80500d5f804304526e6c3a95a24d09bb3ea91587ee7dfff801cca04bfacabfb66f9df13f4b9d06eb
+commit: b6e3c061bf26f2277996d912c9e94984a7099c37
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.375/p2-0.7.375-mac.zip
+mac.sha512: 2fe8b629b8b556cdd975308d1367292ab9b4ee0e9a698c2b8a11b9c5a0433dbd70ca991d6a87b67380f3754b7c9b469fa15fa0e4fd345f6b7334b82e69325123
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu aufbauen: Die gespeicherte Gruppierungsebene ist jetzt die tatsächlich verwendete; zu große gespeicherte Ebenen (aus 0.7.372) werden erkannt und verworfen. Ein Neuaufbau baut damit nicht mehr die Produktgruppen der Folgeseiten mit auf (Montagebereich verlassen).
-- Weiterverarbeitung: Bildinhalte erscheinen nicht mehr als „Objekt“, sondern gehören zum Bildrahmen (technische Ansicht: „Bild“ mit eigenem Symbol).
-signature: 8cd27806bcaf2da00eae5fb273600e8609a94a5d47b07f97ee42101f27bbe2d487a9e053e0481e6537b07903e748eb1ee58b32c7ab1047ed465db5e3d3ddb602
+- Neu aufbauen betrifft nur noch den gewählten Bereich: Einheiten ohne Datensätze des gewählten Aufbaus werden nie mitgebaut (Begrenzung nach allen Schritten der Einheitenbildung), nachstehende Elemente werden nicht mehr automatisch verschoben (Kaskade nur über „Dynamik anwenden“).
+- Diagnose: Protokoll „Neuaufbau“ mit Auftrag, Datensätzen, Ebenen und Einheiten je Schritt.
+- Weiterverarbeitung: Symbole dezent abgegraut.
+signature: e7c89c5bbc7a912fed00b35f7788eaa3452c64ba01b59cdb928c368a3eeac370f575abd14dbe452b19999a791c2ab7b9f8119759101da1b17a055dcea0a39c0f
