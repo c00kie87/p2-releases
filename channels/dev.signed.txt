@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.371
+version: 0.7.372
 date: 2026-11-12
 host: 21
-commit: 8ad04b91f5fc8d4f5867964947e52f5e486adfb6
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.371/p2-0.7.371-mac.zip
-mac.sha512: 9f259318acd7c203625906b152d7be174c7f0ed7ae0fc2826ac43f5548fcdd280333d3b715d48781fa6b3d2875b0468f7b5e5ad42c36bdbf85d65b3a07eca838
+commit: 0d99a822622085f6713de2ec04a248735a1fd8fc
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.372/p2-0.7.372-mac.zip
+mac.sha512: be567ef0631db0bd346ca3ea9f03b6ed858fac9022ec0b4563560e89708941d7264d3a40d1947b4451e7af9b6be6f270f9b5b8437fa54d3e33012d53abd61096
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Weiterverarbeitung: Vorgabe ist jetzt eine einfache Ansicht – Ausgabe mit Datum, Gruppe bzw. Datensatz, Produkt mit Template-Namen und die Rahmen (Textrahmen, Bildrahmen mit Bildfeld, Gruppe) mit verständlichem Zustand; Platzhalterzeilen ausgeblendet. Der Knopf „Technische Ansicht“ zeigt die bisherige ausführliche Auswertung. Die Auswahl „Bereich“ zeigt immer eine Vorgabe.
-signature: 3e8938eacc0c78e328add3c92ff06f0f482dab51575944f11026400f835eaad73c6d4c58f8b32a224020160f6322b727d3ce9a38ca0cbb6ed09d097a4cb09b08
+- Weiterverarbeitung: Mit den Pfeiltasten durch die Liste (auf/ab), links/rechts klappt zu bzw. auf. Wird im Dokument ein Objekt innerhalb einer Gruppe gewählt (Doppelklick), markiert die Liste genau diesen Rahmen statt der ganzen Gruppe – Aktualisieren wirkt dann auch nur dort. Die Infozeile unter der Liste nutzt die einfache Ansicht.
+signature: c26fb36e00bc33dcd53d85a11686fc9a5a2c2935eba6d489f685054effcf67ab52ff88127f30bde691abf3e29def4428f782be5d36b2bf3c94dfc8691b190e0d
