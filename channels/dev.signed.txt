@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.389
+version: 0.7.390
 date: 2026-11-12
 host: 21
-commit: 2fe75cc2098240fa7e066ddd5151221eeacd7d92
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.389/p2-0.7.389-mac.zip
-mac.sha512: 7c3b41bff8face490b5384ea44969c2578c84727880a8b9c4b103043c8ba074f4b4943863c56a02726d3732fb927359e8d93f1798091e85da4eed1f6d6fb35d8
+commit: 5c00287f42fae76d8bc4754c10ec6371f7fbdf11
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.390/p2-0.7.390-mac.zip
+mac.sha512: 45a836d7793e955fcf239b17ff8d6682f72b04bdcdffdcabde1b3c406f4a46841aab7597a29824c1da6dcf4a05bbebbe6300de675e2418b92782bf07051c0b5f
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Umbruch: Der freie Platz auf der Seite wird bis zum nächsten Objekt darunter gemessen, nicht bis zum Seitenende. Zu kleine Streifen (z. B. über einem vorhandenen Aufbau) werden übersprungen. Damit wird eine Gruppe, die nicht ganz passt, wieder auf der Seite begonnen und ihre Tabelle umbrochen, statt komplett auf die Folgeseite zu wandern.
-signature: 2d4194206d5f590560a87b1b4bdbb5a054cc7fbd76fb311189696bcf40fd0d10a1b120171f045ce5075bed97859ed60882547a5cb2559d2cdc09cb195f0c4f07
+- Diagnose: Das Protokoll nennt jetzt, ob an der Umbruchstelle verbundene Zellen geteilt wurden (Anzahl) bzw. warum nicht (Skriptfehler).
+signature: 1c1a04a4cc78472433337ada6badba1d277fcd9aa76eac6373c8e15650b95de3be00c2057dc6a7ed868be9a91d3a05dc54b20fd79bf32961bf9011937b6c2a0c
