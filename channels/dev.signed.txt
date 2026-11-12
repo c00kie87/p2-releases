@@ -1,13 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.368
+version: 0.7.369
 date: 2026-11-12
 host: 21
-commit: 6b2e83216cdf93209358441d7f4926c26a7e7d91
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.368/p2-0.7.368-mac.zip
-mac.sha512: 53cd147a9078020c0a6f7246b88f9575a8123905ee68773470ba4c4122793053a3449c41711802eec2ad9d6d79c0ed383b8df17eddb66e7d23d1ec802dfd5ecf
+commit: 71aa432a8459213624f173c93896eb81d1f5e4c5
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.369/p2-0.7.369-mac.zip
+mac.sha512: a59c8ccc0f381a52afc44b41a5debddfa8da8f1bd62578f6e512bb59b062c7c7996606e8d7a1739154ede5dea84b2f7a8b4c3e5a7ed06da91d01245011149cb0
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Formate löschen und ersetzen: Löschst du in InDesign ein Absatz-, Zeichen-, Objekt-, Tabellen- oder Zellenformat und ersetzt es durch ein anderes, übernimmt p2 den Wechsel in die Konfigurationen (Hypertext-Formate, Spaltenformate), in die Objektregeln des Dokuments (Objektformat der Vervielfältigung) und in alle Templates der Bibliotheken (vorher gesichert unter .sicherungen). Zeichenformate von Platzhaltern ($…) bleiben unverändert und werden gemeldet.
-signature: ba9b298a52322ed320c85e4eaa04bd57b3bbd49afcac757dc3a805a3eca9be0149c58a7cb394d13ffc9c16b1c4e3e08b0672c0aa5f7fadbadeaefe652d42dd0e
+- Zelle teilen mit mehreren Zeilen: Die Teilwerte landen wieder in der richtigen Zelle (Seite 4 zeigte „10075“ und eine leere Nachbarzelle); es entsteht nur noch eine zusätzliche Spalte statt einer je Zeile, weil die Breiten erst nach allen Teilungen gesetzt werden.
+- Die Übersatz-Absicherung für Teilzellen verbreitert höchstens auf die Breite, die der Text braucht, und nimmt sonst alles zurück (Seite 5: Spalte „DAKKS“ war um 123 pt verbreitert, die übrigen Spalten zu schmal).
+signature: 9849c9c5d40855a1cf1539173d744a3c2eb3c402970ee94b75aab7cd882f76c995d858ba39fb1b5fcba2ea8084e1ac2285421941d93cb79100f26a66c15e7705
