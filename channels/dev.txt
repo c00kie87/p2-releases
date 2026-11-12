@@ -1,15 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.358
-date: 2026-11-11
+version: 0.7.359
+date: 2026-11-12
 host: 21
-commit: b4aa417faac3926f777a0379998e8bfb9a2cbc0f
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.358/p2-0.7.358-mac.zip
-mac.sha512: 0edfeeb55ae1badc635497b29ad33b210d269b4058c49bcf8d9c9af826cffbdd37e88c1fcb81d84b89f9a4714e99f89ca04348ad342f6c954517531ea3c1b332
+commit: 63d3d5398b1fa1aff21fc631431e64da59e4ad4f
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.359/p2-0.7.359-mac.zip
+mac.sha512: 2c02c1bc54c82483a24877157c348a4448c736487ae3950070d95916e1d04dfe823dbea1c65e175cc62fdc87068e1f702b2bce06014c1cae5e0cfd84842d5368
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Absturz beim Template-Platzieren: fehlerhafte Registrierung des eigenen Fortschritts-Widgets zentral entfernt.
-- Standard-Fortschrittsdialog mit zwei Balken, Abbrechen, Datengruppe, Prozenten und Teilzählern; eigene rechtsbündige Prozentfelder vorerst zurückgestellt.
-- Zeitbericht, Preflight-Pause, Konfigurationsreiter und Laufzeitoptimierungen bleiben erhalten.
-- Spielwiese S172: normaler und Alt-Drop mit/ohne Daten; native Abnahme offen.
+- Hilfstabellen automatisch auflösen: unter Konfigurieren > Ausgabe ausdrücklich aktivieren; Standard aus, auch bei vorgemerkten Tabellen.
+- Neuer Befehl „Vorgemerkte Hilfstabellen auflösen“ für Auswahl oder Inhaltsseiten; Vorlagen und Musterseiten geschützt, mit Fortschritt, Abbruch, Rückgängig und Zeitbericht.
+- Auch bereits erzeugte unmarkierte Tabellen unter Automatisieren > Ganze Tabelle nachträglich vormerken und Auflöseoptionen einstellen.
+- Spielwiese S173; native Abnahme und tatsächliche Laufzeitersparnis offen.
