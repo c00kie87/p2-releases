@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.385
+version: 0.7.386
 date: 2026-11-12
 host: 21
-commit: d99e6905a39a1a25fd61918da72f6f3e93070168
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.385/p2-0.7.385-mac.zip
-mac.sha512: 427a03eca3be250cb593a6461a567381e63f16ead21a9d46df5bc8a5586bd2ab5364f8e9bbbbc650ef125c6371388ce85e2121a5febeffa80c0940f792fdbf24
+commit: 503d0fb89566ca069c4c574c959fcdeb2dddfe43
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.386/p2-0.7.386-mac.zip
+mac.sha512: d52c1cd6d306fd1fac2bc4bf8a134cfe843bfcb6e05bd097c6ba25e61fe501b6cf95e8018bdc2c3ecc8a5b4ca3b4c3b8c567f91955bfc8f81b24c88488945c37
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Tabellen mit verbundenen Zellen über (fast) alle Zeilen sind jetzt umbrechbar: Die Prüfung, ob ein Teil der Tabelle in den Restplatz passt, rechnet mit Kopf, Fuß und einer Datenzeile statt mit dem ganzen Zellblock. Beginnt die Tabelle deshalb erst im Folgerahmen, teilt p2 den Block, sodass Kopf und erste Zeilen auf der ersten Seite stehen. Vorherige Elemente mit „Nicht vom vorherigen trennen“ bleiben dadurch auf der Seite.
+- Platzierung: Breiten werden mit 0,5 pt Toleranz verglichen. Ein Aufbau, der durch Rundung oder Konturen um Bruchteile breiter rechnet als der Bereich (Meldung „183,0 mm breit; 183,0 mm zur Verfügung“), wird nicht mehr abgelehnt.
