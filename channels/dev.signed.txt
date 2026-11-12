@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.365
+version: 0.7.366
 date: 2026-11-12
 host: 21
-commit: 3cddcb211e056ce4a0bb6ed489d4c3e90213d692
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.365/p2-0.7.365-mac.zip
-mac.sha512: 371143aea8e01fed5fcd1d0395706b46fa6e56a5f6221c5883fcd0fdf1028a566173f5e49179b3d25abcfed8fb3805eab2ac23f658d8aa5d9014bc5c8f4cecc2
+commit: 508965f0317e0775cb89cf1963bdd34811bf60d4
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.366/p2-0.7.366-mac.zip
+mac.sha512: c2b7f58758cb55ba25fd5f3d25e103e22574cf65e85bc862d00035d1f54a7bcf85ddb6860451f8e6cf193d3e759dbd0a8488ac25bd61d5cb3f9a0d5b783ba636
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Fenster › p2 › Weiterverarbeitung fehlte im Menü (falscher Menüpfad der Palette); der Menüpunkt erscheint wieder neben den übrigen p2-Paletten.
-signature: 1111949035c6dd3e3c101b771af8739e3f5bf5fd25cfbb06eea883e28795b70c014299bddb7694a0ca042040e4f3ebfd400abb0dcf998c89b86ff2cdfe92ef03
+- Neu aufbauen: Es entsteht wieder die ganze Gruppe mit allen Datensätzen (bisher nur die Datensätze, deren Werte im Dokument eine Feldmarke trugen – Kreuztabellen verloren Werte, geteilte Zellen fehlten). Neu aufbauen verwendet immer den aktuellen Stand des Templates aus der Bibliothek; das Template im Dokument nur, wenn es in der Bibliothek fehlt.
+signature: 5c07f41b377b64e389c5a6dd93653a0d20115217c085032c8f8274b9ed2f85ea1d82a74e7773307c2507fcefb27ce401b82768685c253acc872afc0f73a79300
