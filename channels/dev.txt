@@ -1,16 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.382
+version: 0.7.383
 date: 2026-11-12
 host: 21
-commit: 6c8fb98e9199adb1359c98e0d76bdeb41db30517
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.382/p2-0.7.382-mac.zip
-mac.sha512: c71b37b20f8fe5c23e4e2b136dc0c1210ef41d5948ef0ff06447cb1868f40a3605fefb8d0fb9a3fd560953add78956feeb4a0b06cb067d377b8f17a47658d397
+commit: 0b491640eace06d33f2984447d67668ddfc0f73e
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.383/p2-0.7.383-mac.zip
+mac.sha512: ff7a2a2e023f1d07dd257d897617819b2b86f45bdb5248e4634c211d711cccd9320a5a5acee3fc972d4eccdb7cb5bc60fddf36cd61092aafbf48cb87fae3249b
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Produktversionen: genau eine Version je Produkt – Speichern ersetzt die vorhandene (Template-Stand bleibt erhalten).
-- Drag & Drop mit Alt+Umschalt: Produkt ohne Produktversion aus dem Template erzeugen (Alt allein wie bisher: gemeinsamer Fluss).
-- Automatisieren: neue Option „Produktversionen bevorzugen“ (Vorgabe an); aus = alle Produkte aus dem Template neu erzeugen.
-- Zu große Produktversion (Drag & Drop und Automatisierung): neu umbrochen aus dem Template; aus der Version übernommen werden Rahmen gleicher Kennung und Größe (samt Nacharbeit) und die Texte der Textrahmen (manuelle Umbrüche, Formatierung). Bericht nennt Übernahmen.
-- Kollisionserkennung beachtet die Ausnahmeliste jetzt überall (auch altes Produkt beim Neuaufbau).
+- Tabellen mit verbundenen Zellen setzen sich über Rahmen fort: Rückt ein Block verbundener Zellen ganz in den Folgerahmen, obwohl oben Platz ist, hebt p2 die Verbindungen an der Umbruchstelle auf, verbindet jeden Teil neu und übernimmt den Inhalt in den Fortsetzungsteil. Gilt für „Text im nächsten Rahmen fortsetzen“ und den Textfluss über neue Seiten. Kopf- und Fußzeilen bleiben unberührt.
