@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.373
+version: 0.7.374
 date: 2026-11-12
 host: 21
-commit: 8497e9533a3fc0511738c8866382bb41a4fb397f
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.373/p2-0.7.373-mac.zip
-mac.sha512: 4b50435e47a40031df0b6dda9af118885ae395d53773531b9179ec52064fea914c59eacedcb8bc45a788df6e1abf41f9617f2d1a5dafa92acca7e2fbb0cf9a84
+commit: ec829b3fd5ecfac2fd82cac53756a7d9fd741f6f
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.374/p2-0.7.374-mac.zip
+mac.sha512: 86b16dba89ca7aa7d8eda269a1db4d3ba4dea31a9450d2bd80500d5f804304526e6c3a95a24d09bb3ea91587ee7dfff801cca04bfacabfb66f9df13f4b9d06eb
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Weiterverarbeitung: Symbole vor jedem Eintrag (Ausgabe, Datensatz, Produkt, Gruppe, Textrahmen, Tabelle, Bildrahmen, Linie, Rechteck, Ellipse, Polygon, Feld).
-- Weiterverarbeitung: „Datensatz nicht in der geladenen Quelle“ nicht mehr fälschlich bei Feldern ohne eigene Kennung (z. B. Attributnamen) – sie übernehmen den Datensatz des Rahmens; nur ausgefilterte Datensätze gelten als ungeprüft statt fehlend; Schlüsselsuche indiziert (schneller).
-- Tabellen: Spaltenmessung schätzt die Breite von Zellen im Übersatz (Wort breiter als Spalte), damit geteilte Zellen nicht zu schmal bleiben.
+- Neu aufbauen: Die gespeicherte Gruppierungsebene ist jetzt die tatsächlich verwendete; zu große gespeicherte Ebenen (aus 0.7.372) werden erkannt und verworfen. Ein Neuaufbau baut damit nicht mehr die Produktgruppen der Folgeseiten mit auf (Montagebereich verlassen).
+- Weiterverarbeitung: Bildinhalte erscheinen nicht mehr als „Objekt“, sondern gehören zum Bildrahmen (technische Ansicht: „Bild“ mit eigenem Symbol).
