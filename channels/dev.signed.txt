@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.380
+version: 0.7.381
 date: 2026-11-12
 host: 21
-commit: 5714469c51a4694cd6dfb4a61b94eb4b60629ee1
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.380/p2-0.7.380-mac.zip
-mac.sha512: ab9d1e7d1b1428aacb6ff2b02d9d05de1222887510abddb99a0480d006aab33d1b6afa8677fabec76ac3fd5748886cb8f14e9b2e54706c46523db6b6b476d8c3
+commit: 788d0e8fc674d590a8a692481fbaddebf01578e4
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.381/p2-0.7.381-mac.zip
+mac.sha512: cdab2858dff973fd617c0a44084ecfc24ce3394052c0390c9a651e8f032803e62cfa21929b5b8eb396d6cedc7326ca9f56700dc86cdc56bd04ee8e71452fcaab
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Tabellen: Die Übersatz-Abschlussprüfung vergrößert den Textrahmen vorübergehend, solange die Tabelle noch unten herausragt. Zellen außerhalb des Rahmens galten sonst als Übersatz und wurden sinnlos verbreitert (Kalibrierart-Spalte 58 statt 30 pt). Die Nachbesserung ist auf 3 Runden zu je 3 pt begrenzt. An einer Kopie des Dokuments geprüft: 12 pt Umverteilung, kein Übersatz.
-signature: b422b8b844984a03dddd8a16128eb9ab54c35342eb93e484010deb01359f64a12e0292979e538093d7193bbdb5d5cbdc275d2836e4281357ad8f316b550fd209
+- Neu aufbauen ohne sichtbare Zwischenstände: Das alte Produkt bleibt stehen, Template und neuer Aufbau entstehen auf einer ausgeblendeten Hilfsebene „p2 Aufbau“. Am Ende tauscht p2 in einem Schritt: altes Produkt weg, neue Objekte auf ihre eigentlichen Ebenen, Hilfsebene entfernt. Bei Fehler oder Abbruch wird alles zurückgenommen.
+signature: d08016a9ad7a3ebbdc95baf1d3d87fcca9def23c331c27f1a06082a9c4b0d2211b7b9c7d1a34ee05b045cc241d4096e047cd4994dfdb254aedf644ce4d48050f
