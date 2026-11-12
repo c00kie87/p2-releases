@@ -1,12 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.372
+version: 0.7.373
 date: 2026-11-12
 host: 21
-commit: 0d99a822622085f6713de2ec04a248735a1fd8fc
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.372/p2-0.7.372-mac.zip
-mac.sha512: be567ef0631db0bd346ca3ea9f03b6ed858fac9022ec0b4563560e89708941d7264d3a40d1947b4451e7af9b6be6f270f9b5b8437fa54d3e33012d53abd61096
+commit: 8497e9533a3fc0511738c8866382bb41a4fb397f
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.373/p2-0.7.373-mac.zip
+mac.sha512: 4b50435e47a40031df0b6dda9af118885ae395d53773531b9179ec52064fea914c59eacedcb8bc45a788df6e1abf41f9617f2d1a5dafa92acca7e2fbb0cf9a84
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Weiterverarbeitung: Mit den Pfeiltasten durch die Liste (auf/ab), links/rechts klappt zu bzw. auf. Wird im Dokument ein Objekt innerhalb einer Gruppe gewählt (Doppelklick), markiert die Liste genau diesen Rahmen statt der ganzen Gruppe – Aktualisieren wirkt dann auch nur dort. Die Infozeile unter der Liste nutzt die einfache Ansicht.
+- Weiterverarbeitung: Symbole vor jedem Eintrag (Ausgabe, Datensatz, Produkt, Gruppe, Textrahmen, Tabelle, Bildrahmen, Linie, Rechteck, Ellipse, Polygon, Feld).
+- Weiterverarbeitung: „Datensatz nicht in der geladenen Quelle“ nicht mehr fälschlich bei Feldern ohne eigene Kennung (z. B. Attributnamen) – sie übernehmen den Datensatz des Rahmens; nur ausgefilterte Datensätze gelten als ungeprüft statt fehlend; Schlüsselsuche indiziert (schneller).
+- Tabellen: Spaltenmessung schätzt die Breite von Zellen im Übersatz (Wort breiter als Spalte), damit geteilte Zellen nicht zu schmal bleiben.
