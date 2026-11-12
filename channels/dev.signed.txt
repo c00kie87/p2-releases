@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.377
+version: 0.7.378
 date: 2026-11-12
 host: 21
-commit: be0c4015c208b02c21c3ac3ba0627ea1b9eaed90
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.377/p2-0.7.377-mac.zip
-mac.sha512: 05dae78e054254888fa8de27a70b582b8ae1f0ccacbc65b842672ed3d0c07ca28ef8c9b5aa5f3d8183d25ff5cef524c27babc87b35a3ec2c31eb8682bcc49e04
+commit: a7246d3d074f8cd301d943bd95928362f6ea41aa
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.378/p2-0.7.378-mac.zip
+mac.sha512: ebb330233f91574f39296661b30a400377c242ad11bfa3b8da9fc146e76e5a2aa3592abafcc5eee14cb9724e01575170fe4229f3702d0440fefef0e5129b89d8
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Tabellen: allgemeine Übersatz-Abschlussprüfung nach allen Tabellenschritten – jede Zelle im Übersatz wird verbreitert, die Breite kommt von Spalten mit Reserve (auch von Nachbarteilen geteilter Zellen); feste Spalten und Gesamtbreite bleiben; zu knappe Schätzungen werden schrittweise nachgebessert.
-- Neu aufbauen/Ersetzen: Das Seitenbild bleibt während des Laufs stehen (nur Neuzeichnen unterdrückt). Vor der Rückfrage zum Zwischenstand wird die Ansicht eingeblendet, damit er prüfbar ist.
-signature: d4401cff3cb74c40f8b0ee2546a6044a68ea724b169597a36de244a42c3f6ceeeba64f89de28bda37f088072a3777bbcf7a97368e0c0fdcf4c05d93373f8c302
+- Tabellen: Zellen im Übersatz werden jetzt richtig vermessen. InDesign verweigert dort die Zeilenmaße und meldet einen leeren Inhalt; p2 zählt nun die Zeichen einzeln. Damit greifen Spaltenmessung und Übersatz-Abschlussprüfung (z. B. geteilte Zelle „DAKKS | KAL“: an einer Kopie des Dokuments geprüft, kein Übersatz mehr).
+signature: 61708d152abac85c34554008d698fbafbe1ef9514cc2407e5b51208d7c8aecc0727a7f0306dff0b21728bcc458b45f0dd967f2b9517ac5204d5487b8280aa90e
