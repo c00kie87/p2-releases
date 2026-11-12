@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.370
+version: 0.7.371
 date: 2026-11-12
 host: 21
-commit: 226ce945826df8463e33ab1ff646c90b78bff1d1
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.370/p2-0.7.370-mac.zip
-mac.sha512: 97a248fce27fdaab2564ea79f9584881b4f901addd81a933632dd0a4d8558a55b4ca533ac975ff0d296f9c06e1eb08ebf0fc9a53196dc709494cf954b813432c
+commit: 8ad04b91f5fc8d4f5867964947e52f5e486adfb6
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.371/p2-0.7.371-mac.zip
+mac.sha512: 9f259318acd7c203625906b152d7be174c7f0ed7ae0fc2826ac43f5548fcdd280333d3b715d48781fa6b3d2875b0468f7b5e5ad42c36bdbf85d65b3a07eca838
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu aufbauen nimmt die Datensätze der ursprünglichen Gruppe, nicht mehr die ganze Gruppe der aktuell eingestellten Ausgaberegel (Seite 5: „Die befüllte Vorlage würde den Montagebereich verlassen“). Neue Ausgaben merken sich ihre Gruppierungsebene; bei älteren nimmt p2 die kleinste Gruppe, die alle bekannten Datensätze des Aufbaus enthält.
+- Weiterverarbeitung: Vorgabe ist jetzt eine einfache Ansicht – Ausgabe mit Datum, Gruppe bzw. Datensatz, Produkt mit Template-Namen und die Rahmen (Textrahmen, Bildrahmen mit Bildfeld, Gruppe) mit verständlichem Zustand; Platzhalterzeilen ausgeblendet. Der Knopf „Technische Ansicht“ zeigt die bisherige ausführliche Auswertung. Die Auswahl „Bereich“ zeigt immer eine Vorgabe.
