@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.363
+version: 0.7.364
 date: 2026-11-12
 host: 21
-commit: 7d46848a9a527e0eee887ba397c24c7e4087f0dc
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.363/p2-0.7.363-mac.zip
-mac.sha512: 207e53e474451792206984b371a2f22a1425f6e1016ac411865454af4e742708cd85dc083d5eced56e602d2b0b8d151d008a774c05986304583518242aef38fe
+commit: aea15b63e9ca13587dfba3ccc4ff69179311cebc
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.364/p2-0.7.364-mac.zip
+mac.sha512: b10daa9fe61df65f56ece37345056580643d5b77f515a9f18c7e74d6029954823fc5bc7ea036cef82b427724affc95efe63e21abb741465a1fc4cc9c859ca903
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Beim Öffnen fragte p2 nach dem Ergänzen der Herkunft, obwohl die letzte Ausgabe sie nur vorgemerkt hatte (Herkunft auf Bedarf). Ist eine Vormerkung vorhanden, fragt p2 nicht mehr; ergänzt wird wie vorgesehen vor dem ersten Arbeitsschritt, der sie braucht.
+- Weiterverarbeitung: neue Auswahl „Bereich“ für „Werte aktualisieren“ und „Neu aufbauen“ – gewählte Einträge (Mehrfachauswahl mit Cmd bzw. Umschalt), Auswahl im Dokument (Rahmen, Gruppen, Bilder, markierter Text) sowie alle Vorkommen der gewählten Datenfelder im Aufbau, auf der Seite oder im Dokument. Neu aufbauen erzeugt die betroffenen Aufbauten komplett neu.
