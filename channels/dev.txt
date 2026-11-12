@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.364
+version: 0.7.365
 date: 2026-11-12
 host: 21
-commit: aea15b63e9ca13587dfba3ccc4ff69179311cebc
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.364/p2-0.7.364-mac.zip
-mac.sha512: b10daa9fe61df65f56ece37345056580643d5b77f515a9f18c7e74d6029954823fc5bc7ea036cef82b427724affc95efe63e21abb741465a1fc4cc9c859ca903
+commit: 3cddcb211e056ce4a0bb6ed489d4c3e90213d692
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.365/p2-0.7.365-mac.zip
+mac.sha512: 371143aea8e01fed5fcd1d0395706b46fa6e56a5f6221c5883fcd0fdf1028a566173f5e49179b3d25abcfed8fb3805eab2ac23f658d8aa5d9014bc5c8f4cecc2
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Weiterverarbeitung: neue Auswahl „Bereich“ für „Werte aktualisieren“ und „Neu aufbauen“ – gewählte Einträge (Mehrfachauswahl mit Cmd bzw. Umschalt), Auswahl im Dokument (Rahmen, Gruppen, Bilder, markierter Text) sowie alle Vorkommen der gewählten Datenfelder im Aufbau, auf der Seite oder im Dokument. Neu aufbauen erzeugt die betroffenen Aufbauten komplett neu.
+- Fenster › p2 › Weiterverarbeitung fehlte im Menü (falscher Menüpfad der Palette); der Menüpunkt erscheint wieder neben den übrigen p2-Paletten.
