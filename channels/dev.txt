@@ -1,14 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.375
+version: 0.7.376
 date: 2026-11-12
 host: 21
-commit: b6e3c061bf26f2277996d912c9e94984a7099c37
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.375/p2-0.7.375-mac.zip
-mac.sha512: 2fe8b629b8b556cdd975308d1367292ab9b4ee0e9a698c2b8a11b9c5a0433dbd70ca991d6a87b67380f3754b7c9b469fa15fa0e4fd345f6b7334b82e69325123
+commit: 73a2d47d8a379f926ccac7adebf6aa8a404981f0
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.376/p2-0.7.376-mac.zip
+mac.sha512: e209705ec981525e40f3409fdcd2f160f8145bf6e4aa98c7081c6ded522fbbbddfc6a82debac2fd4c934b6f737692a254127104dc4adf9cc48e48106c336c6b0
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu aufbauen betrifft nur noch den gewählten Bereich: Einheiten ohne Datensätze des gewählten Aufbaus werden nie mitgebaut (Begrenzung nach allen Schritten der Einheitenbildung), nachstehende Elemente werden nicht mehr automatisch verschoben (Kaskade nur über „Dynamik anwenden“).
-- Diagnose: Protokoll „Neuaufbau“ mit Auftrag, Datensätzen, Ebenen und Einheiten je Schritt.
-- Weiterverarbeitung: Symbole dezent abgegraut.
+- Neu aufbauen: Es werden nur Produkte gebaut, die einen Datensatz des gewählten Aufbaus enthalten. Ursache des Montagebereich-Fehlers: Die gespeicherte Ebene umfasste mehrere Produkte, die bedingte Template-Verwendung teilte sie auf, und alle wurden an derselben Stelle gebaut.
