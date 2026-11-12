@@ -1,13 +1,17 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.381
+version: 0.7.382
 date: 2026-11-12
 host: 21
-commit: 788d0e8fc674d590a8a692481fbaddebf01578e4
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.381/p2-0.7.381-mac.zip
-mac.sha512: cdab2858dff973fd617c0a44084ecfc24ce3394052c0390c9a651e8f032803e62cfa21929b5b8eb396d6cedc7326ca9f56700dc86cdc56bd04ee8e71452fcaab
+commit: 6c8fb98e9199adb1359c98e0d76bdeb41db30517
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.382/p2-0.7.382-mac.zip
+mac.sha512: c71b37b20f8fe5c23e4e2b136dc0c1210ef41d5948ef0ff06447cb1868f40a3605fefb8d0fb9a3fd560953add78956feeb4a0b06cb067d377b8f17a47658d397
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Neu aufbauen ohne sichtbare Zwischenstände: Das alte Produkt bleibt stehen, Template und neuer Aufbau entstehen auf einer ausgeblendeten Hilfsebene „p2 Aufbau“. Am Ende tauscht p2 in einem Schritt: altes Produkt weg, neue Objekte auf ihre eigentlichen Ebenen, Hilfsebene entfernt. Bei Fehler oder Abbruch wird alles zurückgenommen.
-signature: d08016a9ad7a3ebbdc95baf1d3d87fcca9def23c331c27f1a06082a9c4b0d2211b7b9c7d1a34ee05b045cc241d4096e047cd4994dfdb254aedf644ce4d48050f
+- Produktversionen: genau eine Version je Produkt – Speichern ersetzt die vorhandene (Template-Stand bleibt erhalten).
+- Drag & Drop mit Alt+Umschalt: Produkt ohne Produktversion aus dem Template erzeugen (Alt allein wie bisher: gemeinsamer Fluss).
+- Automatisieren: neue Option „Produktversionen bevorzugen“ (Vorgabe an); aus = alle Produkte aus dem Template neu erzeugen.
+- Zu große Produktversion (Drag & Drop und Automatisierung): neu umbrochen aus dem Template; aus der Version übernommen werden Rahmen gleicher Kennung und Größe (samt Nacharbeit) und die Texte der Textrahmen (manuelle Umbrüche, Formatierung). Bericht nennt Übernahmen.
+- Kollisionserkennung beachtet die Ausnahmeliste jetzt überall (auch altes Produkt beim Neuaufbau).
+signature: 899d0efd3e259047fc6be846515809df02ae5ba2611db024d16eae9014bedb3f77ff309f2d0fb31a10dc0f6ce84c33ea4149942ef351917943f5307b96645c09
