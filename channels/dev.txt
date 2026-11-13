@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.403
+version: 0.7.404
 date: 2026-11-13
 host: 21
-commit: b8a77aa3826bcbdcaec52e632a35c26c571553b1
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.403/p2-0.7.403-mac.zip
-mac.sha512: d6d3b2f68c905a22399576fe15e0644798fd963175c78f14ad4d58b773f4f8c2172db89e835060bc8d8e302d63fc70e412765e3c316779d4394faa241e39f49a
+commit: b00a358622610b2716a040dfff6def88f29034fc
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.404/p2-0.7.404-mac.zip
+mac.sha512: 8e42838ed15f64001a3aedbc16c1866d48983e801b359640e2480889c71446232236bcbdea7aa232559019676aa52c53dcd85f94ac6d18dc408290e99f379a6b
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Templates: Beim erneuten Speichern eines Templates bleibt „Variante von“ erhalten (ging bisher verloren; dadurch fragte die Automatisierung „Template-Wahl unklar“).
+- Diagnose für den Abbruch in Lauf 20 (Tiefenmessschieber): Das Protokoll hält jetzt nach jedem Teilschritt des Tabellenumbruchs fest, wo der geteilte Rahmen und sein Folgerahmen liegen, und vermerkt die Höhe des ersten Teils vor der Platzierung. Damit ist erkennbar, welcher Schritt den ersten Tabellenteil um rund 92 cm nach unten verschiebt. Sonst ändert sich nichts am Verhalten.
