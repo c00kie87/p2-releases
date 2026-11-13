@@ -1,15 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.425
+version: 0.7.426
 date: 2026-11-13
 host: 21
-commit: 9a92b80a85920d0c2c5f9a71dbc020decf107016
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.425/p2-0.7.425-mac.zip
-mac.sha512: 43120b1e6f2847c7930337d5f5d036bae700d719def466772e4017c5927a1a56c99a4e2f7720af34dc3862072b0b9fe74e035e63f07f879b005ffecccc0d25e6
+commit: 6889200bcc0787b9b7145547313db7e26e043232
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.426/p2-0.7.426-mac.zip
+mac.sha512: 2279beacfe69c17c52b3caca9daa2f4071b78f14c578ae4778294408ebc0676da99ce8f361a4fdb50806fbcf6c731d1f1c319fbb8b4d0f4628348d4f3647bf21
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- 0.7.425
-- Neu: Fülltemplate. In den Template-Details Typ „Fülltemplate“ und „Ab Resthöhe (mm)“ wählen. Beim Automatisieren füllt es den Rest am Ende einer Seite, wenn der nächste Aufbau auf die nächste Seite wandert: mit dem Abstand zwischen Templates unter den letzten Aufbau gesetzt und bis zum Satzspiegelende gestreckt (z. B. leerer Bildrahmen), ohne Befüllung. Es wird immer das erste Fülltemplate der Bibliothek verwendet; es nimmt nicht an der Template-Wahl teil.
-- Protokoll: Variantenprobe je Rahmen (Lage, Höhe), Fülltemplate je Seite.
-signature: a20dcffd0cda7aac88dd2fa9b744206f3fd1efe25915c2e95a279c48f7c55c2b39338536641a1b765b0889f3f50af4441922beb90ff905191f608d6a226ef102
+- 0.7.426
+- Variantenmodus „platzsparend vor Umbruch“: Bricht auch die Variante um, wird sie trotzdem genommen, wenn sie mindestens 5 mm mehr auf die aktuelle Seite bringt (z. B. nur noch die Tabelle bricht um statt des ganzen Aufbaus).
+- Protokoll: je Variantenprobe, wie viel bei Umbruch auf die Seite käme.
+signature: 35ecb3d21413fc780491b31172043891b79e6640e040036cc186e82a6f04c0e8baae0cc9baea5caa16f79a9a74e0e761a9d7f054038427f43dac52cca68c4d0f
