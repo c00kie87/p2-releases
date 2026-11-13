@@ -1,15 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.395
-date: 2026-11-12
+version: 0.7.396
+date: 2026-11-13
 host: 21
-commit: af5b18d5d230cb1ef8567bf70affd52911c8aa30
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.395/p2-0.7.395-mac.zip
-mac.sha512: 6dfa2d514c64a1db4f27d3a3a439b70bd41a9758c138902de814a2b1c62a39f0bd74e6fe20e532d9e5777800a84f3919682888a7cc660de1a01c69d0b9ea1f7c
+commit: 6643be9696c7ed56669ae93758aed26e435b05f7
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.396/p2-0.7.396-mac.zip
+mac.sha512: 7c94d5a2ad8fac97d48daab6407199048fbf411f97273e0109d7b5c709feab3d2a2d8f9dc32c26f0dc23891db40b9c61007b2a24a09371062e846971ec0db535
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Template-Varianten: In den Template-Details „Variante von“ wählen. Automatisieren › „Template-Varianten“: fest / vorschlagen / automatisch. Automatisch baut p2 Grund-Template und Varianten unsichtbar probeweise auf und nimmt die, die ohne Umbruch auf den Restplatz passt, sonst die niedrigste, bei Gleichstand das Grund-Template. Vorschlagen fragt je Produkt (mit Höhe und Empfehlung, „Rest automatisch“). Der Bericht nennt die gewählten Varianten und die gewonnene Höhe.
-- Produktversionen erstellen (Dokument/Auswahl/Seiten): je Template-Ausgabe genau eine Version (nicht mehr je Rahmen oder Datensatz); manuell ergänzte bzw. mit dem Produkt kollidierende Fremdelemente gehören dazu, Seitenbeschriftungen nicht. Über Seiten umbrochene Produkte werden gemeldet und nicht versioniert. Gilt auch für „Als Produktversion sichern“.
-- Templates-Palette: Regler unter dem Raster für die Kachelgröße (stufenlos, gleich große Kacheln, für Templates und Produktversionen; wird gemerkt).
-signature: 8e4a397ea0e9c302239e698cd94ec74afd282129fe3e0df470d12f45928cc3eca9889ce409f60daf7d7aa2cc773ba803ad03a39a26592139538acfdfd9dbd706
+- Template-Varianten schneller: Zuerst wird nur das Grund-Template aufgebaut; passt es ohne Umbruch, wird dieser Aufbau direkt übernommen (keine Probe). Nur wenn es nicht passt, werden die Varianten aufgebaut, und der Aufbau der gewählten wird übernommen statt erneut erstellt. Lauf 17 hätte damit statt 201 nur etwa 67 plus die nicht passenden Aufbauten gebraucht.
+signature: c145092e2042255901db95f24287e7a1e6531111f006bb6a794788f988c7f5da4706d55e0d24252c64b7e262aaafcdb909070db285d13b9f7868b802a32be50e
