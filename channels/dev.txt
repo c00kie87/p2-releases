@@ -1,13 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.399
+version: 0.7.400
 date: 2026-11-13
 host: 21
-commit: 5329077ada40fb1b6d4d821aeacef4f1a68900b6
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.399/p2-0.7.399-mac.zip
-mac.sha512: 2c6ba3edc5176d1e11351c72092d9be7ca0580b51566a508e7fca8457903fedb93a5cbe1adf596dfc05a3482d67441ed83b5973d152d6bb557aa7779940db296
+commit: 28e0cd52f64763197ec02886f2b6877e5673f745
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.400/p2-0.7.400-mac.zip
+mac.sha512: bfcfc2f81e81c9b27eb6e288f74db581ffb3824a9e9b5533534e164fc8834cf31afbaf49b5ba2057666aaf37e09cc1f41416859bf31f01fa7174849ccfa6613b
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Bild-Zwischenspeicher aus 0.7.398 vollständig zurückgenommen (keine Kopien außerhalb der Seiten mehr); Bilder werden wieder direkt aus den Datenfeldern importiert.
-- Template-Varianten: Im Probeaufbau einer Variante werden identische Template-Elemente nicht erneut aufgebaut. p2 ermittelt selbst, welche Rahmen in Grund-Template und Variante gleich sind (Kennung, Art, Größe, Regeln, Template-Text, nicht vervielfältigt) und übernimmt Inhalt und Größe aus dem fertigen Grund-Aufbau – vor allem Tabellen. Nur abweichende Elemente werden neu gebaut; Verdrängen/Heranziehen rechnen mit den echten Größen.
+- Template-Varianten: Prüfung auf Kollision/Übersatz war zu streng (Lauf 18: alle 39 Varianten verworfen). Rahmen mit „Text im nächsten Rahmen fortsetzen“ und verkettete Rahmen gelten nicht als Übersatz (sie werden erst beim Umbruch geteilt); Überlappungen, die auch der fertige Grund-Aufbau hat, gelten nicht als Kollision; Toleranz 2 pt. Der Bericht nennt die betroffenen Rahmenkennungen.
