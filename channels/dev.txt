@@ -1,14 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.415
+version: 0.7.416
 date: 2026-11-13
 host: 21
-commit: 237e2762e108997b67c5ff9c6a0845d3063894bf
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.415/p2-0.7.415-mac.zip
-mac.sha512: 64e5809d7e1ca2bc7505decc9d9e10db3d4cb22248882fefcf50ac0e0d5b83fe0555d819ecc4a76d4d2c44aaa051e90bd9a808b27fe373bd52ed4ba4ca0f2599
+commit: 91325d8e39e63c7e3181498dd5f79bf965e18e8a
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.416/p2-0.7.416-mac.zip
+mac.sha512: 7b393f98d10cbdeeec801c58cf90102a08d1e6568175b576322015e5929b3cbdbff82b3fcacfe42ee32ffcb1ed38aea3fdcea3ef5f223d608606bd4c31c77f16
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Kreuztabelle: „Auswahl vom Verbinden gleicher Werte ausnehmen“ an der Wiederholungsspalte gilt wieder für alle erweiterten Spalten (Fehler seit 0.7.406: Ausnahmebereiche wurden doppelt umgerechnet).
-- Produktversionen: Vorschaubild zeigt das ganze Produkt (bisher das erste eingebettete Vorschaubild, z. B. ein Piktogramm); Beschriftung mit Bestellnummer/Bezeichnung statt Datensatzkennung. Bereits erstellte Versionen behalten ihre alte Vorschau.
-- Automatisieren und Ziehen mit Datensätzen: Seitenansicht wird sofort ausgeblendet, schon während die Templates eingelesen werden; Fortschrittsbalken erscheint gleich.
+- Diagnose Template-Varianten: Das Protokoll nennt je Produkt den freien Platz, die Höhe jeder Probe, ob sie passt oder verworfen wurde und welche gewählt wurde.
