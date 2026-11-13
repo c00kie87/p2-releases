@@ -1,15 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.418
+version: 0.7.419
 date: 2026-11-13
 host: 21
-commit: a9f2a92d10e6e72d88107b87c04558fea853564d
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.418/p2-0.7.418-mac.zip
-mac.sha512: 02032044476b7715327144a361c34f75491ad2c70cc27e89f5e0ac26743bdf61bf7418126a6f66ef5569010bf2d04298183d1eb3e8b372f40a6216e03dd0cf1a
+commit: 84643bf4802540b347580521d5a59c82e0ec7f04
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.419/p2-0.7.419-mac.zip
+mac.sha512: 577d401097414cbc9aac758dbcb920a6f0f4c708c9bd5e69f72a03d9007093be228f2834dc58a7b229c4f13e0c25a972d3a2d9ce912020dce6d9815147d772f0
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Vervielfältigung im Raster (Template K2): Innerhalb jeder Kopie folgt das Bild jetzt seinem Text (Verdrängen/Heranziehen), bevor das Raster nach den echten Größen angeordnet wird. Bisher fand die Dynamik die Rahmen in der Sammelgruppe nicht – Bilder überlagerten Text oder standen weit darunter, und K2 wirkte in der Variantenprobe immer höher als K1.
-- Umbrochene Tabellen: Der letzte Folgerahmen wird bei Übersatz an seinen Inhalt angepasst (S. 20).
-- Kreuztabellen: Werte aus Datenfeldern tragen jetzt den Datensatzbezug – „Datenfelder aktualisieren“ ändert sie, und die Tags melden keinen fehlenden Bezug mehr. Gilt für neu ausgegebene Tabellen.
-- Zusatzfelder: InDesign-Sonderzeichen im Vorlagentext (^y, ^i, ^h, ^s, ^m, ^>, ^=, ^_ u. a.).
+- Vervielfältigung im Raster: neue Fluss-Option „In Rasterzeile“ (nicht ausrichten / Oberkante / mittig / Unterkante). Gleiche Rahmen aller Kopien einer Rasterzeile – z. B. die Bilder unter unterschiedlich langen Texten – werden nach dem Aufrücken aneinander ausgerichtet; das Raster wird danach neu angeordnet.
