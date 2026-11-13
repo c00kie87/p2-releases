@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.404
+version: 0.7.405
 date: 2026-11-13
 host: 21
-commit: b00a358622610b2716a040dfff6def88f29034fc
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.404/p2-0.7.404-mac.zip
-mac.sha512: 8e42838ed15f64001a3aedbc16c1866d48983e801b359640e2480889c71446232236bcbdea7aa232559019676aa52c53dcd85f94ac6d18dc408290e99f379a6b
+commit: 5d2e2e83172a86f6041507d0b360f90a074e88d2
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.405/p2-0.7.405-mac.zip
+mac.sha512: 3011234515dd609ee668b90c04fb20a86d86aba8556168ee6d52898bc74667e67ecb8477fb47c1962fe444cd0b441dd142302033c26359b17df887181026c149
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Diagnose für den Abbruch in Lauf 20 (Tiefenmessschieber): Das Protokoll hält jetzt nach jedem Teilschritt des Tabellenumbruchs fest, wo der geteilte Rahmen und sein Folgerahmen liegen, und vermerkt die Höhe des ersten Teils vor der Platzierung. Damit ist erkennbar, welcher Schritt den ersten Tabellenteil um rund 92 cm nach unten verschiebt. Sonst ändert sich nichts am Verhalten.
-signature: efa137cd8247e44327f27f7fd4fae5f159b46b27632bd24461defa2cbefc85378cb15f2b33329b48699edff72d8adebbed713bcc9695db0e88f2c4695456fe0b
+- Feinere Diagnose für den Abbruch in Lauf 20: Lauf mit 0.7.404 belegt, dass beim Tabellenumbruch die übrigen Teile der Einheit um 922 pt verrutschen, während der Tabellenrahmen stehen bleibt. Das Protokoll hält jetzt jeden Einzelschritt fest (Textprobe, Duplizieren, Objektformate, Größe setzen, Verbinden), damit sich der verantwortliche Schritt eindeutig zeigt. Verhalten unverändert.
+signature: 7a6d56c3c95f54102c1bd0c282e76b3cac29f734f8df4677a5ce52838495d6e25d13f4a6ff638ee2f406e208605c10007138e48eabad31947661f6db492cf906
