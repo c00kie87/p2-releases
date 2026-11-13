@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.407
+version: 0.7.408
 date: 2026-11-13
 host: 21
-commit: ed540a1a180cd80649be62ae329e5ade432f4ec4
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.407/p2-0.7.407-mac.zip
-mac.sha512: 1ac90555883fa6545ec6b3d999266c39dbc2a54c75b751d1bbd521cee461a02ac4c30e4cb4c07e85d08b18bf327e23ce67de3a3694ce593df70c8a6ef9c493e0
+commit: 5a88ae58571a4c181a2e3de2620f8c752c651fec
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.408/p2-0.7.408-mac.zip
+mac.sha512: cb03ca2a0e63eda5b7c9e877af4d3fcc1c117f91552f86431eede4157ca60ff5b6fd11914b9d7921973440a75a17e5146cd8814b16b4568abb3b74e3535e4a54
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Zugewiesene Rahmengruppen aus einem Datenfeld: Unter Automatisieren › „Template aus Feld“ lässt sich jetzt der Vorrang einstellen – nur Zuweisung; Zuweisung, aber zutreffende Template-Regeln haben Vorrang; Regeln, aber eine gültige Zuweisung hat Vorrang. Das Rückfall-Template gilt weiterhin, wenn nichts eindeutig ist. Eine Template-Variante kann über das Feld direkt zugewiesen werden. Neuer Schalter „Platzberechnung darf Zuweisung ersetzen“: nur wenn er an ist, ersetzen Template-Varianten eine zugewiesene Rahmengruppe.
-- Enthält außerdem: Spaltenparameter wandern bei Tabellenerweiterung mit (0.7.406) und die Schnittlage-Diagnose (0.7.405).
+- Template-Tabellen: Wird im Template eine Spalte oder Zeile links/rechts bzw. oben/unten eingefügt oder gelöscht, ordnet p2 die Tabelleneinstellungen jetzt den richtigen Spalten zu. Die neue Spalte übernimmt die Einstellungen der Spalte, von der aus sie eingefügt wurde, nachfolgende Spalten behalten ihre. Dafür trägt jede Zelle des Templates eine unsichtbare Spalten-/Zeilenmarke. Die Anpassung greift beim Anwählen in der Palette (Übernehmen speichert), beim Speichern als Template und beim Automatisieren.
+- Template-Details: Das Beschreibungsfeld ist mehrzeilig, beginnt oben und bricht fortlaufend um.
