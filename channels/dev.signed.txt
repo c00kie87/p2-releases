@@ -1,13 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.420
+version: 0.7.421
 date: 2026-11-13
 host: 21
-commit: 949ca08a9157bda844a74dbb1900eb9624f1653c
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.420/p2-0.7.420-mac.zip
-mac.sha512: 5d91d34163020e47e0b8b4a49877916eb1fe91cf68086d5a9cf5a738b527a45665ba2b3f9fe9430246d875636122d070333a760b3b348d25489e003558035d2e
+commit: 235e458d4f6647f108d86644fc6b1df59dd0c1bc
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.421/p2-0.7.421-mac.zip
+mac.sha512: 3c26811e05e207552e93f8884c64c4d3c26865ec25040051e46ec46067a79b25dad5af26f725637f34b6af55f9116621a46a8b4fd19f91e105dceac3eabe29d9
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- „In Rasterzeile“ ausrichten wirkt jetzt auf jedes Objekt der vervielfältigten Kopie: Bild-, Textrahmen oder Gruppe, auch verschachtelt. Eine Gruppe wird als Ganzes ausgerichtet.
-signature: 26b3f9876def7dca6a8af3edc78f1a1f796aefda2daf625e0de2a00b40d5c69f1428d07c3b59b004e8aafe82d2e783fd3d5dbc5cac89b4ac6b0a6fe22ef0be0a
+- 0.7.421
+- Kein Abbruch mehr, wenn ein Aufbau auch auf einer leeren Seite nicht passt und eine Tabelle mit „nicht vom vorherigen trennen“ im Restplatz keine Zeile aufnimmt: p2 hebt dort als letzten Ausweg das Zusammenhalten auf und setzt die Tabelle auf die nächste Seite.
+- Protokoll „Rasterzeile“: zeigt je Rasterzeile, welche Objekte ausgerichtet werden.
+signature: a7069a9c38d41418584a01d2b7ff8ce1c1085d93d6282368ea2193546d15ad6499f66f9e336fe8a0c7bd271d50b09b843bc56af827d3f7c15c848c693cae940c
