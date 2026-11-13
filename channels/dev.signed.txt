@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.412
+version: 0.7.413
 date: 2026-11-13
 host: 21
-commit: a2c25a195854197318663f5180f8b2f640f1f80c
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.412/p2-0.7.412-mac.zip
-mac.sha512: 689a813e7ddef8466c1abe685e6644533d31baeafd1f081434934cdbfd7665eacbeea6b84b276bda2ec6d525269f0bec3d81624c8516e8e9e4013106b066b693
+commit: 684b30c058bd31d4929ea605a5d0e6c89f32f21f
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.413/p2-0.7.413-mac.zip
+mac.sha512: 20e1503a3616545cc9d533ed3d57f6572892ae3b22f5403785164b4292c8a757917e1ed924953d468aecea2f71b2699ed9bff327101d748556598aeb692d3dd9
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Template-Varianten mit vier Modi: keine (gewähltes Template), vorschlagen, platzsparend vor Umbruch (Grund-Template, solange es auf den Restplatz passt, sonst die niedrigste Variante) und neu „immer platzsparendste“ (stets die Variante mit der geringsten Höhe; baut jedes Produkt in allen Varianten).
-signature: 8016561921cb3e1c50bae9cc212241a79c130242c3e9c673ae6cdef4ae074e0738e748685c74ada17b6b5e9121f38bfa348a9e9ac48a379b3ac5b2c0b4876600
+- Tabellenbreiten: Bei Template-Tabellen mit vielen schmalen Spalten (z. B. 22 Spalten auf 183 mm) blieben nach dem Löschen leerer Spalten zu schmale Spalten zurück; deren Zellen standen beim Messen im Übersatz, und die Breiten ergaben sich aus der Notkorrektur am Ende (bis 200 pt je Tabelle) statt aus der proportionalen Verteilung. Jetzt werden zu schmale dynamische Spalten vor dem Messen auf ihren gleichen Anteil gebracht.
+signature: afe718157110301273ebd848d527a68654a60c6f34781359cbfafd5680a4adfdc3a0efb801ce14dc490d6dd2a9978c496f83acbe4e0cda3736dec2fcc302f902
