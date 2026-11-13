@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.406
+version: 0.7.407
 date: 2026-11-13
 host: 21
-commit: 9fe1f2e293a75cbb16a5059bf9e6da080831e3a5
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.406/p2-0.7.406-mac.zip
-mac.sha512: 5b0a4dc13c6fc20075aa85cab9df22762ecf43c4a168a3ad87379c1b05fcfec67068b846fb31e264ff04e3a3fdfafcec68143bdafd5e369ee1dabfe4eca05213
+commit: ed540a1a180cd80649be62ae329e5ade432f4ec4
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.407/p2-0.7.407-mac.zip
+mac.sha512: 1ac90555883fa6545ec6b3d999266c39dbc2a54c75b751d1bbd521cee461a02ac4c30e4cb4c07e85d08b18bf327e23ce67de3a3694ce593df70c8a6ef9c493e0
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Tabellen: Spalteneinstellungen wandern bei der Erweiterung mit. Neue Spalten übernehmen die Einstellungen der Spalte, von der aus erweitert wurde (statisch/dynamisch, Mindest-/Höchstbreite, Gewicht, gleichmäßig verteilen, Prüfspalten, Bindungen, Ausnahmen beim Zellverbinden); nachfolgende Spalten behalten ihre Einstellung an der neuen Position. Bisher wurde die gespeicherte Tabellenregel nur beim Löschen leerer Spalten umgerechnet, sodass etwa die Übersatz-Abschlussprüfung statische Spalten an der alten Position annahm.
-- Diagnose aus 0.7.405 bleibt enthalten.
-signature: a76f39d9105d70445ba995fae81f6c4ed34789635dd4f60ca58c88c622fdd399b17e5644a9bdcf293512d1d9707e7670147c9067465a962a00a28332a6c6fc0c
+- Zugewiesene Rahmengruppen aus einem Datenfeld: Unter Automatisieren › „Template aus Feld“ lässt sich jetzt der Vorrang einstellen – nur Zuweisung; Zuweisung, aber zutreffende Template-Regeln haben Vorrang; Regeln, aber eine gültige Zuweisung hat Vorrang. Das Rückfall-Template gilt weiterhin, wenn nichts eindeutig ist. Eine Template-Variante kann über das Feld direkt zugewiesen werden. Neuer Schalter „Platzberechnung darf Zuweisung ersetzen“: nur wenn er an ist, ersetzen Template-Varianten eine zugewiesene Rahmengruppe.
+- Enthält außerdem: Spaltenparameter wandern bei Tabellenerweiterung mit (0.7.406) und die Schnittlage-Diagnose (0.7.405).
+signature: 0fb40e049eaca670d08bf70350212c307cf908f69c7b1868277af753400b1818ecbac2041a86c00ba549a69c49eb019198d5aeaa39986e9b7876bda6a1da080b
