@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.397
+version: 0.7.398
 date: 2026-11-13
 host: 21
-commit: c9e5896c6e0dc5e16ea9d66e12cc4f7d42eebd2b
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.397/p2-0.7.397-mac.zip
-mac.sha512: 36bb2227bacc69f5283297f941b663085fa0b5a74acb2b1d76ed75138f85a531d4cfd752b3712ea247594c9c788f33bf4e51e570d00cbd6b0bc48c07be5c1e6b
+commit: 78ac1d25c5e0ecce358f434d5db82800444bb7e2
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.398/p2-0.7.398-mac.zip
+mac.sha512: 811ca475ce6bf206538b1983e856ce7dd71f9fa9d3aa12940768772b3fa8c27b9cb5ab59e5afa711fd287749c0b4bd80d00bbb95bc47c2d29f219865af199f27
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Template-Varianten: Eine Variante scheidet aus, wenn sich in ihrem Probeaufbau Rahmen überlappen, die sich im Template nicht überlappen (auch Kopien desselben Vervielfältigungsrahmens), oder wenn ein Textrahmen im Übersatz steht. Das Grund-Template bleibt Rückfall. Der Bericht nennt gewählte und verworfene Varianten.
+- Performance: Bild-Zwischenspeicher im Ausgabelauf. Wiederkehrende Bilddateien (Logos, Piktogramme) werden nur einmal importiert; weitere Verwendungen duplizieren die unveränderte Importkopie, die neben den Seiten auf der Montagefläche liegt (Ergebnis wie ein Neuimport, gleiche Verknüpfung). Am Laufende wird der Zwischenspeicher entfernt.
