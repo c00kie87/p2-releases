@@ -1,17 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.424
+version: 0.7.425
 date: 2026-11-13
 host: 21
-commit: 1eb786dab12495916a580c2e2f634b99f49f929f
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.424/p2-0.7.424-mac.zip
-mac.sha512: 69379afd14e0c2b35f700dede276fca313372cc8971033a650c1c00d09c455121d8a64e14af22e810bf657a60383833c25c30e061c3b2873b54b6582e854e451
+commit: 9a92b80a85920d0c2c5f9a71dbc020decf107016
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.425/p2-0.7.425-mac.zip
+mac.sha512: 43120b1e6f2847c7930337d5f5d036bae700d719def466772e4017c5927a1a56c99a4e2f7720af34dc3862072b0b9fe74e035e63f07f879b005ffecccc0d25e6
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- 0.7.424
-- Andocken an Stegkanten nutzt die tatsächlichen Spaltenhilfslinien der Seite (auch ungleich breite Spalten). Bisher wurde mit gleich breiten Spalten gerechnet, die Kante lag dann neben der Stegkante.
-- Template-Varianten: Eine Variante, deren Raster nur teilweise gefüllt wäre (z. B. ein Produkt in einem zweispaltigen Raster), wird nicht gewählt – lieber Weißraum unten als rechts.
-- Schnelleres Neuzeichnen: Template-Namen für die grauen Leisten werden nur noch bei geänderter Template-Bibliothek neu eingelesen (bisher beim Zeichnen alle 3 Sekunden).
-- Protokoll: Andocken, Einblenden der Ansicht und Zeichenzeit der p2-Leisten.
-signature: 46813102d9239f382358e5433fd19c61346b7af15df9fc5068d57d498c77369b5b6eb9690c7cb4af7f7a560988eb7d45fda520883b07100b73a5888c1ac40a0e
+- 0.7.425
+- Neu: Fülltemplate. In den Template-Details Typ „Fülltemplate“ und „Ab Resthöhe (mm)“ wählen. Beim Automatisieren füllt es den Rest am Ende einer Seite, wenn der nächste Aufbau auf die nächste Seite wandert: mit dem Abstand zwischen Templates unter den letzten Aufbau gesetzt und bis zum Satzspiegelende gestreckt (z. B. leerer Bildrahmen), ohne Befüllung. Es wird immer das erste Fülltemplate der Bibliothek verwendet; es nimmt nicht an der Template-Wahl teil.
+- Protokoll: Variantenprobe je Rahmen (Lage, Höhe), Fülltemplate je Seite.
+signature: a20dcffd0cda7aac88dd2fa9b744206f3fd1efe25915c2e95a279c48f7c55c2b39338536641a1b765b0889f3f50af4441922beb90ff905191f608d6a226ef102
