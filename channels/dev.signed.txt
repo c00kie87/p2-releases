@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.401
+version: 0.7.402
 date: 2026-11-13
 host: 21
-commit: 76b1b9fa0fd64ce4f890a1710a5c118b7cae705c
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.401/p2-0.7.401-mac.zip
-mac.sha512: e3385735c0444721018588d4c0e3fa91b03d4cab36e5cb18041c61d43f148628b5d3d34d7cdec434482080ba50e87efd67b93fbb6fcd88932e7a8f059f7afe5f
+commit: f16dd9df1bc1a2df23415a42f0e6138694ac2020
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.402/p2-0.7.402-mac.zip
+mac.sha512: 2082efe70218784ea28f1d1a861627187f8cbd829225799496838ce914e5fe57edbdc5cb129c13995d362dddc82bf44b81f679b2f633958f4bba2aa4f3b3f211
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Template-Varianten: Übersatz zählt nur, wenn er neu gegenüber dem fertigen Grund-Aufbau ist; Rahmen mit „Bei Fortsetzung wiederholen“ (z. B. grauer Balken „Variationsgruppe“) sind ausgenommen. In Lauf 19 wurde die gute zweispaltige Variante (z. B. Seite 5) deswegen fälschlich verworfen. Kollisionen wie auf Seite 4 (Bilder über Texten) werden weiterhin abgelehnt.
-signature: df93922d966c765963a1716e19136e31530a9d458f40cae3d95d7878759a0f3414554f814c2d8a9af7335ff20460bb08fcf7ef6e8bbbda3041962f1cb8f1a30b
+- Template-Varianten: Kollisionen in einer Variante führen nicht mehr zum Verwerfen. Die Variante wird nach Restplatz und Höhe gewählt; der Bericht meldet „Template prüfen: … Rahmen x/y überlappen“, damit das Template korrigiert werden kann. Neuer Übersatz gegenüber dem Grund-Aufbau bleibt ein Ausschlussgrund.
+signature: 361087f241a286d9169caaeb8883e9f8d46720aa9276ac56d4f2347bcae8a0cdea66b697f8f3035cd49f067200c24b46ab20409bd24dd30e4bd7922863cd2509
