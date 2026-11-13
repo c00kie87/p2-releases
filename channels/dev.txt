@@ -1,13 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.411
+version: 0.7.412
 date: 2026-11-13
 host: 21
-commit: 5ce68a87e01d3261a88f59012023c380dfc340a5
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.411/p2-0.7.411-mac.zip
-mac.sha512: 3d2acc6c87a892c4320f7fcc3b3c4b85bd031623da23f8438e99b017202a977dc266f4d82c447a904eeff2d8c65f796e8fb3dfdfecb59223db4130383bbebc4a
+commit: a2c25a195854197318663f5180f8b2f640f1f80c
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.412/p2-0.7.412-mac.zip
+mac.sha512: 689a813e7ddef8466c1abe685e6644533d31baeafd1f081434934cdbfd7665eacbeea6b84b276bda2ec6d525269f0bec3d81624c8516e8e9e4013106b066b693
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Tabellenumbruch: Absicherung gegen den Abbruch beim Tiefenmessschieber. Verrutscht die übrige Einheit während der Textprobe (Lauf mit 0.7.410: um 922 pt), gleicht p2 Tabellenrahmen und Schnitt um denselben Betrag an; das Protokoll vermerkt dies und jeden Teilschritt der Textprobe.
-- Template-Varianten wirken jetzt auch beim Ziehen eines Templates aus der Bibliothek: Die Varianten des gezogenen Templates (z. B. K2 zu K1) werden neben der Seite mit eingelesen, bei Bedarf geprüft und danach entfernt.
+- Template-Varianten mit vier Modi: keine (gewähltes Template), vorschlagen, platzsparend vor Umbruch (Grund-Template, solange es auf den Restplatz passt, sonst die niedrigste Variante) und neu „immer platzsparendste“ (stets die Variante mit der geringsten Höhe; baut jedes Produkt in allen Varianten).
