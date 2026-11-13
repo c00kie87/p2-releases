@@ -1,12 +1,12 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.419
+version: 0.7.420
 date: 2026-11-13
 host: 21
-commit: 84643bf4802540b347580521d5a59c82e0ec7f04
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.419/p2-0.7.419-mac.zip
-mac.sha512: 577d401097414cbc9aac758dbcb920a6f0f4c708c9bd5e69f72a03d9007093be228f2834dc58a7b229c4f13e0c25a972d3a2d9ce912020dce6d9815147d772f0
+commit: 949ca08a9157bda844a74dbb1900eb9624f1653c
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.420/p2-0.7.420-mac.zip
+mac.sha512: 5d91d34163020e47e0b8b4a49877916eb1fe91cf68086d5a9cf5a738b527a45665ba2b3f9fe9430246d875636122d070333a760b3b348d25489e003558035d2e
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Vervielfältigung im Raster: neue Fluss-Option „In Rasterzeile“ (nicht ausrichten / Oberkante / mittig / Unterkante). Gleiche Rahmen aller Kopien einer Rasterzeile – z. B. die Bilder unter unterschiedlich langen Texten – werden nach dem Aufrücken aneinander ausgerichtet; das Raster wird danach neu angeordnet.
+- „In Rasterzeile“ ausrichten wirkt jetzt auf jedes Objekt der vervielfältigten Kopie: Bild-, Textrahmen oder Gruppe, auch verschachtelt. Eine Gruppe wird als Ganzes ausgerichtet.
