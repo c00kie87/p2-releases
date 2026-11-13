@@ -1,12 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.410
+version: 0.7.411
 date: 2026-11-13
 host: 21
-commit: 859f5209595096293116dde77b53766683e1b201
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.410/p2-0.7.410-mac.zip
-mac.sha512: 6d3e1a5d6270fb8111b1075e6f8b5ce84df4afac3a71a311dd6066379b2b89b4ab2760ad2c36efd4175e552a8b93aade57ae3c69a640f56a9382a4e699543253
+commit: 5ce68a87e01d3261a88f59012023c380dfc340a5
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.411/p2-0.7.411-mac.zip
+mac.sha512: 3d2acc6c87a892c4320f7fcc3b3c4b85bd031623da23f8438e99b017202a977dc266f4d82c447a904eeff2d8c65f796e8fb3dfdfecb59223db4130383bbebc4a
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Zusatzfelder: Im Vorlagentext steht ^t für einen Tabulator und ^n für einen Zeilenumbruch (die Tab-Taste springt im Eingabefeld zum nächsten Feld). Zusammen mit dem Schema (Name mit #) lassen sich z. B. „Merkmal#“ = „{InvariantAttributeName1}:^t{InvariantAttributeValue1} {InvariantAttributeUnit1}“ für alle Nummern anlegen.
+- Tabellenumbruch: Absicherung gegen den Abbruch beim Tiefenmessschieber. Verrutscht die übrige Einheit während der Textprobe (Lauf mit 0.7.410: um 922 pt), gleicht p2 Tabellenrahmen und Schnitt um denselben Betrag an; das Protokoll vermerkt dies und jeden Teilschritt der Textprobe.
+- Template-Varianten wirken jetzt auch beim Ziehen eines Templates aus der Bibliothek: Die Varianten des gezogenen Templates (z. B. K2 zu K1) werden neben der Seite mit eingelesen, bei Bedarf geprüft und danach entfernt.
