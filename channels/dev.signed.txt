@@ -1,15 +1,16 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.421
+version: 0.7.422
 date: 2026-11-13
 host: 21
-commit: 235e458d4f6647f108d86644fc6b1df59dd0c1bc
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.421/p2-0.7.421-mac.zip
-mac.sha512: 3c26811e05e207552e93f8884c64c4d3c26865ec25040051e46ec46067a79b25dad5af26f725637f34b6af55f9116621a46a8b4fd19f91e105dceac3eabe29d9
+commit: 33d40c380cd78d095bc1355b3512a1b1ad1e23f1
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.422/p2-0.7.422-mac.zip
+mac.sha512: d12d245a7e0cd65124b2e5c8ce148aa0d8dd9942f01e126c5468d0bb3d18dca89ba43d70d40c4df667fb8b923104377b25685041b744a70469b30d1ae07e4457
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- 0.7.421
-- Kein Abbruch mehr, wenn ein Aufbau auch auf einer leeren Seite nicht passt und eine Tabelle mit „nicht vom vorherigen trennen“ im Restplatz keine Zeile aufnimmt: p2 hebt dort als letzten Ausweg das Zusammenhalten auf und setzt die Tabelle auf die nächste Seite.
-- Protokoll „Rasterzeile“: zeigt je Rasterzeile, welche Objekte ausgerichtet werden.
-signature: a7069a9c38d41418584a01d2b7ff8ce1c1085d93d6282368ea2193546d15ad6499f66f9e336fe8a0c7bd271d50b09b843bc56af827d3f7c15c848c693cae940c
+- 0.7.422
+- Erzwungener Umbruch wird im Dokument markiert: orangenes Ausrufezeichen im Kreis unten mittig am ersten Teil mit Hinweistext (nur Bildschirm, nicht im Druck). Erscheint, wenn p2 „nicht vom vorherigen trennen“ auf einer leeren Seite aufheben musste.
+- Variantenmodus „platzsparend vor Umbruch“: Passt keine Variante in den Restplatz, bleibt das Grund-Template (bisher wurde die minimal kleinere Variante gewählt, z. B. bei 1 pt Restplatz).
+- Protokoll: Nachlauf nach der Ausgabe mit Zeiten (Templates entfernen, Rückgängig-Schritt, Ansicht einblenden) und Lage der Rahmen nach der Dynamik.
+signature: 6dfd1ddc6cac10b9c234266faba7b11f3f78cd86f3911f1a027c57de5acce90379956f3dad8b383f830cc5f34762163e31e1b5dd9a328fdac74e69e9a93f870e
