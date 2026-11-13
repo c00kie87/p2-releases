@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.402
+version: 0.7.403
 date: 2026-11-13
 host: 21
-commit: f16dd9df1bc1a2df23415a42f0e6138694ac2020
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.402/p2-0.7.402-mac.zip
-mac.sha512: 2082efe70218784ea28f1d1a861627187f8cbd829225799496838ce914e5fe57edbdc5cb129c13995d362dddc82bf44b81f679b2f633958f4bba2aa4f3b3f211
+commit: b8a77aa3826bcbdcaec52e632a35c26c571553b1
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.403/p2-0.7.403-mac.zip
+mac.sha512: d6d3b2f68c905a22399576fe15e0644798fd963175c78f14ad4d58b773f4f8c2172db89e835060bc8d8e302d63fc70e412765e3c316779d4394faa241e39f49a
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Template-Varianten: Kollisionen in einer Variante führen nicht mehr zum Verwerfen. Die Variante wird nach Restplatz und Höhe gewählt; der Bericht meldet „Template prüfen: … Rahmen x/y überlappen“, damit das Template korrigiert werden kann. Neuer Übersatz gegenüber dem Grund-Aufbau bleibt ein Ausschlussgrund.
-signature: 361087f241a286d9169caaeb8883e9f8d46720aa9276ac56d4f2347bcae8a0cdea66b697f8f3035cd49f067200c24b46ab20409bd24dd30e4bd7922863cd2509
+- Templates: Beim erneuten Speichern eines Templates bleibt „Variante von“ erhalten (ging bisher verloren; dadurch fragte die Automatisierung „Template-Wahl unklar“).
+signature: 0d89186013c1a56f27d7a4d9deedcdc823e1087477729350de98240c6aa84ef2b4944beecb3b7c6a237c47d9c03db8fdbaeb01d0725fbea7ab0c2da0b415ab00
