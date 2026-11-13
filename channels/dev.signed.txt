@@ -1,14 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.414
+version: 0.7.415
 date: 2026-11-13
 host: 21
-commit: 9b45ebeee76f7109ac5326159440f987a166f9bb
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.414/p2-0.7.414-mac.zip
-mac.sha512: 7940719413afd3c15f060356d22795e04328ed47135ef6b1bee615f70db5053062eb957e45ae5bd25ada9d3da9a1d61300e3e82da22a0c45dcb8f6bd238a1dbd
+commit: 237e2762e108997b67c5ff9c6a0845d3063894bf
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.415/p2-0.7.415-mac.zip
+mac.sha512: 64e5809d7e1ca2bc7505decc9d9e10db3d4cb22248882fefcf50ac0e0d5b83fe0555d819ecc4a76d4d2c44aaa051e90bd9a808b27fe373bd52ed4ba4ca0f2599
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Laufzeit: Leere Spalten einer Kreuztabelle werden schon vor dem Füllen erkannt und gelöscht (gleiche Regeln wie die Leerspalten-Bereinigung, die als Sicherung bleibt). Bei Templates mit vielen Reserve-Spalten entfallen so Füllen, Verbinden und Messen überflüssiger Spalten.
-- Template-Varianten übernehmen gleiche Tabellen wieder aus dem Grund-Aufbau: Ein Höhenunterschied der Template-Rahmen (K1/K2: 0,57 pt) verhinderte bisher jede Übernahme; die Höhe ist dafür unerheblich.
-signature: 8afa792f04a920fbb488524f399132dad62c7b0eaf95df0cd0061b91fea4ee53a66bccc4ce4a3a4b28a3bb8853544e6281dff0226131c0ec882b923979c9c90c
+- Kreuztabelle: „Auswahl vom Verbinden gleicher Werte ausnehmen“ an der Wiederholungsspalte gilt wieder für alle erweiterten Spalten (Fehler seit 0.7.406: Ausnahmebereiche wurden doppelt umgerechnet).
+- Produktversionen: Vorschaubild zeigt das ganze Produkt (bisher das erste eingebettete Vorschaubild, z. B. ein Piktogramm); Beschriftung mit Bestellnummer/Bezeichnung statt Datensatzkennung. Bereits erstellte Versionen behalten ihre alte Vorschau.
+- Automatisieren und Ziehen mit Datensätzen: Seitenansicht wird sofort ausgeblendet, schon während die Templates eingelesen werden; Fortschrittsbalken erscheint gleich.
+signature: 7c1e03221aa44367ea3bb1b1a9c6f0fcbf7f727f64031967341557b9ef04156374c141c9adde6763c2aa5b85a8b106492b954e8b5a5645e98d18b37ecd237907
