@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.396
+version: 0.7.397
 date: 2026-11-13
 host: 21
-commit: 6643be9696c7ed56669ae93758aed26e435b05f7
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.396/p2-0.7.396-mac.zip
-mac.sha512: 7c94d5a2ad8fac97d48daab6407199048fbf411f97273e0109d7b5c709feab3d2a2d8f9dc32c26f0dc23891db40b9c61007b2a24a09371062e846971ec0db535
+commit: c9e5896c6e0dc5e16ea9d66e12cc4f7d42eebd2b
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.397/p2-0.7.397-mac.zip
+mac.sha512: 36bb2227bacc69f5283297f941b663085fa0b5a74acb2b1d76ed75138f85a531d4cfd752b3712ea247594c9c788f33bf4e51e570d00cbd6b0bc48c07be5c1e6b
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Template-Varianten schneller: Zuerst wird nur das Grund-Template aufgebaut; passt es ohne Umbruch, wird dieser Aufbau direkt übernommen (keine Probe). Nur wenn es nicht passt, werden die Varianten aufgebaut, und der Aufbau der gewählten wird übernommen statt erneut erstellt. Lauf 17 hätte damit statt 201 nur etwa 67 plus die nicht passenden Aufbauten gebraucht.
-signature: c145092e2042255901db95f24287e7a1e6531111f006bb6a794788f988c7f5da4706d55e0d24252c64b7e262aaafcdb909070db285d13b9f7868b802a32be50e
+- Template-Varianten: Eine Variante scheidet aus, wenn sich in ihrem Probeaufbau Rahmen überlappen, die sich im Template nicht überlappen (auch Kopien desselben Vervielfältigungsrahmens), oder wenn ein Textrahmen im Übersatz steht. Das Grund-Template bleibt Rückfall. Der Bericht nennt gewählte und verworfene Varianten.
+signature: 65299aa60ca9f6cf9e9ac51ae53fc448fb866db772f45e475b0d470871ccce86bb7baab78f224893c4bde9363123913652a897774a48f9f8ce0231c90ab0c806
