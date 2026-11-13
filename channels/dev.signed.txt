@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.408
+version: 0.7.410
 date: 2026-11-13
 host: 21
-commit: 5a88ae58571a4c181a2e3de2620f8c752c651fec
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.408/p2-0.7.408-mac.zip
-mac.sha512: cb03ca2a0e63eda5b7c9e877af4d3fcc1c117f91552f86431eede4157ca60ff5b6fd11914b9d7921973440a75a17e5146cd8814b16b4568abb3b74e3535e4a54
+commit: 859f5209595096293116dde77b53766683e1b201
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.410/p2-0.7.410-mac.zip
+mac.sha512: 6d3e1a5d6270fb8111b1075e6f8b5ce84df4afac3a71a311dd6066379b2b89b4ab2760ad2c36efd4175e552a8b93aade57ae3c69a640f56a9382a4e699543253
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Template-Tabellen: Wird im Template eine Spalte oder Zeile links/rechts bzw. oben/unten eingefügt oder gelöscht, ordnet p2 die Tabelleneinstellungen jetzt den richtigen Spalten zu. Die neue Spalte übernimmt die Einstellungen der Spalte, von der aus sie eingefügt wurde, nachfolgende Spalten behalten ihre. Dafür trägt jede Zelle des Templates eine unsichtbare Spalten-/Zeilenmarke. Die Anpassung greift beim Anwählen in der Palette (Übernehmen speichert), beim Speichern als Template und beim Automatisieren.
-- Template-Details: Das Beschreibungsfeld ist mehrzeilig, beginnt oben und bricht fortlaufend um.
-signature: da2345a27d75540b59cfda0f7569ed503fa43031d84c78fc08c302da20e80cf69ac395716bfb0170927c69de9b1f23c882b389854631cd5e55963804638cb10a
+- Zusatzfelder: Im Vorlagentext steht ^t für einen Tabulator und ^n für einen Zeilenumbruch (die Tab-Taste springt im Eingabefeld zum nächsten Feld). Zusammen mit dem Schema (Name mit #) lassen sich z. B. „Merkmal#“ = „{InvariantAttributeName1}:^t{InvariantAttributeValue1} {InvariantAttributeUnit1}“ für alle Nummern anlegen.
+signature: 387680ec59115073613e2034b731f06d4d1c7160a76c532adf7e4013adc90158cc4c3d8a3b17c8c9c0e045d69f53deb7d5310925a65a46bd708778475edff709
