@@ -1,12 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.417
+version: 0.7.418
 date: 2026-11-13
 host: 21
-commit: b8f5a2eb51774e967ebabaa4496b24123ae97382
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.417/p2-0.7.417-mac.zip
-mac.sha512: f54f4d00be461ebbd218cd25d85091534dbbd175f4382501e71e7c7fa2c5d478b13c88c4051272aab581e91257e4989a4924f71dd8f1ae77649f83763049228f
+commit: a9f2a92d10e6e72d88107b87c04558fea853564d
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.418/p2-0.7.418-mac.zip
+mac.sha512: 02032044476b7715327144a361c34f75491ad2c70cc27e89f5e0ac26743bdf61bf7418126a6f66ef5569010bf2d04298183d1eb3e8b372f40a6216e03dd0cf1a
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Diagnose für Template-Varianten im Raster (K2): Das Protokoll hält die Dynamik vervielfältigter Kopien fest (Lage im Template, nach dem Befüllen, Verschiebung), um das fehlende Nachrücken von Bildern und Raster zu klären. Verhalten unverändert.
+- Vervielfältigung im Raster (Template K2): Innerhalb jeder Kopie folgt das Bild jetzt seinem Text (Verdrängen/Heranziehen), bevor das Raster nach den echten Größen angeordnet wird. Bisher fand die Dynamik die Rahmen in der Sammelgruppe nicht – Bilder überlagerten Text oder standen weit darunter, und K2 wirkte in der Variantenprobe immer höher als K1.
+- Umbrochene Tabellen: Der letzte Folgerahmen wird bei Übersatz an seinen Inhalt angepasst (S. 20).
+- Kreuztabellen: Werte aus Datenfeldern tragen jetzt den Datensatzbezug – „Datenfelder aktualisieren“ ändert sie, und die Tags melden keinen fehlenden Bezug mehr. Gilt für neu ausgegebene Tabellen.
+- Zusatzfelder: InDesign-Sonderzeichen im Vorlagentext (^y, ^i, ^h, ^s, ^m, ^>, ^=, ^_ u. a.).
