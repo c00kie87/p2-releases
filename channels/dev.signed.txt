@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.416
+version: 0.7.417
 date: 2026-11-13
 host: 21
-commit: 91325d8e39e63c7e3181498dd5f79bf965e18e8a
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.416/p2-0.7.416-mac.zip
-mac.sha512: 7b393f98d10cbdeeec801c58cf90102a08d1e6568175b576322015e5929b3cbdbff82b3fcacfe42ee32ffcb1ed38aea3fdcea3ef5f223d608606bd4c31c77f16
+commit: b8f5a2eb51774e967ebabaa4496b24123ae97382
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.417/p2-0.7.417-mac.zip
+mac.sha512: f54f4d00be461ebbd218cd25d85091534dbbd175f4382501e71e7c7fa2c5d478b13c88c4051272aab581e91257e4989a4924f71dd8f1ae77649f83763049228f
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Diagnose Template-Varianten: Das Protokoll nennt je Produkt den freien Platz, die Höhe jeder Probe, ob sie passt oder verworfen wurde und welche gewählt wurde.
-signature: e6024b3994a6f9883d377802eda4c3ef324bffb27068d08d7f7e57d2f9b9179cccafb189eb4e9d78578ea9dd669b23fab626f50443fc7602c812947d492a7c0f
+- Diagnose für Template-Varianten im Raster (K2): Das Protokoll hält die Dynamik vervielfältigter Kopien fest (Lage im Template, nach dem Befüllen, Verschiebung), um das fehlende Nachrücken von Bildern und Raster zu klären. Verhalten unverändert.
+signature: bebd20ff4320f81fe035a7ea1349da68463ad9cc47fc967d15b14044a3b3ad48baaa1f6366529cd0bdcf8a61ceb32874f6a37d2f6e4a585b9056c82f81d1d404
