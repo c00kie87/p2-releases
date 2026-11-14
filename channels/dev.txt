@@ -1,13 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.449
+version: 0.7.450
 date: 2026-11-14
 host: 21
-commit: f29241c639f6f869e26d69bcddac683303979d5d
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.449/p2-0.7.449-mac.zip
-mac.sha512: faa91e511a84d01f27d323125fa08c6fa5101494663133e06f9e795f447e6ef2c113e5dbad923d63b5b2d3b9550dc06d9458df5591868f97628e56fcd177e668
+commit: 0bc282e23f989ace39ab89fb2787eff27a417032
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.450/p2-0.7.450-mac.zip
+mac.sha512: 736431e5e9689edf97459e585332ddda74b822a341c15d96da41c33f6f013568851f539a9da827995d07dccdbaf0b8f4bdb5bfed2b939780da5b9370a464a89b
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- 0.7.449
-- Entwicklung: Während des Selbsttests zeigt p2 keinerlei Meldungsdialoge (zentral für alle Hinweise, Fehler und Rückfragen); die Texte stehen im Prüfergebnis. Damit laufen alle Spielwiese-Szenarien ohne Eingriff durch.
+- Selbsttest und Hyperlinks:
+- Selbsttest läuft auch, wenn InDesign im Hintergrund ist (Prüfläufe, während an anderer Stelle gearbeitet wird).
+- Stapellauf der Szenarien: alle p2-Rückfragen stumm, Hinweise nur im Protokoll.
+- Hyperlinks aus Datenfeldern: XML-Tagmarken am Rand werden ausgespart; ein fehlschlagender Hyperlink löst keinen InDesign-Dialog mehr aus („Hyperlink oder Querverweis kann nicht erstellt werden …“), sondern wird protokolliert.
