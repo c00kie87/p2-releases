@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.438
+version: 0.7.441
 date: 2026-11-14
 host: 21
-commit: 65f1c7bee6ec672f27ff978a0fa0cd3f2c804860
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.438/p2-0.7.438-mac.zip
-mac.sha512: dc492c519dcc5875e32856eac14f42879ed2d5630d1c24d12fff684a5166f08e7370c6cc4959fdbfb2172d8f6ccddf50c338e4f9c4591fd5f31226a8fecc0aac
+commit: af56f79bee265f25f9728b774a30871151f7d7bc
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.441/p2-0.7.441-mac.zip
+mac.sha512: 2ff4384fa6637953e47baa04eeba72eae1cc4115cb6dfc6c090afe951550687e7c14a9f5e151f0bdb3eac5b4786b5b6a593a14063822b67ad57369b4ddb138c9
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- 0.7.438
-- Template-Umwandlung Teil A: Platzhalter als reiner Text „$Feldname“ (ohne eigenes Zeichenformat, z. B. „$TK_Beschreibung“, auch in Tabellenzellen) werden beim Speichern in die Template-Bibliothek zu p2-Platzhaltern mit dem Feldtitel; die Formatierung der Stelle bleibt. Nicht zuordenbare bleiben unverändert stehen.
+- 0.7.441
+- Entwicklung: Selbsttest-Eingang. p2 kann Prüfaufträge (zunächst „Template speichern und Platzhalter prüfen“) aus einer Auftragsdatei ausführen – nur auf einer Kopie in einem eigenen Fenster und mit einer eigenen, danach wieder entfernten Testbibliothek. Damit werden Neuerungen vor der Abnahme selbständig in InDesign geprüft.
