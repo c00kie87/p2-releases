@@ -1,13 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.434
+version: 0.7.435
 date: 2026-11-14
 host: 21
-commit: 4c17a749dc0bf735d804cf316079601c19cf9204
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.434/p2-0.7.434-mac.zip
-mac.sha512: 279ac30b09f60c4d2d7fb58a07b5dd2256722889af6938d5f4cd91e701fe067ff6fe3ba75215af90afcdcb33b30d5eba5aae03c87b2c0f6183b4babbbb23a4a6
+commit: d2a946cd35432f09130292a96ff0432ab1c40f6c
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.435/p2-0.7.435-mac.zip
+mac.sha512: 78c5d06e335d868e80286d47e85b75c180da1cca988be8b6d5ab30454ebe4e953e2f371561e3ba553dc91be1fbe7bfba652f9b9e8454325fd61a66738c4e3f7c
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- 0.7.434
-- Schneller: Im Variantenmodus „platzsparend vor Umbruch“ baut p2 keine Varianten zur Probe mehr, wenn weniger als 5 mm Restplatz frei sind – dort kann keine Variante passen oder spürbar mehr auf die Seite bringen. Das Ergebnis bleibt gleich (im letzten Lauf 9 von 39 Probebauten).
+- 0.7.435
+- Veraltete Werte: Jeder platzierte Wert wird mit der Quelle verglichen (bisher nur in Dokumenten bis 2000 Werte). Weicht er ab, wird sein Tag hellrot („p2_veraltet“) und die Zelle in der Datenquelle rot; stimmt er wieder, wird der Tag wieder grün.
+- Datenquelle: Doppelklick auf einen Wert springt zum platzierten Wert im Dokument und markiert ihn; Doppelklick auf einen Spaltenkopf springt zum ersten Vorkommen des Felds. Feldoptionen und „Wert bearbeiten“ über Rechtsklick (Feldoptionen jetzt auch im Kontextmenü des Spaltenkopfs).
+- Andocken erst nach dem Begrenzen neben Nachbarrahmen (z. B. Logo) und nie über die Ausgangsbreite hinaus: der Produktgruppentext endet an der linken Stegkante vor dem Logo.
