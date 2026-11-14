@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.427
+version: 0.7.428
 date: 2026-11-14
 host: 21
-commit: 4d857426d59e4c045d41bbe5469ffff719545bfe
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.427/p2-0.7.427-mac.zip
-mac.sha512: f6925a368be6b2ba0c22e39bd8053dcd59152ed25062ab99a0bd74178437b0efc562ea27bf9140d1de32dce2b117980ebad53cf7183af7d3d07f4957e8e7de4e
+commit: deae0344f77365dd7ad3fb63e422aedcdb69aecb
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.428/p2-0.7.428-mac.zip
+mac.sha512: b694e7a9052f2737b35f02e2855e1cc3c6a05ad5ecdb21901f1fca7943674297d16933b7a7a97e50e0a24ae248a3333190bd5633b5675eec6593ef3b122eaac8
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- 0.7.427
-- Neu: Automatisieren › Anordnung › „Vor Seitenwechsel mind.“ (mm). Passt ein Aufbau – oder eine platzsparende Template-Variante – nur knapp nicht mehr auf die Seite, verkürzt p2 die vertikalen Abstände zwischen den Aufbauten der Seite gleichmäßig, höchstens bis auf diesen Wert. Leeres Feld = nie verkürzen.
-- Protokoll „Abstand“: verkürzter Abstand je Seite.
+- 0.7.428
+- Andocken „nächste linke Stegkante“ bei Textrahmen: maßgeblich ist die Breite des umbrochenen Textes, höchstens die Vorlagenbreite. Die Kante springt auf das nächste Spaltenende bis zur Vorlagenkante, sonst auf das Spaltenende links davon. Danach wird die Höhe an den neu umbrochenen Text angepasst. Bisher wurde die Breite des nicht umbrochenen Textes gemessen und der Rahmen bis zum Satzspiegelrand verbreitert.
