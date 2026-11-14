@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.446
+version: 0.7.447
 date: 2026-11-14
 host: 21
-commit: 99d061b57a6543523e734b0ae6b0da5b3013f152
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.446/p2-0.7.446-mac.zip
-mac.sha512: 9c36e3596e3af0f3d5479aa6c7480c897c34a10dc2c6d781177a1930c76e2509a6b7edc7d758a3de2057b87efb7ef43896384b85bcc52c7694f4d401256793d5
+commit: 4cfbd7401de6dfc7af8e5e30bc142d50f227e9f2
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.447/p2-0.7.447-mac.zip
+mac.sha512: 15e32475b4a9d5d2a91e09ffb8c3bedcab37e2389dc421a167febab4e0c94ede806f2181e1e05ab9b78e4b7b5b0e639cec1869e9da842c53a500128336509998
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- 0.7.446
-- Entwicklung (Funktionsspielwiese, Stufe 1): Selbsttest kann ein Szenario der Spielwiese ausgeben (Daten laden, Konfiguration wählen, automatisieren, Ergebnis-Schnappschuss) – ohne Rückfragen; die eigene Datenquelle wird danach wiederhergestellt.
+- 0.7.447
+- Entwicklung: Im Selbsttest werden auch die Hinweise am Beginn einer Ausgabe (fehlende Quelle, fehlende Schlüsselfelder, fehlendes Dokument) nicht als Dialog gezeigt, sondern im Ergebnis vermerkt – der Prüflauf bleibt nicht stehen.
