@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.442
+version: 0.7.443
 date: 2026-11-14
 host: 21
-commit: 7a30d982a068ab8c20e57d8575867769397b8d17
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.442/p2-0.7.442-mac.zip
-mac.sha512: 7c500195324d6d5a858403f16b77db4dfe4b9d7b246f506fc6610ad0b3a494f5f6da76d8007a82ba6d02a2e2111aa59bd88fbb4055731f9143ed9012234247d3
+commit: 314bced4199947d858a67f960da2c74fc5cc7936
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.443/p2-0.7.443-mac.zip
+mac.sha512: 1baefdeca8080e062c6fe814843d19b9730ec08ee4b5058e3cb78955206d2189f27dbe88b858f502e90f5f42347437c3a989d20e50ca5f5d53428909a5cb6978
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- 0.7.442
-- Template-Umwandlung: Platzhalter aus Fremd-Templates werden auch mit Vorsilbe (z. B. „$TK_Beschreibung“ → Beschreibung), mit Wiederholungsnummer (z. B. „$Preis1“ → Preis) und unter ausgeblendeten Feldern bzw. Aliassen gefunden.
+- 0.7.443
+- Projektdatei des Altsystems bleibt bekannt: Einmal über die Palette „Projekt“ geladen, liest p2 sie bei Bedarf still wieder (nur lesend). Die Template-Umwandlung findet damit Aliasse (z. B. „$Variationsgruppe“) und Textkonsolidierungen („$TK_…“ als Zusatzfelder), genauer Name hat Vorrang vor Abwandlungen.
