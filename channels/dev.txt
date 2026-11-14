@@ -1,13 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.448
+version: 0.7.449
 date: 2026-11-14
 host: 21
-commit: 3c42ff500914311f9ec81b8192bd4868a4e29862
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.448/p2-0.7.448-mac.zip
-mac.sha512: c1a494f65aa6ee908cc582b0ff37d445d9f27f120e68b9ebbbcd5b22199ab4d3e4a39e9e9d7bdf242a0740b375d91bef2534bd969b191d9d4658be0678ae68eb
+commit: f29241c639f6f869e26d69bcddac683303979d5d
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.449/p2-0.7.449-mac.zip
+mac.sha512: faa91e511a84d01f27d323125fa08c6fa5101494663133e06f9e795f447e6ef2c113e5dbad923d63b5b2d3b9550dc06d9458df5591868f97628e56fcd177e668
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- 0.7.448
-- Entwicklung: Selbsttest überspringt die Sicherheitsabfrage „… Datensätze publizieren?“; der Ergebnis-Schnappschuss erfasst auch erzeugte Rahmen aus Dokument-Templates (Datensatz-/Einheitsbezug).
+- 0.7.449
+- Entwicklung: Während des Selbsttests zeigt p2 keinerlei Meldungsdialoge (zentral für alle Hinweise, Fehler und Rückfragen); die Texte stehen im Prüfergebnis. Damit laufen alle Spielwiese-Szenarien ohne Eingriff durch.
