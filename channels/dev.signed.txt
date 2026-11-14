@@ -1,16 +1,15 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.435
+version: 0.7.436
 date: 2026-11-14
 host: 21
-commit: d2a946cd35432f09130292a96ff0432ab1c40f6c
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.435/p2-0.7.435-mac.zip
-mac.sha512: 78c5d06e335d868e80286d47e85b75c180da1cca988be8b6d5ab30454ebe4e953e2f371561e3ba553dc91be1fbe7bfba652f9b9e8454325fd61a66738c4e3f7c
+commit: 1c9a2b8751ca1b1e6d01012e9e7da7f5c58ff66b
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.436/p2-0.7.436-mac.zip
+mac.sha512: 22fc00b90eabe46b417fced35dcb80e03a054b2cbbf7e7bf1347b48d671b95d71abfca15e96b3cd6c0bb294139722cd05ee72eb3b06a23bb5da594702fd4a20a
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- 0.7.435
-- Veraltete Werte: Jeder platzierte Wert wird mit der Quelle verglichen (bisher nur in Dokumenten bis 2000 Werte). Weicht er ab, wird sein Tag hellrot („p2_veraltet“) und die Zelle in der Datenquelle rot; stimmt er wieder, wird der Tag wieder grün.
-- Datenquelle: Doppelklick auf einen Wert springt zum platzierten Wert im Dokument und markiert ihn; Doppelklick auf einen Spaltenkopf springt zum ersten Vorkommen des Felds. Feldoptionen und „Wert bearbeiten“ über Rechtsklick (Feldoptionen jetzt auch im Kontextmenü des Spaltenkopfs).
-- Andocken erst nach dem Begrenzen neben Nachbarrahmen (z. B. Logo) und nie über die Ausgangsbreite hinaus: der Produktgruppentext endet an der linken Stegkante vor dem Logo.
-signature: 5e8a991b83beb22a2d489e04eb319af952650f3074e8e7379af0c261bc29fab06ff2a59e16c6da4fe1045ce1113b933311cf399acc7f1bd2f609638d59af1906
+- 0.7.436
+- Template-Umwandlung: Beim Speichern in die Template-Bibliothek werden Platzhalter aus Zeichenformaten „$Feld“ (Fremd-/Alt-Templates) zu echten p2-Platzhaltern – Zuordnung über Feldname, Titel oder Alias der geladenen Quelle, Text und Formatierung bleiben. Nicht zuordenbare Platzhalter bleiben unverändert und können nachbearbeitet werden.
+- Beim Herausziehen eines Templates werden alle Platzhalter an das aktuelle Feld gebunden; zeigt einer noch den alten Feldnamen, wird er gegen den aktuellen Alias getauscht. Bis dahin wirken Name und Alias gleichermaßen.
+signature: 9c1cbcb360244e30ae9f48dbbe0f915e0c39c981ee4def3b0547ae2cd4db5ff61a9494455f24b4d0aa0a8a1d02687f8c253d9f8503ebf61606d95f865d80c601
