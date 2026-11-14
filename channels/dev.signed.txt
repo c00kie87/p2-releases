@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.437
+version: 0.7.438
 date: 2026-11-14
 host: 21
-commit: 74540a649613966ee30447be37f9f45a986eadc6
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.437/p2-0.7.437-mac.zip
-mac.sha512: 328279fc80d1ddf7bfe03e7adcc75fc8d1d8c7aeecfdcc663918cb84a5e629cb80987fe6156973526510185e251f95b3af42df1d5f79e64199226433b8f3f583
+commit: 65f1c7bee6ec672f27ff978a0fa0cd3f2c804860
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.438/p2-0.7.438-mac.zip
+mac.sha512: dc492c519dcc5875e32856eac14f42879ed2d5630d1c24d12fff684a5166f08e7370c6cc4959fdbfb2172d8f6ccddf50c338e4f9c4591fd5f31226a8fecc0aac
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- 0.7.437
-- Abschluss-Übersatzprüfung: Wird ein Textrahmen nach dem Seitenplan noch höher gemacht, rücken die Objekte derselben Einheit darunter um denselben Betrag nach (bisher konnten sie überdeckt werden).
-signature: aa83c138f0c553fc100b1a78827d579162ab22d052c9b3282a538643481452b049d714fe59458bc4d0e6de7ffedadc5577a8bfcbdc3a8bbb0efd376c44564500
+- 0.7.438
+- Template-Umwandlung Teil A: Platzhalter als reiner Text „$Feldname“ (ohne eigenes Zeichenformat, z. B. „$TK_Beschreibung“, auch in Tabellenzellen) werden beim Speichern in die Template-Bibliothek zu p2-Platzhaltern mit dem Feldtitel; die Formatierung der Stelle bleibt. Nicht zuordenbare bleiben unverändert stehen.
+signature: e0709cc1b04bb4d4e83ad0070f347c0d07cbc7345291ef15b7a9ef3b57b16d75f18fc758a7da959bc166705d71db1d2ec951ca457672458c0085122caadfac02
