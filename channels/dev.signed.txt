@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.447
+version: 0.7.448
 date: 2026-11-14
 host: 21
-commit: 4cfbd7401de6dfc7af8e5e30bc142d50f227e9f2
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.447/p2-0.7.447-mac.zip
-mac.sha512: 15e32475b4a9d5d2a91e09ffb8c3bedcab37e2389dc421a167febab4e0c94ede806f2181e1e05ab9b78e4b7b5b0e639cec1869e9da842c53a500128336509998
+commit: 3c42ff500914311f9ec81b8192bd4868a4e29862
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.448/p2-0.7.448-mac.zip
+mac.sha512: c1a494f65aa6ee908cc582b0ff37d445d9f27f120e68b9ebbbcd5b22199ab4d3e4a39e9e9d7bdf242a0740b375d91bef2534bd969b191d9d4658be0678ae68eb
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- 0.7.447
-- Entwicklung: Im Selbsttest werden auch die Hinweise am Beginn einer Ausgabe (fehlende Quelle, fehlende Schlüsselfelder, fehlendes Dokument) nicht als Dialog gezeigt, sondern im Ergebnis vermerkt – der Prüflauf bleibt nicht stehen.
-signature: 2fdb5ff92c6334e55e92e52ca08d83c4a15ddf3e17c9232bd0b013b8b219c3eb1e69dd371a7001c6a9cff94aeccb1e83fff5c534691d0102197542eb5019c409
+- 0.7.448
+- Entwicklung: Selbsttest überspringt die Sicherheitsabfrage „… Datensätze publizieren?“; der Ergebnis-Schnappschuss erfasst auch erzeugte Rahmen aus Dokument-Templates (Datensatz-/Einheitsbezug).
+signature: 5b5a7364ef871793f96d5b7b04ef2c14c01963ddad5edc37ab2342f47065572dd61c5b88ff016c3b75dba0a04882ee623e05fb050ac4d42a93088922bcc10c04
