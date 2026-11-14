@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.436
+version: 0.7.437
 date: 2026-11-14
 host: 21
-commit: 1c9a2b8751ca1b1e6d01012e9e7da7f5c58ff66b
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.436/p2-0.7.436-mac.zip
-mac.sha512: 22fc00b90eabe46b417fced35dcb80e03a054b2cbbf7e7bf1347b48d671b95d71abfca15e96b3cd6c0bb294139722cd05ee72eb3b06a23bb5da594702fd4a20a
+commit: 74540a649613966ee30447be37f9f45a986eadc6
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.437/p2-0.7.437-mac.zip
+mac.sha512: 328279fc80d1ddf7bfe03e7adcc75fc8d1d8c7aeecfdcc663918cb84a5e629cb80987fe6156973526510185e251f95b3af42df1d5f79e64199226433b8f3f583
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- 0.7.436
-- Template-Umwandlung: Beim Speichern in die Template-Bibliothek werden Platzhalter aus Zeichenformaten „$Feld“ (Fremd-/Alt-Templates) zu echten p2-Platzhaltern – Zuordnung über Feldname, Titel oder Alias der geladenen Quelle, Text und Formatierung bleiben. Nicht zuordenbare Platzhalter bleiben unverändert und können nachbearbeitet werden.
-- Beim Herausziehen eines Templates werden alle Platzhalter an das aktuelle Feld gebunden; zeigt einer noch den alten Feldnamen, wird er gegen den aktuellen Alias getauscht. Bis dahin wirken Name und Alias gleichermaßen.
+- 0.7.437
+- Abschluss-Übersatzprüfung: Wird ein Textrahmen nach dem Seitenplan noch höher gemacht, rücken die Objekte derselben Einheit darunter um denselben Betrag nach (bisher konnten sie überdeckt werden).
