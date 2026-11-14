@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.430
+version: 0.7.431
 date: 2026-11-14
 host: 21
-commit: 02ebc4ec3cdcbf4778465df7f03d1e516edc27a0
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.430/p2-0.7.430-mac.zip
-mac.sha512: f993d603d7975e2f1c1a37dd17f96d581e7c490f0518a1a45813d18beffebeb76af6545bcd8cc674bc758e58e7becb672c261ef384b478f2d72c59266f6406a2
+commit: 435b969b369a54bb64ef6aa5c3673af9306d7248
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.431/p2-0.7.431-mac.zip
+mac.sha512: 2eb628fafd606b2f04de5be45c60434b729b6c6a7ac60ce6802b34fca64d1274a4b0a10bd38e8ebfb9b76dc52ffed62850f95013512718e8d4324a0328915494
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- 0.7.430
-- Neu: Automatisieren › Überlagerung › „Folgt dem Rahmen“: waagerecht und senkrecht / nur senkrecht (linke Kante fest) / nur waagerecht (Oberkante fest). Mit „nur senkrecht“ bleibt z. B. ein Piktogramm auf dem Bild immer im Template-Abstand zur Bildoberkante, seine linke Kante behält die Template-Position, auch wenn das Bild anders eingepasst wird.
-signature: 10ee128da16d2d247bca134dcfba70b44509ac59ccb1c0213ba7ddbdee63283e32f6bcd66459bc64d63a7b7908f8dd070ead863b37002a795740f1699e506009
+- 0.7.431
+- Behoben: „Folgt dem Rahmen“ (Automatisieren › Fluss) erschien als nicht bedienbares Kästchen statt als Auswahlliste. Jetzt wählbar: waagerecht und senkrecht / nur senkrecht (linke Kante fest) / nur waagerecht (Oberkante fest).
+signature: d3b36dddee536a1351cd77e05ace09fc45d7c973931c7e67ba993236c890f2c7d0dcc35eb8f33f9c1dcb00ee50c4535347d2c735f56c0465c4b70655d79c0b0c
