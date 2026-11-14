@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.444
+version: 0.7.446
 date: 2026-11-14
 host: 21
-commit: 5117f28ec615775e03eee4527fb9b9b1ec8aa5aa
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.444/p2-0.7.444-mac.zip
-mac.sha512: 96835b0c76e738367675178a1ded2acff729bff2d77bf787bd29e352dc82a443a50519090ddeda3163027282977967f8506f3386d1acaa75d11115156601beb1
+commit: 99d061b57a6543523e734b0ae6b0da5b3013f152
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.446/p2-0.7.446-mac.zip
+mac.sha512: 9c36e3596e3af0f3d5479aa6c7480c897c34a10dc2c6d781177a1930c76e2509a6b7edc7d758a3de2057b87efb7ef43896384b85bcc52c7694f4d401256793d5
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- 0.7.444
-- Template-Umwandlung: Textkonsolidierungen der Projektdatei, die nur einen anderen Platzhalter weitergeben (z. B. „$Variationsgruppe“ → „$VariationGroup“, „$TK_Beschreibung“ → „$Beschreibung“), werden als Alias bis zum eigentlichen Feld aufgelöst.
-signature: 4f60d762f976b6926878926c622c656ca5127c155357f125dc8b8a0bc1fdb1646547968407ef5bfabe1f4eea3897b250deb062c0e516074b478b9f38fc0c5207
+- 0.7.446
+- Entwicklung (Funktionsspielwiese, Stufe 1): Selbsttest kann ein Szenario der Spielwiese ausgeben (Daten laden, Konfiguration wählen, automatisieren, Ergebnis-Schnappschuss) – ohne Rückfragen; die eigene Datenquelle wird danach wiederhergestellt.
+signature: 540995ed5c165e10c37699ac1a0909832e079c66a2bd33e87f651b11d4b4472bbc5c1711836a95427c9cd8405fd2aadd6d74e1daac17b45168f5c93b7d03140a
