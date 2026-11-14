@@ -1,14 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.428
+version: 0.7.429
 date: 2026-11-14
 host: 21
-commit: deae0344f77365dd7ad3fb63e422aedcdb69aecb
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.428/p2-0.7.428-mac.zip
-mac.sha512: b694e7a9052f2737b35f02e2855e1cc3c6a05ad5ecdb21901f1fca7943674297d16933b7a7a97e50e0a24ae248a3333190bd5633b5675eec6593ef3b122eaac8
+commit: 8bb9d300447f26b75bf71347ac87ebfd7c0ac85c
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.429/p2-0.7.429-mac.zip
+mac.sha512: 3146df0d697f4aba35716fb7de2ae2ce8299102242503748d67a21a8ebd24d55a2e8f24262d4c7a81b47cd010e50289e7043759f4d017cc0d571b358697b9f7d
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- 0.7.428
-- Andocken „nächste linke Stegkante“ bei Textrahmen: maßgeblich ist die Breite des umbrochenen Textes, höchstens die Vorlagenbreite. Die Kante springt auf das nächste Spaltenende bis zur Vorlagenkante, sonst auf das Spaltenende links davon. Danach wird die Höhe an den neu umbrochenen Text angepasst. Bisher wurde die Breite des nicht umbrochenen Textes gemessen und der Rahmen bis zum Satzspiegelrand verbreitert.
-signature: 96c64f7f42c746eec928c6528f41ca0c05b8d386c9313b4ee0cb052f205703d9a791a11b7bef127da552547d61c26b7af7e7c2603ba2a9b867afc585d03ef50b
+- 0.7.429
+- Breite an Inhalt bei Textrahmen: gemessen wird die längste umbrochene Zeile bei Vorlagenbreite (bisher die Breite des nicht umbrochenen Textes). Erst danach dockt die bewegliche Kante an die nächstgelegene Kante der gewählten Art an (z. B. zurück auf das Spaltenende, wenn der Rahmen an der rechten Stegkante endet). Die Höhe folgt dem neu umbrochenen Text, noch bevor Verdrängen und Abstände wirken.
+signature: 1986be5330b05d4a61033cc8014c904583e1b5073a776571c89d29ebe39ef53cd9b03c8410f6500ad749596994e8babcc2b45727ce0b1ab28c5decade6544b00
