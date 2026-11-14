@@ -1,15 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.450
+version: 0.7.451
 date: 2026-11-14
 host: 21
-commit: 0bc282e23f989ace39ab89fb2787eff27a417032
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.450/p2-0.7.450-mac.zip
-mac.sha512: 736431e5e9689edf97459e585332ddda74b822a341c15d96da41c33f6f013568851f539a9da827995d07dccdbaf0b8f4bdb5bfed2b939780da5b9370a464a89b
+commit: 48568283328bf42a3ce4cf8cb8d25a1a448a3ea8
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.451/p2-0.7.451-mac.zip
+mac.sha512: 7138c3c098cee94ed49227e1c0052ef9ead9e76f1c94886e4b8549b5fa6d4e80121ca65ef863dd71c8815d54812539955f6724eaaf1f88038931680bab635bb5
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- Selbsttest und Hyperlinks:
-- Selbsttest läuft auch, wenn InDesign im Hintergrund ist (Prüfläufe, während an anderer Stelle gearbeitet wird).
-- Stapellauf der Szenarien: alle p2-Rückfragen stumm, Hinweise nur im Protokoll.
-- Hyperlinks aus Datenfeldern: XML-Tagmarken am Rand werden ausgespart; ein fehlschlagender Hyperlink löst keinen InDesign-Dialog mehr aus („Hyperlink oder Querverweis kann nicht erstellt werden …“), sondern wird protokolliert.
+- Selbsttest und Codes (Kern):
+- Selbsttest „szenario“: frische Konfigurationen der Spielwiese werden in den tatsächlich verwendeten Konfigurationsordner geschrieben (bei aktivem Projekt der Projektordner). Bisher konnten alte Konfigurationen verwendet werden.
+- Neuer Kern für QR-Codes und Strichcodes (noch ohne Oberfläche): QR (Version 1–40, Stufen L/M/Q/H), EAN-13/-8, UPC-A/-E mit Add-on, ISBN/ISSN, Code 128 mit automatischem Zeichensatz, GS1-128 mit Application Identifiern, ITF/ITF-14, Code 39 (auch Full ASCII), Code 93, Codabar, PZN. Prüfziffern werden ergänzt bzw. geprüft. Alle Formate mit der macOS-Barcodeerkennung gegengelesen.
