@@ -1,13 +1,14 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.431
+version: 0.7.433
 date: 2026-11-14
 host: 21
-commit: 435b969b369a54bb64ef6aa5c3673af9306d7248
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.431/p2-0.7.431-mac.zip
-mac.sha512: 2eb628fafd606b2f04de5be45c60434b729b6c6a7ac60ce6802b34fca64d1274a4b0a10bd38e8ebfb9b76dc52ffed62850f95013512718e8d4324a0328915494
+commit: beefba3a4f8f007a4880aca4f3b7829e027e020c
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.433/p2-0.7.433-mac.zip
+mac.sha512: 4bf48927919f0d69182f9208dab31e0572e9972a07dfc21330867c3172850ebf31609967988489b715964670c96d5a9a8e26f0c73a71740717e107cf91812f16
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- 0.7.431
-- Behoben: „Folgt dem Rahmen“ (Automatisieren › Fluss) erschien als nicht bedienbares Kästchen statt als Auswahlliste. Jetzt wählbar: waagerecht und senkrecht / nur senkrecht (linke Kante fest) / nur waagerecht (Oberkante fest).
+- 0.7.433
+- Neu: Konfliktprüfung der Template-Regeln. Zu Beginn jeder Ausgabe meldet p2 wirkungslose oder widersprüchliche Einstellungen im Bericht unter „Hinweise“ (z. B. Andocken ohne „Rahmenbreite an Inhalt“, „Folgt dem Rahmen“ ohne Überlagerung, Mindest- größer Höchstmaß, „In Rasterzeile“ außerhalb einer Vervielfältigung).
+- Entwicklung: Regressionstest für Ausgaben (Geometrie-Schnappschuss, SOLL-Regeln, Vergleich mit Referenz) und verbindliche Verarbeitungsreihenfolge (docs/Verarbeitungsreihenfolge.md).
