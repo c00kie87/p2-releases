@@ -1,14 +1,13 @@
 p2-manifest: 1
 channel: dev
-version: 0.7.433
+version: 0.7.434
 date: 2026-11-14
 host: 21
-commit: beefba3a4f8f007a4880aca4f3b7829e027e020c
-mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.433/p2-0.7.433-mac.zip
-mac.sha512: 4bf48927919f0d69182f9208dab31e0572e9972a07dfc21330867c3172850ebf31609967988489b715964670c96d5a9a8e26f0c73a71740717e107cf91812f16
+commit: 4c17a749dc0bf735d804cf316079601c19cf9204
+mac.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.434/p2-0.7.434-mac.zip
+mac.sha512: 279ac30b09f60c4d2d7fb58a07b5dd2256722889af6938d5f4cd91e701fe067ff6fe3ba75215af90afcdcb33b30d5eba5aae03c87b2c0f6183b4babbbb23a4a6
 win.url: https://github.com/c00kie87/p2-releases/releases/download/v0.7.52/p2-0.7.52-win.zip
 win.sha512: 5d7042545e84c13af9b3907e71a6019448e37ded35ee4f6687f36eb210d7e8fef4561514ab4c79977990cd52985291515ab8db020ea0d492ada77ceed6e6c748
 notes:
-- 0.7.433
-- Neu: Konfliktprüfung der Template-Regeln. Zu Beginn jeder Ausgabe meldet p2 wirkungslose oder widersprüchliche Einstellungen im Bericht unter „Hinweise“ (z. B. Andocken ohne „Rahmenbreite an Inhalt“, „Folgt dem Rahmen“ ohne Überlagerung, Mindest- größer Höchstmaß, „In Rasterzeile“ außerhalb einer Vervielfältigung).
-- Entwicklung: Regressionstest für Ausgaben (Geometrie-Schnappschuss, SOLL-Regeln, Vergleich mit Referenz) und verbindliche Verarbeitungsreihenfolge (docs/Verarbeitungsreihenfolge.md).
+- 0.7.434
+- Schneller: Im Variantenmodus „platzsparend vor Umbruch“ baut p2 keine Varianten zur Probe mehr, wenn weniger als 5 mm Restplatz frei sind – dort kann keine Variante passen oder spürbar mehr auf die Seite bringen. Das Ergebnis bleibt gleich (im letzten Lauf 9 von 39 Probebauten).
